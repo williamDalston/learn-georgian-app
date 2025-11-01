@@ -175,9 +175,9 @@ export default function PricingTable() {
               >
                 Start Your Free Trial
               </CTAButton>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* Guarantee Text */}
         <div className="text-center mt-6 sm:mt-8 px-4 sm:px-0 space-y-2">
