@@ -1,9 +1,12 @@
 'use client'
 
 import { useState } from 'react'
+import { motion } from 'framer-motion'
 import Container from '@/components/shared/Container'
 import CTAButton from '@/components/shared/CTAButton'
+import AnimatedSection from '@/components/shared/AnimatedSection'
 import BillingToggle from './BillingToggle'
+import { staggerContainer, staggerItem, getAnimationVariants } from '@/lib/utils/animations'
 
 interface PricingPlan {
   name: string
@@ -65,32 +68,50 @@ export default function PricingTable() {
   }
 
   return (
-    <section id="pricing" className="section-padding bg-neutral-100">
+    <section id="pricing" className="section-padding bg-gradient-to-b from-neutral-100 to-white">
       <Container>
-        <div className="text-center mb-8 sm:mb-12 px-4 sm:px-0">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary-900 mb-3 sm:mb-4">
-            Choose Your Path to Inner Freedom
-          </h2>
-          <p className="text-base sm:text-lg font-sans text-gray-700 max-w-2xl mx-auto">
-            Simple, transparent pricing. Start your free trial today.
-          </p>
-        </div>
+        <AnimatedSection direction="up">
+          <div className="text-center mb-8 sm:mb-12 px-4 sm:px-0">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary-900 mb-3 sm:mb-4">
+              Choose Your Path to Inner Freedom
+            </h2>
+            <p className="text-base sm:text-lg font-sans text-gray-700 max-w-2xl mx-auto">
+              Simple, transparent pricing. Start your free trial today.
+            </p>
+          </div>
+        </AnimatedSection>
 
         {/* Billing Toggle */}
-        <div className="px-4 sm:px-0">
-          <BillingToggle billingCycle={billingCycle} onToggle={setBillingCycle} />
-        </div>
+        <AnimatedSection direction="up" delay={0.2}>
+          <div className="px-4 sm:px-0">
+            <BillingToggle billingCycle={billingCycle} onToggle={setBillingCycle} />
+          </div>
+        </AnimatedSection>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto px-4 sm:px-0 mt-8 sm:mt-10">
+        <motion.div 
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto px-4 sm:px-0 mt-8 sm:mt-10"
+          variants={getAnimationVariants(staggerContainer)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           {plans.map((plan) => (
-            <div
+            <motion.div
               key={plan.name}
-              className={`bg-white rounded-lg shadow-md p-6 sm:p-8 relative transition-transform touch-manipulation ${
+              variants={getAnimationVariants(staggerItem)}
+              className={`bg-white rounded-xl shadow-lg p-6 sm:p-8 relative backdrop-blur-sm border-2 transition-all ${
                 plan.popular && billingCycle === 'annual'
-                  ? 'border-4 border-accent md:scale-105'
-                  : 'border border-gray-200'
+                  ? 'border-accent bg-gradient-to-br from-white to-accent/5'
+                  : 'border-gray-200 hover:border-accent/40'
               }`}
+              whileHover={{ 
+                y: -8,
+                boxShadow: plan.popular && billingCycle === 'annual' 
+                  ? "0 25px 50px rgba(255,125,50,0.15)"
+                  : "0 20px 40px rgba(0,0,0,0.1)",
+                transition: { duration: 0.3 }
+              }}
             >
               {/* Popular Badge */}
               {plan.popular && billingCycle === 'annual' && (

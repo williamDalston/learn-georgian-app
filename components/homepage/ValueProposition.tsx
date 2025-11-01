@@ -156,37 +156,49 @@ export default function ValueProposition() {
             const isVisible = visibleItems.has(index) || prefersReducedMotion
             
             return (
-              <div
+              <motion.div
                 key={index}
                 ref={(el) => {
                   itemRefs.current[index] = el
                 }}
-                className={`group flex flex-col sm:flex-row gap-5 sm:gap-6 p-6 sm:p-8 rounded-xl bg-white border border-neutral-200 hover:border-accent/40 hover:shadow-2xl transition-all duration-500 touch-manipulation cursor-pointer focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:outline-none will-change-transform ${
-                  isVisible 
-                    ? 'opacity-100 translate-y-0' 
-                    : 'opacity-0 translate-y-8'
-                }`}
-                style={{ 
-                  transitionDelay: prefersReducedMotion ? '0ms' : `${index * 100}ms`,
+                className="group flex flex-col sm:flex-row gap-5 sm:gap-6 p-6 sm:p-8 rounded-xl bg-white border border-neutral-200 hover:border-accent/40 touch-manipulation cursor-pointer focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:outline-none backdrop-blur-sm"
+                initial={prefersReducedMotion ? "visible" : "hidden"}
+                animate={isVisible ? "visible" : "hidden"}
+                variants={getAnimationVariants({
+                  hidden: { opacity: 0, y: 30 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: {
+                      delay: prefersReducedMotion ? 0 : index * 0.1,
+                      duration: 0.6,
+                      ease: [0.22, 1, 0.36, 1],
+                    }
+                  }
+                })}
+                whileHover={prefersReducedMotion ? {} : { 
+                  y: -8,
+                  boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+                  transition: { duration: 0.3 }
                 }}
                 role="article"
                 aria-labelledby={`benefit-title-${index}`}
                 tabIndex={0}
-                onMouseEnter={(e) => {
-                  if (!prefersReducedMotion) {
-                    e.currentTarget.style.transform = 'translateY(-4px)'
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)'
-                }}
               >
                 <div className="flex-shrink-0 flex items-start justify-center sm:justify-start">
-                  <div className="relative w-12 h-12 sm:w-14 sm:h-14 p-2 rounded-lg bg-accent/10 group-hover:bg-accent/25 transition-all duration-500 group-hover:shadow-lg">
-                    <div className="transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 will-change-transform">
+                  <motion.div 
+                    className="relative w-12 h-12 sm:w-14 sm:h-14 p-2 rounded-lg bg-gradient-to-br from-accent/10 to-accent/5 group-hover:from-accent/25 group-hover:to-accent/15 transition-all duration-500"
+                    whileHover={prefersReducedMotion ? {} : { 
+                      scale: 1.1, 
+                      rotate: 3,
+                      boxShadow: "0 10px 20px rgba(255,125,50,0.2)",
+                    }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <div className="flex items-center justify-center h-full">
                       {benefit.icon}
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
                 <div className="flex-1 text-center sm:text-left">
                   <h3 
@@ -199,7 +211,7 @@ export default function ValueProposition() {
                     {benefit.description}
                   </p>
                 </div>
-              </div>
+              </motion.div>
             )
           })}
         </div>
