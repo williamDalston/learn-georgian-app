@@ -1,9 +1,12 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 import Container from '@/components/shared/Container'
 import CTAButton from '@/components/shared/CTAButton'
+import GradientText from '@/components/shared/GradientText'
 import { usePrefersReducedMotion } from '@/lib/hooks/usePrefersReducedMotion'
+import { fadeInUp, textReveal, getAnimationVariants } from '@/lib/utils/animations'
 
 export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -35,13 +38,55 @@ export default function HeroSection() {
   return (
     <section 
       ref={sectionRef}
-      className="min-h-[85vh] flex items-center bg-gradient-to-b from-neutral-50 via-white to-white pt-16 pb-24 sm:pt-20 sm:pb-16 lg:pb-16 relative overflow-hidden"
+      className="min-h-[85vh] flex items-center bg-gradient-animated pt-16 pb-24 sm:pt-20 sm:pb-16 lg:pb-16 relative overflow-hidden"
       aria-label="Hero section"
     >
-      {/* Subtle background decoration */}
+      {/* Animated background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-200/20 rounded-full blur-3xl"></div>
+        {/* Large gradient orbs with animation */}
+        <motion.div 
+          className="absolute -top-40 -right-40 w-80 h-80 bg-accent/10 rounded-full blur-3xl"
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.3, 0.5, 0.3],
+            x: [0, 20, 0],
+            y: [0, -20, 0],
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        />
+        <motion.div 
+          className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-200/20 rounded-full blur-3xl"
+          animate={{
+            scale: [1, 1.3, 1],
+            opacity: [0.2, 0.4, 0.2],
+            x: [0, -20, 0],
+            y: [0, 20, 0],
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: 'easeInOut',
+            delay: 1,
+          }}
+        />
+        {/* Additional floating elements */}
+        <motion.div 
+          className="absolute top-1/4 right-1/4 w-40 h-40 bg-secondary-200/15 rounded-full blur-2xl"
+          animate={{
+            scale: [1, 1.5, 1],
+            opacity: [0.2, 0.4, 0.2],
+          }}
+          transition={{
+            duration: 12,
+            repeat: Infinity,
+            ease: 'easeInOut',
+            delay: 2,
+          }}
+        />
       </div>
 
       <Container maxWidth="7xl" className="relative z-10">
@@ -54,18 +99,31 @@ export default function HeroSection() {
                 : 'opacity-0 translate-y-8'
             }`}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif text-primary-900 leading-[1.1] tracking-tight px-4 sm:px-0">
-              <span className={`inline-block transition-all duration-700 delay-100 ${
-                isVisible || prefersReducedMotion ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-              }`}>
-                Stop Reacting.
-              </span>{' '}
-              <span className={`inline-block mt-2 sm:mt-3 transition-all duration-700 delay-200 ${
-                isVisible || prefersReducedMotion ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-              }`}>
-                Start Living.
-              </span>
-            </h1>
+            <motion.h1 
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif leading-[1.1] tracking-tight px-4 sm:px-0"
+              initial="hidden"
+              animate={isVisible || prefersReducedMotion ? "visible" : "hidden"}
+              variants={getAnimationVariants(textReveal)}
+            >
+              <motion.span 
+                className="inline-block"
+                variants={getAnimationVariants(fadeInUp)}
+                transition={{ delay: 0.1 }}
+              >
+                <GradientText gradient="primary" className="font-bold">
+                  Stop Reacting.
+                </GradientText>
+              </motion.span>{' '}
+              <motion.span 
+                className="inline-block mt-2 sm:mt-3"
+                variants={getAnimationVariants(fadeInUp)}
+                transition={{ delay: 0.3 }}
+              >
+                <GradientText gradient="accent" className="font-bold">
+                  Start Living.
+                </GradientText>
+              </motion.span>
+            </motion.h1>
             
             <h2 className={`text-lg sm:text-xl md:text-2xl lg:text-2xl font-sans text-gray-700 leading-relaxed max-w-2xl mx-auto lg:mx-0 px-4 sm:px-0 font-light transition-all duration-700 delay-300 ${
               isVisible || prefersReducedMotion ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
