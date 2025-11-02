@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { getTotalLessonCount } from '@/lib/data/courseStructure'
+import logger from '@/lib/utils/logger'
 
 interface ProgressData {
   daysPracticed: number
@@ -15,7 +17,7 @@ export function useProgress(initialData?: ProgressData) {
     daysPracticed: 0,
     totalTime: 0,
     currentStreak: 0,
-    totalLessons: 12,
+    totalLessons: getTotalLessonCount(), // Dynamically calculated from course structure
     completedLessons: 0,
     ...initialData,
   })
@@ -33,7 +35,10 @@ export function useProgress(initialData?: ProgressData) {
           setProgress((prev) => ({ ...prev, ...parsed }))
         }
       } catch (err) {
-        console.error('Failed to load progress:', err)
+        logger.error('Failed to load progress', {
+          context: 'useProgress',
+          error: err instanceof Error ? err : new Error(String(err)),
+        })
       }
     }
   }, [])
@@ -44,7 +49,10 @@ export function useProgress(initialData?: ProgressData) {
       try {
         localStorage.setItem('userProgress', JSON.stringify(progress))
       } catch (err) {
-        console.error('Failed to save progress:', err)
+        logger.error('Failed to save progress', {
+          context: 'useProgress',
+          error: err instanceof Error ? err : new Error(String(err)),
+        })
       }
     }
   }, [progress])
@@ -79,7 +87,7 @@ export function useProgress(initialData?: ProgressData) {
       daysPracticed: 0,
       totalTime: 0,
       currentStreak: 0,
-      totalLessons: 12,
+      totalLessons: getTotalLessonCount(), // Dynamically calculated from course structure
       completedLessons: 0,
     })
     if (typeof window !== 'undefined') {

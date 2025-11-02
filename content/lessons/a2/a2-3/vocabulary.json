@@ -1,0 +1,175 @@
+{
+  "lessonId": "a2-3",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "თვის",
+      "transliteration": "tvis",
+      "translation": "for, to (postposition)",
+      "ipa": "/tvis/",
+      "partOfSpeech": "postposition",
+      "exampleSentence": {
+        "georgian": "ეს არის ბავშვისთვის",
+        "transliteration": "es aris bavshvistvis",
+        "translation": "This is for the child"
+      },
+      "notes": "Requires Genitive case. Attached to Genitive nouns."
+    },
+    {
+      "id": "voc2",
+      "georgian": "ბავშვისთვის",
+      "transliteration": "bavshvistvis",
+      "translation": "for the child",
+      "ipa": "/bɑvʃvistvis/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "ეს არის ბავშვისთვის",
+        "transliteration": "es aris bavshvistvis",
+        "translation": "This is for the child"
+      },
+      "notes": "ბავშვის (Genitive) + -თვის (-tvis)"
+    },
+    {
+      "id": "voc3",
+      "georgian": "ში",
+      "transliteration": "shi",
+      "translation": "in, at (postposition)",
+      "ipa": "/ʃi/",
+      "partOfSpeech": "postposition",
+      "exampleSentence": {
+        "georgian": "წიგნი სახლშია",
+        "transliteration": "ts'igni sakhlshia",
+        "translation": "The book is in the house"
+      },
+      "notes": "Requires Dative case. Attached to Dative nouns."
+    },
+    {
+      "id": "voc4",
+      "georgian": "სახლში",
+      "transliteration": "sakhlshi",
+      "translation": "in the house",
+      "ipa": "/sɑxlʃi/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "მე ვარ სახლში",
+        "transliteration": "me var sakhlshi",
+        "translation": "I am in the house"
+      },
+      "notes": "სახლს (Dative) + -ში (-shi)"
+    },
+    {
+      "id": "voc5",
+      "georgian": "დან",
+      "transliteration": "dan",
+      "translation": "from, since (postposition)",
+      "ipa": "/dɑn/",
+      "partOfSpeech": "postposition",
+      "exampleSentence": {
+        "georgian": "მე მოვდივარ სახლიდან",
+        "transliteration": "me movdivar sakhlidan",
+        "translation": "I am coming from the house"
+      },
+      "notes": "Requires Genitive case. Attached to Genitive nouns."
+    },
+    {
+      "id": "voc6",
+      "georgian": "სახლიდან",
+      "transliteration": "sakhlidan",
+      "translation": "from the house",
+      "ipa": "/sɑxlidɑn/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "მე მოვდივარ სახლიდან",
+        "transliteration": "me movdivar sakhlidan",
+        "translation": "I am coming from the house"
+      },
+      "notes": "სახლის (Genitive) + -დან (-dan)"
+    },
+    {
+      "id": "voc7",
+      "georgian": "ქალაქი",
+      "transliteration": "kalak'i",
+      "translation": "city",
+      "ipa": "/kʼɑlɑkʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქალაქი დიდია",
+        "transliteration": "kalak'i didia",
+        "translation": "The city is big"
+      },
+      "notes": "Nominative form"
+    },
+    {
+      "id": "voc8",
+      "georgian": "ქალაქში",
+      "transliteration": "kalak'shi",
+      "translation": "in the city",
+      "ipa": "/kʼɑlɑkʼʃi/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "მე ვარ ქალაქში",
+        "transliteration": "me var kalak'shi",
+        "translation": "I am in the city"
+      },
+      "notes": "ქალაქს (Dative) + -ში (-shi)"
+    },
+    {
+      "id": "voc9",
+      "georgian": "ქალაქიდან",
+      "transliteration": "kalak'idan",
+      "translation": "from the city",
+      "ipa": "/kʼɑlɑkʼidɑn/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "მე მოვდივარ ქალაქიდან",
+        "transliteration": "me movdivar kalak'idan",
+        "translation": "I am coming from the city"
+      },
+      "notes": "ქალაქის (Genitive) + -იდან (-idan)"
+    },
+    {
+      "id": "voc10",
+      "georgian": "კლასი",
+      "transliteration": "klasi",
+      "translation": "class, classroom",
+      "ipa": "/klɑsi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კლასი დიდია",
+        "transliteration": "klasi didia",
+        "translation": "The class is big"
+      },
+      "notes": "Nominative form"
+    },
+    {
+      "id": "voc11",
+      "georgian": "კლასში",
+      "transliteration": "klas'shi",
+      "translation": "in class, in the classroom",
+      "ipa": "/klɑsʃi/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "მე ვარ კლასში",
+        "transliteration": "me var klas'shi",
+        "translation": "I am in class"
+      },
+      "notes": "კლასს (Dative) + -ში (-shi)"
+    },
+    {
+      "id": "voc12",
+      "georgian": "პოსტპოზიცია",
+      "transliteration": "post'p'ozitsia",
+      "translation": "postposition",
+      "ipa": "/pʼɔstʼpʼɔzitsiɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პოსტპოზიცია არის ნაწილაკი, რომელიც მოდის სახელის შემდეგ",
+        "transliteration": "post'p'ozitsia aris nats'ilak'i, romelits modis sakhelis shemdeg",
+        "translation": "Postposition is a particle that comes after the noun"
+      },
+      "notes": "Grammar term. Georgian uses postpositions (after nouns) instead of prepositions (before nouns)."
+    }
+  ]
+}
+

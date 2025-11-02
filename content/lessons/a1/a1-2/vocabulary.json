@@ -1,0 +1,175 @@
+{
+  "lessonId": "a1-2",
+  "level": "A1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ბ",
+      "transliteration": "b",
+      "translation": "letter 'b' (voiced)",
+      "ipa": "/b/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ბ - ბაგა",
+        "transliteration": "b - baga",
+        "translation": "b - bag"
+      },
+      "notes": "Voiced stop consonant - vocal cords vibrate when producing this sound"
+    },
+    {
+      "id": "voc2",
+      "georgian": "თ",
+      "transliteration": "t",
+      "translation": "letter 't' (aspirated)",
+      "ipa": "/tʰ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "თ - თხა",
+        "transliteration": "t - t'xa",
+        "translation": "t - goat"
+      },
+      "notes": "Aspirated stop consonant - released with a puff of air. The [ʰ] symbol indicates aspiration."
+    },
+    {
+      "id": "voc3",
+      "georgian": "ტ",
+      "transliteration": "t'",
+      "translation": "letter 't' (ejective)",
+      "ipa": "/tʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ტ - ტბა",
+        "transliteration": "t' - t'ba",
+        "translation": "t' - lake"
+      },
+      "notes": "Ejective stop consonant - produced with glottal closure creating a 'pop' sound. Different from თ [tʰ]."
+    },
+    {
+      "id": "voc4",
+      "georgian": "კ",
+      "transliteration": "k'",
+      "translation": "letter 'k' (ejective)",
+      "ipa": "/kʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "კ - კაცი",
+        "transliteration": "k' - k'atsi",
+        "translation": "k' - man"
+      },
+      "notes": "Ejective stop consonant. Compare with ქ [kʰ] (aspirated) - the pop distinguishes კ from ქ."
+    },
+    {
+      "id": "voc5",
+      "georgian": "პ",
+      "transliteration": "p'",
+      "translation": "letter 'p' (ejective)",
+      "ipa": "/pʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "პ - პაპა",
+        "transliteration": "p' - p'ap'a",
+        "translation": "p' - grandfather"
+      },
+      "notes": "Ejective stop consonant. Produced with glottal closure. Different from ფ [pʰ] (aspirated)."
+    },
+    {
+      "id": "voc6",
+      "georgian": "თხა",
+      "transliteration": "t'xa",
+      "translation": "goat",
+      "ipa": "/tʰxɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეს არის თხა",
+        "transliteration": "es aris t'xa",
+        "translation": "This is a goat"
+      },
+      "notes": "Uses aspirated თ [tʰ] - notice the air puff when pronouncing"
+    },
+    {
+      "id": "voc7",
+      "georgian": "ტბა",
+      "transliteration": "t'ba",
+      "translation": "lake",
+      "ipa": "/tʼbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დიდი ტბა",
+        "transliteration": "didi t'ba",
+        "translation": "big lake"
+      },
+      "notes": "Uses ejective ტ [tʼ] - notice the pop sound. This is a minimal pair with თხა [tʰxa]."
+    },
+    {
+      "id": "voc8",
+      "georgian": "კაცი",
+      "transliteration": "k'atsi",
+      "translation": "man",
+      "ipa": "/kʼɑtsi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კაცი მიდის",
+        "transliteration": "k'atsi midis",
+        "translation": "The man goes"
+      },
+      "notes": "Uses ejective კ [kʼ]. Important to distinguish from ქალაქი [kʰalakʰi] (city) which uses aspirated ქ."
+    },
+    {
+      "id": "voc9",
+      "georgian": "წ",
+      "transliteration": "ts'",
+      "translation": "letter 'ts' (ejective)",
+      "ipa": "/tsʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "წ - წყალი",
+        "transliteration": "ts' - ts'q'ali",
+        "translation": "ts' - water"
+      },
+      "notes": "Ejective affricate - like 'ts' in 'cats' but with glottal closure creating a pop"
+    },
+    {
+      "id": "voc10",
+      "georgian": "ჭ",
+      "transliteration": "ch'",
+      "translation": "letter 'ch' (ejective)",
+      "ipa": "/tʃʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ჭ - ჭა",
+        "transliteration": "ch' - ch'a",
+        "translation": "ch' - well"
+      },
+      "notes": "Ejective affricate - like 'ch' in 'chair' but with glottal closure"
+    },
+    {
+      "id": "voc11",
+      "georgian": "ყ",
+      "transliteration": "q'",
+      "translation": "letter 'q' (ejective)",
+      "ipa": "/qʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ყ - ყვავილი",
+        "transliteration": "q' - q'vavili",
+        "translation": "q' - flower"
+      },
+      "notes": "Back velar ejective - made in the very back of the throat with a strong pop"
+    },
+    {
+      "id": "voc12",
+      "georgian": "წყალი",
+      "transliteration": "ts'q'ali",
+      "translation": "water",
+      "ipa": "/tsʼqʼɑli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ცივი წყალი",
+        "transliteration": "tsivi ts'q'ali",
+        "translation": "cold water"
+      },
+      "notes": "Contains TWO ejective consonants: წ [tsʼ] and ყ [qʼ]. Notice both pops when pronouncing."
+    }
+  ]
+}
+

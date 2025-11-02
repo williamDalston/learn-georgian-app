@@ -1,0 +1,132 @@
+{
+  "lessonId": "a1-5",
+  "title": "Lesson A1-5 Assessment: Basic Greetings and Survival Phrases",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the most common way to say 'hello' in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ნახვამდის" },
+        { "id": "b", "text": "გამარჯობა" },
+        { "id": "c", "text": "მადლობა" },
+        { "id": "d", "text": "დიახ" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "გამარჯობა (gamarjoba) is the standard greeting for 'hello' in Georgian. It can be used any time of day and in both formal and informal situations.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "How do you say 'goodbye' in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "გამარჯობა" },
+        { "id": "b", "text": "ნახვამდის" },
+        { "id": "c", "text": "მადლობა" },
+        { "id": "d", "text": "დილა მშვიდობისა" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ნახვამდის (nakhvamdis) means 'goodbye'. It literally means 'until we see (each other)' and is polite and appropriate in all situations.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the appropriate response to 'მადლობა' (thank you)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "არაფერს (you're welcome)" },
+        { "id": "b", "text": "მადლობა (thank you)" },
+        { "id": "c", "text": "გამარჯობა (hello)" },
+        { "id": "d", "text": "დიახ (yes)" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "არაფერს (arapers) means 'you're welcome' or literally 'nothing'. It's the standard polite response to thank you in Georgian.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "When should you use 'ბატონო' (Batono)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "When addressing a man formally" },
+        { "id": "b", "text": "When addressing a woman formally" },
+        { "id": "c", "text": "Only with close friends" },
+        { "id": "d", "text": "Never, it's outdated" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ბატონო (batono) is used when addressing a man formally, equivalent to 'Mr.' or 'Sir' in English. It shows respect and is essential for proper Georgian etiquette.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "What is the female equivalent of 'ბატონო'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ქალბატონო" },
+        { "id": "b", "text": "ბატონო" },
+        { "id": "c", "text": "მადამი" },
+        { "id": "d", "text": "სტუმარი" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ქალბატონო (kalbatono) is the formal address for a woman, equivalent to 'Mrs.' or 'Madam'. It's essential for showing respect in Georgian culture.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Match the greetings to their meanings:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "დილა მშვიდობისა" },
+        { "id": "l2", "text": "საღამო მშვიდობისა" },
+        { "id": "l3", "text": "ღამე მშვიდობისა" },
+        { "id": "l4", "text": "დიდი მადლობა" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Good morning" },
+        { "id": "r2", "text": "Good evening" },
+        { "id": "r3", "text": "Good night" },
+        { "id": "r4", "text": "Thank you very much" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "დილა means morning, საღამო means evening, ღამე means night. დიდი means big/great, so დიდი მადლობა means 'big thanks'.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What does 'ნახვამდის' literally mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Until we see (each other)" },
+        { "id": "b", "text": "Good luck" },
+        { "id": "c", "text": "See you tomorrow" },
+        { "id": "d", "text": "Take care" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ნახვამდის literally means 'until we see (each other)' - showing the emphasis on relationship and future meetings in Georgian culture.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "When would you use formal address (ბატონო/ქალბატონო) in Georgia?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "With strangers, elderly people, and in professional settings" },
+        { "id": "b", "text": "Only with very old people" },
+        { "id": "c", "text": "Never, it's outdated" },
+        { "id": "d", "text": "Only in restaurants" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Formal address is used with strangers, elderly people, and in professional settings. It's an important part of Georgian etiquette and shows respect.",
+      "points": 10
+    }
+  ]
+}
+

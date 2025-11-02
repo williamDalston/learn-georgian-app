@@ -1,0 +1,217 @@
+{
+  "lessonId": "b2-1",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ერგატივი",
+      "transliteration": "ergat'ivi",
+      "translation": "ergative (case)",
+      "ipa": "/ɛrɡɑtʼivi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სერია II-ში, გარდამავალი ზმნების სუბიექტი ერგატივშია",
+        "transliteration": "seria II-shi, gardamavali zmnebis subiekt'i ergat'ivshia",
+        "translation": "In Series II, the subject of transitive verbs is in ergative case"
+      },
+      "notes": "Grammatical case marking the subject of transitive verbs in past tense (Series II) and perfect tense (Series III)"
+    },
+    {
+      "id": "voc2",
+      "georgian": "აბსოლუტივი",
+      "transliteration": "absoluti'vi",
+      "translation": "absolutive (case)",
+      "ipa": "/ɑbsɔlutiʼvi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წარსულ დროში, გარდამავალი ზმნის ობიექტი აბსოლუტივშია",
+        "transliteration": "ts'arsul droshi, gardamavali zmnis obiekt'i absoluti'vshia",
+        "translation": "In past tense, the object of transitive verbs is in absolutive case"
+      },
+      "notes": "Case marking that is identical to Nominative - used for intransitive subjects and transitive objects in Ergative-Absolutive alignment"
+    },
+    {
+      "id": "voc3",
+      "georgian": "ნომინატივ-აკუზატივი",
+      "transliteration": "nominat'iv-akuzat'ivi",
+      "translation": "nominative-accusative (alignment)",
+      "ipa": "/nɔminɑtʼiv ɑkuzɑtʼivi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სერია I იყენებს ნომინატივ-აკუზატივ სისტემას",
+        "transliteration": "seria I iq'enebs nominat'iv-akuzat'iv sist'emas",
+        "translation": "Series I uses the nominative-accusative system"
+      },
+      "notes": "Alignment system where subjects of both transitive and intransitive verbs are marked the same way (Nominative), and objects are marked differently"
+    },
+    {
+      "id": "voc4",
+      "georgian": "ერგატივ-აბსოლუტივი",
+      "transliteration": "ergat'iv-absoluti'vi",
+      "translation": "ergative-absolutive (alignment)",
+      "ipa": "/ɛrɡɑtʼiv ɑbsɔlutiʼvi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სერია II და III იყენებენ ერგატივ-აბსოლუტივ სისტემას",
+        "transliteration": "seria II da III iq'eneben ergat'iv-absoluti'v sist'emas",
+        "translation": "Series II and III use the ergative-absolutive system"
+      },
+      "notes": "Alignment system where intransitive subjects and transitive objects are marked the same (Absolutive), and transitive subjects are marked differently (Ergative)"
+    },
+    {
+      "id": "voc5",
+      "georgian": "გაყოფილი ერგატივობა",
+      "transliteration": "gaq'opili ergat'ivoba",
+      "translation": "split-ergativity",
+      "ipa": "/ɡɑqʼɔpili ɛrɡɑtʼivɔbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართული ენა ახასიათებს გაყოფილი ერგატივობა",
+        "transliteration": "kartuli ena akhasiatebs gaq'opili ergat'ivoba",
+        "translation": "Georgian language is characterized by split-ergativity"
+      },
+      "notes": "The phenomenon where a language uses different alignment systems (Nominative-Accusative vs Ergative-Absolutive) depending on tense, aspect, or mood"
+    },
+    {
+      "id": "voc6",
+      "georgian": "შემთხვევის გადართვა",
+      "transliteration": "shemtkhevis gadartva",
+      "translation": "case shift",
+      "ipa": "/ʃɛmtʰxɛvis ɡɑdɑrtvɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წარსულ დროში ხდება შემთხვევის გადართვა",
+        "transliteration": "ts'arsul droshi khdeba shemtkhevis gadartva",
+        "translation": "In past tense, case shift occurs"
+      },
+      "notes": "The systematic change in case marking when moving from Series I to Series II/III, particularly the shift of objects from Dative to Nominative/Absolutive"
+    },
+    {
+      "id": "voc7",
+      "georgian": "სერია",
+      "transliteration": "seria",
+      "translation": "series (verb series)",
+      "ipa": "/sɛriɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართულში არის სამი სერია: I, II და III",
+        "transliteration": "kartulshi aris sami seria: I, II da III",
+        "translation": "In Georgian there are three series: I, II, and III"
+      },
+      "notes": "Groups of verb screeves organized by Tense-Aspect-Mood features. Series I: Present/Future (imperfective). Series II: Aorist (perfective past). Series III: Perfect/Pluperfect (perfective)."
+    },
+    {
+      "id": "voc8",
+      "georgian": "გარდამავალი",
+      "transliteration": "gardamavali",
+      "translation": "transitive",
+      "ipa": "/ɡɑrdɑmɑvɑli/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "გარდამავალი ზმნები მოითხოვენ ობიექტს",
+        "transliteration": "gardamavali zmnebi moitkhoven obiekt's",
+        "translation": "Transitive verbs require an object"
+      },
+      "notes": "Verbs that take a direct object. Only transitive verbs show the full case shift in Series II/III"
+    },
+    {
+      "id": "voc9",
+      "georgian": "გარდაუვალი",
+      "transliteration": "gardauvali",
+      "translation": "intransitive",
+      "ipa": "/ɡɑrdɑuvɑli/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "გარდაუვალი ზმნების სუბიექტი ყოველთვის ნომინატივშია",
+        "transliteration": "gardauvali zmnebis subiekt'i q'oveltvis nominat'ivshia",
+        "translation": "The subject of intransitive verbs is always in nominative case"
+      },
+      "notes": "Verbs that do not take a direct object. Intransitive verbs do not show case shift - their subjects remain in Nominative in all series"
+    },
+    {
+      "id": "voc10",
+      "georgian": "აორისტი",
+      "transliteration": "aorist'i",
+      "translation": "aorist (tense)",
+      "ipa": "/ɑɔristʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "აორისტი არის წარსული დრო სერია II-ში",
+        "transliteration": "aorist'i aris ts'arsuli dro seria II-shi",
+        "translation": "Aorist is the past tense in Series II"
+      },
+      "notes": "A perfective past tense that forms part of Series II. Aorist triggers Ergative-Absolutive alignment for transitive verbs"
+    },
+    {
+      "id": "voc11",
+      "georgian": "პერფექტური",
+      "transliteration": "p'erp'ekt'uri",
+      "translation": "perfective (aspect)",
+      "ipa": "/pʼɛrpʼɛktʼuri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "პერფექტური ასპექტი არის დასრულებული მოქმედება",
+        "transliteration": "p'erp'ekt'uri asp'ekt'i aris dasrulebuli mokmedeba",
+        "translation": "Perfective aspect is a completed action"
+      },
+      "notes": "Aspect indicating that an action is viewed as a complete whole. In Georgian, perfective aspect (Series II and III) triggers Ergative-Absolutive alignment"
+    },
+    {
+      "id": "voc12",
+      "georgian": "იმპერფექტური",
+      "transliteration": "imp'erp'ekt'uri",
+      "translation": "imperfective (aspect)",
+      "ipa": "/impʼɛrpʼɛktʼuri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "იმპერფექტური ასპექტი არის გაგრძელებითი მოქმედება",
+        "transliteration": "imp'erp'ekt'uri asp'ekt'i aris gagrdzelebiti mokmedeba",
+        "translation": "Imperfective aspect is a continuous action"
+      },
+      "notes": "Aspect indicating that an action is ongoing, habitual, or not completed. In Georgian, imperfective aspect (Series I) uses Nominative-Accusative alignment"
+    },
+    {
+      "id": "voc13",
+      "georgian": "სუბიექტი",
+      "transliteration": "subiekt'i",
+      "translation": "subject",
+      "ipa": "/subiɛktʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გარდამავალ ზმნებში, სუბიექტი ერგატივშია წარსულ დროში",
+        "transliteration": "gardamaval zmnebshi, subiekt'i ergat'ivshia ts'arsul droshi",
+        "translation": "In transitive verbs, the subject is in ergative case in past tense"
+      },
+      "notes": "The doer of the action in a sentence. Case marking of subjects differs based on alignment system and verb transitivity"
+    },
+    {
+      "id": "voc14",
+      "georgian": "ობიექტი",
+      "transliteration": "obiekt'i",
+      "translation": "object",
+      "ipa": "/ɔbiɛktʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ობიექტის შემთხვევა იცვლება სერია I-დან სერია II-ში",
+        "transliteration": "obiekt'is shemtkheva itsvleba seria I-dan seria II-shi",
+        "translation": "The object's case changes from Series I to Series II"
+      },
+      "notes": "The receiver of the action in a transitive sentence. Objects shift from Dative (Series I) to Nominative/Absolutive (Series II/III)"
+    },
+    {
+      "id": "voc15",
+      "georgian": "-მა",
+      "transliteration": "-ma",
+      "translation": "-ma (ergative suffix)",
+      "ipa": "/mɑ/",
+      "partOfSpeech": "suffix",
+      "exampleSentence": {
+        "georgian": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]",
+        "transliteration": "bavshvma ts'aikit'kha ts'igni",
+        "translation": "The child read the book"
+      },
+      "notes": "Common ergative case suffix added to many nouns in Series II/III transitive sentences. Marks the transitive subject in past/perfect tenses"
+    }
+  ]
+}
+

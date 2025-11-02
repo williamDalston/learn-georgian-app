@@ -101,13 +101,16 @@ export function AchievementCelebration({ achievement }: { achievement?: Achievem
   if (!achievement) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4 pointer-events-none">
-      <div className="bg-white rounded-lg shadow-2xl p-8 max-w-md text-center animate-fade-in pointer-events-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 p-4 animate-fade-in">
+      <div className="bg-white rounded-lg shadow-2xl p-8 max-w-md text-center animate-fade-in transform scale-100 animate-pulse">
         <div className="text-6xl mb-4 animate-bounce">🎉</div>
         <h3 className="font-serif text-2xl text-primary-900 mb-2">Achievement Unlocked!</h3>
-        <div className="text-4xl mb-4">{achievement.icon}</div>
-        <h4 className="font-serif text-xl text-primary-900 mb-2">{achievement.title}</h4>
-        <p className="font-sans text-gray-600">{achievement.description}</p>
+        <div className="text-5xl mb-4 animate-pulse">{achievement.icon}</div>
+        <h4 className="font-serif text-xl text-primary-900 mb-2 font-bold">{achievement.title}</h4>
+        <p className="font-sans text-gray-600 mb-4">{achievement.description}</p>
+        <div className="mt-6 pt-6 border-t border-gray-200">
+          <p className="font-sans text-sm text-gray-500">Keep going! You're making great progress!</p>
+        </div>
       </div>
     </div>
   )

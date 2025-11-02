@@ -1,0 +1,297 @@
+{
+  "lessonId": "c1-7",
+  "lessonTitle": "Advanced Conversation: Debates and Discussions",
+  "level": "C1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Debate Opening Phrases",
+      "instructions": "Choose the most appropriate phrase to open your position in each context.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "You're at a formal academic seminar. How should you introduce your position?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "როგორც ჩემი აზრით, ეს კატასტროფაა",
+              "translation": "As far as I'm concerned, this is a catastrophe"
+            },
+            {
+              "id": "b",
+              "text": "მგონია, რომ ეს არის სერიოზული პრობლემა",
+              "translation": "I think this is a serious problem"
+            },
+            {
+              "id": "c",
+              "text": "შეიძლება, ეს შეიძლება პრობლემა გახდეს",
+              "translation": "Perhaps this might become a problem"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Academic contexts require moderate hedging. 'მგონია' shows considered opinion without being too strong or too weak.",
+          "explanationGeorgian": "აკადემიურ კონტექსტში საჭიროა ზომიერი ჰეჯინგი."
+        },
+        {
+          "id": "q2",
+          "question": "Which phrase is most appropriate for presenting statistical evidence?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მგონია, რომ...",
+              "translation": "I think that..."
+            },
+            {
+              "id": "b",
+              "text": "სტატისტიკური მონაცემები აჩვენებენ",
+              "translation": "Statistical data shows"
+            },
+            {
+              "id": "c",
+              "text": "ალბათ ეს მართალია",
+              "translation": "This is probably true"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "When citing statistics, use factual presentation language. 'სტატისტიკური მონაცემები აჩვენებენ' is the formal, evidence-based phrase.",
+          "explanationGeorgian": "სტატისტიკის ციტირებისას გამოიყენება ფაქტობრივი პრეზენტაციის ენა."
+        },
+        {
+          "id": "q3",
+          "question": "What's the softest way to express disagreement with someone older than you?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ეს არასწორია!",
+              "translation": "This is wrong!"
+            },
+            {
+              "id": "b",
+              "text": "არ შემიძლია შევთანხმდე 100%",
+              "translation": "I can't agree 100%"
+            },
+            {
+              "id": "c",
+              "text": "ლოგიკურად ეს არ იწერება",
+              "translation": "Logically, that doesn't follow"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "With respect for hierarchy, use 'არ შემიძლია შევთანხმდე 100%' for the softest possible disagreement.",
+          "explanationGeorgian": "იერარქიის პატივისცემით, უფრო თბილია არც სრული უარყოფა."
+        },
+        {
+          "id": "q4",
+          "question": "Choose the phrase that shows intellectual humility:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ეს აბსოლუტურად მართალია",
+              "translation": "This is absolutely true"
+            },
+            {
+              "id": "b",
+              "text": "თუმცა, სხვა კუთხითაც შეიძლება შევხედოთ",
+              "translation": "However, we can also look at it from another angle"
+            },
+            {
+              "id": "c",
+              "text": "ყველა უნდა უგულისმებდეს ამას",
+              "translation": "Everyone should believe this"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Intellectual humility in Georgian debate is shown by considering multiple perspectives. This phrase demonstrates nuanced thinking.",
+          "explanationGeorgian": "ინტელექტუალური ნაკლებობა ქართულ დებატში რწმენით მრავალპერსპექტივულ მისალმებაზეა დაფუძნებული."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Hedging Practice",
+      "instructions": "Complete the sentences with appropriate hedging phrases.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "_____ რომ ეს ცვლილება დადებითად იმოქმედებს ეკონომიკაზე.",
+          "english": "(I think / Perhaps) that this change will positively affect the economy.",
+          "correctAnswer": "მგონია",
+          "alternatives": ["მგონია", "შეიძლება"],
+          "explanation": "Both 'მგონია' (I think) and 'შეიძლება' (perhaps) work for hedging. 'მგონია' shows more conviction."
+        },
+        {
+          "id": "q6",
+          "question": "_______ ეკონომიკური რეფორმა საჭიროა.",
+          "english": "(Probably / Perhaps) economic reform is needed.",
+          "correctAnswer": "ალბათ",
+          "alternatives": ["ალბათ", "შეიძლება"],
+          "explanation": "'ალბათ' (probably) shows higher probability than 'შეიძლება' (perhaps)."
+        },
+        {
+          "id": "q7",
+          "question": "_____ ეს არის გამორიცხული.",
+          "english": "(It's not / Perhaps it's) excluded.",
+          "correctAnswer": "არ არის",
+          "alternatives": ["არ არის"],
+          "explanation": "'არ არის გამორიცხული' is a diplomatic way to say something is possible."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "translation",
+      "title": "Disagreement Translations",
+      "instructions": "Translate the English disagreement phrases into Georgian.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "I partly agree with you, but we should consider...",
+          "correctAnswer": "გეთანხმებით ნაწილობრივ, მაგრამ...",
+          "alternatives": ["გეთანხმებით ნაწილობრივ, მაგრამ გასათვალისწინებელია"],
+          "explanation": "This is the standard Georgian expression for partial agreement with qualification."
+        },
+        {
+          "id": "q9",
+          "question": "That's an interesting perspective, however...",
+          "correctAnswer": "ეს ინტერესული პერსპექტივაა, თუმცა...",
+          "alternatives": ["ეს საინტერესო პერსპექტივაა, თუმცა"],
+          "explanation": "Acknowledge validity before disagreeing - this is culturally appropriate."
+        },
+        {
+          "id": "q10",
+          "question": "You're right, but we should also consider the economic factors.",
+          "correctAnswer": "გაქვთ მართალი, თუმცა ასევე გასათვალისწინებელია ეკონომიკური ფაქტორები.",
+          "alternatives": ["მართალი ხართ, მაგრამ ასევე გასათვალისწინებელია"],
+          "explanation": "This construction validates the other person first, then adds additional perspective."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "matching",
+      "title": "Political Vocabulary",
+      "instructions": "Match the Georgian political terms with their English translations.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q11",
+          "leftItems": [
+            { "id": "l1", "text": "მთავრობა", "transliteration": "mtavroba" },
+            { "id": "l2", "text": "არჩევნები", "transliteration": "archevnebi" },
+            { "id": "l3", "text": "ინფლაცია", "transliteration": "inplatsia" },
+            { "id": "l4", "text": "კორუფცია", "transliteration": "k'oruptsia" },
+            { "id": "l5", "text": "პარლამენტი", "transliteration": "parlament'i" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Government" },
+            { "id": "r2", "text": "Parliament" },
+            { "id": "r3", "text": "Elections" },
+            { "id": "r4", "text": "Inflation" },
+            { "id": "r5", "text": "Corruption" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r3" },
+            { "left": "l3", "right": "r4" },
+            { "left": "l4", "right": "r5" },
+            { "left": "l5", "right": "r2" }
+          ],
+          "explanation": "Mastering political vocabulary is essential for C1 debate participation."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Debate Scenarios",
+      "instructions": "Choose the most appropriate response for each debate scenario.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q12",
+          "question": "You're discussing tourism development with an older Georgian colleague. They suggest 'more hotels equals more money.' You disagree gently. Choose your response:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ეს სულელურია! ტურიზმი განადგურდება!",
+              "translation": "That's stupid! Tourism will be destroyed!"
+            },
+            {
+              "id": "b",
+              "text": "თუმცა, სხვა კუთხითაც შეიძლება შევხედოთ - გარემოს დაცვაც მნიშვნელოვანია",
+              "translation": "However, we can also look at it from another angle - environmental protection is also important"
+            },
+            {
+              "id": "c",
+              "text": "არ შემიძლია შევთანხმდე",
+              "translation": "I can't agree"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "With an older colleague, use respectful disagreement that acknowledges their point while adding another perspective. Direct contradiction (option a) is culturally inappropriate, and option c is too blunt.",
+          "explanationGeorgian": "უფროს კოლეგასთან გამოიყენეთ პატივისცემით დაუთმობა."
+        },
+        {
+          "id": "q13",
+          "question": "In an academic debate about economic policy, you want to present statistical evidence. Which opening is most appropriate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მგონია, რომ ციფრები ვერ აჩვენებენ მართლს",
+              "translation": "I think the numbers don't show the truth"
+            },
+            {
+              "id": "b",
+              "text": "სტატისტიკური მონაცემები აჩვენებს, რომ უმუშევრობის მაჩვენებელი 10%-მდე გაიზარდა",
+              "translation": "Statistical data shows that the unemployment rate has grown to 10%"
+            },
+            {
+              "id": "c",
+              "text": "ყველა ვიცით, რომ ეკონომიკა ცუდია",
+              "translation": "Everyone knows the economy is bad"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "In academic contexts, present evidence objectively using formal phrases like 'სტატისტიკური მონაცემები აჩვენებს'. Avoid opinion-stating phrases for data presentation.",
+          "explanationGeorgian": "აკადემიურ კონტექსტში ობიექტურად წარმოადგინეთ მტკიცებულება."
+        },
+        {
+          "id": "q14",
+          "question": "You're at a family supra (feast). Someone mentions Soviet education was better. Cultural context: Your disagreement needs to be very soft. Choose:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ასე არ შეიძლება უბრალოდ შევაფასოთ - სხვადასხვა მხრები იყო",
+              "translation": "We can't just evaluate it simply - there were different aspects"
+            },
+            {
+              "id": "b",
+              "text": "არასწორია! თანამედროვე განათლება უკეთესია!",
+              "translation": "That's wrong! Modern education is better!"
+            },
+            {
+              "id": "c",
+              "text": "ლოგიკურად ეს არ იწერება",
+              "translation": "Logically, that doesn't follow"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "At a supra with cultural historical topics, use the softest framing possible. Acknowledge complexity rather than directly contradicting. Family gatherings require maximum respect.",
+          "explanationGeorgian": "სუფრაზე, ისტორიულ თემებზე, გამოიყენეთ ყველაზე რბილი ფორმულირება."
+        }
+      ]
+    }
+  ]
+}

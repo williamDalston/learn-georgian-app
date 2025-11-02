@@ -1,5 +1,6 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+/* Fonts are now loaded via next/font in app/layout.tsx */
+/* Georgian font fallback via CDN for Noto Sans Georgian */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +17,18 @@
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
+  }
+
+  /* Georgian text styling */
+  .font-georgian {
+    font-family: 'Noto Sans Georgian', 'BPG Nino Mtavruli', 'BPG Arial', 'Sylfaen', 'DejaVu Sans', sans-serif;
+    font-feature-settings: 'liga' on, 'calt' on;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Ensure proper rendering of Georgian characters */
+  [lang="ka"] {
+    font-family: 'Noto Sans Georgian', 'BPG Nino Mtavruli', 'BPG Arial', 'Sylfaen', 'DejaVu Sans', sans-serif;
   }
 }
 

@@ -1,0 +1,288 @@
+{
+  "lessonId": "b2-1",
+  "title": "Lesson B2-1 Assessment: Split-Ergativity - The Case Shift Paradigm",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is split-ergativity?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "A language feature where alignment system changes based on tense and aspect"
+        },
+        {
+          "id": "b",
+          "text": "A type of verb conjugation used only in past tense"
+        },
+        {
+          "id": "c",
+          "text": "A method of marking plural nouns"
+        },
+        {
+          "id": "d",
+          "text": "A pronunciation rule for ejective consonants"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Split-ergativity is the phenomenon where a language uses different alignment systems (Nominative-Accusative vs Ergative-Absolutive) depending on tense, aspect, or mood features. In Georgian, Series I uses Nominative-Accusative, while Series II and III use Ergative-Absolutive.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which Series in Georgian uses Nominative-Accusative alignment?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Series I (Present/Future)"
+        },
+        {
+          "id": "b",
+          "text": "Series II (Aorist)"
+        },
+        {
+          "id": "c",
+          "text": "Series III (Perfect)"
+        },
+        {
+          "id": "d",
+          "text": "Both Series II and III"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Series I (Present and Future tenses) uses Nominative-Accusative alignment. Series II (Aorist) and Series III (Perfect) use Ergative-Absolutive alignment for transitive verbs.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "In the sentence 'მან წაიკითხა წიგნი [man ts'aikit'kha ts'igni]' (He read the book), what case is 'წიგნი' (the book)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dative case"
+        },
+        {
+          "id": "b",
+          "text": "Nominative/Absolutive case"
+        },
+        {
+          "id": "c",
+          "text": "Ergative case"
+        },
+        {
+          "id": "d",
+          "text": "Genitive case"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In Series II (Aorist), transitive objects shift from Dative to Nominative/Absolutive case. 'წიგნი' is in Absolutive case (which is identical to Nominative in form).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What triggers Ergative-Absolutive alignment in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Imperfective aspect"
+        },
+        {
+          "id": "b",
+          "text": "Perfective aspect"
+        },
+        {
+          "id": "c",
+          "text": "Only with certain verb classes"
+        },
+        {
+          "id": "d",
+          "text": "Only in formal speech"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Perfective aspect (found in Series II Aorist and Series III Perfect) systematically triggers Ergative-Absolutive alignment for transitive verbs. Imperfective aspect (Series I) uses Nominative-Accusative alignment.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match the sentence to its correct alignment system:",
+      "type": "matching",
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "მე ვხედავ კატას [me vkhedav kat'as]"
+        },
+        {
+          "id": "l2",
+          "text": "მე ვნახე კატა [me vnakhe kat'a]"
+        },
+        {
+          "id": "l3",
+          "text": "ბავშვი თამაშობს [bavshvi tamashobs]"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Nominative-Accusative (Series I)"
+        },
+        {
+          "id": "r2",
+          "text": "Ergative-Absolutive (Series II)"
+        },
+        {
+          "id": "r3",
+          "text": "Intransitive (no case shift)"
+        }
+      ],
+      "correctMatches": [
+        {
+          "left": "l1",
+          "right": "r1"
+        },
+        {
+          "left": "l2",
+          "right": "r2"
+        },
+        {
+          "left": "l3",
+          "right": "r3"
+        }
+      ],
+      "explanation": "The first sentence uses present tense (Series I) with Nominative-Accusative. The second uses Aorist (Series II) with Ergative-Absolutive. The third is intransitive, so no case shift occurs.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "When transforming 'მასწავლებელი ასწავლის სტუდენტებს' (The teacher teaches students) to past tense, what changes occur? Select all that apply.",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subject gets Ergative marking (-მა suffix)"
+        },
+        {
+          "id": "b",
+          "text": "Object shifts from Dative to Nominative/Absolutive"
+        },
+        {
+          "id": "c",
+          "text": "Verb changes to Aorist form"
+        },
+        {
+          "id": "d",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "All three changes occur in the case shift: subject მასწავლებელი → Ergative მასწავლებელმა; verb ასწავლის → Aorist ასწავლა; object სტუდენტებს (Dative) → სტუდენტები (Absolutive/Nominative).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What is the correct past tense form of 'ბავშვი კითხულობს წიგნს' (The child reads the book)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ბავშვი წაიკითხა წიგნს [bavshvi ts'aikit'kha ts'igns]"
+        },
+        {
+          "id": "b",
+          "text": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]"
+        },
+        {
+          "id": "c",
+          "text": "ბავშვმა კითხულობს წიგნს [bavshvma kit'khulobs ts'igns]"
+        },
+        {
+          "id": "d",
+          "text": "ბავშვი წაიკითხა წიგნი [bavshvi ts'aikit'kha ts'igni]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In past tense (Series II), the subject must be Ergative (ბავშვმა with -მა), the verb must be Aorist (წაიკითხა), and the object must shift to Absolutive/Nominative (წიგნი instead of წიგნს).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "True or False: Intransitive verbs show case shift in Series II.",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "True - all verbs show case shift"
+        },
+        {
+          "id": "b",
+          "text": "False - only transitive verbs show case shift"
+        },
+        {
+          "id": "c",
+          "text": "Only some intransitive verbs show case shift"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "False. Only transitive verbs show the case shift. Intransitive verbs keep their subjects in Nominative case in all series. The case shift specifically affects the marking of transitive subjects (→ Ergative) and transitive objects (→ Absolutive/Nominative).",
+      "points": 10
+    },
+    {
+      "id": "quiz-q9",
+      "question": "What does TAM stand for in the context of Georgian verb series?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tense-Aspect-Mood"
+        },
+        {
+          "id": "b",
+          "text": "Transitive-Absolutive-Marking"
+        },
+        {
+          "id": "c",
+          "text": "Time-Argument-Modifier"
+        },
+        {
+          "id": "d",
+          "text": "Theme-Actor-Manner"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "TAM stands for Tense-Aspect-Mood. These grammatical features determine how verbs are organized into Series in Georgian and which alignment system is used. Tense (when), Aspect (how the action unfolds), and Mood (speaker's attitude) all play roles in Georgian's split-ergative system.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q10",
+      "question": "In Ergative-Absolutive alignment, what is marked the same way?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transitive subjects and intransitive subjects"
+        },
+        {
+          "id": "b",
+          "text": "Intransitive subjects and transitive objects"
+        },
+        {
+          "id": "c",
+          "text": "Transitive subjects and transitive objects"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In Ergative-Absolutive alignment, intransitive subjects and transitive objects are marked the same way (both in Absolutive case, which looks like Nominative). Transitive subjects are marked differently (Ergative case, often with -მა suffix).",
+      "points": 15
+    }
+  ]
+}
+

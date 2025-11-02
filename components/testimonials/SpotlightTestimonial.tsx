@@ -170,7 +170,7 @@ export default function SpotlightTestimonial({
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </Container>
     </section>

@@ -1,0 +1,91 @@
+{
+  "lessonId": "a1-1",
+  "level": "A1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ა",
+      "transliteration": "a",
+      "translation": "the letter 'a'",
+      "ipa": "/ɑ/",
+      "partOfSpeech": "vowel",
+      "exampleSentence": {
+        "georgian": "ა არის პირველი ასო",
+        "transliteration": "a aris p'irveli aso",
+        "translation": "'A' is the first letter"
+      },
+      "notes": "Vowel sound like 'a' in 'father'"
+    },
+    {
+      "id": "voc2",
+      "georgian": "ბ",
+      "transliteration": "b",
+      "translation": "the letter 'b'",
+      "ipa": "/b/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ბ - ბარათი",
+        "transliteration": "b - barati",
+        "translation": "b - card"
+      },
+      "notes": "Same as English 'b'"
+    },
+    {
+      "id": "voc3",
+      "georgian": "კ",
+      "transliteration": "k'",
+      "translation": "the letter 'k' (ejective)",
+      "ipa": "/kʼ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "კ - კაბა",
+        "transliteration": "k'a - k'aba",
+        "translation": "k' - dress"
+      },
+      "notes": "Ejective consonant - made with glottal closure. Different from ქ [k]"
+    },
+    {
+      "id": "voc4",
+      "georgian": "თ",
+      "transliteration": "t",
+      "translation": "the letter 't' (aspirated)",
+      "ipa": "/tʰ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "თ - თბილი",
+        "transliteration": "t - t'bili",
+        "translation": "t - warm"
+      },
+      "notes": "Aspirated 't' - released with a puff of air"
+    },
+    {
+      "id": "voc5",
+      "georgian": "ასო",
+      "transliteration": "aso",
+      "translation": "letter (of the alphabet)",
+      "ipa": "/ɑsɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეს არის ასო",
+        "transliteration": "es aris aso",
+        "translation": "This is a letter"
+      },
+      "notes": "Used to refer to alphabet letters"
+    },
+    {
+      "id": "voc6",
+      "georgian": "მხედრული",
+      "transliteration": "mkhedruli",
+      "translation": "Mkhedruli (script)",
+      "ipa": "/mxɛdruli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მხედრული არის ქართული დამწერლობა",
+        "transliteration": "mkhedruli aris kartuli damts'erloba",
+        "translation": "Mkhedruli is Georgian writing"
+      },
+      "notes": "The modern Georgian alphabet"
+    }
+  ]
+}
+

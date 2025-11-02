@@ -1,0 +1,313 @@
+{
+  "lessonId": "b2-5",
+  "lessonTitle": "Series III: Perfect and Pluperfect",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Understanding Perfect vs Aorist",
+      "instructions": "Choose whether each sentence should use Perfect or Aorist tense based on the context.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "You just finished reading a book (relevant to now). How would you say 'I have read the book'?",
+          "questionGeorgian": "წიგნი წაიკითხეთ (თანამედროვე აქტუალურობა)",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "გუშინ წავიკითხე წიგნი",
+              "textGeorgian": "გუშინ წავიკითხე წიგნი"
+            },
+            {
+              "id": "b",
+              "text": "წაიკითხიყავ წიგნი",
+              "textGeorgian": "წაიკითხიყავ წიგნი"
+            },
+            {
+              "id": "c",
+              "text": "ვკითხულობ წიგნს",
+              "textGeorgian": "ვკითხულობ წიგნს"
+            },
+            {
+              "id": "d",
+              "text": "წავიკითხავ წიგნს",
+              "textGeorgian": "წავიკითხავ წიგნს"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Perfect tense (წაიკითხიყავ) is used when an action is completed but relevant to the present moment, showing it's in your experience now.",
+          "explanationGeorgian": "სრულყოფილი დრო გამოიყენება, როდესაც მოქმედება დასრულდა, მაგრამ მიმდინარეა, აჩვენებს, რომ ეს თქვენი გამოცდილებაა ახლა."
+        },
+        {
+          "id": "q2",
+          "question": "Yesterday you wrote a letter (specific past time). What's the correct form?",
+          "questionGeorgian": "გუშინ დაწერა წერილი",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "დავწერიყავ წერილი",
+              "textGeorgian": "დავწერიყავ წერილი"
+            },
+            {
+              "id": "b",
+              "text": "დავწერე წერილი",
+              "textGeorgian": "დავწერე წერილი"
+            },
+            {
+              "id": "c",
+              "text": "ვწერ წერილს",
+              "textGeorgian": "ვწერ წერილს"
+            },
+            {
+              "id": "d",
+              "text": "ვწერილობდე წერილს",
+              "textGeorgian": "ვწერილობდე წერილს"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Aorist tense (დავწერე) is used for simple past facts with specific time references like 'yesterday'.",
+          "explanationGeorgian": "აორისტი გამოიყენება მარტივი წარსული ფაქტებისთვის კონკრეტული დროითი მითითებებით, როგორიცაა 'გუშინ'."
+        },
+        {
+          "id": "q3",
+          "question": "You want to say 'I have worked here for 3 years' (ongoing experience). Which is correct?",
+          "questionGeorgian": "სამი წელი ვმუშაობ აქ (მიმდინარე გამოცდილება)",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "სამი წელი ვიმუშავიყავ აქ",
+              "textGeorgian": "სამი წელი ვიმუშავიყავ აქ"
+            },
+            {
+              "id": "b",
+              "text": "სამი წელი იმუშავე აქ",
+              "textGeorgian": "სამი წელი იმუშავე აქ"
+            },
+            {
+              "id": "c",
+              "text": "სამი წელი ვმუშაობ აქ",
+              "textGeorgian": "სამი წელი ვმუშაობ აქ"
+            },
+            {
+              "id": "d",
+              "text": "სამი წელი მუშაობდა აქ",
+              "textGeorgian": "სამი წელი მუშაობდა აქ"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Despite translating as 'have worked', ongoing duration up to now uses Present tense (ვმუშაობ) in Georgian - it's an imperfective ongoing action.",
+          "explanationGeorgian": "თუმცა თარგმნება, როგორც 'ვმუშაობ', მიმდინარე ხანგრძლივობა ახლამდე იყენებს აწმყო დროს (ვმუშაობ) ქართულში - ეს არასრულყოფილი მიმდინარე მოქმედებაა."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Perfect Tense Formation",
+      "instructions": "Fill in the blank with the correct Perfect form of the verb.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "მე _____ წიგნი გუშინ (I have seen the book)",
+          "correctAnswer": "ვნახიყავ",
+          "alternatives": ["ვნახიყავ", "ვნახე", "ვხედავ", "ვნახავ"],
+          "explanation": "Perfect tense of ხედვა [khedva] is ვნახიყავ for first person."
+        },
+        {
+          "id": "q5",
+          "question": "ის _____ წერილი (He has written the letter)",
+          "correctAnswer": "დაწერიყვის",
+          "alternatives": ["დაწერიყვის", "დაწერა", "წერს", "დაწერს"],
+          "explanation": "Perfect form for third person singular of წერა [ts'era] is დაწერიყვის."
+        },
+        {
+          "id": "q6",
+          "question": "ჩვენ _____ აქ სამი საათი (We have worked here for three hours)",
+          "correctAnswer": "ვიმუშავიყავთ",
+          "alternatives": ["ვიმუშავიყავთ", "იმუშავეთ", "ვმუშაობთ", "იმუშავებთ"],
+          "explanation": "Perfect first person plural of მუშაობა [mushaoba] is ვიმუშავიყავთ."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Pluperfect Usage",
+      "instructions": "Choose the correct Pluperfect form for the given context.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "When I arrived, he had already left. How would you say 'he had left'?",
+          "questionGeorgian": "როცა ჩავედი, ის უკვე _____",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "გავიდა",
+              "textGeorgian": "გავიდა"
+            },
+            {
+              "id": "b",
+              "text": "გავიდემიყვის",
+              "textGeorgian": "გავიდემიყვის"
+            },
+            {
+              "id": "c",
+              "text": "გავა",
+              "textGeorgian": "გავა"
+            },
+            {
+              "id": "d",
+              "text": "მიდის",
+              "textGeorgian": "მიდის"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Pluperfect (გავიდემიყვის) is used when one past action happened before another past action - here, his leaving happened before your arriving.",
+          "explanationGeorgian": "წინადროიტალური გამოიყენება, როდესაც ერთი წარსული მოქმედება მოხდა მეორის წინ - აქ, მისი წასვლა მოხდა თქვენი ჩასვლის წინ."
+        },
+        {
+          "id": "q8",
+          "question": "I had finished my homework before the teacher arrived. 'had finished' is?",
+          "questionGeorgian": "დავასრულეთ საშინაოდრო მასწავლებლის ჩასვლამდე",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "დავასრულედმიყავ",
+              "textGeorgian": "დავასრულედმიყავ"
+            },
+            {
+              "id": "b",
+              "text": "დავასრულე",
+              "textGeorgian": "დავასრულე"
+            },
+            {
+              "id": "c",
+              "text": "ვასრულებდი",
+              "textGeorgian": "ვასრულებდი"
+            },
+            {
+              "id": "d",
+              "text": "ვასრულებ",
+              "textGeorgian": "ვასრულებ"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Pluperfect form დავასრულედმიყავ shows the homework completion happened before the teacher's arrival in the past.",
+          "explanationGeorgian": "წინადროიტალური ფორმა დავასრულედმიყავ აჩვენებს, რომ საშინაოდროს დასრულება მოხდა მასწავლებლის ჩასვლის წინ წარსულში."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "matching",
+      "title": "Series III Stem Recognition",
+      "instructions": "Match each verb's Present form with its corresponding Perfect stem.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q9",
+          "leftItems": [
+            { "id": "l1", "text": "ვხედავ (I see)", "textGeorgian": "ვხედავ" },
+            { "id": "l2", "text": "ვწერ (I write)", "textGeorgian": "ვწერ" },
+            { "id": "l3", "text": "ვკითხულობ (I read)", "textGeorgian": "ვკითხულობ" },
+            { "id": "l4", "text": "ვმუშაობ (I work)", "textGeorgian": "ვმუშაობ" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "ნახი (Perfect stem)", "textGeorgian": "ნახი" },
+            { "id": "r2", "text": "დაწერი (Perfect stem)", "textGeorgian": "დაწერი" },
+            { "id": "r3", "text": "წაიკითხი (Perfect stem)", "textGeorgian": "წაიკითხი" },
+            { "id": "r4", "text": "იმუშავი (Perfect stem)", "textGeorgian": "იმუშავი" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "Each verb has a distinct perfect stem that must be memorized - they don't follow a completely predictable pattern."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Complete the Sentence",
+      "instructions": "Complete each sentence with the correct Perfect or Pluperfect form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "_______ ფილმი, რადგან მინდა განვიხილოთ (I have seen the movie because I want to discuss it)",
+          "questionGeorgian": "_______ ფილმი, რადგან მინდა განვიხილოთ",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ვნახე",
+              "textGeorgian": "ვნახე"
+            },
+            {
+              "id": "b",
+              "text": "ვნახიყავ",
+              "textGeorgian": "ვნახიყავ"
+            },
+            {
+              "id": "c",
+              "text": "ვხედავ",
+              "textGeorgian": "ვხედავ"
+            },
+            {
+              "id": "d",
+              "text": "ვნახავ",
+              "textGeorgian": "ვნახავ"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Perfect tense (ვნახიყავ) is needed here because seeing the movie is completed but relevant to the current desire to discuss it.",
+          "explanationGeorgian": "სრულყოფილი დრო (ვნახიყავ) საჭიროა აქ, რადგან ფილმის ნახვა დასრულებულია, მაგრამ აქტუალურია ახლა განსჯის სურვილით."
+        },
+        {
+          "id": "q11",
+          "question": "_______ წერილი, როცა შენ ჩავედი (I had written the letter when you arrived)",
+          "questionGeorgian": "_______ წერილი, როცა შენ ჩავედი",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "დავწერიყავ",
+              "textGeorgian": "დავწერიყავ"
+            },
+            {
+              "id": "b",
+              "text": "დავწერედმიყავ",
+              "textGeorgian": "დავწერედმიყავ"
+            },
+            {
+              "id": "c",
+              "text": "დავწერე",
+              "textGeorgian": "დავწერე"
+            },
+            {
+              "id": "d",
+              "text": "ვწერილობდი",
+              "textGeorgian": "ვწერილობდი"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Pluperfect (დავწერედმიყავ) is needed because the writing happened before the arrival in the past.",
+          "explanationGeorgian": "წინადროიტალური (დავწერედმიყავ) საჭიროა, რადგან წერა მოხდა ჩასვლის წინ წარსულში."
+        }
+      ]
+    }
+  ]
+}
+

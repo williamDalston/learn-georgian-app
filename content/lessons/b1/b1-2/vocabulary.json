@@ -1,0 +1,287 @@
+{
+  "lessonId": "b1-2",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "პრევერბი",
+      "transliteration": "preverb'i",
+      "translation": "preverb",
+      "ipa": "/prɛvɛrbɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პრევერბი მიუთითებს მიმართულებას",
+        "transliteration": "preverb'i miut'itebs mimart'ulebas",
+        "translation": "The preverb indicates directionality"
+      },
+      "notes": "Grammar term for verb prefixes that indicate direction and aspect"
+    },
+    {
+      "id": "voc2",
+      "georgian": "მიმართულება",
+      "transliteration": "mimart'uleba",
+      "translation": "direction, directionality",
+      "ipa": "/mɪmɑrtʼulɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მი- მიმართულებას აჩვენებს",
+        "transliteration": "mi- mimart'ulebas ach'venebs",
+        "translation": "მი- shows direction"
+      },
+      "notes": "Refers to the directional meaning of preverbs"
+    },
+    {
+      "id": "voc3",
+      "georgian": "მითითება",
+      "transliteration": "mit'iteba",
+      "translation": "aspect",
+      "ipa": "/mɪtʼɪtɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პრევერბი განსაზღვრავს მითითებას",
+        "transliteration": "preverb'i gansazg'vravs mit'itebas",
+        "translation": "The preverb determines aspect"
+      },
+      "notes": "Grammar term for perfective/imperfective aspect"
+    },
+    {
+      "id": "voc4",
+      "georgian": "სრულყოფილი",
+      "transliteration": "srulq'op'ili",
+      "translation": "perfective",
+      "ipa": "/srʊlqʼɔpʼɪlɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "დავწერ სრულყოფილი მითითებაა",
+        "transliteration": "davts'er srulq'op'ili mit'itebaa",
+        "translation": "დავწერ is perfective aspect"
+      },
+      "notes": "Grammar term for completed actions"
+    },
+    {
+      "id": "voc5",
+      "georgian": "არასრულყოფილი",
+      "transliteration": "arasrulq'op'ili",
+      "translation": "imperfective",
+      "ipa": "/ɑrɑsrʊlqʼɔpʼɪlɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ვწერ არასრულყოფილი მითითებაა",
+        "transliteration": "vts'er arasrulq'op'ili mit'itebaa",
+        "translation": "ვწერ is imperfective aspect"
+      },
+      "notes": "Grammar term for ongoing/repeated actions"
+    },
+    {
+      "id": "voc6",
+      "georgian": "მიხედვა",
+      "transliteration": "mikhedva",
+      "translation": "to look toward, to direct one's gaze",
+      "ipa": "/mɪxɛdvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე შენკენ მივხედავ",
+        "transliteration": "me shenken mivkhedav",
+        "translation": "I will look toward you"
+      },
+      "notes": "ხედვა [khedva] 'see' + preverb მი- [mi-] 'toward'"
+    },
+    {
+      "id": "voc7",
+      "georgian": "მივიდა",
+      "transliteration": "mivida",
+      "translation": "went (toward/in)",
+      "ipa": "/mɪvɪdɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ის მივიდა ოთახში",
+        "transliteration": "is mivida otakhshi",
+        "translation": "He went into the room"
+      },
+      "notes": "ვიდა [vida] + preverb მი- [mi-] 'toward'"
+    },
+    {
+      "id": "voc8",
+      "georgian": "დავწერ",
+      "transliteration": "davts'er",
+      "translation": "I will write (perfective)",
+      "ipa": "/dɑvtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "დავწერ წიგნს",
+        "transliteration": "davts'er ts'igns",
+        "translation": "I will write the book"
+      },
+      "notes": "წერა [ts'era] + preverb და- [da-] for perfective aspect"
+    },
+    {
+      "id": "voc9",
+      "georgian": "ვწერ",
+      "transliteration": "vts'er",
+      "translation": "I am writing (imperfective)",
+      "ipa": "/vtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვწერ წიგნს",
+        "transliteration": "vts'er ts'igns",
+        "translation": "I am writing the book"
+      },
+      "notes": "წერა [ts'era] without preverb = imperfective aspect"
+    },
+    {
+      "id": "voc10",
+      "georgian": "გამოწერა",
+      "transliteration": "gamots'era",
+      "translation": "to copy out, transcribe",
+      "ipa": "/ɡɑmɔtsʼɛrɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "გამოვწერ ციტატას",
+        "transliteration": "gamovts'er ts'it'at'as",
+        "translation": "I will copy out the quote"
+      },
+      "notes": "წერა [ts'era] + preverb გა- [ga-] 'out'"
+    },
+    {
+      "id": "voc11",
+      "georgian": "გამოვიდა",
+      "transliteration": "gamovida",
+      "translation": "went out",
+      "ipa": "/ɡɑmɔvɪdɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ბავშვები გარეთ გამოვიდნენ",
+        "transliteration": "bavshvebi garet gamovidnen",
+        "translation": "The children went out"
+      },
+      "notes": "ვიდა [vida] + preverb გა- [ga-] 'out'"
+    },
+    {
+      "id": "voc12",
+      "georgian": "ჩაწერა",
+      "transliteration": "ch'ats'era",
+      "translation": "to record, write into",
+      "ipa": "/tʃʼɑtsʼɛrɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ჩავწერ დავალებას",
+        "transliteration": "ch'avts'er daval'ebas",
+        "translation": "I will write down/record the homework"
+      },
+      "notes": "წერა [ts'era] + preverb ჩაკ- [ch'ak'-] 'into'"
+    },
+    {
+      "id": "voc13",
+      "georgian": "დაჯდა",
+      "transliteration": "dadjda",
+      "translation": "sat down",
+      "ipa": "/dɑdʒdɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "დავჯექი სკამზე",
+        "transliteration": "davjek'i sk'amze",
+        "translation": "I sat down on the chair"
+      },
+      "notes": "ჯდომა [jdoma] 'sit' + preverb და- [da-] 'down'"
+    },
+    {
+      "id": "voc14",
+      "georgian": "მი-",
+      "transliteration": "mi-",
+      "translation": "preverb: toward",
+      "ipa": "/mɪ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "მი- მიუთითებს შენთან მოძრაობას",
+        "transliteration": "mi- miut'itebs shent'an modzraobas",
+        "translation": "მი- indicates movement toward something"
+      },
+      "notes": "Preverb indicating directionality toward something or someone"
+    },
+    {
+      "id": "voc15",
+      "georgian": "გა-",
+      "transliteration": "ga-",
+      "translation": "preverb: out, away from",
+      "ipa": "/ɡɑ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "გა- ნიშნავს გარეთ მოძრაობას",
+        "transliteration": "ga- nishnavs garet modzraobas",
+        "translation": "გა- means movement out/away"
+      },
+      "notes": "Preverb indicating directionality out or away from something"
+    },
+    {
+      "id": "voc16",
+      "georgian": "და-",
+      "transliteration": "da-",
+      "translation": "preverb: down, perfective marker",
+      "ipa": "/dɑ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "და- აღნიშნავს სრულყოფილ მითითებას",
+        "transliteration": "da- aghnishnavs srulq'op'il mit'itebas",
+        "translation": "და- marks perfective aspect"
+      },
+      "notes": "Preverb indicating down direction or perfective aspect"
+    },
+    {
+      "id": "voc17",
+      "georgian": "აკ-",
+      "transliteration": "ak'-",
+      "translation": "preverb: up",
+      "ipa": "/ɑkʼ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "აკ- მიუთითებს ზევით მოძრაობას",
+        "transliteration": "ak'- miut'itebs zevit modzraobas",
+        "translation": "აკ- indicates upward movement"
+      },
+      "notes": "Preverb indicating upward directionality"
+    },
+    {
+      "id": "voc18",
+      "georgian": "ჩაკ-",
+      "transliteration": "ch'ak'-",
+      "translation": "preverb: into",
+      "ipa": "/tʃʼɑkʼ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "ჩაკ- ნიშნავს შიგნით მოძრაობას",
+        "transliteration": "ch'ak'- nishnavs shig'nit modzraobas",
+        "translation": "ჩაკ- means movement into something"
+      },
+      "notes": "Preverb indicating directionality into something"
+    },
+    {
+      "id": "voc19",
+      "georgian": "ოთახი",
+      "transliteration": "otakhi",
+      "translation": "room",
+      "ipa": "/ɔtɑxɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ის მივიდა ოთახში",
+        "transliteration": "is mivida otakhshi",
+        "translation": "He went into the room"
+      },
+      "notes": "Common noun in directional examples. ოთახში [otakhshi] 'in the room'"
+    },
+    {
+      "id": "voc20",
+      "georgian": "გარეთ",
+      "transliteration": "garet",
+      "translation": "outside, out",
+      "ipa": "/ɡɑrɛt/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ჩვენ გარეთ მივდივართ",
+        "transliteration": "ch'ven garet mivdivart",
+        "translation": "We are going outside"
+      },
+      "notes": "Used with preverb გა- [ga-] 'out' to reinforce directionality"
+    }
+  ]
+}
+

@@ -1,0 +1,198 @@
+{
+  "lessonId": "a1-2",
+  "lessonTitle": "Stop Consonants: Voiced, Aspirated, and Ejective",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Consonant Type Identification",
+      "instructions": "Identify whether each consonant is voiced, aspirated, or ejective.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What type of consonant is ბ [b]?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Voiced" },
+            { "id": "b", "text": "Aspirated" },
+            { "id": "c", "text": "Ejective" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ბ [b] is a voiced stop consonant. You can feel your vocal cords vibrate when you say it."
+        },
+        {
+          "id": "q2",
+          "question": "What type of consonant is თ [tʰ]?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Voiced" },
+            { "id": "b", "text": "Aspirated" },
+            { "id": "c", "text": "Ejective" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "თ [tʰ] is an aspirated stop consonant. Notice the [ʰ] symbol which indicates a puff of air when you release the sound."
+        },
+        {
+          "id": "q3",
+          "question": "What type of consonant is კ [kʼ]?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Voiced" },
+            { "id": "b", "text": "Aspirated" },
+            { "id": "c", "text": "Ejective" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "კ [kʼ] is an ejective stop consonant. The [ʼ] symbol indicates glottal closure creating a 'pop' sound."
+        },
+        {
+          "id": "q4",
+          "question": "How do you produce an ejective consonant?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "With a puff of air" },
+            { "id": "b", "text": "With glottal closure and a pop" },
+            { "id": "c", "text": "With vibrating vocal cords" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Ejective consonants are produced by closing the glottis (vocal cords), building pressure, and releasing with a sharp 'pop' sound."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Consonants to Their Types",
+      "instructions": "Match each Georgian consonant with its correct type.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q5",
+          "leftItems": [
+            { "id": "l1", "text": "ბ [b]" },
+            { "id": "l2", "text": "თ [tʰ]" },
+            { "id": "l3", "text": "ტ [tʼ]" },
+            { "id": "l4", "text": "გ [g]" },
+            { "id": "l5", "text": "ქ [kʰ]" },
+            { "id": "l6", "text": "კ [kʼ]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Voiced" },
+            { "id": "r2", "text": "Aspirated" },
+            { "id": "r3", "text": "Ejective" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r1" },
+            { "left": "l5", "right": "r2" },
+            { "left": "l6", "right": "r3" }
+          ],
+          "explanation": "Voiced: ბ [b], გ [g]. Aspirated: თ [tʰ], ქ [kʰ]. Ejective: ტ [tʼ], კ [kʼ]."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "audio",
+      "title": "Pronunciation Practice: Ejective Consonants",
+      "instructions": "Listen to each ejective consonant and repeat. Focus on producing the glottal closure and 'pop' sound.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "audioUrl": "/audio/ejective-k.mp3",
+          "text": "კ",
+          "transliteration": "k'",
+          "translation": "letter k (ejective)",
+          "responseType": "recording",
+          "explanation": "Practice the glottal closure - feel your throat close, then release with a pop."
+        },
+        {
+          "id": "q7",
+          "audioUrl": "/audio/ejective-p.mp3",
+          "text": "პ",
+          "transliteration": "p'",
+          "translation": "letter p (ejective)",
+          "responseType": "recording",
+          "explanation": "Remember: ejective პ [pʼ] has a sharp pop, different from aspirated ფ [pʰ] which has air."
+        },
+        {
+          "id": "q8",
+          "audioUrl": "/audio/ejective-t.mp3",
+          "text": "ტ",
+          "transliteration": "t'",
+          "translation": "letter t (ejective)",
+          "responseType": "recording",
+          "explanation": "Compare ტ [tʼ] (ejective, pop) with თ [tʰ] (aspirated, air) - they sound different to Georgian speakers!"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "fill-blank",
+      "title": "Minimal Pair Practice",
+      "instructions": "Choose the correct consonant to complete each word based on the pronunciation description.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "Complete the word meaning 'goat' (aspirated 't' with air): __ხა",
+          "correctAnswer": "თ",
+          "alternatives": ["თ", "ტ", "დ"],
+          "explanation": "თხა [tʰxa] uses aspirated თ [tʰ] - released with a puff of air."
+        },
+        {
+          "id": "q10",
+          "question": "Complete the word meaning 'lake' (ejective 't' with pop): __ბა",
+          "correctAnswer": "ტ",
+          "alternatives": ["თ", "ტ", "დ"],
+          "explanation": "ტბა [tʼba] uses ejective ტ [tʼ] - produced with glottal closure and pop."
+        },
+        {
+          "id": "q11",
+          "question": "Complete the word meaning 'man' (ejective 'k' with pop): __აცი",
+          "correctAnswer": "კ",
+          "alternatives": ["კ", "ქ", "გ"],
+          "explanation": "კაცი [kʼatsi] uses ejective კ [kʼ] - the glottal pop distinguishes it from aspirated ქ [kʰ]."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Understanding the Distinction",
+      "instructions": "Answer questions about why the tripartite distinction matters.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q12",
+          "question": "Why is it important to distinguish between თ [tʰ] and ტ [tʼ]?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "They can change the meaning of words" },
+            { "id": "b", "text": "It's just for academic interest" },
+            { "id": "c", "text": "Only native speakers care" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "In Georgian, თ [tʰ] and ტ [tʼ] are completely different sounds that can distinguish word meanings. For example: თხა [tʰxa] (goat) vs ტბა [tʼba] (lake)."
+        },
+        {
+          "id": "q13",
+          "question": "What happens if you don't master ejective consonants early?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Pronunciation habits become 'fossilized' and hard to change later" },
+            { "id": "b", "text": "Nothing, you can learn them anytime" },
+            { "id": "c", "text": "You just sound slightly different but it's fine" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Pronunciation fossilization is real. If you don't learn ejectives correctly from the start, incorrect habits become ingrained and are very difficult to change later. This is why we dedicate significant time to them now!"
+        }
+      ]
+    }
+  ]
+}
+

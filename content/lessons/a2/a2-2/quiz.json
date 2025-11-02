@@ -1,0 +1,101 @@
+{
+  "lessonId": "a2-2",
+  "title": "Lesson A2-2 Assessment: Pluralization and Case Suffixes",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the pattern for forming plural nouns with cases in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Root + Case Ending + -eb" },
+        { "id": "b", "text": "Root + -eb + Case Ending" },
+        { "id": "c", "text": "-eb + Root + Case Ending" },
+        { "id": "d", "text": "Root + -ები always" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The correct pattern is Root + -eb + Case Ending. The -eb marker is inserted between the root and the case suffix.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What is the plural Nominative form of წიგნი (ts'igni - book)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "წიგნები (ts'ignebi)" },
+        { "id": "b", "text": "წიგნებს (ts'ignebs)" },
+        { "id": "c", "text": "წიგნების (ts'ignebis)" },
+        { "id": "d", "text": "წიგნებია (ts'ignebia)" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Plural Nominative: Replace -ი with -ები → წიგნები (ts'ignebi). წიგნებს is Dative plural, წიგნების is Genitive plural.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the plural Dative form of კატები (kat'ebi - cats)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "კატები (kat'ebi)" },
+        { "id": "b", "text": "კატებს (kat'ebs)" },
+        { "id": "c", "text": "კატების (kat'ebis)" },
+        { "id": "d", "text": "კატებსა (kat'ebsa)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Plural Dative: Root + -eb + -ს → კატებს (kat'ebs). This is used for objects in sentences.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What is the plural Genitive form of ბავშვები (bavshvebi - children)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ბავშვები (bavshvebi)" },
+        { "id": "b", "text": "ბავშვებს (bavshvebs)" },
+        { "id": "c", "text": "ბავშვების (bavshvebis)" },
+        { "id": "d", "text": "ბავშვებსა (bavshvebsa)" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Plural Genitive: Root + -eb + -ის → ბავშვების (bavshvebis). This shows possession with plural nouns.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "In the sentence 'მე ვხედავ კატებს' (I see the cats), why is კატებს used instead of კატები?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Because it's the subject" },
+        { "id": "b", "text": "Because it's the direct object (Dative case)" },
+        { "id": "c", "text": "Because it's possessive" },
+        { "id": "d", "text": "Because it's singular" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "კატებს is plural Dative because 'the cats' is the direct object of the verb 'I see'. Objects take Dative case, and with plurals, we use the -ებს ending.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Match the forms to their cases:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "წიგნები (ts'ignebi)" },
+        { "id": "l2", "text": "წიგნებს (ts'ignebs)" },
+        { "id": "l3", "text": "წიგნების (ts'ignebis)" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Plural Nominative" },
+        { "id": "r2", "text": "Plural Dative" },
+        { "id": "r3", "text": "Plural Genitive" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "წიგნები ends in -ები (Nominative plural), წიგნებს ends in -ებს (Dative plural), and წიგნების ends in -ების (Genitive plural).",
+      "points": 20
+    }
+  ]
+}
+

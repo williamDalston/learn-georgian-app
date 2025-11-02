@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { isMobile } from '@/lib/utils/mobile'
+import logger from '@/lib/utils/logger'
 import Container from './Container'
 import CTAButton from './CTAButton'
 
@@ -26,11 +27,12 @@ export default class MobileErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    // Log to error reporting service in production
-    if (process.env.NODE_ENV === 'production') {
-      console.error('Error caught by boundary:', error, errorInfo)
-      // TODO: Send to error tracking service (e.g., Sentry)
-    }
+    // Log to error reporting service
+    logger.error('Error caught by boundary', {
+      context: 'MobileErrorBoundary',
+      error,
+      data: { errorInfo },
+    })
   }
 
   handleReset = () => {

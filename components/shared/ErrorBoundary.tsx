@@ -1,6 +1,7 @@
 'use client'
 
 import { Component, ReactNode } from 'react'
+import logger from '@/lib/utils/logger'
 import Container from './Container'
 import CTAButton from './CTAButton'
 
@@ -26,7 +27,11 @@ export default class ErrorBoundary extends Component<Props, State> {
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     // Log error to error reporting service
-    console.error('Error caught by boundary:', error, errorInfo)
+    logger.error('Error caught by boundary', {
+      context: 'ErrorBoundary',
+      error,
+      data: { errorInfo },
+    })
   }
 
   render() {

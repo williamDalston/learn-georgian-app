@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import logger from '@/lib/utils/logger'
 import WelcomeModal from '@/components/dashboard/WelcomeModal'
 import ContinueYourPath from '@/components/dashboard/ContinueYourPath'
 import ProgressTracker from '@/components/dashboard/ProgressTracker'
@@ -47,7 +48,7 @@ export default function DashboardPage() {
 
   const handleTakeTour = () => {
     // Show tour/modal (can be implemented later)
-    console.log('Take tour clicked')
+    logger.debug('Take tour clicked', { context: 'DashboardPage' })
     // Could implement a tour modal here
   }
 
@@ -111,7 +112,7 @@ export default function DashboardPage() {
         </div>
 
         {/* Sidebar - Progress Tracker */}
-        <div className="lg:col-span-1 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+        <div className="lg:col-span-1 space-y-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <ProgressTracker
             daysPracticed={progress.daysPracticed}
             totalTime={progress.totalTime}

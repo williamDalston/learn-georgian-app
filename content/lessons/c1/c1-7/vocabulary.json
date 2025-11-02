@@ -1,0 +1,216 @@
+{
+  "lessonId": "c1-7",
+  "level": "C1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "მგონია",
+      "transliteration": "mgonia",
+      "translation": "I think / It seems to me",
+      "ipa": "/mgɔnɪɑ/",
+      "partOfSpeech": "verb (opinion hedge)",
+      "exampleSentence": {
+        "georgian": "მგონია, ეს არის სერიოზული საკითხი.",
+        "transliteration": "mgonia, es aris seriozuli sak'itshi.",
+        "translation": "I think this is a serious issue."
+      },
+      "notes": "Most common hedging phrase in Georgian debate. Shows intellectual humility while expressing opinion."
+    },
+    {
+      "id": "voc2",
+      "georgian": "შეიძლება",
+      "transliteration": "sheidzleba",
+      "translation": "Perhaps / Maybe",
+      "ipa": "/ʃɛɪdzlɛbɑ/",
+      "partOfSpeech": "modal verb",
+      "exampleSentence": {
+        "georgian": "შეიძლება, ეს პრობლემა გახდება.",
+        "transliteration": "sheidzleba, es p'robl'ema gakhdeba.",
+        "translation": "Perhaps this will become a problem."
+      },
+      "notes": "Soft uncertainty marker. Lower probability than 'ალბათ' (probably)."
+    },
+    {
+      "id": "voc3",
+      "georgian": "ალბათ",
+      "transliteration": "albat",
+      "translation": "Probably / Likely",
+      "ipa": "/ɑlbɑt'/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ალბათ რეფორმა საჭიროა.",
+        "transliteration": "albat rep'orma sachiroa.",
+        "translation": "Reform is probably needed."
+      },
+      "notes": "Higher probability than 'შეიძლება'. Shows considered judgment."
+    },
+    {
+      "id": "voc4",
+      "georgian": "როგორც ჩემი აზრით",
+      "transliteration": "rogorts chemi azrit",
+      "translation": "As far as I'm concerned / In my opinion",
+      "ipa": "/rɔgɔrts tʃɛmɪ ɑzrɪt'/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "როგორც ჩემი აზრით, ეს კატასტროფაა.",
+        "transliteration": "rogorts chemi azrit, es k'at'ast'rophaa.",
+        "translation": "As far as I'm concerned, this is a catastrophe."
+      },
+      "notes": "Stronger opinion marker. Use when you want to clearly stake a position."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ფაქტია რომ",
+      "transliteration": "p'akt'ia rom",
+      "translation": "The fact is that / Factually",
+      "ipa": "/p'ɑkt'ɪɑ rɔm/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "ფაქტია რომ ეკონომიკამ გაძლიერდა.",
+        "transliteration": "p'akt'ia rom ek'onomik'am gadzli'erda.",
+        "translation": "The fact is that the economy strengthened."
+      },
+      "notes": "Use for grounding arguments in facts. Academic and persuasive tone."
+    },
+    {
+      "id": "voc6",
+      "georgian": "არ შემიძლია შევთანხმდე",
+      "transliteration": "ar shemidzlia shevtanx'mde",
+      "translation": "I can't agree / I can't agree with you",
+      "ipa": "/ɑr ʃɛmɪdzlɪɑ ʃɛvtɑnx'mdɛ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "არ შემიძლია შევთანხმდე 100% - სხვა ფაქტორებიც არის.",
+        "transliteration": "ar shemidzlia shevtanx'mde 100% - skhva p'akt'orebits aris.",
+        "translation": "I can't agree 100% - there are other factors too."
+      },
+      "notes": "Softest form of disagreement. Culturally appropriate for Georgian discourse."
+    },
+    {
+      "id": "voc7",
+      "georgian": "თუმცა",
+      "transliteration": "tumts'a",
+      "translation": "However / But",
+      "ipa": "/tumts'ɑ/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "დიახ, გეთანხმებით, თუმცა ასევე გასათვალისწინებელია.",
+        "transliteration": "diakh, getanx'mebit, tumts'a aseve gasatvalists'inebelia.",
+        "translation": "Yes, I agree with you, however we should also consider."
+      },
+      "notes": "Essential contrastive conjunction for nuanced argumentation. Politer than 'მაგრამ'."
+    },
+    {
+      "id": "voc8",
+      "georgian": "გეთანხმებით ნაწილობრივ",
+      "transliteration": "getanx'mebit nats'ilobriv",
+      "translation": "I partly agree with you",
+      "ipa": "/gɛtɑnx'mɛbɪt nɑts'ɪlɔbrɪv/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "გეთანხმებით ნაწილობრივ, მაგრამ გამოსწორებასაც სჭირდება.",
+        "transliteration": "getanx'mebit nats'ilobriv, magram gamosts'orebasats schirdsda.",
+        "translation": "I partly agree with you, but it also needs correction."
+      },
+      "notes": "Balanced disagreement. Shows you acknowledge their valid points while adding your perspective."
+    },
+    {
+      "id": "voc9",
+      "georgian": "მთავრობა",
+      "transliteration": "mtavroba",
+      "translation": "Government",
+      "ipa": "/mt'ɑvrɔbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მთავრობამ გამოაცხადა ახალი პროგრამა.",
+        "transliteration": "mtavrobam gamoatskhada akhali p'rog'rama.",
+        "translation": "The government announced a new program."
+      },
+      "notes": "Essential political vocabulary. Also: მთავარი მინისტრი (Prime Minister)."
+    },
+    {
+      "id": "voc10",
+      "georgian": "პარლამენტი",
+      "transliteration": "parlament'i",
+      "translation": "Parliament",
+      "ipa": "/p'ɑrlɑmɛnt'ɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პარლამენტმა მიიღო კანონი.",
+        "transliteration": "parlament'ma miikho k'anoni.",
+        "translation": "Parliament passed a law."
+      },
+      "notes": "Georgian legislative body. Often discussed in political debates."
+    },
+    {
+      "id": "voc11",
+      "georgian": "ეკონომიკა",
+      "transliteration": "ek'onomik'a",
+      "translation": "Economy",
+      "ipa": "/ɛk'ɔnɔmɪk'ɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეკონომიკამ განიცადა ზრდა.",
+        "transliteration": "ek'onomik'am ganitsada zrda.",
+        "translation": "The economy experienced growth."
+      },
+      "notes": "Critical topic in Georgian debates. Related: ინფლაცია (inflation), ბიუჯეტი (budget)."
+    },
+    {
+      "id": "voc12",
+      "georgian": "კორუფცია",
+      "transliteration": "k'oruptsia",
+      "translation": "Corruption",
+      "ipa": "/k'ɔruptsɪɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კორუფცია სერიოზული პრობლემაა საზოგადოებისთვის.",
+        "transliteration": "k'oruptsia seriozuli p'robl'emaa sazogadoebistvis.",
+        "translation": "Corruption is a serious problem for society."
+      },
+      "notes": "Sensitive but important topic in Georgian political discourse."
+    },
+    {
+      "id": "voc13",
+      "georgian": "უმუშევრობა",
+      "transliteration": "umush'evroba",
+      "translation": "Unemployment",
+      "ipa": "/umush'ɛvrɔbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "უმუშევრობის მაჩვენებელი 10%-მდე გაიზარდა.",
+        "transliteration": "umush'evrobis machvenebeli 10%-mde gaizarda.",
+        "translation": "The unemployment rate grew to 10%."
+      },
+      "notes": "Key economic indicator. Discussed frequently in debates about policy."
+    },
+    {
+      "id": "voc14",
+      "georgian": "სოციალური სამართლიანობა",
+      "transliteration": "sotsialuri samartlianoba",
+      "translation": "Social justice",
+      "ipa": "/sɔtsɪɑlurɪ sɑmɑrtlɪɑnɔbɑ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "სოციალური სამართლიანობის მიღწევა მთავარი მიზანია.",
+        "transliteration": "sotsialuri samartlianobis mikhts'eva mtavari mizania.",
+        "translation": "Achieving social justice is the main goal."
+      },
+      "notes": "Important concept in social policy debates."
+    },
+    {
+      "id": "voc15",
+      "georgian": "ინფლაცია",
+      "transliteration": "inplatsia",
+      "translation": "Inflation",
+      "ipa": "/ɪnplɑtsɪɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ინფლაცია კვლავ იზრდება.",
+        "transliteration": "inplatsia k'vlav izrdeba.",
+        "translation": "Inflation continues to grow."
+      },
+      "notes": "Economic term frequently discussed in political debates."
+    }
+  ]
+}

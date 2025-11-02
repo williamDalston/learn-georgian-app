@@ -4,6 +4,7 @@ import { ReactNode } from 'react'
 import MemberNavigation from '@/components/dashboard/MemberNavigation'
 import Container from '@/components/shared/Container'
 import { useKeyboardShortcuts } from '@/components/dashboard/KeyboardShortcuts'
+import CourseOutlineSidebar from '@/components/dashboard/CourseOutlineSidebar'
 
 export default function DashboardLayout({
   children,
@@ -22,8 +23,9 @@ export default function DashboardLayout({
       <div className="container-custom py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Desktop Sidebar Navigation */}
-          <aside className="hidden lg:block lg:col-span-3">
+          <aside className="hidden lg:block lg:col-span-3 space-y-6">
             <MemberNavigation />
+            <CourseOutlineSidebar />
           </aside>
 
           {/* Main Content */}

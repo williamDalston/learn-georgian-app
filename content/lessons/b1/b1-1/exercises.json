@@ -1,0 +1,251 @@
+{
+  "lessonId": "b1-1",
+  "lessonTitle": "Introduction to Polypersonal Verbs",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Understanding Polypersonal Verbs",
+      "instructions": "Choose the correct answer about polypersonal verbs and Georgian verb structure.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What makes Georgian verbs 'polypersonal'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "They agree with the subject only"
+            },
+            {
+              "id": "b",
+              "text": "They simultaneously mark both the subject AND the object in one verb form"
+            },
+            {
+              "id": "c",
+              "text": "They are conjugated for number only"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Polypersonal verbs are verbs that mark both subject and object simultaneously within the verb itself, which is a distinctive feature of Georgian."
+        },
+        {
+          "id": "q2",
+          "question": "In the verb ვხედავ [vkhedav], what does the prefix ვ- [v-] indicate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "The verb is in past tense"
+            },
+            {
+              "id": "b",
+              "text": "First person singular subject (I)"
+            },
+            {
+              "id": "c",
+              "text": "Imperative mood"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The prefix ვ- [v-] marks first person singular subject (I) in Series I (Present/Future) conjugation."
+        },
+        {
+          "id": "q3",
+          "question": "Which Series covers Present and Future tenses?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Series I"
+            },
+            {
+              "id": "b",
+              "text": "Series II"
+            },
+            {
+              "id": "c",
+              "text": "Series III"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Series I covers both Present and Future tenses in Georgian. Context determines which time frame is intended."
+        },
+        {
+          "id": "q4",
+          "question": "How many verb classes does Georgian have?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Two classes"
+            },
+            {
+              "id": "b",
+              "text": "Four classes"
+            },
+            {
+              "id": "c",
+              "text": "Six classes"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Georgian verbs are organized into four classes (I-IV) based on their grammatical behavior: Class I (Transitive), Class II (Intransitive), Class III (Medial), and Class IV (Indirect)."
+        },
+        {
+          "id": "q5",
+          "question": "Which sentence demonstrates a Class I (Transitive) verb?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მე ვმუშაობ (I work)"
+            },
+            {
+              "id": "b",
+              "text": "მე წიგნს ვკითხულობ (I read the book)"
+            },
+            {
+              "id": "c",
+              "text": "მე მთაში ვარ (I am in the mountains)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Class I verbs are transitive verbs that take a direct object. 'I read the book' has a direct object (book), making it Class I."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Verb Forms to Translations",
+      "instructions": "Match the Georgian verb forms with their correct English translations.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "leftItems": [
+            { "id": "l1", "text": "ვხედავ [vkhedav]" },
+            { "id": "l2", "text": "ხედავ [khedav]" },
+            { "id": "l3", "text": "ხედავს [khedavs]" },
+            { "id": "l4", "text": "ვხედავთ [vkhedavt]" },
+            { "id": "l5", "text": "ხედავენ [khedaven]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "I see" },
+            { "id": "r2", "text": "You see (informal)" },
+            { "id": "r3", "text": "He/She/It sees" },
+            { "id": "r4", "text": "We see" },
+            { "id": "r5", "text": "They see" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" },
+            { "left": "l5", "right": "r5" }
+          ],
+          "explanation": "Remember the Series I conjugation pattern: ვ- [v-] marks first person, -ს [-s] marks third person, -თ [-t] or -ენ [-en] marks plural."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Identify Verb Parts",
+      "instructions": "Analyze the Georgian verb forms and identify the subject markers.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "In the verb ვწერ [vts'er], what is the subject marker?",
+          "correctAnswer": "ვ-",
+          "alternatives": ["ვ-", "ვ", "ვე-"],
+          "explanation": "The prefix ვ- [v-] marks first person singular (I) in Series I conjugation."
+        },
+        {
+          "id": "q8",
+          "question": "In the verb ხედავს [khedavs], what is the subject marker?",
+          "correctAnswer": "-ს",
+          "alternatives": ["-ს", "-ვ", "-თ"],
+          "explanation": "The suffix -ს [-s] marks third person singular (he/she/it) in Series I conjugation."
+        },
+        {
+          "id": "q9",
+          "question": "Which marker indicates first person plural (we)?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ვ- + -თ"
+            },
+            {
+              "id": "b",
+              "text": "ვ- alone"
+            },
+            {
+              "id": "c",
+              "text": "-ს alone"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "First person plural is marked by the combination of ვ- [v-] prefix and -თ [-t] suffix (e.g., ვხედავთ [vkhedavt] 'we see')."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Series I Time Reference",
+      "instructions": "Determine whether these Series I sentences are present or future tense based on context.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "დღეს ვმუშაობ [dgh'es vmushaob]. This sentence means:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "I will work today (future)"
+            },
+            {
+              "id": "b",
+              "text": "I work today / I am working today (present)"
+            },
+            {
+              "id": "c",
+              "text": "I worked today (past)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "დღეს [dgh'es] means 'today,' which indicates present tense. In Georgian, Series I verbs express present tense when there's a present time marker."
+        },
+        {
+          "id": "q11",
+          "question": "ხვალ მე ქართულად ვისწავლი [khval me kart'ulad vists'avli]. This sentence means:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "I studied Georgian yesterday (past)"
+            },
+            {
+              "id": "b",
+              "text": "I am learning Georgian (present)"
+            },
+            {
+              "id": "c",
+              "text": "I will learn Georgian tomorrow (future)"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "ხვალ [khval] means 'tomorrow,' which indicates future tense. In Georgian, Series I verbs express future tense when there's a future time marker."
+        }
+      ]
+    }
+  ]
+}
+

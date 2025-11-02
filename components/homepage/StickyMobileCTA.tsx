@@ -78,7 +78,7 @@ export default function StickyMobileCTA() {
       <div className="bg-white/95 backdrop-blur-sm border-t-2 border-neutral-200 shadow-2xl p-4">
         <div className="max-w-md mx-auto">
           <CTAButton href="/subscribe" variant="primary" size="lg" fullWidth>
-            Start Your Free Trial
+            Start Learning Free
           </CTAButton>
         </div>
       </div>

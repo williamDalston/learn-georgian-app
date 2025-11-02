@@ -1,0 +1,118 @@
+{
+  "lessonId": "a1-1",
+  "title": "Lesson A1-1 Assessment: The Georgian Alphabet",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "How many letters are in the Mkhedruli alphabet?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "26 letters" },
+        { "id": "b", "text": "33 letters" },
+        { "id": "c", "text": "30 letters" },
+        { "id": "d", "text": "28 letters" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The Mkhedruli alphabet consists of exactly 33 letters: 5 vowels and 28 consonants.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Does Georgian have uppercase and lowercase letters like English?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Yes, just like English" },
+        { "id": "b", "text": "No, each letter has only one form" },
+        { "id": "c", "text": "Only for vowels" },
+        { "id": "d", "text": "Only in formal writing" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian has no distinction between uppercase and lowercase letters. Each letter has a single form, which actually makes learning easier!",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "How many vowels does Georgian have?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "6 vowels" },
+        { "id": "b", "text": "5 vowels" },
+        { "id": "c", "text": "4 vowels" },
+        { "id": "d", "text": "7 vowels" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian has 5 vowels: ა [a], ე [e], ი [i], ო [o], and უ [u].",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What is an ejective consonant?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "A consonant made with extra air" },
+        { "id": "b", "text": "A consonant made with glottal closure (a 'pop' sound)" },
+        { "id": "c", "text": "A silent consonant" },
+        { "id": "d", "text": "A consonant only used in formal speech" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Ejective consonants are produced with a glottal closure, creating a distinctive 'pop' sound. Georgian has 6 ejective consonants: კ, პ, ტ, წ, ჭ, and ყ.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match the letters to their sounds:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ა" },
+        { "id": "l2", "text": "ბ" },
+        { "id": "l3", "text": "კ" },
+        { "id": "l4", "text": "თ" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "[a] like 'a' in 'father'" },
+        { "id": "r2", "text": "[b] like English 'b'" },
+        { "id": "r3", "text": "[kʼ] ejective 'k' with pop" },
+        { "id": "r4", "text": "[tʰ] aspirated 't' with air" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Remember: თ is aspirated (with air), კ is ejective (with pop), ა is vowel [a], and ბ is regular [b].",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Which of these are vowels? Select all correct answers.",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ა, ე, ი, ო, უ" },
+        { "id": "b", "text": "ბ, გ, დ" },
+        { "id": "c", "text": "კ, პ, ტ" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Georgian has exactly 5 vowels: ა [a], ე [e], ი [i], ო [o], and უ [u]. All other letters are consonants.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What makes ejective consonants different from regular consonants?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "They are louder" },
+        { "id": "b", "text": "They are produced with glottal closure, creating a 'pop' sound" },
+        { "id": "c", "text": "They are always at the beginning of words" },
+        { "id": "d", "text": "They are only used in formal speech" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Ejective consonants are produced by closing the glottis (vocal cords) and then releasing, creating a distinctive 'pop' sound. This is a unique feature of Georgian phonology.",
+      "points": 20
+    }
+  ]
+}
+

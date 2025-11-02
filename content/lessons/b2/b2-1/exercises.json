@@ -1,0 +1,263 @@
+{
+  "lessonId": "b2-1",
+  "lessonTitle": "Split-Ergativity: The Case Shift Paradigm",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Alignment Systems",
+      "instructions": "For each sentence, identify whether it uses Nominative-Accusative or Ergative-Absolutive alignment.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "მე ვხედავ კატას [me vkhedav kat'as] - 'I see the cat'",
+          "questionGeorgian": "მე ვხედავ კატას",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative-Accusative (Series I)"
+            },
+            {
+              "id": "b",
+              "text": "Ergative-Absolutive (Series II)"
+            },
+            {
+              "id": "c",
+              "text": "Ergative-Absolutive (Series III)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This sentence uses present tense (ვხედავ), which belongs to Series I. Series I uses Nominative-Accusative alignment, where the subject (მე) is in Nominative and the object (კატას) is in Dative case.",
+          "explanationGeorgian": "ეს წინადადება იყენებს აწმყო დროს (ვხედავ), რომელიც ეკუთვნის სერია I-ს. სერია I იყენებს ნომინატივ-აკუზატივ სისტემას."
+        },
+        {
+          "id": "q2",
+          "question": "მან წაიკითხა წიგნი [man ts'aikit'kha ts'igni] - 'He read the book'",
+          "questionGeorgian": "მან წაიკითხა წიგნი",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative-Accusative (Series I)"
+            },
+            {
+              "id": "b",
+              "text": "Ergative-Absolutive (Series II)"
+            },
+            {
+              "id": "c",
+              "text": "Cannot determine"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This sentence uses Aorist tense (წაიკითხა), which belongs to Series II. The subject is Ergative (მან) and the object is in Nominative/Absolutive (წიგნი), showing Ergative-Absolutive alignment.",
+          "explanationGeorgian": "ეს წინადადება იყენებს აორისტს (წაიკითხა), რომელიც ეკუთვნის სერია II-ს. სუბიექტი არის ერგატივი (მან), ობიექტი კი ნომინატივში (წიგნი), რაც აჩვენებს ერგატივ-აბსოლუტივ სისტემას."
+        },
+        {
+          "id": "q3",
+          "question": "ბავშვი თამაშობს [bavshvi tamashobs] - 'The child plays'",
+          "questionGeorgian": "ბავშვი თამაშობს",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative-Accusative (intransitive, no alignment change)"
+            },
+            {
+              "id": "b",
+              "text": "Ergative-Absolutive (Series II)"
+            },
+            {
+              "id": "c",
+              "text": "Both systems apply equally"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This is an intransitive verb (no object). Intransitive verbs use Nominative case for their subjects in both Series I and Series II. The case shift only affects transitive verbs.",
+          "explanationGeorgian": "ეს არის გარდამავალი ზმნა (ობიექტის გარეშე). გარდამავალი ზმნები იყენებენ ნომინატივს სუბიექტისთვის როგორც სერია I-ში, ასევე სერია II-ში. შემთხვევის ცვლილება მხოლოდ გარდამავალ ზმნებზე მოქმედებს."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Case Marking in Different Series",
+      "instructions": "Fill in the blanks with the correct case form. Pay attention to whether the sentence is in Series I (present/future) or Series II (aorist).",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "Present: მე ვხედავ _____ (the book - წიგნი)",
+          "questionGeorgian": "მე ვხედავ _____ (წიგნი)",
+          "correctAnswer": "წიგნს",
+          "alternatives": ["წიგნს", "წიგნი", "წიგნის"],
+          "explanation": "In Series I (present tense), the object takes Dative case. წიგნი becomes წიგნს.",
+          "explanationGeorgian": "სერია I-ში (აწმყო დროს) ობიექტი დატივის შემთხვევაშია. წიგნი ხდება წიგნს."
+        },
+        {
+          "id": "q5",
+          "question": "Past: მე ვნახე _____ (the book - წიგნი)",
+          "questionGeorgian": "მე ვნახე _____ (წიგნი)",
+          "correctAnswer": "წიგნი",
+          "alternatives": ["წიგნი", "წიგნს", "წიგნის"],
+          "explanation": "In Series II (aorist), the object shifts to Nominative/Absolutive case. So წიგნი stays წიგნი (no Dative marker).",
+          "explanationGeorgian": "სერია II-ში (აორისტში) ობიექტი გადადის ნომინატივ/აბსოლუტივ შემთხვევაში. ამიტომ წიგნი რჩება წიგნი (დატივის მარკერის გარეშე)."
+        },
+        {
+          "id": "q6",
+          "question": "Past: _____ (the teacher - მასწავლებელი) ასწავლა სტუდენტები",
+          "questionGeorgian": "_____ (მასწავლებელი) ასწავლა სტუდენტები",
+          "correctAnswer": "მასწავლებელმა",
+          "alternatives": ["მასწავლებელმა", "მასწავლებელი", "მასწავლებელს"],
+          "explanation": "In Series II (aorist) transitive verbs, the subject takes Ergative case. მასწავლებელი becomes მასწავლებელმა with the -მა suffix.",
+          "explanationGeorgian": "სერია II-ში (აორისტში) გარდამავალ ზმნებში, სუბიექტი იღებს ერგატივის შემთხვევას. მასწავლებელი ხდება მასწავლებელმა -მა ბოლოსართით."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Matching Verb Forms to Alignment Systems",
+      "instructions": "Match each verb form to its correct Series and alignment system.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q7",
+          "leftItems": [
+            {
+              "id": "l1",
+              "text": "ვხედავ [vkhedav] - 'I see'"
+            },
+            {
+              "id": "l2",
+              "text": "ვნახე [vnakhe] - 'I saw'"
+            },
+            {
+              "id": "l3",
+              "text": "ვნახვია [vnakhvia] - 'I have seen'"
+            },
+            {
+              "id": "l4",
+              "text": "ვნახავ [vnakhav] - 'I will see'"
+            }
+          ],
+          "rightItems": [
+            {
+              "id": "r1",
+              "text": "Series I - Nominative-Accusative"
+            },
+            {
+              "id": "r2",
+              "text": "Series II - Ergative-Absolutive"
+            },
+            {
+              "id": "r3",
+              "text": "Series III - Ergative-Absolutive"
+            }
+          ],
+          "correctMatches": [
+            {
+              "left": "l1",
+              "right": "r1"
+            },
+            {
+              "left": "l2",
+              "right": "r2"
+            },
+            {
+              "left": "l3",
+              "right": "r3"
+            },
+            {
+              "left": "l4",
+              "right": "r1"
+            }
+          ],
+          "explanation": "ვხედავ (present) and ვნახავ (future) are Series I, using Nominative-Accusative. ვნახე (aorist) is Series II, using Ergative-Absolutive. ვნახვია (perfect) is Series III, using Ergative-Absolutive."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "fill-blank",
+      "title": "Transforming Present to Past Tense",
+      "instructions": "Transform each present tense sentence to past tense, making sure to apply the correct case shift.",
+      "points": 4,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "Present: მასწავლებელი ასწავლის სტუდენტებს [masts'avlebeli asts'avlis st'udent'ebs] - 'The teacher teaches students'",
+          "questionGeorgian": "აწმყო: მასწავლებელი ასწავლის სტუდენტებს",
+          "correctAnswer": "მასწავლებელმა ასწავლა სტუდენტები",
+          "alternatives": ["მასწავლებელმა ასწავლა სტუდენტები", "მასწავლებელი ასწავლა სტუდენტებს", "მასწავლებელმა ასწავლა სტუდენტებს"],
+          "explanation": "In the past tense: subject მასწავლებელი → Ergative მასწავლებელმა; verb ასწავლის → Aorist ასწავლა; object სტუდენტებს (Dative) → სტუდენტები (Absolutive/Nominative).",
+          "explanationGeorgian": "წარსულ დროში: სუბიექტი მასწავლებელი → ერგატივი მასწავლებელმა; ზმნა ასწავლის → აორისტი ასწავლა; ობიექტი სტუდენტებს (დატივი) → სტუდენტები (აბსოლუტივი/ნომინატივი)."
+        },
+        {
+          "id": "q9",
+          "question": "Present: ბავშვი კითხულობს წიგნს [bavshvi kit'khulobs ts'igns] - 'The child reads the book'",
+          "questionGeorgian": "აწმყო: ბავშვი კითხულობს წიგნს",
+          "correctAnswer": "ბავშვმა წაიკითხა წიგნი",
+          "alternatives": ["ბავშვმა წაიკითხა წიგნი", "ბავშვი წაიკითხა წიგნს", "ბავშვმა კითხულობს წიგნი"],
+          "explanation": "Subject ბავშვი → Ergative ბავშვმა; verb კითხულობს → Aorist წაიკითხა; object წიგნს → წიგნი (Dative to Absolutive shift).",
+          "explanationGeorgian": "სუბიექტი ბავშვი → ერგატივი ბავშვმა; ზმნა კითხულობს → აორისტი წაიკითხა; ობიექტი წიგნს → წიგნი (დატივიდან აბსოლუტივში გადასვლა)."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Understanding TAM Features",
+      "instructions": "Answer questions about Tense-Aspect-Mood features and how they relate to alignment systems.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "Which aspect is associated with Ergative-Absolutive alignment in Georgian?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Imperfective aspect (ongoing, habitual actions)"
+            },
+            {
+              "id": "b",
+              "text": "Perfective aspect (completed, whole actions)"
+            },
+            {
+              "id": "c",
+              "text": "Both aspects equally"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Perfective aspect (found in Series II Aorist and Series III Perfect) triggers Ergative-Absolutive alignment. Imperfective aspect (Series I Present/Future) uses Nominative-Accusative alignment."
+        },
+        {
+          "id": "q11",
+          "question": "Why does Georgian use split-ergativity?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "It's arbitrary and has no systematic reason"
+            },
+            {
+              "id": "b",
+              "text": "It's systematically connected to Tense-Aspect-Mood features - perfective aspect triggers ergative alignment"
+            },
+            {
+              "id": "c",
+              "text": "It only happens with certain verb classes"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Split-ergativity in Georgian is systematic and connected to TAM features. Perfective aspect (completed actions) systematically triggers Ergative-Absolutive alignment, while imperfective aspect uses Nominative-Accusative."
+        }
+      ]
+    }
+  ]
+}
+

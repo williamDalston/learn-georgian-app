@@ -1,7 +1,4 @@
-'use client'
-
-import { useState } from 'react'
-import CheckoutForm from '@/components/pricing/CheckoutForm'
+import SignupForm from '@/components/shared/SignupForm'
 
 export default function SubscribePage() {
   return (
@@ -15,12 +12,12 @@ export default function SubscribePage() {
               Start Learning Georgian Today
             </h1>
             <p className="text-lg font-sans text-gray-700">
-              Complete your purchase below to begin your journey to Georgian fluency
+              Create your free account to begin your journey to Georgian fluency
             </p>
           </div>
 
-          {/* Checkout Form */}
-          <CheckoutForm />
+          {/* Signup Form */}
+          <SignupForm />
 
           {/* Footer Links */}
           <div className="mt-12 text-center">

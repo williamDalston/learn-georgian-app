@@ -1,0 +1,217 @@
+{
+  "lessonId": "b1-5",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "უნდა",
+      "transliteration": "unda",
+      "translation": "to want (3rd person), need",
+      "ipa": "/undɑ/",
+      "partOfSpeech": "verb (Class IV)",
+      "exampleSentence": {
+        "georgian": "მე მინდა წყალი",
+        "transliteration": "me minda ts'q'ali",
+        "translation": "I want water",
+        "audioUrl": "/audio/b1-5-voc1.mp3"
+      },
+      "notes": "Class IV verb. Experiencer takes Dative case, theme takes Nominative. Conjugations: მინდა (I want), გინდა (you want), უნდა (he/she wants), გვინდა (we want), გინდათ (you plural want), სურთ (they want)."
+    },
+    {
+      "id": "voc2",
+      "georgian": "მინდა",
+      "transliteration": "minda",
+      "translation": "I want",
+      "ipa": "/mindɑ/",
+      "partOfSpeech": "verb (1st person singular)",
+      "exampleSentence": {
+        "georgian": "მინდა ვაშლი",
+        "transliteration": "minda vashli",
+        "translation": "I want an apple",
+        "audioUrl": "/audio/b1-5-voc2.mp3"
+      },
+      "notes": "1st person singular of უნდა. The subject 'მე' can be omitted."
+    },
+    {
+      "id": "voc3",
+      "georgian": "ცოდნა",
+      "transliteration": "tsodna",
+      "translation": "to know",
+      "ipa": "/tsɔdnɑ/",
+      "partOfSpeech": "verb (Class IV)",
+      "exampleSentence": {
+        "georgian": "მე ვიცი ქართული",
+        "transliteration": "me vitsi kartuli",
+        "translation": "I know Georgian",
+        "audioUrl": "/audio/b1-5-voc3.mp3"
+      },
+      "notes": "Class IV verb. Conjugations: ვიცი (I know), იცი (you know), იცის (he/she knows), ვიცით (we know), იცით (you plural know), იციან (they know)."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ვიცი",
+      "transliteration": "vitsi",
+      "translation": "I know",
+      "ipa": "/vitsi/",
+      "partOfSpeech": "verb (1st person singular)",
+      "exampleSentence": {
+        "georgian": "ვიცი პასუხი",
+        "transliteration": "vitsi p'asukhi",
+        "translation": "I know the answer",
+        "audioUrl": "/audio/b1-5-voc4.mp3"
+      },
+      "notes": "1st person singular of ცოდნა."
+    },
+    {
+      "id": "voc5",
+      "georgian": "მოწონება",
+      "transliteration": "mots'oneba",
+      "translation": "to like, to please",
+      "ipa": "/mɔts'ɔnɛbɑ/",
+      "partOfSpeech": "verb (Class IV)",
+      "exampleSentence": {
+        "georgian": "მე მომწონს ეს ფილმი",
+        "transliteration": "me momts'ons es pilmi",
+        "translation": "I like this film",
+        "audioUrl": "/audio/b1-5-voc5.mp3"
+      },
+      "notes": "Class IV verb meaning 'to like' or 'to please.' In Georgian, it's expressed as 'X pleases me' rather than 'I like X.' Conjugations: მომწონს (it pleases me/I like), მოგწონს (it pleases you/you like), მოსწონს (it pleases him/her/he/she likes)."
+    },
+    {
+      "id": "voc6",
+      "georgian": "მომწონს",
+      "transliteration": "momts'ons",
+      "translation": "I like, it pleases me",
+      "ipa": "/mɔmts'ɔns/",
+      "partOfSpeech": "verb (3rd person, with 1st person experiencer)",
+      "exampleSentence": {
+        "georgian": "მომწონს ქართული მუსიკა",
+        "transliteration": "momts'ons kartuli musika",
+        "translation": "I like Georgian music",
+        "audioUrl": "/audio/b1-5-voc6.mp3"
+      },
+      "notes": "Literally means 'it pleases me' but translates as 'I like.'"
+    },
+    {
+      "id": "voc7",
+      "georgian": "სწავლა",
+      "transliteration": "sts'avla",
+      "translation": "to study, to learn",
+      "ipa": "/sts'ɑvlɑ/",
+      "partOfSpeech": "verb (Class IV)",
+      "exampleSentence": {
+        "georgian": "მე ვსწავლობ ქართულს",
+        "transliteration": "me vsts'avlob kartuls",
+        "translation": "I study Georgian",
+        "audioUrl": "/audio/b1-5-voc7.mp3"
+      },
+      "notes": "Class IV verb. Note that the thing studied often takes Dative case (ქართულს). Conjugations: ვსწავლობ (I study), სწავლობ (you study), სწავლობს (he/she studies)."
+    },
+    {
+      "id": "voc8",
+      "georgian": "ვსწავლობ",
+      "transliteration": "vsts'avlob",
+      "translation": "I study, I learn",
+      "ipa": "/vsts'ɑvlɔb/",
+      "partOfSpeech": "verb (1st person singular)",
+      "exampleSentence": {
+        "georgian": "ვსწავლობ ისტორიას",
+        "transliteration": "vsts'avlob ist'orias",
+        "translation": "I study history",
+        "audioUrl": "/audio/b1-5-voc8.mp3"
+      },
+      "notes": "1st person singular of სწავლა."
+    },
+    {
+      "id": "voc9",
+      "georgian": "გინდა",
+      "transliteration": "ginda",
+      "translation": "you want (informal)",
+      "ipa": "/gindɑ/",
+      "partOfSpeech": "verb (2nd person singular)",
+      "exampleSentence": {
+        "georgian": "გინდა წყალი?",
+        "transliteration": "ginda ts'q'ali?",
+        "translation": "Do you want water?",
+        "audioUrl": "/audio/b1-5-voc9.mp3"
+      },
+      "notes": "2nd person singular of უნდა."
+    },
+    {
+      "id": "voc10",
+      "georgian": "იცი",
+      "transliteration": "itsi",
+      "translation": "you know (informal)",
+      "ipa": "/itsi/",
+      "partOfSpeech": "verb (2nd person singular)",
+      "exampleSentence": {
+        "georgian": "იცი პასუხი?",
+        "transliteration": "itsi p'asukhi?",
+        "translation": "Do you know the answer?",
+        "audioUrl": "/audio/b1-5-voc10.mp3"
+      },
+      "notes": "2nd person singular of ცოდნა."
+    },
+    {
+      "id": "voc11",
+      "georgian": "მოსწონს",
+      "transliteration": "mosts'ons",
+      "translation": "he/she likes, it pleases him/her",
+      "ipa": "/mɔsts'ɔns/",
+      "partOfSpeech": "verb (3rd person, with 3rd person experiencer)",
+      "exampleSentence": {
+        "georgian": "მას მოსწონს წიგნები",
+        "transliteration": "mas mosts'ons ts'ignebi",
+        "translation": "He/She likes books",
+        "audioUrl": "/audio/b1-5-voc11.mp3"
+      },
+      "notes": "3rd person form of მოწონება."
+    },
+    {
+      "id": "voc12",
+      "georgian": "გამოცდილი",
+      "transliteration": "gamotsdili",
+      "translation": "experiencer (linguistic term)",
+      "ipa": "/gɑmɔtsdili/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კლას IV ზმნებში გამოცდილი დატივში დგას",
+        "transliteration": "k'las IV zmnebši gamotsdili dat'ivši dgas",
+        "translation": "In Class IV verbs, the experiencer is in Dative case",
+        "audioUrl": "/audio/b1-5-voc12.mp3"
+      },
+      "notes": "Linguistic term for the person who experiences an emotion, perception, or mental state."
+    },
+    {
+      "id": "voc13",
+      "georgian": "თემა",
+      "transliteration": "tema",
+      "translation": "theme (linguistic term)",
+      "ipa": "/tɛmɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "თემა ნომინატივში დგას",
+        "transliteration": "tema nominat'ivši dgas",
+        "translation": "The theme is in Nominative case",
+        "audioUrl": "/audio/b1-5-voc13.mp3"
+      },
+      "notes": "Linguistic term for the thing being experienced (wanted, known, liked, etc.) in Class IV verbs."
+    },
+    {
+      "id": "voc14",
+      "georgian": "დატივ-ნომინატიური",
+      "transliteration": "dat'iv-nominat'iuri",
+      "translation": "Dative-Nominative (alignment)",
+      "ipa": "/dɑt'iv-nɔminat'iuri/",
+      "partOfSpeech": "adjective/linguistic term",
+      "exampleSentence": {
+        "georgian": "კლას IV ზმნებს აქვთ დატივ-ნომინატიური გათანაბრება",
+        "transliteration": "k'las IV zmnebs akvt dat'iv-nominat'iuri gatanabreba",
+        "translation": "Class IV verbs have Dative-Nominative alignment",
+        "audioUrl": "/audio/b1-5-voc14.mp3"
+      },
+      "notes": "Linguistic term describing the case marking pattern where experiencer is Dative and theme is Nominative."
+    }
+  ]
+}
+

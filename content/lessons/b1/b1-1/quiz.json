@@ -1,0 +1,132 @@
+{
+  "lessonId": "b1-1",
+  "title": "Lesson B1-1 Assessment: Introduction to Polypersonal Verbs",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What does 'polypersonal' mean in the context of Georgian verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Verbs that have many letters" },
+        { "id": "b", "text": "Verbs that mark both subject AND object in a single word form" },
+        { "id": "c", "text": "Verbs that are used in formal speech only" },
+        { "id": "d", "text": "Verbs that mean multiple things" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Polypersonal verbs simultaneously mark both the subject and object in one verb form, which is a distinctive feature of Georgian grammar.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which verb form means 'I see'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ხედავს [khedavs]" },
+        { "id": "b", "text": "ვხედავ [vkhedav]" },
+        { "id": "c", "text": "ხედავ [khedav]" },
+        { "id": "d", "text": "ვხედავთ [vkhedavt]" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვხედავ [vkhedav] means 'I see.' The ვ- [v-] prefix marks first person singular subject.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What tenses does Series I cover in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Past tense only" },
+        { "id": "b", "text": "Present and Future" },
+        { "id": "c", "text": "Present only" },
+        { "id": "d", "text": "Future only" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Series I covers both Present and Future tenses in Georgian. Context determines which time frame is intended.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "How many verb classes does Georgian have?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "2 classes" },
+        { "id": "b", "text": "3 classes" },
+        { "id": "c", "text": "4 classes" },
+        { "id": "d", "text": "5 classes" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Georgian verbs are organized into four classes (I-IV) based on their grammatical behavior: Transitive, Intransitive, Medial, and Indirect.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match the Series I verb forms to their correct translations:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ვხედავ [vkhedav]" },
+        { "id": "l2", "text": "ხედავს [khedavs]" },
+        { "id": "l3", "text": "ვხედავთ [vkhedavt]" },
+        { "id": "l4", "text": "ხედავენ [khedaven]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "I see" },
+        { "id": "r2", "text": "He/She/It sees" },
+        { "id": "r3", "text": "We see" },
+        { "id": "r4", "text": "They see" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Remember: ვ- [v-] marks first person, -ს [-s] marks third person singular, and -ენ [-en] marks third person plural.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "What is the subject marker for third person singular in Series I?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვ- [v-]" },
+        { "id": "b", "text": "-ს [-s]" },
+        { "id": "c", "text": "-თ [-t]" },
+        { "id": "d", "text": "-ებ [-eb]" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The suffix -ს [-s] marks third person singular (he/she/it) in Series I conjugation.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "Which sentence correctly demonstrates a Class I (Transitive) verb?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მე ვმუშაობ [me vmushaob]" },
+        { "id": "b", "text": "მე წიგნს ვკითხულობ [me ts'igns vk'ithulob]" },
+        { "id": "c", "text": "მე კარგად ვარ [me k'argad var]" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class I verbs are transitive verbs that take a direct object. 'I read the book' has a direct object (book), making it Class I. მე ვმუშაობ [me vmushaob] is Class II (intransitive).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "In the sentence: 'დღეს ვმუშაობ [dgh'es vmushaob],' what does the verb indicate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Past tense (I worked today)" },
+        { "id": "b", "text": "Present tense (I am working today)" },
+        { "id": "c", "text": "Future tense (I will work today)" },
+        { "id": "d", "text": "Both present or future, depending on context" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დღეს [dgh'es] means 'today,' which indicates present tense. The same Series I verb form can mean present or future, but the context word 'today' clarifies it's present.",
+      "points": 10
+    }
+  ]
+}
+

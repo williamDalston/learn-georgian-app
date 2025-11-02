@@ -1,3 +1,5 @@
+'use client'
+
 import Image, { ImageProps } from 'next/image'
 
 interface ResponsiveImageProps extends Omit<ImageProps, 'sizes'> {

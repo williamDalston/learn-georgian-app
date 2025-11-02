@@ -1,0 +1,239 @@
+{
+  "lessonId": "b1-5",
+  "lessonTitle": "Class IV (Indirect) Verbs: Emotions and Perception",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Class IV Verb Structure",
+      "instructions": "Choose the sentence that correctly uses Class IV verb structure with Dative-Nominative alignment.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which sentence correctly expresses 'I want the book'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მე მინდა წიგნი (me minda ts'igni)",
+              "textGeorgian": "მე მინდა წიგნი"
+            },
+            {
+              "id": "b",
+              "text": "მე მინდა წიგნს (me minda ts'igns)",
+              "textGeorgian": "მე მინდა წიგნს"
+            },
+            {
+              "id": "c",
+              "text": "მე მინდა წიგნის (me minda ts'ignis)",
+              "textGeorgian": "მე მინდა წიგნის"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "In Class IV verbs, the thing wanted (theme) takes Nominative case. წიგნი (ts'igni) is Nominative, while წიგნს (ts'igns) is Dative and წიგნის (ts'ignis) is Genitive.",
+          "explanationGeorgian": "კლას IV ზმნებში, ნივთი, რომელიც სურთ (თემა) ნომინატივში დგას. წიგნი არის ნომინატივი."
+        },
+        {
+          "id": "q2",
+          "question": "In the sentence 'მე ვიცი ქართული (me vitsi kartuli)', what case is 'მე (me)' in?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Dative"
+            },
+            {
+              "id": "c",
+              "text": "Genitive"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "In Class IV verbs, the experiencer (the person who knows/wants/likes) takes Dative case, even though 'me' (I) appears as the subject in English. This is the key characteristic of Dative-Nominative alignment.",
+          "explanationGeorgian": "კლას IV ზმნებში, გამოცდილი (ადამიანი, რომელმაც იცის/სურს/მოსწონს) დატივში დგას."
+        },
+        {
+          "id": "q3",
+          "question": "Which sentence correctly expresses 'You (informal) like Georgian music'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "შენ მოგწონს ქართული მუსიკა (shen mogts'ons kartuli musika)",
+              "textGeorgian": "შენ მოგწონს ქართული მუსიკა"
+            },
+            {
+              "id": "b",
+              "text": "შენ მოგწონს ქართული მუსიკას (shen mogts'ons kartuli musik'as)",
+              "textGeorgian": "შენ მოგწონს ქართული მუსიკას"
+            },
+            {
+              "id": "c",
+              "text": "შენ მოგწონს ქართული მუსიკის (shen mogts'ons kartuli musik'is)",
+              "textGeorgian": "შენ მოგწონს ქართული მუსიკის"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "The theme (thing liked) in Class IV verbs takes Nominative case. ქართული მუსიკა (kartuli musika) is in Nominative case.",
+          "explanationGeorgian": "თემა (ნივთი, რომელიც მოსწონს) კლას IV ზმნებში ნომინატივში დგას."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Conjugating Class IV Verbs",
+      "instructions": "Fill in the blank with the correct verb form based on the subject.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "მე _____ წიგნი (I want the book)",
+          "correctAnswer": "მინდა",
+          "alternatives": ["მინდა"],
+          "explanation": "მინდა (minda) is the 1st person singular form of უნდა (to want).",
+          "explanationGeorgian": "მინდა არის პირველი პირის მხოლობითი რიცხვი უნდა-ს (to want)."
+        },
+        {
+          "id": "q5",
+          "question": "შენ _____ ქართული (You know Georgian)",
+          "correctAnswer": "იცი",
+          "alternatives": ["იცი"],
+          "explanation": "იცი (itsi) is the 2nd person singular form of ცოდნა (to know).",
+          "explanationGeorgian": "იცი არის მეორე პირის მხოლობითი რიცხვი ცოდნა-ს (to know)."
+        },
+        {
+          "id": "q6",
+          "question": "მას _____ ეს ფილმი (He/She likes this film)",
+          "correctAnswer": "მოსწონს",
+          "alternatives": ["მოსწონს"],
+          "explanation": "მოსწონს (mosts'ons) is the 3rd person form of მოწონება (to like).",
+          "explanationGeorgian": "მოსწონს არის მესამე პირი მოწონება-ს (to like)."
+        },
+        {
+          "id": "q7",
+          "question": "ჩვენ _____ ისტორია (We study history)",
+          "correctAnswer": "ვსწავლობთ",
+          "alternatives": ["ვსწავლობთ"],
+          "explanation": "ვსწავლობთ (vsts'avlobt) is the 1st person plural form of სწავლა (to study).",
+          "explanationGeorgian": "ვსწავლობთ არის პირველი პირის მრავლობითი რიცხვი სწავლა-ს (to study)."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Match the Verb Forms",
+      "instructions": "Match the Georgian verb forms with their English translations.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "leftItems": [
+            { "id": "l1", "text": "მინდა", "textGeorgian": "მინდა" },
+            { "id": "l2", "text": "ვიცი", "textGeorgian": "ვიცი" },
+            { "id": "l3", "text": "მომწონს", "textGeorgian": "მომწონს" },
+            { "id": "l4", "text": "ვსწავლობ", "textGeorgian": "ვსწავლობ" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "I want" },
+            { "id": "r2", "text": "I know" },
+            { "id": "r3", "text": "I like" },
+            { "id": "r4", "text": "I study" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "მინდა = I want (უნდა), ვიცი = I know (ცოდნა), მომწონს = I like (მოწონება), ვსწავლობ = I study (სწავლა)."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "translation",
+      "title": "Translate from English to Georgian",
+      "instructions": "Translate the English sentences into Georgian, paying attention to Class IV verb structure and case marking.",
+      "points": 4,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "I want water.",
+          "correctAnswer": "მე მინდა წყალი",
+          "alternatives": ["მე მინდა წყალი", "მინდა წყალი"],
+          "explanation": "მე (me) = I (Dative), მინდა (minda) = I want, წყალი (ts'q'ali) = water (Nominative). The subject 'მე' can be omitted as it's implied in the verb ending.",
+          "explanationGeorgian": "მე (I) დატივში დგას, წყალი (water) ნომინატივში."
+        },
+        {
+          "id": "q10",
+          "question": "Do you (informal) know the answer?",
+          "correctAnswer": "შენ იცი პასუხი?",
+          "alternatives": ["შენ იცი პასუხი?", "იცი პასუხი?"],
+          "explanation": "შენ (shen) = you (Dative), იცი (itsi) = you know, პასუხი (p'asukhi) = answer (Nominative).",
+          "explanationGeorgian": "შენ (you) დატივში, პასუხი (answer) ნომინატივში."
+        },
+        {
+          "id": "q11",
+          "question": "She likes Georgian food.",
+          "correctAnswer": "მას მოსწონს ქართული საჭმელი",
+          "alternatives": ["მას მოსწონს ქართული საჭმელი"],
+          "explanation": "მას (mas) = she (Dative), მოსწონს (mosts'ons) = likes, ქართული საჭმელი (kartuli sach'meli) = Georgian food (Nominative).",
+          "explanationGeorgian": "მას (she) დატივში, ქართული საჭმელი (Georgian food) ნომინატივში."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Class I vs Class IV Recognition",
+      "instructions": "Identify whether each sentence uses Class I or Class IV verb structure.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q12",
+          "question": "What type of verb is used in 'მე ვხედავ კატას (me vkhedav kat'as - I see the cat)'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (Transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class IV (Indirect)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვხედავ (vkhedav - I see) is a Class I verb. The subject 'მე' is in Nominative case, and the object 'კატას' is in Dative case.",
+          "explanationGeorgian": "ვხედავ არის კლას I ზმნა. სუბიექტი ნომინატივშია, ობიექტი დატივში."
+        },
+        {
+          "id": "q13",
+          "question": "What type of verb is used in 'მე მინდა წიგნი (me minda ts'igni - I want the book)'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (Transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class IV (Indirect)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "მინდა (minda - I want) is a Class IV verb. The experiencer 'მე' is in Dative case, and the theme 'წიგნი' is in Nominative case.",
+          "explanationGeorgian": "მინდა არის კლას IV ზმნა. გამოცდილი დატივშია, თემა ნომინატივში."
+        }
+      ]
+    }
+  ]
+}
+

@@ -27,34 +27,35 @@ export default function ScholarshipSection() {
               }}
               transition={{ duration: 0.3 }}
             >
-            <h3 className="text-2xl md:text-3xl font-serif text-primary-900 mb-4">
-              Our Mission
-            </h3>
-            <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-6">
-              We believe everyone deserves access to quality language education, regardless of their financial situation. 
-              Our mission is to make Georgian language learning accessible to all who are committed to learning.
-            </p>
-            <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-4">
-              If you genuinely cannot afford a subscription, please{' '}
-              <motion.span
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Link
-                  href="/scholarship"
-                  className="text-accent hover:text-accent-dark underline font-semibold transition-colors inline-block"
+              <h3 className="text-2xl md:text-3xl font-serif text-primary-900 mb-4">
+                Our Mission
+              </h3>
+              <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-6">
+                We believe everyone deserves access to quality language education, regardless of their financial situation. 
+                Our mission is to make Georgian language learning accessible to all who are committed to learning.
+              </p>
+              <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-4">
+                The entire course is already completely free for everyone - no financial barriers, no scholarships needed. 
+                Just{' '}
+                <motion.span
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
                 >
-                  request a scholarship
-                </Link>
-              </motion.span>
-              . We're committed to supporting your journey regardless of financial circumstances.
-            </p>
-            <p className="text-sm md:text-base font-sans text-gray-600 italic">
-              "The best time to start your journey was yesterday. The second best time is now."
+                  <Link
+                    href="/subscribe"
+                    className="text-accent hover:text-accent-dark underline font-semibold transition-colors inline-block"
+                  >
+                    create a free account
+                  </Link>
+                </motion.span>
+                {' '}and start your journey to Georgian fluency today.
+              </p>
+              <p className="text-sm md:text-base font-sans text-gray-600 italic">
+                "The best time to start your journey was yesterday. The second best time is now."
               </p>
             </motion.div>
-          </AnimatedSection>
-        </div>
+          </div>
+        </AnimatedSection>
       </Container>
     </section>
   )

@@ -4,49 +4,30 @@ import { motion } from 'framer-motion'
 import Container from '@/components/shared/Container'
 import AnimatedSection from '@/components/shared/AnimatedSection'
 import { staggerContainer, staggerItem, getAnimationVariants } from '@/lib/utils/animations'
+import { courseStructure } from '@/lib/data/courseStructure'
 
 interface Module {
-  week: string
-  title: string
+  level: string
+  name: string
   description: string
+  estimatedHours: { min: number; max: number }
+  lessonCount: number
+  focus: string
 }
 
-const modules: Module[] = [
-  {
-    week: 'Beginner',
-    title: 'Georgian Alphabet & Basics',
-    description: 'Master the unique Georgian script, learn essential greetings, numbers, and basic vocabulary to get started.',
-  },
-  {
-    week: 'Beginner+',
-    title: 'Grammar Foundations',
-    description: 'Build your grammar skills with verb conjugations, noun cases, and sentence structure basics.',
-  },
-  {
-    week: 'Elementary',
-    title: 'Daily Conversations',
-    description: 'Learn to talk about yourself, your family, daily activities, and navigate common situations.',
-  },
-  {
-    week: 'Intermediate',
-    title: 'Complex Grammar & Culture',
-    description: 'Master advanced grammar, idiomatic expressions, and gain insights into Georgian culture and traditions.',
-  },
-  {
-    week: 'Upper-Intermediate',
-    title: 'Fluency Building',
-    description: 'Expand your vocabulary, practice expressing opinions, and handle more complex real-world conversations.',
-  },
-  {
-    week: 'Conversational',
-    title: 'Confident Communication',
-    description: 'Achieve conversational fluency with practice in debates, storytelling, and nuanced cultural communication.',
-  },
-]
+// Transform course structure into display modules
+const modules: Module[] = courseStructure.map((level) => ({
+  level: level.code,
+  name: level.name,
+  description: level.description,
+  estimatedHours: level.estimatedHours,
+  lessonCount: level.lessons.length,
+  focus: level.focus,
+}))
 
 export default function CourseOutline() {
   return (
-    <section className="section-padding bg-gradient-to-b from-neutral-50 to-neutral-100">
+    <section id="course-outline" className="section-padding bg-gradient-to-b from-neutral-50 to-neutral-100">
       <Container>
         <AnimatedSection direction="up">
           <div className="text-center mb-10 sm:mb-12">
@@ -92,32 +73,34 @@ export default function CourseOutline() {
                     whileHover={{ 
                       scale: 1.15,
                       rotate: 5,
-                      ringColor: "rgba(255,125,50,0.5)",
                       boxShadow: "0 10px 25px rgba(255,125,50,0.3)",
                     }}
                     transition={{ duration: 0.3 }}
                   >
                     <span className="text-white font-sans font-bold text-base sm:text-lg">
-                      {index + 1}
+                      {module.level}
                     </span>
                   </motion.div>
                   <div>
                     <span className="text-xs sm:text-sm font-sans font-semibold text-accent uppercase tracking-wide">
-                      {module.week}
+                      {module.name}
                     </span>
+                    <p className="text-xs text-gray-500 mt-0.5">
+                      {module.lessonCount} lessons • {module.estimatedHours.min}-{module.estimatedHours.max} hrs
+                    </p>
                   </div>
                 </div>
 
                 <h3 className="text-lg sm:text-xl font-serif text-primary-900 mb-2 sm:mb-3 leading-tight font-semibold group-hover:text-primary-800 transition-colors">
-                  {module.title}
+                  Level {module.level}: {module.focus}
                 </h3>
                 <p className="text-sm sm:text-base font-sans text-gray-700 leading-relaxed">
                   {module.description}
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         <div className="text-center mt-10 sm:mt-12 px-4 sm:px-0">
           <div className="bg-white rounded-xl p-6 sm:p-8 shadow-md border border-neutral-200 max-w-2xl mx-auto">

@@ -1,5 +1,8 @@
+'use client'
+
 import Container from '@/components/shared/Container'
 import Image from 'next/image'
+import { useState } from 'react'
 
 interface LogoItem {
   name: string
@@ -40,6 +43,12 @@ export default function LogoCloud({
   title = "As Seen In",
   logos = defaultLogos,
 }: LogoCloudProps) {
+  const [failedImages, setFailedImages] = useState<Set<number>>(new Set())
+
+  const handleImageError = (index: number) => {
+    setFailedImages(prev => new Set(prev).add(index))
+  }
+
   return (
     <section className="section-padding bg-white">
       <Container>
@@ -77,29 +86,23 @@ export default function LogoCloud({
                 </a>
               ) : (
                 <div className="w-full max-w-[150px] sm:max-w-[180px] h-12 sm:h-16 relative group">
-                  <Image
-                    src={logo.logo}
-                    alt={logo.alt}
-                    fill
-                    className="object-contain transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 200px"
-                    loading="lazy"
-                    onError={(e) => {
-                      // Hide image if it fails to load and show fallback
-                      const target = e.target as HTMLImageElement
-                      target.style.display = 'none'
-                      const fallback = target.nextElementSibling as HTMLElement
-                      if (fallback) {
-                        fallback.classList.remove('hidden')
-                      }
-                    }}
-                  />
-                  {/* Fallback text if image fails - hidden by default */}
-                  <div className="hidden absolute inset-0 flex items-center justify-center bg-neutral-50 rounded">
-                    <span className="text-xs sm:text-sm font-sans text-gray-400 text-center px-2">
-                      {logo.name}
-                    </span>
-                  </div>
+                  {!failedImages.has(index) ? (
+                    <Image
+                      src={logo.logo}
+                      alt={logo.alt}
+                      fill
+                      className="object-contain transition-transform duration-300 group-hover:scale-105"
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 200px"
+                      loading="lazy"
+                      onError={() => handleImageError(index)}
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center bg-neutral-50 rounded">
+                      <span className="text-xs sm:text-sm font-sans text-gray-400 text-center px-2">
+                        {logo.name}
+                      </span>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

@@ -1,5 +1,11 @@
 'use client'
 
+import { useState, useEffect } from 'react'
+import logger from '@/lib/utils/logger'
+import AchievementBadge from './AchievementBadge'
+import { achievements, getUnlockedAchievements, unlockAchievement, type Achievement } from '@/lib/data/achievements'
+import { checkLevelCompletion, checkAllLevelCompletions } from '@/lib/utils/achievementHelpers'
+
 interface ProgressTrackerProps {
   daysPracticed?: number
   totalTime?: number // in minutes
@@ -20,6 +26,73 @@ export default function ProgressTracker({
   const progressPercentage = totalLessons > 0 
     ? Math.round((completedLessons / totalLessons) * 100) 
     : 0
+  
+  const [recentAchievements, setRecentAchievements] = useState<Achievement[]>([])
+  const [showAchievements, setShowAchievements] = useState(false)
+
+  // Check for new achievements
+  useEffect(() => {
+    const unlocked = getUnlockedAchievements()
+    const unlockedIds = new Set(unlocked.map(a => a.id))
+    
+    // Get completed lesson IDs for level checks
+    let completedLessonIds: string[] = []
+    try {
+      if (typeof window !== 'undefined') {
+        const completed = localStorage.getItem('completedLessons')
+        if (completed) {
+          completedLessonIds = JSON.parse(completed) as string[]
+        }
+      }
+    } catch (err) {
+      logger.error('Failed to load completed lessons', {
+        context: 'ProgressTracker',
+        error: err instanceof Error ? err : new Error(String(err)),
+      })
+    }
+    
+    // Check which achievements should be unlocked
+    achievements.forEach(achievement => {
+      if (!unlockedIds.has(achievement.id)) {
+        let shouldUnlock = false
+        
+        // Special handling for level completion achievements
+        if (achievement.id === 'a1-complete') {
+          shouldUnlock = checkLevelCompletion('A1', completedLessonIds)
+        } else {
+          shouldUnlock = achievement.condition({
+            completedLessons,
+            daysPracticed,
+            currentStreak,
+            totalTime,
+          })
+        }
+        
+        if (shouldUnlock) {
+          unlockAchievement(achievement.id)
+          setRecentAchievements(prev => [...prev, achievement])
+          
+          // Show achievements section if we have new ones
+          setShowAchievements(true)
+        }
+      }
+    })
+  }, [completedLessons, daysPracticed, currentStreak, totalTime])
+
+  // Load unlocked achievements with timestamps
+  const unlockedAchievements = getUnlockedAchievements().map(achievement => {
+    try {
+      const timestamps = localStorage.getItem('achievementTimestamps')
+      const timestampMap = timestamps ? JSON.parse(timestamps) : {}
+      const unlockedAt = timestampMap[achievement.id]
+      return {
+        ...achievement,
+        unlockedAt: unlockedAt ? new Date(unlockedAt) : undefined,
+      }
+    } catch {
+      return achievement
+    }
+  })
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
@@ -144,6 +217,48 @@ export default function ProgressTracker({
           </p>
         </div>
       )}
+
+      {/* Achievements Section */}
+      <div className="mt-6 pt-6 border-t border-gray-200">
+        <div className="flex items-center justify-between mb-4">
+          <h4 className="font-serif text-lg text-primary-900">
+            Achievements
+          </h4>
+          <button
+            onClick={() => setShowAchievements(!showAchievements)}
+            className="font-sans text-xs text-gray-600 hover:text-accent transition-colors"
+          >
+            {showAchievements ? 'Hide' : 'Show'} ({unlockedAchievements.length}/{achievements.length})
+          </button>
+        </div>
+
+        {showAchievements && (
+          <div className="space-y-3 max-h-96 overflow-y-auto">
+            {achievements.map((achievement) => {
+              const unlocked = unlockedAchievements.find(a => a.id === achievement.id)
+              return (
+                <AchievementBadge
+                  key={achievement.id}
+                  achievement={{
+                    ...achievement,
+                    unlockedAt: unlocked?.unlockedAt,
+                  }}
+                />
+              )
+            })}
+          </div>
+        )}
+
+        {/* Quick view: Show count of unlocked achievements */}
+        {!showAchievements && unlockedAchievements.length > 0 && (
+          <div className="flex items-center gap-2 text-sm text-gray-600">
+            <span className="text-2xl">🏆</span>
+            <span className="font-sans">
+              {unlockedAchievements.length} achievement{unlockedAchievements.length !== 1 ? 's' : ''} unlocked
+            </span>
+          </div>
+        )}
+      </div>
     </div>
   )
 }

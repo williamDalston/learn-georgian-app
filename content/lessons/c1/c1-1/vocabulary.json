@@ -1,0 +1,218 @@
+{
+  "lessonId": "c1-1",
+  "level": "C1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "რომელი",
+      "transliteration": "romeli",
+      "translation": "which / what (interrogative/relative)",
+      "ipa": "/rɔmeli/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "რომელი წიგნი მოგწონს?",
+        "transliteration": "romeli ts'igni mogts'ons?",
+        "translation": "Which book do you like?",
+        "audioUrl": "/audio/voc1.mp3"
+      },
+      "notes": "Can function as both interrogative and relative pronoun. Forms: რომელიც (nominative), რომელმაც (ergative), რომელსაც (dative)"
+    },
+    {
+      "id": "voc2",
+      "georgian": "რაც",
+      "transliteration": "rac",
+      "translation": "which / what / that (relative, for things)",
+      "ipa": "/rɑts/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "წიგნი, რაც გუშინ წავიკითხე, საინტერესო იყო.",
+        "transliteration": "ts'igni, rac gushin ts'avik'itkhe, saint'ereso iq'o.",
+        "translation": "The book which I read yesterday was interesting."
+      },
+      "notes": "Formed from რა (ra) + -c enclitic. Used for relative clauses referring to things (not people) in nominative or dative contexts"
+    },
+    {
+      "id": "voc3",
+      "georgian": "რომ",
+      "transliteration": "rom",
+      "translation": "that / which (complementizer)",
+      "ipa": "/rɔm/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "წიგნი, რომ ვკითხულობ, რთულია.",
+        "transliteration": "ts'igni, rom vk'itkhulob, rtulia.",
+        "translation": "The book that I'm reading is difficult."
+      },
+      "notes": "Very common complementizer used to form relative clauses. More neutral than wh-phrases. Can also introduce purpose or content clauses"
+    },
+    {
+      "id": "voc4",
+      "georgian": "სადაც",
+      "transliteration": "sadac",
+      "translation": "where / in which",
+      "ipa": "/sɑdɑts/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ქალაქი, სადაც ვცხოვრობ, მშვენიერია.",
+        "transliteration": "k'alak'i, sadac vtskhovrob, mshvenieria.",
+        "translation": "The city where I live is beautiful."
+      },
+      "notes": "Formed from სად (sad = 'where') + -c enclitic. Can also use რომელშიც (romelshic) meaning 'in which'"
+    },
+    {
+      "id": "voc5",
+      "georgian": "როდესაც",
+      "transliteration": "rodesac",
+      "translation": "when / whenever",
+      "ipa": "/rɔdɛsɑts/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "დრო, როდესაც საქართველოში ვცხოვრობდი, ულამაზესი იყო.",
+        "transliteration": "dro, rodesac Sakartveloshi vtskhovrobdi, ulamazesia iq'o.",
+        "translation": "The time when I lived in Georgia was wonderful."
+      },
+      "notes": "Formed from როდეს (rodes = 'when') + -c. Can also use როდე + რომ (rode + rom)"
+    },
+    {
+      "id": "voc6",
+      "georgian": "ზმნაარსი",
+      "transliteration": "zmn'aarsi",
+      "translation": "participle",
+      "ipa": "/zmnɑrsi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ზმნაარსები რეგულარულად გამოიყენება ქართულ სინტაქსში.",
+        "transliteration": "zmn'aarsebi regul'arulad gamoiyeneba kartul sint'aks'shi.",
+        "translation": "Participles are commonly used in Georgian syntax."
+      },
+      "notes": "Technical term for participle in Georgian grammar"
+    },
+    {
+      "id": "voc7",
+      "georgian": "მწერი",
+      "transliteration": "mts'eri",
+      "translation": "writing / who writes (participle)",
+      "ipa": "/mts'eri/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "მწერი ადამიანი ჩემი მეგობარია.",
+        "transliteration": "mts'eri adamiani chemi megobaria.",
+        "translation": "The writing person is my friend."
+      },
+      "notes": "Present active participle from ჩაწერა (to write). The მ- prefix marks active present participle"
+    },
+    {
+      "id": "voc8",
+      "georgian": "დაწერილი",
+      "transliteration": "dats'erili",
+      "translation": "written / which was written (participle)",
+      "ipa": "/dɑts'erili/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "დაწერილი წიგნი პოპულარულია.",
+        "transliteration": "dats'erili ts'igni p'op'ularulia.",
+        "translation": "The written book is popular."
+      },
+      "notes": "Past passive participle from დაწერა. The -ილი suffix indicates past passive"
+    },
+    {
+      "id": "voc9",
+      "georgian": "წაკითხული",
+      "transliteration": "ts'ak'itkhuli",
+      "translation": "read / which was read (participle)",
+      "ipa": "/ts'ɑk'itkhuli/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "წაკითხული წიგნები თაროზე დავდეთ.",
+        "transliteration": "ts'ak'itkhuli ts'ignebi taroze davdet.",
+        "translation": "Let's put the read books on the shelf."
+      },
+      "notes": "Past passive participle from წაკითხვა"
+    },
+    {
+      "id": "voc10",
+      "georgian": "გაწაფული",
+      "transliteration": "gats'ap'uli",
+      "translation": "trained / educated / who has studied (participle)",
+      "ipa": "/ɡɑts'ɑp'uli/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "გაწაფული სტუდენტები გამოცდაში წარმატებით გაიარეს.",
+        "transliteration": "gats'ap'uli st'udent'ebi gamotsdashi ts'armat'ebit gaiares.",
+        "translation": "The trained students passed the exam successfully."
+      },
+      "notes": "Past passive participle from გაწაფვა (to train, to educate)"
+    },
+    {
+      "id": "voc11",
+      "georgian": "აშენებული",
+      "transliteration": "ashenebuli",
+      "translation": "built / constructed (participle)",
+      "ipa": "/ɑʃɛnɛbuli/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "აშენებული სახლი ძველია.",
+        "transliteration": "ashenebuli sakhli dzvelia.",
+        "translation": "The built house is old."
+      },
+      "notes": "Past passive participle from აშენება (to build)"
+    },
+    {
+      "id": "voc12",
+      "georgian": "გამოცემული",
+      "transliteration": "gamotsemuli",
+      "translation": "published / issued (participle)",
+      "ipa": "/ɡɑmɔtsɛmuli/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "გამოცემული წიგნი ბესტსელერი გახდა.",
+        "transliteration": "gamotsemuli ts'igni bestseleri gadakhda.",
+        "translation": "The published book became a bestseller."
+      },
+      "notes": "Past passive participle from გამოცემა (to publish, to issue)"
+    },
+    {
+      "id": "voc13",
+      "georgian": "შემოსული",
+      "transliteration": "shemosuli",
+      "translation": "entered / who has entered (participle)",
+      "ipa": "/ʃɛmɔsuli/",
+      "partOfSpeech": "participle",
+      "exampleSentence": {
+        "georgian": "შემოსული ბიბლიოთეკა დატვირთული იყო.",
+        "transliteration": "shemosuli bibliotek'a datvir'tuli iq'o.",
+        "translation": "The entered library was crowded."
+      },
+      "notes": "Past passive participle from შემოსვა (to enter)"
+    },
+    {
+      "id": "voc14",
+      "georgian": "ენკლიტიკა",
+      "transliteration": "enk'lit'ik'a",
+      "translation": "enclitic",
+      "ipa": "/ɛnk'lit'ik'ɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "-c არის ენკლიტიკა, რომელიც გამოიყენება ნათესაობით წინადადებებში.",
+        "transliteration": "-c aris enk'lit'ik'a, romelic gamoiyeneba nat'esauobit ts'inadadesebshi.",
+        "translation": "-c is an enclitic that is used in relative clauses."
+      },
+      "notes": "Technical term for enclitic particles in Georgian grammar"
+    },
+    {
+      "id": "voc15",
+      "georgian": "ნათესაობითი",
+      "transliteration": "natesaobiti",
+      "translation": "relative (clause/sentence)",
+      "ipa": "/nɑtɛsɑɔbiti/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ნათესაობით წინადადებაში ვიყენებთ რომელსა-რასთან.",
+        "transliteration": "natesaobit ts'inadadashi vik'enebt romelsa-rastan.",
+        "translation": "In relative clauses we use რომელსა (romelsa) or რასთან (rastan)."
+      },
+      "notes": "Grammatical term for 'relative' in Georgian"
+    }
+  ]
+}
+

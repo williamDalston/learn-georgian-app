@@ -137,7 +137,7 @@ export default function HeroSection() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2 sm:pt-4 px-4 sm:px-0">
                 <CTAButton href="/subscribe" variant="primary" size="lg" className="sm:w-auto group/cta">
                   <span className="flex items-center gap-2">
-                    Start Your Free Trial
+                    Start Learning Free
                     <svg 
                       className="w-5 h-5 transform group-hover/cta:translate-x-1 transition-transform duration-300" 
                       fill="none" 
@@ -150,50 +150,136 @@ export default function HeroSection() {
                   </span>
                 </CTAButton>
               </div>
-              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-sm sm:text-base font-sans text-gray-600 px-4 sm:px-0">
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>30-Day Guarantee</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>Cancel Anytime</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>Self-Paced Learning</span>
-                </div>
-              </div>
+              <motion.div 
+                className="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-sm sm:text-base font-sans text-gray-600 px-4 sm:px-0"
+                initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
+                animate={isVisible || prefersReducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
+              >
+                {[
+                  { text: '100% Free Forever', icon: 'check' },
+                  { text: 'No Credit Card Required', icon: 'check' },
+                  { text: 'Self-Paced Learning', icon: 'check' },
+                ].map((item, index) => (
+                  <motion.div
+                    key={index}
+                    className="flex items-center gap-2 group/trust"
+                    initial={prefersReducedMotion ? {} : { opacity: 0, x: -10 }}
+                    animate={isVisible || prefersReducedMotion ? { opacity: 1, x: 0 } : { opacity: 0, x: -10 }}
+                    transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
+                    whileHover={prefersReducedMotion ? {} : { scale: 1.05 }}
+                  >
+                    <motion.div
+                      className="relative"
+                      whileHover={prefersReducedMotion ? {} : { scale: 1.2, rotate: [0, -10, 10, 0] }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <svg 
+                        className="w-5 h-5 text-accent flex-shrink-0 group-hover/trust:text-accent-dark transition-colors" 
+                        fill="currentColor" 
+                        viewBox="0 0 20 20" 
+                        aria-hidden="true"
+                      >
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </motion.div>
+                    <span className="group-hover/trust:text-primary-900 transition-colors">{item.text}</span>
+                  </motion.div>
+                ))}
+              </motion.div>
             </div>
           </div>
 
           {/* Right Column: Hero Image/Video Placeholder */}
-          <div 
-            className={`relative w-full aspect-video lg:aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 flex items-center justify-center mx-4 sm:mx-0 group transition-all duration-1000 delay-300 ${
-              isVisible || prefersReducedMotion 
-                ? 'opacity-100 translate-x-0 scale-100' 
-                : 'opacity-0 translate-x-8 scale-95'
-            }`}
+          <motion.div 
+            className="relative w-full aspect-video lg:aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 flex items-center justify-center mx-4 sm:mx-0 group"
+            initial={prefersReducedMotion ? {} : { opacity: 0, x: 40, scale: 0.95 }}
+            animate={isVisible || prefersReducedMotion ? { opacity: 1, x: 0, scale: 1 } : { opacity: 0, x: 40, scale: 0.95 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            whileHover={prefersReducedMotion ? {} : { scale: 1.02 }}
           >
             {/* Animated gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-secondary-200/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" aria-hidden="true"></div>
+            <motion.div 
+              className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-secondary-200/20"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              aria-hidden="true"
+            />
+            
+            {/* Animated mesh gradient pattern */}
+            <div className="absolute inset-0 opacity-30" aria-hidden="true">
+              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-300/20 via-transparent to-accent/10"></div>
+              <div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-tl from-secondary-300/20 via-transparent to-primary-300/10"></div>
+            </div>
+            
+            {/* Floating geometric shapes */}
+            {!prefersReducedMotion && (
+              <>
+                <motion.div
+                  className="absolute top-10 right-10 w-20 h-20 border-2 border-accent/20 rounded-lg"
+                  animate={{
+                    rotate: [0, 10, -10, 0],
+                    y: [0, -10, 10, 0],
+                  }}
+                  transition={{
+                    duration: 8,
+                    repeat: Infinity,
+                    ease: 'easeInOut',
+                  }}
+                  aria-hidden="true"
+                />
+                <motion.div
+                  className="absolute bottom-10 left-10 w-16 h-16 border-2 border-primary-300/30 rounded-full"
+                  animate={{
+                    rotate: [0, -15, 15, 0],
+                    scale: [1, 1.1, 1],
+                  }}
+                  transition={{
+                    duration: 6,
+                    repeat: Infinity,
+                    ease: 'easeInOut',
+                    delay: 1,
+                  }}
+                  aria-hidden="true"
+                />
+              </>
+            )}
             
             {/* Placeholder for hero image/video */}
             <div className="text-center p-4 sm:p-8 text-primary-900 relative z-10">
-              <div className="relative inline-block">
+              <motion.div 
+                className="relative inline-block"
+                initial={prefersReducedMotion ? {} : { scale: 0.8, opacity: 0 }}
+                animate={isVisible || prefersReducedMotion ? { scale: 1, opacity: 1 } : { scale: 0.8, opacity: 0 }}
+                transition={{ duration: 0.6, delay: 0.5 }}
+              >
                 {/* Pulsing glow effect */}
-                <div className="absolute inset-0 bg-primary-300 rounded-full opacity-20 blur-3xl animate-pulse-slow" aria-hidden="true"></div>
+                <motion.div 
+                  className="absolute inset-0 bg-primary-300 rounded-full opacity-20 blur-3xl"
+                  animate={prefersReducedMotion ? {} : {
+                    scale: [1, 1.2, 1],
+                    opacity: [0.2, 0.3, 0.2],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: 'easeInOut',
+                  }}
+                  aria-hidden="true"
+                />
                 
-                {/* Icon container with hover effect */}
-                <div className="relative transform group-hover:scale-110 transition-transform duration-500 will-change-transform">
+                {/* Icon container with enhanced hover effect */}
+                <motion.div 
+                  className="relative"
+                  whileHover={prefersReducedMotion ? {} : { 
+                    scale: 1.1,
+                    rotate: [0, -5, 5, 0],
+                  }}
+                  transition={{ duration: 0.3 }}
+                >
                   <svg
-                    className="w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32 mx-auto mb-4 opacity-60"
+                    className="w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32 mx-auto mb-4 text-primary-700"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -207,12 +293,45 @@ export default function HeroSection() {
                       d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
                     />
                   </svg>
-                </div>
-              </div>
-              <p className="font-serif text-sm sm:text-base opacity-90 mb-2 font-medium">Begin Your Journey</p>
-              <p className="font-sans text-xs sm:text-sm opacity-75">Start speaking Georgian today</p>
+                  {/* Play button overlay */}
+                  <motion.div
+                    className="absolute inset-0 flex items-center justify-center"
+                    animate={prefersReducedMotion ? {} : {
+                      scale: [1, 1.05, 1],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: 'easeInOut',
+                    }}
+                    aria-hidden="true"
+                  >
+                    <div className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 bg-accent/80 rounded-full flex items-center justify-center backdrop-blur-sm">
+                      <svg className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </motion.div>
+                </motion.div>
+              </motion.div>
+              <motion.p 
+                className="font-serif text-sm sm:text-base text-primary-900 mb-2 font-medium"
+                initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
+                animate={isVisible || prefersReducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+                transition={{ duration: 0.5, delay: 0.7 }}
+              >
+                Begin Your Journey
+              </motion.p>
+              <motion.p 
+                className="font-sans text-xs sm:text-sm text-primary-700"
+                initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
+                animate={isVisible || prefersReducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+                transition={{ duration: 0.5, delay: 0.8 }}
+              >
+                Start speaking Georgian today
+              </motion.p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </Container>
     </section>

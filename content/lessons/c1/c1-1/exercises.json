@@ -1,0 +1,308 @@
+{
+  "lessonId": "c1-1",
+  "lessonTitle": "Advanced Syntax: Relative Clauses",
+  "level": "C1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Relative Clause Types",
+      "instructions": "Identify which type of relative clause construction is used in each sentence: wh-phrase with -c, rom complementizer, or participle.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What type of relative clause is used in: ჩემს სახლში ცხოვრება ქალი, რომელმაც ქართული ენა მოგვეყვანა.",
+          "questionGeorgian": "ჩემს სახლში ცხოვრება ქალი, რომელმაც ქართული ენა მოგვეყვანა.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Wh-phrase with -c enclitic",
+              "textGeorgian": "რომელი-რა სიტყვებით -c ენკლიტიკით"
+            },
+            {
+              "id": "b",
+              "text": "Rom complementizer",
+              "textGeorgian": "რომ შემსრულებელი"
+            },
+            {
+              "id": "c",
+              "text": "Participle",
+              "textGeorgian": "ზმნაარსი"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "The sentence uses რომელმაც (romel-mac), which is the ergative case form of რომელი (romeli) plus the -c enclitic. This is a wh-phrase relative clause construction.",
+          "explanationGeorgian": "წინადადებაში გამოიყენება რომელმაც, რაც არის რომელის ერგატიული ფორმა -c ენკლიტიკით."
+        },
+        {
+          "id": "q2",
+          "question": "What type of relative clause is used in: წიგნი, რომ მოგვეცა, ძალიან საინტერესოა.",
+          "questionGeorgian": "წიგნი, რომ მოგვეცა, ძალიან საინტერესოა.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Wh-phrase with -c enclitic",
+              "textGeorgian": "რომელი-რა სიტყვებით -c ენკლიტიკით"
+            },
+            {
+              "id": "b",
+              "text": "Rom complementizer",
+              "textGeorgian": "რომ შემსრულებელი"
+            },
+            {
+              "id": "c",
+              "text": "Participle",
+              "textGeorgian": "ზმნაარსი"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This sentence uses the complementizer რომ (rom) directly, without any wh-phrase or -c enclitic. This is the most neutral way to form relative clauses in Georgian.",
+          "explanationGeorgian": "ეს წინადადება იყენებს რომ შემსრულებელს პირდაპირ."
+        },
+        {
+          "id": "q3",
+          "question": "What type of relative clause is used in: შემოსული ბიბლიოთეკა დატვირთული იყო.",
+          "questionGeorgian": "შემოსული ბიბლიოთეკა დატვირთული იყო.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Wh-phrase with -c enclitic",
+              "textGeorgian": "რომელი-რა სიტყვებით -c ენკლიტიკით"
+            },
+            {
+              "id": "b",
+              "text": "Rom complementizer",
+              "textGeorgian": "რომ შემსრულებელი"
+            },
+            {
+              "id": "c",
+              "text": "Participle",
+              "textGeorgian": "ზმნაარსი"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "შემოსული (shemosuli) is a past passive participle meaning 'entered' or 'who had entered'. This is a non-finite relative clause construction, the most elegant and concise form.",
+          "explanationGeorgian": "შემოსული არის წარსული ქმნადი პასიური ზმნაარსი."
+        },
+        {
+          "id": "q4",
+          "question": "What type of relative clause is used in: გასულ წელს დაწერილი წიგნები პოპულარულია.",
+          "questionGeorgian": "გასულ წელს დაწერილი წიგნები პოპულარულია.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Wh-phrase with -c enclitic",
+              "textGeorgian": "რომელი-რა სიტყვებით -c ენკლიტიკით"
+            },
+            {
+              "id": "b",
+              "text": "Rom complementizer",
+              "textGeorgian": "რომ შემსრულებელი"
+            },
+            {
+              "id": "c",
+              "text": "Participle",
+              "textGeorgian": "ზმნაარსი"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "დაწერილი (dats'erili) is a past passive participle meaning 'written' or 'which were written'. This creates an elegant relative clause without needing explicit relative pronouns.",
+          "explanationGeorgian": "დაწერილი არის წარსული ქმნადი პასიური ზმნაარსი."
+        },
+        {
+          "id": "q5",
+          "question": "What type of relative clause is used in: ქალაქი, სადაც ვცხოვრობ, ძალიან ლამაზია.",
+          "questionGeorgian": "ქალაქი, სადაც ვცხოვრობ, ძალიან ლამაზია.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Wh-phrase with -c enclitic",
+              "textGeorgian": "რომელი-რა სიტყვებით -c ენკლიტიკით"
+            },
+            {
+              "id": "b",
+              "text": "Rom complementizer",
+              "textGeorgian": "რომ შემსრულებელი"
+            },
+            {
+              "id": "c",
+              "text": "Participle",
+              "textGeorgian": "ზმნაარსი"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "სადაც (sadac) is a wh-phrase that already includes the -c enclitic. It's formed from სად (sad = 'where') + -c. This is the wh-phrase relative clause pattern.",
+          "explanationGeorgian": "სადაც არის რომელი-რა სიტყვა, რომელიც უკვე შეიცავს -c ენკლიტიკას."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Choosing the Correct Relative Pronoun",
+      "instructions": "Fill in the blank with the correct relative pronoun form, paying attention to case agreement.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "Complete the sentence: ის მასწავლებელი, _____ ამ ლექციას გადმოგვცა, ძალიან კარგია.",
+          "correctAnswer": "რომელმაც",
+          "alternatives": ["რომელმაც", "რომელსაც", "რომ"],
+          "explanation": "The noun მასწავლებელი (teacher) is the subject of the relative clause verb გადმოგვცა (gave us), so it requires ergative case. რომელმაც is the ergative form.",
+          "explanationGeorgian": "მასწავლებელი არის ზმნის სუბიექტი ერგატიულ ფორმაში."
+        },
+        {
+          "id": "q7",
+          "question": "Complete the sentence: წიგნი, _____ გუშინ წავიკითხე, საინტერესო იყო.",
+          "correctAnswer": "რაც",
+          "alternatives": ["რაც", "რომელმაც", "რომ"],
+          "explanation": "For nominative/dative contexts referring to things (not people), რაც (ra-c) is the correct wh-phrase. Alternatively, რომ could also work.",
+          "explanationGeorgian": "რაც გამოიყენება ნივთებისთვის ნომინატიულ/დატიურ კონტექსტში."
+        },
+        {
+          "id": "q8",
+          "question": "Complete the sentence: ის სტუდენტი, _____ ქართული ენა სწავლობს, ჩემი მეგობარია.",
+          "correctAnswer": "რომელიც",
+          "alternatives": ["რომელიც", "რომელმაც", "რომ"],
+          "explanation": "სტუდენტი is the subject in nominative case, so we need რომელიც (romel-ic, nominative form). Note: რომ would also be correct and more neutral.",
+          "explanationGeorgian": "სტუდენტი არის ნომინატიულ ფორმაში, ამიტომ საჭიროა რომელიც."
+        },
+        {
+          "id": "q9",
+          "question": "Complete the sentence: ქალაქი, _____ ბავშვობაში ვცხოვრობდი, დღეს ბევრად უფრო დიდია.",
+          "correctAnswer": "სადაც",
+          "alternatives": ["სადაც", "რომელშიც", "რომელიც"],
+          "explanation": "სადაც means 'where' and is used for location-based relative clauses. რომელშიც means 'in which' and could also work here.",
+          "explanationGeorgian": "სადაც არის \"სად\" ნიშნავს."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "translation",
+      "title": "Translating with Relative Clauses",
+      "instructions": "Translate the following English sentences into Georgian, using the specified relative clause type.",
+      "points": 5,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "Translate using a wh-phrase: 'The teacher who explained this concept is excellent.'",
+          "correctAnswer": "მასწავლებელი, რომელმაც ეს კონცეფცია ამოგვხსნა, ბრწყინვალეა.",
+          "alternatives": [
+            "მასწავლებელი, რომელმაც ეს კონცეფცია ამოგვხსნა, ბრწყინვალეა.",
+            "მასწავლებელი, რომელმა ეს კონცეფცია ამოგვხსნა, ბრწყინვალეა."
+          ],
+          "explanation": "This uses რომელმაც (romel-mac) because the teacher is the subject in ergative case (main verb requires ergative). ამოგვხსნა means 'explained to us'."
+        },
+        {
+          "id": "q11",
+          "question": "Translate using rom: 'The book that I'm reading is challenging.'",
+          "correctAnswer": "წიგნი, რომ ვკითხულობ, რთულია.",
+          "alternatives": [
+            "წიგნი, რომ ვკითხულობ, რთულია.",
+            "წიგნი, რომ მე ვკითხულობ, რთულია."
+          ],
+          "explanation": "რომ creates a neutral relative clause. The verb ვკითხულობ is first person singular present."
+        },
+        {
+          "id": "q12",
+          "question": "Translate using a participle: 'The students who studied hard passed the exam.'",
+          "correctAnswer": "გადახრის სტუდენტები, გამოცდაში გაიარეს.",
+          "alternatives": [
+            "გაწაფული სტუდენტები გამოცდაში ჩააბარეს.",
+            "გაცდნული სტუდენტები გამოცდაში გავიდნენ."
+          ],
+          "explanation": "გაწაფული (gats'ap'uli) means 'trained' or 'who have trained'. Alternatively, 'გადახრის სტუდენტები' (gadakhris st'udent'ebi) means 'students who studied'."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Advanced Participle Formation",
+      "instructions": "Identify the correct participle form or its meaning.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q13",
+          "question": "What does მწერი mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Written / which is written",
+              "textGeorgian": "დაწერილი"
+            },
+            {
+              "id": "b",
+              "text": "Writing / who is writing",
+              "textGeorgian": "რომელიც წერს"
+            },
+            {
+              "id": "c",
+              "text": "Reader / who reads",
+              "textGeorgian": "კითხულობს"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "მწერი is the present active participle from ჩაწერა (to write). It means 'writing' or 'who is writing'."
+        },
+        {
+          "id": "q14",
+          "question": "Which participle form correctly means 'built / which was built'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "აშენებული",
+              "textGeorgian": "აშენებული"
+            },
+            {
+              "id": "b",
+              "text": "მშენებელი",
+              "textGeorgian": "მშენებელი"
+            },
+            {
+              "id": "c",
+              "text": "აშენილი",
+              "textGeorgian": "აშენილი"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "აშენებული is the past passive participle from აშენება. The -ული suffix indicates passive past participle."
+        },
+        {
+          "id": "q15",
+          "question": "What does წაკითხული წიგნი mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "The book that reads",
+              "textGeorgian": "წიგნი, რომელიც კითხულობს"
+            },
+            {
+              "id": "b",
+              "text": "The book that was read",
+              "textGeorgian": "წიგნი, რომელიც წაიკითხეს"
+            },
+            {
+              "id": "c",
+              "text": "The reading book",
+              "textGeorgian": "კითხვის წიგნი"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "წაკითხული (ts'ak'itkhuli) is the past passive participle from წაკითხვა (to read). It means 'that was read'."
+        }
+      ]
+    }
+  ]
+}
+

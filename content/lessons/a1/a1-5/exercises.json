@@ -1,0 +1,220 @@
+{
+  "lessonId": "a1-5",
+  "lessonTitle": "Basic Greetings and Survival Phrases",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Greetings to Situations",
+      "instructions": "Match each greeting with the appropriate situation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "leftItems": [
+            { "id": "l1", "text": "გამარჯობა" },
+            { "id": "l2", "text": "ნახვამდის" },
+            { "id": "l3", "text": "დილა მშვიდობისა" },
+            { "id": "l4", "text": "საღამო მშვიდობისა" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Hello / Goodbye (any time)" },
+            { "id": "r2", "text": "Goodbye" },
+            { "id": "r3", "text": "Good morning" },
+            { "id": "r4", "text": "Good evening" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "გამარჯობა works for hello at any time. ნახვამდის means goodbye. დილა მშვიდობისა is good morning, and საღამო მშვიდობისა is good evening."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "Understanding Formal Address",
+      "instructions": "Choose the correct answer about formal address in Georgian.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q2",
+          "question": "When should you use 'ბატონო' (Batono)?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Only with close friends" },
+            { "id": "b", "text": "When addressing a man formally (Mr.)" },
+            { "id": "c", "text": "Never, it's outdated" },
+            { "id": "d", "text": "Only in writing" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ბატონო (Batono) is used when addressing a man formally, equivalent to 'Mr.' or 'Sir' in English. It shows respect."
+        },
+        {
+          "id": "q3",
+          "question": "What is the female equivalent of 'ბატონო'?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "ბატონო" },
+            { "id": "b", "text": "ქალბატონო" },
+            { "id": "c", "text": "მადამი" },
+            { "id": "d", "text": "ბატონიო" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ქალბატონო (Kalbatono) is the formal address for a woman, equivalent to 'Mrs.' or 'Madam'."
+        },
+        {
+          "id": "q4",
+          "question": "When would you use formal address in Georgia?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Only with strangers and in professional settings" },
+            { "id": "b", "text": "Only with elderly people" },
+            { "id": "c", "text": "Never" },
+            { "id": "d", "text": "Only in restaurants" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Formal address (ბატონო/ქალბატონო) is used with strangers, in professional settings, and when showing respect. It's an important part of Georgian etiquette."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Complete the Greetings",
+      "instructions": "Fill in the blanks with the correct greeting phrase.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "Complete: _____ (hello), როგორ ხართ?",
+          "correctAnswer": "გამარჯობა",
+          "alternatives": ["გამარჯობა", "ნახვამდის", "მადლობა"],
+          "explanation": "გამარჯობა means 'hello' and can be used in any situation."
+        },
+        {
+          "id": "q6",
+          "question": "Complete: _____ (goodbye), გმადლობთ!",
+          "correctAnswer": "ნახვამდის",
+          "alternatives": ["ნახვამდის", "გამარჯობა", "მადლობა"],
+          "explanation": "ნახვამდის means 'goodbye' - literally 'until we see (each other)'."
+        },
+        {
+          "id": "q7",
+          "question": "Complete: _____ (thank you very much) თქვენი დახმარებისთვის!",
+          "correctAnswer": "დიდი მადლობა",
+          "alternatives": ["დიდი მადლობა", "მადლობა", "გმადლობთ"],
+          "explanation": "დიდი მადლობა means 'thank you very much' - didi means 'big' or 'great'."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Expressions of Gratitude",
+      "instructions": "Answer questions about saying thank you in Georgian.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "What is the appropriate response to 'მადლობა' (thank you)?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "არაფერს (You're welcome)" },
+            { "id": "b", "text": "გამარჯობა (Hello)" },
+            { "id": "c", "text": "ნახვამდის (Goodbye)" },
+            { "id": "d", "text": "დიახ (Yes)" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "არაფერს means 'you're welcome' or literally 'nothing' - it's the standard polite response to thank you."
+        },
+        {
+          "id": "q9",
+          "question": "What does 'დიდი მადლობა' literally mean?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Thank you very much (big thanks)" },
+            { "id": "b", "text": "Thank you once" },
+            { "id": "c", "text": "Thank you later" },
+            { "id": "d", "text": "Thank you politely" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "დიდი means 'big' or 'great', so დიდი მადლობა literally means 'big thanks' or 'thank you very much'."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "audio",
+      "title": "Pronunciation Practice: Greetings",
+      "instructions": "Listen and repeat each greeting. Focus on proper pronunciation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "audioUrl": "/audio/gamarjoba.mp3",
+          "text": "გამარჯობა",
+          "transliteration": "gamarjoba",
+          "translation": "hello",
+          "responseType": "recording",
+          "explanation": "Practice: ga-mar-jo-ba. This is the most important greeting you'll use every day!"
+        },
+        {
+          "id": "q11",
+          "audioUrl": "/audio/nakhvamdis.mp3",
+          "text": "ნახვამდის",
+          "transliteration": "nakhvamdis",
+          "translation": "goodbye",
+          "responseType": "recording",
+          "explanation": "Practice: nakh-vam-dis. Literally means 'until we see (each other)'."
+        },
+        {
+          "id": "q12",
+          "audioUrl": "/audio/madloba.mp3",
+          "text": "მადლობა",
+          "transliteration": "madloba",
+          "translation": "thank you",
+          "responseType": "recording",
+          "explanation": "Practice: mad-lo-ba. Essential for showing gratitude in Georgia!"
+        },
+        {
+          "id": "q13",
+          "audioUrl": "/audio/batono.mp3",
+          "text": "ბატონო",
+          "transliteration": "batono",
+          "translation": "sir / Mr.",
+          "responseType": "recording",
+          "explanation": "Practice: ba-to-no. Use this when addressing a man formally."
+        }
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "translation",
+      "title": "Translation Practice",
+      "instructions": "Translate these common phrases between Georgian and English.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q14",
+          "question": "Translate to Georgian: 'Hello, how are you?' (formal)",
+          "correctAnswer": "გამარჯობა, როგორ ხართ?",
+          "alternatives": ["გამარჯობა, როგორ ხართ?", "ნახვამდის, როგორ ხართ?", "გამარჯობა, როგორ ხარ?"],
+          "explanation": "გამარჯობა means hello, and როგორ ხართ? is the formal 'how are you?' (ხართ is formal, ხარ is informal)."
+        },
+        {
+          "id": "q15",
+          "question": "Translate to English: 'ნახვამდის, დიდი მადლობა'",
+          "correctAnswer": "Goodbye, thank you very much",
+          "alternatives": ["Goodbye, thank you very much", "Hello, thank you", "See you, thanks"],
+          "explanation": "ნახვამდის means goodbye, and დიდი მადლობა means thank you very much."
+        }
+      ]
+    }
+  ]
+}
+

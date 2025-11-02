@@ -1,0 +1,239 @@
+{
+  "lessonId": "b1-2",
+  "lessonTitle": "Preverbs: Directionality and Perfective Aspect",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Understanding Preverbs",
+      "instructions": "Choose the correct answer about preverbs and their functions in Georgian.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What are the two main functions of preverbs in Georgian?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tense and mood"
+            },
+            {
+              "id": "b",
+              "text": "Directionality and aspect"
+            },
+            {
+              "id": "c",
+              "text": "Number and person"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Preverbs serve two functions: they indicate directionality (where the action moves) and mark aspect (perfective vs imperfective)."
+        },
+        {
+          "id": "q2",
+          "question": "What does imperfective aspect indicate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Completed action"
+            },
+            {
+              "id": "b",
+              "text": "Ongoing, repeated, or habitual action"
+            },
+            {
+              "id": "c",
+              "text": "Future action only"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Imperfective aspect indicates ongoing, repeated, or habitual actions. In Georgian, verbs without preverbs are imperfective."
+        },
+        {
+          "id": "q3",
+          "question": "In Georgian, how is perfective aspect marked?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "By adding -და [-da] suffix"
+            },
+            {
+              "id": "b",
+              "text": "By adding a preverb prefix"
+            },
+            {
+              "id": "c",
+              "text": "By changing the verb ending"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Perfective aspect is marked by adding a preverb prefix to the verb (e.g., და- [da-], მი- [mi-], გა- [ga-])."
+        },
+        {
+          "id": "q4",
+          "question": "What direction does the preverb მი- [mi-] indicate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Away from"
+            },
+            {
+              "id": "b",
+              "text": "Toward"
+            },
+            {
+              "id": "c",
+              "text": "Up"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The preverb მი- [mi-] indicates directionality TOWARD something or someone."
+        },
+        {
+          "id": "q5",
+          "question": "What direction does the preverb გა- [ga-] typically indicate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Into"
+            },
+            {
+              "id": "b",
+              "text": "Out, away from"
+            },
+            {
+              "id": "c",
+              "text": "Down"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The preverb გა- [ga-] typically indicates directionality OUT or AWAY FROM something."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Preverbs to Their Meanings",
+      "instructions": "Match each preverb with its correct directional meaning.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "leftItems": [
+            { "id": "l1", "text": "მი- [mi-]" },
+            { "id": "l2", "text": "გა- [ga-]" },
+            { "id": "l3", "text": "აკ- [ak'-]" },
+            { "id": "l4", "text": "ჩაკ- [ch'ak'-]" },
+            { "id": "l5", "text": "და- [da-]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Toward" },
+            { "id": "r2", "text": "Out, away from" },
+            { "id": "r3", "text": "Up" },
+            { "id": "r4", "text": "Into" },
+            { "id": "r5", "text": "Down" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" },
+            { "left": "l5", "right": "r5" }
+          ],
+          "explanation": "Remember the directionality of each preverb: მი- toward, გა- out/away, აკ- up, ჩაკ- into, და- down."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Aspect Identification",
+      "instructions": "Identify whether each sentence demonstrates perfective or imperfective aspect.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "ვწერ წიგნს [vts'er ts'igns]. This sentence demonstrates:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Imperfective aspect (no preverb, ongoing action)"
+            },
+            {
+              "id": "b",
+              "text": "Perfective aspect (completed action)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვწერ [vts'er] has no preverb, indicating imperfective aspect - the action is ongoing or habitual."
+        },
+        {
+          "id": "q8",
+          "question": "დავწერ წიგნს [davts'er ts'igns]. This sentence demonstrates:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Imperfective aspect"
+            },
+            {
+              "id": "b",
+              "text": "Perfective aspect (და- [da-] preverb marks completion)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "დავწერ [davts'er] has the preverb და- [da-], indicating perfective aspect - the action will be completed."
+        },
+        {
+          "id": "q9",
+          "question": "ვკითხულობ წიგნს [vk'ithulob ts'igns]. This sentence demonstrates:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Imperfective aspect (habitual reading)"
+            },
+            {
+              "id": "b",
+              "text": "Perfective aspect"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვკითხულობ [vk'ithulob] has no preverb, indicating imperfective aspect - this is habitual or ongoing reading."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "fill-blank",
+      "title": "Complete with Correct Preverb",
+      "instructions": "Add the correct preverb to make the sentence show perfective aspect.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "ვ_____წერ წიგნს (I will write the book - complete action)",
+          "correctAnswer": "დავწერ",
+          "alternatives": ["დავწერ", "მივწერ", "გავწერ"],
+          "explanation": "დავწერ [davts'er] 'I will write' uses the და- [da-] preverb to show perfective aspect."
+        },
+        {
+          "id": "q11",
+          "question": "ის _____ვიდა ოთახში (He went into the room)",
+          "correctAnswer": "მივიდა",
+          "alternatives": ["მივიდა", "ჩავიდა", "გავიდა"],
+          "explanation": "მივიდა [mivida] uses the preverb მი- [mi-] meaning 'went toward/into.'"
+        }
+      ]
+    }
+  ]
+}
+

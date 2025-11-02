@@ -1,0 +1,175 @@
+{
+  "lessonId": "a2-1",
+  "lessonTitle": "Introduction to Noun Cases: Nominative, Dative, Genitive",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Case Recognition",
+      "instructions": "Identify which case is being used in each sentence.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "In the sentence 'კატა ხედავს' (kat'a khedavs - The cat sees), what case is კატა (kat'a)?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative (subject)"
+            },
+            {
+              "id": "b",
+              "text": "Dative (object)"
+            },
+            {
+              "id": "c",
+              "text": "Genitive (possession)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "კატა (kat'a) is in Nominative case because it is the subject of the sentence - the one doing the action (seeing)."
+        },
+        {
+          "id": "q2",
+          "question": "In the sentence 'მე ვხედავ კატას' (me vkhedav kat'as - I see the cat), what case is კატას (kat'as)?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative (subject)"
+            },
+            {
+              "id": "b",
+              "text": "Dative (object)"
+            },
+            {
+              "id": "c",
+              "text": "Genitive (possession)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "კატას (kat'as) is in Dative case because it is the direct object - receiving the action of being seen. Notice the -ს ending, which is the typical Dative marker."
+        },
+        {
+          "id": "q3",
+          "question": "In the sentence 'ეს არის ბავშვის წიგნი' (es aris bavshvis ts'igni - This is the child's book), what case is ბავშვის (bavshvis)?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative (subject)"
+            },
+            {
+              "id": "b",
+              "text": "Dative (object)"
+            },
+            {
+              "id": "c",
+              "text": "Genitive (possession)"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "ბავშვის (bavshvis) is in Genitive case because it shows possession - the book belongs to the child. Notice the -ის ending, which is the typical Genitive marker."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Case Transformation",
+      "instructions": "Transform each noun from Nominative to Dative and Genitive forms.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "Transform წიგნი (ts'igni - book) to Dative case: _____",
+          "correctAnswer": "წიგნს",
+          "alternatives": ["წიგნს"],
+          "explanation": "To form Dative, add -ს to the base form: წიგნი → წიგნს (ts'igni → ts'igns)"
+        },
+        {
+          "id": "q5",
+          "question": "Transform წიგნი (ts'igni - book) to Genitive case: _____",
+          "correctAnswer": "წიგნის",
+          "alternatives": ["წიგნის"],
+          "explanation": "To form Genitive, replace the final vowel with -ის: წიგნი → წიგნის (ts'igni → ts'ignis)"
+        },
+        {
+          "id": "q6",
+          "question": "Transform სახლი (sakhli - house) to Dative case: _____",
+          "correctAnswer": "სახლს",
+          "alternatives": ["სახლს"],
+          "explanation": "To form Dative, add -ს to the base: სახლი → სახლს (sakhli → sakhl-s)"
+        },
+        {
+          "id": "q7",
+          "question": "Transform სახლი (sakhli - house) to Genitive case: _____",
+          "correctAnswer": "სახლის",
+          "alternatives": ["სახლის"],
+          "explanation": "To form Genitive, replace the final vowel with -ის: სახლი → სახლის (sakhli → sakhlis)"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Match Cases to Functions",
+      "instructions": "Match each case with its function in Georgian sentences.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "leftItems": [
+            { "id": "l1", "text": "Nominative" },
+            { "id": "l2", "text": "Dative" },
+            { "id": "l3", "text": "Genitive" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Shows possession (of, 's)" },
+            { "id": "r2", "text": "Subject of sentence (who does the action)" },
+            { "id": "r3", "text": "Direct object (who receives the action)" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r2" },
+            { "left": "l2", "right": "r3" },
+            { "left": "l3", "right": "r1" }
+          ],
+          "explanation": "Nominative marks the subject, Dative marks the direct/indirect object, and Genitive shows possession."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "fill-blank",
+      "title": "Complete the Sentences",
+      "instructions": "Fill in the blank with the correct case form of the noun in parentheses.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "მე ვკითხულობ _____ (წიგნი - book).",
+          "correctAnswer": "წიგნს",
+          "alternatives": ["წიგნს"],
+          "explanation": "Use Dative case (წიგნს) because the book is the direct object of the verb 'I read'."
+        },
+        {
+          "id": "q10",
+          "question": "ეს არის _____ (ბავშვი - child) სახლი.",
+          "correctAnswer": "ბავშვის",
+          "alternatives": ["ბავშვის"],
+          "explanation": "Use Genitive case (ბავშვის) because it shows possession - the house belongs to the child."
+        },
+        {
+          "id": "q11",
+          "question": "_____ (კატა - cat) თამაშობს. (The cat plays)",
+          "correctAnswer": "კატა",
+          "alternatives": ["კატა"],
+          "explanation": "Use Nominative case (კატა) because the cat is the subject of the sentence."
+        }
+      ]
+    }
+  ]
+}
+

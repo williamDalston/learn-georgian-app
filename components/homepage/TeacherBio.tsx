@@ -32,7 +32,7 @@ export default function TeacherBio({
   philosophy = 'Learning Georgian isn\'t just about memorizing vocabulary or grammar rules—it\'s about connecting with a rich culture and history. We focus on practical communication skills while respecting the beautiful complexity of the language. No boring drills or outdated methods. Instead, you\'ll learn through engaging videos, interactive exercises, and real conversations that prepare you to actually use Georgian in daily life.',
 }: TeacherBioProps) {
   return (
-    <section className="section-padding bg-gradient-to-b from-white via-neutral-50/50 to-white relative overflow-hidden">
+    <section id="teacher" className="section-padding bg-gradient-to-b from-white via-neutral-50/50 to-white relative overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-30 pointer-events-none" aria-hidden="true">
         <div className="absolute top-20 right-10 w-64 h-64 bg-primary-200/20 rounded-full blur-3xl"></div>
@@ -126,8 +126,8 @@ export default function TeacherBio({
                   </li>
                 )}
               </ul>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           {/* Right Column - Narrative & Philosophy */}
           <motion.div 

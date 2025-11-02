@@ -1,0 +1,187 @@
+{
+  "lessonId": "a2-2",
+  "lessonTitle": "Pluralization and Case Suffixes",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill-blank",
+      "title": "Plural Formation",
+      "instructions": "Transform each singular noun into plural Nominative form.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "კატა (kat'a - cat) → plural: _____",
+          "correctAnswer": "კატები",
+          "alternatives": ["კატები"],
+          "explanation": "Add -eb and then -ი to form plural: კატა → კატები (kat'a → kat'ebi)"
+        },
+        {
+          "id": "q2",
+          "question": "წიგნი (ts'igni - book) → plural: _____",
+          "correctAnswer": "წიგნები",
+          "alternatives": ["წიგნები"],
+          "explanation": "Replace -ი with -ები: წიგნი → წიგნები (ts'igni → ts'ignebi)"
+        },
+        {
+          "id": "q3",
+          "question": "სახლი (sakhli - house) → plural: _____",
+          "correctAnswer": "სახლები",
+          "alternatives": ["სახლები"],
+          "explanation": "Replace -ი with -ები: სახლი → სახლები (sakhli → sakhl-ebi)"
+        },
+        {
+          "id": "q4",
+          "question": "ბავშვი (bavshvi - child) → plural: _____",
+          "correctAnswer": "ბავშვები",
+          "alternatives": ["ბავშვები"],
+          "explanation": "Replace -ი with -ები: ბავშვი → ბავშვები (bavshvi → bavshv-ebi)"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Plural with Dative Case",
+      "instructions": "Transform each noun to plural Dative form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "კატები (cats - Nominative plural) → Dative plural: _____",
+          "correctAnswer": "კატებს",
+          "alternatives": ["კატებს"],
+          "explanation": "Root + -eb + -ს: კატები → კატებს (kat'ebi → kat'ebs)"
+        },
+        {
+          "id": "q6",
+          "question": "წიგნები (books - Nominative plural) → Dative plural: _____",
+          "correctAnswer": "წიგნებს",
+          "alternatives": ["წიგნებს"],
+          "explanation": "Root + -eb + -ს: წიგნები → წიგნებს (ts'ignebi → ts'ignebs)"
+        },
+        {
+          "id": "q7",
+          "question": "სახლები (houses - Nominative plural) → Dative plural: _____",
+          "correctAnswer": "სახლებს",
+          "alternatives": ["სახლებს"],
+          "explanation": "Root + -eb + -ს: სახლები → სახლებს (sakhl-ebi → sakhl-ebs)"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Plural with Genitive Case",
+      "instructions": "Transform each noun to plural Genitive form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "კატები (cats - Nominative plural) → Genitive plural: _____",
+          "correctAnswer": "კატების",
+          "alternatives": ["კატების"],
+          "explanation": "Root + -eb + -ის: კატები → კატების (kat'ebi → kat'ebis)"
+        },
+        {
+          "id": "q9",
+          "question": "ბავშვები (children - Nominative plural) → Genitive plural: _____",
+          "correctAnswer": "ბავშვების",
+          "alternatives": ["ბავშვების"],
+          "explanation": "Root + -eb + -ის: ბავშვები → ბავშვების (bavshv-ebi → bavshv-ebis)"
+        },
+        {
+          "id": "q10",
+          "question": "წიგნები (books - Nominative plural) → Genitive plural: _____",
+          "correctAnswer": "წიგნების",
+          "alternatives": ["წიგნების"],
+          "explanation": "Root + -eb + -ის: წიგნები → წიგნების (ts'ignebi → ts'ignebis)"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Identify Plural Forms",
+      "instructions": "Choose the correct plural form for each sentence.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q11",
+          "question": "Which form correctly means 'I see the cats'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მე ვხედავ კატას"
+            },
+            {
+              "id": "b",
+              "text": "მე ვხედავ კატებს"
+            },
+            {
+              "id": "c",
+              "text": "მე ვხედავ კატები"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Use plural Dative: კატებს (kat'ebs). კატას is singular, and კატები is Nominative plural (can't be used as object)."
+        },
+        {
+          "id": "q12",
+          "question": "Which form correctly means 'the children's books'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ბავშვების წიგნები"
+            },
+            {
+              "id": "b",
+              "text": "ბავშვის წიგნები"
+            },
+            {
+              "id": "c",
+              "text": "ბავშვები წიგნები"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Use plural Genitive: ბავშვების (bavshvebis) shows possession. ბავშვის is singular, and ბავშვები without case ending doesn't show possession."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "title": "Match Singular to Plural",
+      "instructions": "Match each singular form with its correct plural form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q13",
+          "leftItems": [
+            { "id": "l1", "text": "კატა (cat)" },
+            { "id": "l2", "text": "წიგნი (book)" },
+            { "id": "l3", "text": "სახლი (house)" },
+            { "id": "l4", "text": "ბავშვი (child)" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "კატები (cats)" },
+            { "id": "r2", "text": "წიგნები (books)" },
+            { "id": "r3", "text": "სახლები (houses)" },
+            { "id": "r4", "text": "ბავშვები (children)" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "All follow the pattern: replace final vowel with -ები (-ebi) for plural Nominative."
+        }
+      ]
+    }
+  ]
+}
+

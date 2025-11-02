@@ -1,0 +1,115 @@
+{
+  "lessonId": "a2-1",
+  "title": "Lesson A2-1 Assessment: Introduction to Noun Cases",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "How many cases are there in Georgian total?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "3 cases" },
+        { "id": "b", "text": "5 cases" },
+        { "id": "c", "text": "7 cases" },
+        { "id": "d", "text": "10 cases" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Georgian has 7 cases total. In this lesson, we learned the 3 most fundamental ones: Nominative, Dative, and Genitive.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which case is used for the subject of a sentence?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "Instrumental" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Nominative case is used for the subject - the person or thing doing the action. This is the dictionary form of the noun.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What ending typically marks Dative case?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "-ის" },
+        { "id": "b", "text": "-ს" },
+        { "id": "c", "text": "-მ" },
+        { "id": "d", "text": "-თ" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Dative case typically ends in -ს (s). For example: კატა (cat - Nominative) becomes კატას (cat - Dative).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What ending typically marks Genitive case?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "-ის" },
+        { "id": "b", "text": "-ს" },
+        { "id": "c", "text": "-მ" },
+        { "id": "d", "text": "-თ" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Genitive case typically ends in -ის (is). For example: ბავშვი (child - Nominative) becomes ბავშვის (child's - Genitive).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "In the sentence 'მე ვხედავ კატას' (I see the cat), what case is კატას?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative - it's the subject" },
+        { "id": "b", "text": "Dative - it's the direct object" },
+        { "id": "c", "text": "Genitive - it shows possession" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "კატას is in Dative case because it is the direct object - the thing receiving the action (being seen). Notice the -ს ending.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Does Georgian have grammatical gender (like masculine/feminine)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Yes, just like Spanish or French" },
+        { "id": "b", "text": "No, Georgian has no grammatical gender" },
+        { "id": "c", "text": "Only for some nouns" },
+        { "id": "d", "text": "Only in formal speech" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian has no grammatical gender. Unlike languages like Spanish (el/la) or French (le/la), Georgian doesn't assign gender to nouns. This actually makes things simpler!",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "Match the cases to their functions:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "Nominative" },
+        { "id": "l2", "text": "Dative" },
+        { "id": "l3", "text": "Genitive" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Shows possession (of, 's)" },
+        { "id": "r2", "text": "Subject of sentence" },
+        { "id": "r3", "text": "Direct or indirect object" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r2" },
+        { "left": "l2", "right": "r3" },
+        { "left": "l3", "right": "r1" }
+      ],
+      "explanation": "Nominative marks subjects, Dative marks objects (both direct and indirect), and Genitive shows possession or relationships.",
+      "points": 20
+    }
+  ]
+}
+

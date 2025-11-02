@@ -1,0 +1,198 @@
+{
+  "lessonId": "a2-3",
+  "lessonTitle": "Postpositions and Case Requirements",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Postposition-Case Matching",
+      "instructions": "Match each postposition with the case it requires.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which case does -tvis (for) require?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Dative"
+            },
+            {
+              "id": "c",
+              "text": "Genitive"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "-tvis requires Genitive case. Example: ბავშვისთვის (bavshvistvis - for the child) uses Genitive ბავშვის."
+        },
+        {
+          "id": "q2",
+          "question": "Which case does -shi (in, at) require?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Dative"
+            },
+            {
+              "id": "c",
+              "text": "Genitive"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "-shi requires Dative case. Example: სახლში (sakhlshi - in the house) uses Dative სახლს + -shi."
+        },
+        {
+          "id": "q3",
+          "question": "Which case does -dan (from) require?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Dative"
+            },
+            {
+              "id": "c",
+              "text": "Genitive"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "-dan requires Genitive case. Example: სახლიდან (sakhlidan - from the house) uses Genitive სახლის + -dan."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Form Postposition Phrases",
+      "instructions": "Create the correct postposition phrase for each noun.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "ბავშვი (child) + -tvis = _____ (for the child)",
+          "correctAnswer": "ბავშვისთვის",
+          "alternatives": ["ბავშვისთვის"],
+          "explanation": "ბავშვი (Nominative) → ბავშვის (Genitive) → ბავშვისთვის (Genitive + -tvis)"
+        },
+        {
+          "id": "q5",
+          "question": "სახლი (house) + -shi = _____ (in the house)",
+          "correctAnswer": "სახლში",
+          "alternatives": ["სახლში"],
+          "explanation": "სახლი (Nominative) → სახლს (Dative) → სახლში (Dative + -shi)"
+        },
+        {
+          "id": "q6",
+          "question": "წიგნი (book) + -dan = _____ (from the book)",
+          "correctAnswer": "წიგნიდან",
+          "alternatives": ["წიგნიდან"],
+          "explanation": "წიგნი (Nominative) → წიგნის (Genitive) → წიგნიდან (Genitive + -dan)"
+        },
+        {
+          "id": "q7",
+          "question": "ქალაქი (city) + -shi = _____ (in the city)",
+          "correctAnswer": "ქალაქში",
+          "alternatives": ["ქალაქში"],
+          "explanation": "ქალაქი (Nominative) → ქალაქს (Dative) → ქალაქში (Dative + -shi)"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Complete the Sentences",
+      "instructions": "Fill in the blank with the correct postposition phrase.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "ეს არის _____ (for the child).",
+          "correctAnswer": "ბავშვისთვის",
+          "alternatives": ["ბავშვისთვის"],
+          "explanation": "Use -tvis with Genitive: ბავშვისთვის (bavshvistvis)"
+        },
+        {
+          "id": "q9",
+          "question": "წიგნი არის _____ (in the house).",
+          "correctAnswer": "სახლში",
+          "alternatives": ["სახლში"],
+          "explanation": "Use -shi with Dative: სახლში (sakhlshi)"
+        },
+        {
+          "id": "q10",
+          "question": "მე მოვდივარ _____ (from the city).",
+          "correctAnswer": "ქალაქიდან",
+          "alternatives": ["ქალაქიდან"],
+          "explanation": "Use -dan with Genitive: ქალაქიდან (kalak'idan)"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Identify Postpositions",
+      "instructions": "Identify which postposition is used in each phrase.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q11",
+          "question": "What does ბავშვისთვის (bavshvistvis) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "for the child"
+            },
+            {
+              "id": "b",
+              "text": "in the child"
+            },
+            {
+              "id": "c",
+              "text": "from the child"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "-თვის (-tvis) means 'for'. ბავშვისთვის = for the child."
+        },
+        {
+          "id": "q12",
+          "question": "What does სახლში (sakhlshi) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "for the house"
+            },
+            {
+              "id": "b",
+              "text": "in the house"
+            },
+            {
+              "id": "c",
+              "text": "from the house"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "-ში (-shi) means 'in' or 'at'. სახლში = in the house."
+        }
+      ]
+    }
+  ]
+}
+

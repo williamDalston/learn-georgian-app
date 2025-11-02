@@ -1,0 +1,189 @@
+{
+  "lessonId": "a2-2",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "კატები",
+      "transliteration": "kat'ebi",
+      "translation": "cats (plural)",
+      "ipa": "/kʼɑtʼɛbi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კატები თამაშობენ",
+        "transliteration": "kat'ebi tamashoben",
+        "translation": "The cats play"
+      },
+      "notes": "Plural Nominative. Formed: Root + -eb + -ი"
+    },
+    {
+      "id": "voc2",
+      "georgian": "კატებს",
+      "transliteration": "kat'ebs",
+      "translation": "cats (Dative plural)",
+      "ipa": "/kʼɑtʼɛbs/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვხედავ კატებს",
+        "transliteration": "me vkhedav kat'ebs",
+        "translation": "I see the cats"
+      },
+      "notes": "Plural Dative. Formed: Root + -eb + -ს"
+    },
+    {
+      "id": "voc3",
+      "georgian": "კატების",
+      "transliteration": "kat'ebis",
+      "translation": "of the cats / cats'",
+      "ipa": "/kʼɑtʼɛbis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კატების სახლები",
+        "transliteration": "kat'ebis sakhl-ebi",
+        "translation": "The cats' houses"
+      },
+      "notes": "Plural Genitive. Formed: Root + -eb + -ის"
+    },
+    {
+      "id": "voc4",
+      "georgian": "წიგნები",
+      "transliteration": "ts'ignebi",
+      "translation": "books (plural)",
+      "ipa": "/tsʼiɡnɛbi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წიგნები მაგიდაზეა",
+        "transliteration": "ts'ignebi magidazea",
+        "translation": "The books are on the table"
+      },
+      "notes": "Plural Nominative"
+    },
+    {
+      "id": "voc5",
+      "georgian": "წიგნებს",
+      "transliteration": "ts'ignebs",
+      "translation": "books (Dative plural)",
+      "ipa": "/tsʼiɡnɛbs/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვკითხულობ წიგნებს",
+        "transliteration": "me vkit'khulob ts'ignebs",
+        "translation": "I read the books"
+      },
+      "notes": "Plural Dative"
+    },
+    {
+      "id": "voc6",
+      "georgian": "წიგნების",
+      "transliteration": "ts'ignebis",
+      "translation": "of the books / books'",
+      "ipa": "/tsʼiɡnɛbis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წიგნების გვერდები",
+        "transliteration": "ts'ignebis gverdebi",
+        "translation": "The books' pages"
+      },
+      "notes": "Plural Genitive"
+    },
+    {
+      "id": "voc7",
+      "georgian": "ბავშვები",
+      "transliteration": "bavshvebi",
+      "translation": "children (plural)",
+      "ipa": "/bɑvʃvɛbi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ბავშვები თამაშობენ",
+        "transliteration": "bavshvebi tamashoben",
+        "translation": "The children play"
+      },
+      "notes": "Plural Nominative"
+    },
+    {
+      "id": "voc8",
+      "georgian": "ბავშვებს",
+      "transliteration": "bavshvebs",
+      "translation": "children (Dative plural)",
+      "ipa": "/bɑvʃvɛbs/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვაძლევ ბავშვებს წიგნებს",
+        "transliteration": "me vadzlev bavshvebs ts'ignebs",
+        "translation": "I give the children books"
+      },
+      "notes": "Plural Dative"
+    },
+    {
+      "id": "voc9",
+      "georgian": "ბავშვების",
+      "transliteration": "bavshvebis",
+      "translation": "of the children / children's",
+      "ipa": "/bɑvʃvɛbis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეს არის ბავშვების წიგნები",
+        "transliteration": "es aris bavshvebis ts'ignebi",
+        "translation": "These are the children's books"
+      },
+      "notes": "Plural Genitive"
+    },
+    {
+      "id": "voc10",
+      "georgian": "სახლები",
+      "transliteration": "sakhlebi",
+      "translation": "houses (plural)",
+      "ipa": "/sɑxlɛbi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სახლები დიდია",
+        "transliteration": "sakhlebi didia",
+        "translation": "The houses are big"
+      },
+      "notes": "Plural Nominative"
+    },
+    {
+      "id": "voc11",
+      "georgian": "სახლების",
+      "transliteration": "sakhlebis",
+      "translation": "of the houses / houses'",
+      "ipa": "/sɑxlɛbis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სახლების კედლები",
+        "transliteration": "sakhlebis k'edlebi",
+        "translation": "The walls of the houses"
+      },
+      "notes": "Plural Genitive"
+    },
+    {
+      "id": "voc12",
+      "georgian": "მრავლობითი",
+      "transliteration": "mravlobiti",
+      "translation": "plural",
+      "ipa": "/mrɑvlɔbiti/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მრავლობითი ფორმა",
+        "transliteration": "mravlobiti porma",
+        "translation": "plural form"
+      },
+      "notes": "Grammar term for plural number"
+    },
+    {
+      "id": "voc13",
+      "georgian": "ერთობითი",
+      "transliteration": "ertobiti",
+      "translation": "singular",
+      "ipa": "/ɛrtʼɔbiti/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ერთობითი ფორმა",
+        "transliteration": "ertobiti porma",
+        "translation": "singular form"
+      },
+      "notes": "Grammar term for singular number"
+    }
+  ]
+}
+

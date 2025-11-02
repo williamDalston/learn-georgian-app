@@ -1,0 +1,219 @@
+{
+  "lessonId": "c1-1",
+  "lessonTitle": "Advanced Syntax: Relative Clauses",
+  "level": "C1",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz1",
+      "question": "Which relative clause type is most common in spoken Georgian?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Wh-phrases with -c enclitic"
+        },
+        {
+          "id": "b",
+          "text": "Rom complementizer"
+        },
+        {
+          "id": "c",
+          "text": "Participles"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Wh-phrases with the -c enclitic (like რომელმაც, რაც) are the most common in everyday spoken Georgian, especially for emphasis and specificity."
+    },
+    {
+      "id": "quiz2",
+      "question": "In the sentence 'ის კაცი, რომელმაც დაწერა ეს წიგნი, ცნობილი მწერალია,' what case is რომელმაც?",
+      "questionGeorgian": "ის კაცი, რომელმაც დაწერა ეს წიგნი, ცნობილი მწერალია",
+      "type": "multiple-choice",
+      "points": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominative"
+        },
+        {
+          "id": "b",
+          "text": "Ergative"
+        },
+        {
+          "id": "c",
+          "text": "Dative"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რომელმაც is in ergative case because it refers to 'კაცი' (the man) who is the subject of the past transitive verb დაწერა (wrote). In Georgian past tense, transitive subjects take ergative case."
+    },
+    {
+      "id": "quiz3",
+      "question": "Which is the correct participle for 'who is reading'?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "კითხული",
+          "textGeorgian": "კითხული"
+        },
+        {
+          "id": "b",
+          "text": "მკითხავი",
+          "textGeorgian": "მკითხავი"
+        },
+        {
+          "id": "c",
+          "text": "კითხულობს",
+          "textGeorgian": "კითხულობს"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "მკითხავი is the present active participle from კითხვა (to read). The მ- prefix marks active present participle. კითხული is past passive, and კითხულობს is a finite verb form, not a participle."
+    },
+    {
+      "id": "quiz4",
+      "question": "What does რომ primarily introduce in relative clauses?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Emphasis and specificity"
+        },
+        {
+          "id": "b",
+          "text": "Neutral, formal connections"
+        },
+        {
+          "id": "c",
+          "text": "Question phrases"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რომ is a neutral complementizer that forms relative clauses without emphasis. It's preferred in formal and literary contexts, creating smooth connections without the specific weight of wh-phrases."
+    },
+    {
+      "id": "quiz5",
+      "question": "How would you say 'The students who studied hard passed' using a participle?",
+      "type": "translation",
+      "points": 5,
+      "correctAnswer": "გაწაფული სტუდენტები გამოცდაში ჩააბარეს.",
+      "alternatives": [
+        "გაწაფული სტუდენტები გამოცდაში ჩააბარეს.",
+        "გადახრის სტუდენტები გამოცდაში ჩააბარეს."
+      ],
+      "explanation": "გაწაფული (gats'ap'uli) is the participle meaning 'trained' or 'who studied/have studied'. This is more elegant than using explicit relative clauses with wh-phrases or rom."
+    },
+    {
+      "id": "quiz6",
+      "question": "Fill in: წიგნი, _____ გუშინ წავიკითხე, ძალიან კარგი იყო.",
+      "questionGeorgian": "წიგნი, _____ გუშინ წავიკითხე, ძალიან კარგი იყო.",
+      "type": "fill-blank",
+      "points": 3,
+      "correctAnswer": "რაც",
+      "alternatives": ["რაც", "რომელმაც", "რომ"],
+      "explanation": "რაც (ra-c) is correct here because 'წიგნი' (book) is a thing in nominative context. რომ could also work, but რაც is more specific. რომელმაც would be for people or ergative subjects."
+    },
+    {
+      "id": "quiz7",
+      "question": "What suffix typically marks past passive participles in Georgian?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "-მა prefix"
+        },
+        {
+          "id": "b",
+          "text": "-ი or -ული suffix"
+        },
+        {
+          "id": "c",
+          "text": "-ს suffix"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Past passive participles use the -ი (-i) or -ული (-uli) suffix. For example: დაწერილი, წაკითხული, გაწაფული. The მ- prefix is for present active participles."
+    },
+    {
+      "id": "quiz8",
+      "question": "In which contexts are non-finite relative clauses (participles) most appropriate?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Everyday spoken conversation"
+        },
+        {
+          "id": "b",
+          "text": "Literary and formal writing"
+        },
+        {
+          "id": "c",
+          "text": "Questions and interrogatives"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Participles create the most elegant and concise relative clauses, making them preferred in literary texts and formal writing. While correct in all contexts, they particularly shine in sophisticated prose."
+    },
+    {
+      "id": "quiz9",
+      "question": "What is the plural form of რომელმაც?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "რომლებმაც",
+          "textGeorgian": "რომლებმაც"
+        },
+        {
+          "id": "b",
+          "text": "რომელებმაც",
+          "textGeorgian": "რომელებმაც"
+        },
+        {
+          "id": "c",
+          "text": "რომელიებმაც",
+          "textGeorgian": "რომელიებმაც"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "რომლებმაც is the correct plural ergative form of რომელი. The plural is formed by changing რომელ- to რომლებ- before the case suffix and -c enclitic."
+    },
+    {
+      "id": "quiz10",
+      "question": "Which sentence demonstrates the most sophisticated Georgian syntax?",
+      "type": "multiple-choice",
+      "points": 3,
+      "questionGeorgian": "ა) გასულ წელს გამოცემული წიგნები პოპულარულია.\nბ) წიგნები, რომლებიც გასულ წელს გამოცემეს, პოპულარულია.\nგ) წიგნები, რაც გასულ წელს გამოცემეს, პოპულარულია.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sentence A (with participle)",
+          "textGeorgian": "გასულ წელს გამოცემული წიგნები პოპულარულია."
+        },
+        {
+          "id": "b",
+          "text": "Sentence B (with wh-phrase)",
+          "textGeorgian": "წიგნები, რომლებიც გასულ წელს გამოცემეს, პოპულარულია."
+        },
+        {
+          "id": "c",
+          "text": "Sentence C (with რაც)",
+          "textGeorgian": "წიგნები, რაც გასულ წელს გამოცემეს, პოპულარულია."
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Sentence A uses a participle (გამოცემული) which creates the most concise and elegant relative clause. All three are grammatically correct, but the participle construction demonstrates highest syntactic sophistication."
+    }
+  ]
+}
+

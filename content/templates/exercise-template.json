@@ -1,0 +1,94 @@
+{
+  "lessonId": "[lesson-id]",
+  "lessonTitle": "[Lesson Title]",
+  "level": "[A1/A2/B1/B2/C1]",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Exercise Title",
+      "instructions": "Choose the correct answer.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Question text in English or Georgian",
+          "questionGeorgian": "Question in Georgian (if applicable)",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Option A",
+              "textGeorgian": "Option in Georgian (if applicable)"
+            },
+            {
+              "id": "b",
+              "text": "Option B"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Why this answer is correct",
+          "explanationGeorgian": "Explanation in Georgian (if applicable)"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "instructions": "Complete the sentences with the correct form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q2",
+          "question": "Fill in: _____ წიგნი (the book)",
+          "correctAnswer": "ეს",
+          "alternatives": ["ეს", "ის"],
+          "explanation": "ეს is used for 'this' (near the speaker)"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Match the Words",
+      "instructions": "Match the Georgian words with their English translations.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q3",
+          "leftItems": [
+            { "id": "l1", "text": "გამარჯობა" },
+            { "id": "l2", "text": "სახლი" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "hello" },
+            { "id": "r2", "text": "house" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "audio",
+      "title": "Pronunciation Practice",
+      "instructions": "Listen and repeat.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "audioUrl": "/audio/[filename].mp3",
+          "text": "გამარჯობა",
+          "transliteration": "gamarjoba",
+          "translation": "hello",
+          "responseType": "recording"
+        }
+      ]
+    }
+  ]
+}
+

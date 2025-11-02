@@ -1,0 +1,217 @@
+{
+  "lessonId": "a1-5",
+  "level": "A1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "გამარჯობა",
+      "transliteration": "gamarjoba",
+      "translation": "hello",
+      "ipa": "/ɡɑmɑrd͡ʒɔbɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, როგორ ხართ?",
+        "transliteration": "gamarjoba, rogor khart?",
+        "translation": "Hello, how are you?"
+      },
+      "notes": "Can be used any time of day, in both formal and informal situations. Also used when answering the phone."
+    },
+    {
+      "id": "voc2",
+      "georgian": "ნახვამდის",
+      "transliteration": "nakhvamdis",
+      "translation": "goodbye",
+      "ipa": "/nɑxvɑmdis/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "ნახვამდის, გმადლობთ!",
+        "transliteration": "nakhvamdis, gmadlobt!",
+        "translation": "Goodbye, thank you!"
+      },
+      "notes": "Literally means 'until we see (each other)'. Polite and works in all situations."
+    },
+    {
+      "id": "voc3",
+      "georgian": "დილა მშვიდობისა",
+      "transliteration": "dila mshvidobisa",
+      "translation": "good morning",
+      "ipa": "/dilɑ mʃvidobisɑ/",
+      "partOfSpeech": "greeting",
+      "exampleSentence": {
+        "georgian": "დილა მშვიდობისა, ბატონო!",
+        "transliteration": "dila mshvidobisa, batono!",
+        "translation": "Good morning, sir!"
+      },
+      "notes": "Used specifically in the morning. მშვიდობისა means 'of peace'."
+    },
+    {
+      "id": "voc4",
+      "georgian": "საღამო მშვიდობისა",
+      "transliteration": "saghamo mshvidobisa",
+      "translation": "good evening",
+      "ipa": "/sɑɣɑmɔ mʃvidobisɑ/",
+      "partOfSpeech": "greeting",
+      "exampleSentence": {
+        "georgian": "საღამო მშვიდობისა, ქალბატონო!",
+        "transliteration": "saghamo mshvidobisa, kalbatono!",
+        "translation": "Good evening, madam!"
+      },
+      "notes": "Used in the evening. More formal than გამარჯობა in evening contexts."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ღამე მშვიდობისა",
+      "transliteration": "ghame mshvidobisa",
+      "translation": "good night",
+      "ipa": "/ɣɑmɛ mʃvidobisɑ/",
+      "partOfSpeech": "greeting",
+      "exampleSentence": {
+        "georgian": "ღამე მშვიდობისა!",
+        "transliteration": "ghame mshvidobisa!",
+        "translation": "Good night!"
+      },
+      "notes": "Used when saying goodbye late at night or before going to sleep."
+    },
+    {
+      "id": "voc6",
+      "georgian": "მადლობა",
+      "transliteration": "madloba",
+      "translation": "thank you",
+      "ipa": "/mɑdlɔbɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "მადლობა თქვენი დახმარებისთვის",
+        "transliteration": "madloba tkveni dakhmarebistvis",
+        "translation": "Thank you for your help"
+      },
+      "notes": "Standard way to express gratitude. Can be used in both formal and informal situations."
+    },
+    {
+      "id": "voc7",
+      "georgian": "დიდი მადლობა",
+      "transliteration": "didi madloba",
+      "translation": "thank you very much",
+      "ipa": "/didi mɑdlɔbɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "დიდი მადლობა თქვენი დახმარებისთვის",
+        "transliteration": "didi madloba tkveni dakhmarebistvis",
+        "translation": "Thank you very much for your help"
+      },
+      "notes": "დიდი means 'big' or 'great', so this literally means 'big thanks'. Used to express stronger gratitude."
+    },
+    {
+      "id": "voc8",
+      "georgian": "არაფერს",
+      "transliteration": "arapers",
+      "translation": "you're welcome / it's nothing",
+      "ipa": "/ɑrɑpʰɛrs/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "A: მადლობა! B: არაფერს!",
+        "transliteration": "A: madloba! B: arapers!",
+        "translation": "A: Thank you! B: You're welcome!"
+      },
+      "notes": "Literally means 'nothing'. Standard polite response to thank you."
+    },
+    {
+      "id": "voc9",
+      "georgian": "გთხოვთ",
+      "transliteration": "gtkhovt",
+      "translation": "please / you're welcome",
+      "ipa": "/gtʰxɔvtʰ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "გთხოვთ, მოდით შიგნით",
+        "transliteration": "gtkhovt, modit shignit",
+        "translation": "Please, come inside"
+      },
+      "notes": "Can mean both 'please' and 'you're welcome' depending on context. Shows politeness."
+    },
+    {
+      "id": "voc10",
+      "georgian": "ბატონო",
+      "transliteration": "batono",
+      "translation": "sir / Mr.",
+      "ipa": "/bɑtʼɔnɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, ბატონო",
+        "transliteration": "gamarjoba, batono",
+        "translation": "Hello, sir"
+      },
+      "notes": "Formal address for a man. Used to show respect. Essential for proper Georgian etiquette. Often used with surname: ბატონო სმითი (Mr. Smith)."
+    },
+    {
+      "id": "voc11",
+      "georgian": "ქალბატონო",
+      "transliteration": "kalbatono",
+      "translation": "madam / Mrs. / Ms.",
+      "ipa": "/kɑlbɑtʼɔnɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, ქალბატონო",
+        "transliteration": "gamarjoba, kalbatono",
+        "translation": "Hello, madam"
+      },
+      "notes": "Formal address for a woman. Used to show respect. Can be used with surname: ქალბატონო ივანოვა (Mrs./Ms. Ivanova)."
+    },
+    {
+      "id": "voc12",
+      "georgian": "როგორ ხართ?",
+      "transliteration": "rogor khart?",
+      "translation": "how are you? (formal)",
+      "ipa": "/rɔɡɔr xɑrtʰ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, როგორ ხართ?",
+        "transliteration": "gamarjoba, rogor khart?",
+        "translation": "Hello, how are you? (formal)"
+      },
+      "notes": "Formal version of 'how are you?'. Use with strangers, elderly, or in professional settings. Informal version is როგორ ხარ? (rogor khar?)."
+    },
+    {
+      "id": "voc13",
+      "georgian": "კარგად",
+      "transliteration": "k'argad",
+      "translation": "well / fine",
+      "ipa": "/kʼɑrɡɑd/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "კარგად, მადლობა",
+        "transliteration": "k'argad, madloba",
+        "translation": "Well, thank you"
+      },
+      "notes": "Common response to 'how are you?'. Can also mean 'well' or 'good' in other contexts."
+    },
+    {
+      "id": "voc14",
+      "georgian": "დიახ",
+      "transliteration": "diakh",
+      "translation": "yes (formal)",
+      "ipa": "/diɑx/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "დიახ, ბატონო",
+        "transliteration": "diakh, batono",
+        "translation": "Yes, sir"
+      },
+      "notes": "Formal way to say 'yes'. More casual version is კი (ki)."
+    },
+    {
+      "id": "voc15",
+      "georgian": "არა",
+      "transliteration": "ara",
+      "translation": "no",
+      "ipa": "/ɑrɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "არა, მადლობა",
+        "transliteration": "ara, madloba",
+        "translation": "No, thank you"
+      },
+      "notes": "Standard way to say 'no'. Can be used in both formal and informal contexts."
+    }
+  ]
+}
+

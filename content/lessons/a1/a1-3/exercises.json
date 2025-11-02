@@ -1,0 +1,250 @@
+{
+  "lessonId": "a1-3",
+  "lessonTitle": "Ejective Consonants Deep Dive",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Ejective Identification",
+      "instructions": "Identify which consonants are ejective.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which of these is an ejective consonant?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "თ [tʰ]" },
+            { "id": "b", "text": "ტ [tʼ]" },
+            { "id": "c", "text": "დ [d]" },
+            { "id": "d", "text": "ყველა (all of them)" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ტ [tʼ] is an ejective consonant - notice the [ʼ] symbol. თ [tʰ] is aspirated (air), and დ [d] is voiced (vibration)."
+        },
+        {
+          "id": "q2",
+          "question": "How many ejective consonants does Georgian have?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "3 ejectives" },
+            { "id": "b", "text": "6 ejectives" },
+            { "id": "c", "text": "9 ejectives" },
+            { "id": "d", "text": "12 ejectives" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Georgian has exactly six ejective consonants: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], and ყ [qʼ]."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Ejectives to Their Sounds",
+      "instructions": "Match each ejective consonant with its IPA symbol and description.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q3",
+          "leftItems": [
+            { "id": "l1", "text": "კ" },
+            { "id": "l2", "text": "პ" },
+            { "id": "l3", "text": "ტ" },
+            { "id": "l4", "text": "წ" },
+            { "id": "l5", "text": "ჭ" },
+            { "id": "l6", "text": "ყ" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "[kʼ] - ejective k" },
+            { "id": "r2", "text": "[pʼ] - ejective p" },
+            { "id": "r3", "text": "[tʼ] - ejective t" },
+            { "id": "r4", "text": "[tsʼ] - ejective ts" },
+            { "id": "r5", "text": "[tʃʼ] - ejective ch" },
+            { "id": "r6", "text": "[qʼ] - back velar ejective" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" },
+            { "left": "l5", "right": "r5" },
+            { "left": "l6", "right": "r6" }
+          ],
+          "explanation": "All six ejective consonants: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], ყ [qʼ]. Notice all have the [ʼ] symbol indicating glottal closure."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Minimal Pairs Practice",
+      "instructions": "Identify which word uses an ejective consonant.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "Which word uses an ejective: თხა [tʰxa] (goat) or ტბა [tʼba] (lake)?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "თხა uses ejective" },
+            { "id": "b", "text": "ტბა uses ejective" },
+            { "id": "c", "text": "Both use ejective" },
+            { "id": "d", "text": "Neither uses ejective" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ტბა [tʼba] uses ejective ტ [tʼ]. თხა [tʰxa] uses aspirated თ [tʰ]. This is a perfect minimal pair showing the distinction!"
+        },
+        {
+          "id": "q5",
+          "question": "Which word uses an ejective: ქალაქი [kʰalakʰi] (city) or კაცი [kʼatsi] (man)?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "ქალაქი uses ejective" },
+            { "id": "b", "text": "კაცი uses ejective" },
+            { "id": "c", "text": "Both use ejective" },
+            { "id": "d", "text": "Neither uses ejective" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "კაცი [kʼatsi] uses ejective კ [kʼ]. ქალაქი [kʰalakʰi] uses aspirated ქ [kʰ]. Notice the pop vs. air distinction!"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "audio",
+      "title": "Pronunciation Practice: Ejective Isolation",
+      "instructions": "Listen and repeat each ejective consonant. Focus on producing the glottal closure and 'pop' sound.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q6",
+          "audioUrl": "/audio/ejective-k.mp3",
+          "text": "კ",
+          "transliteration": "k'",
+          "translation": "letter k (ejective)",
+          "responseType": "recording",
+          "explanation": "Practice the glottal closure - feel your throat close, then release with a pop. Made in the back of your throat."
+        },
+        {
+          "id": "q7",
+          "audioUrl": "/audio/ejective-p.mp3",
+          "text": "პ",
+          "transliteration": "p'",
+          "translation": "letter p (ejective)",
+          "responseType": "recording",
+          "explanation": "Made with your lips. Close glottis, press lips together, build pressure, POP!"
+        },
+        {
+          "id": "q8",
+          "audioUrl": "/audio/ejective-t.mp3",
+          "text": "ტ",
+          "transliteration": "t'",
+          "translation": "letter t (ejective)",
+          "responseType": "recording",
+          "explanation": "Tongue to alveolar ridge. Close glottis, build pressure, POP!"
+        },
+        {
+          "id": "q9",
+          "audioUrl": "/audio/ejective-ts.mp3",
+          "text": "წ",
+          "transliteration": "ts'",
+          "translation": "letter ts (ejective)",
+          "responseType": "recording",
+          "explanation": "Ejective affricate - 'ts' sound with glottal pop. Practice slowly!"
+        },
+        {
+          "id": "q10",
+          "audioUrl": "/audio/ejective-ch.mp3",
+          "text": "ჭ",
+          "transliteration": "ch'",
+          "translation": "letter ch (ejective)",
+          "responseType": "recording",
+          "explanation": "Ejective affricate - 'ch' sound with glottal pop. Like 'chair' but with a pop!"
+        },
+        {
+          "id": "q11",
+          "audioUrl": "/audio/ejective-q.mp3",
+          "text": "ყ",
+          "transliteration": "q'",
+          "translation": "letter q (back velar ejective)",
+          "responseType": "recording",
+          "explanation": "The hardest one! Made way back in your throat, almost at your uvula. Strong pop!"
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "fill-blank",
+      "title": "Complete Words with Ejectives",
+      "instructions": "Complete each word with the correct ejective consonant based on the pronunciation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q12",
+          "question": "Complete: __აცი (man - uses ejective k):",
+          "correctAnswer": "კ",
+          "alternatives": ["კ", "ქ", "გ"],
+          "explanation": "კაცი [kʼatsi] uses ejective კ [kʼ]. Remember: ejective has pop, aspirated ქ has air."
+        },
+        {
+          "id": "q13",
+          "question": "Complete: __აპა (grandfather - uses ejective p):",
+          "correctAnswer": "პ",
+          "alternatives": ["პ", "ფ", "ბ"],
+          "explanation": "პაპა [pʼapʼa] uses ejective პ [pʼ]. Notice it appears twice in this word!"
+        },
+        {
+          "id": "q14",
+          "question": "Complete: __ბა (lake - uses ejective t):",
+          "correctAnswer": "ტ",
+          "alternatives": ["ტ", "თ", "დ"],
+          "explanation": "ტბა [tʼba] uses ejective ტ [tʼ]. Compare with თხა [tʰxa] which uses aspirated თ."
+        },
+        {
+          "id": "q15",
+          "question": "Complete: __ყალი (water - uses ejective ts):",
+          "correctAnswer": "წ",
+          "alternatives": ["წ", "ც", "ძ"],
+          "explanation": "წყალი [tsʼqʼali] uses ejective წ [tsʼ]. This word actually has TWO ejectives: წ and ყ!"
+        }
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "title": "Understanding Ejective Production",
+      "instructions": "Answer questions about how ejective consonants are produced.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q16",
+          "question": "What is the key mechanism for producing ejective consonants?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Releasing air with force" },
+            { "id": "b", "text": "Closing the glottis, building pressure, then releasing with a pop" },
+            { "id": "c", "text": "Vibrating the vocal cords" },
+            { "id": "d", "text": "Whispering the sound" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Ejective consonants are produced by closing the glottis (vocal cords), building pressure in the mouth, and then releasing with a distinctive 'pop' sound. This is completely different from aspirated (air) or voiced (vibration) consonants."
+        },
+        {
+          "id": "q17",
+          "question": "Which ejective consonant is produced the furthest back in the throat?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "კ [kʼ]" },
+            { "id": "b", "text": "პ [pʼ]" },
+            { "id": "c", "text": "ყ [qʼ]" },
+            { "id": "d", "text": "ჭ [tʃʼ]" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "ყ [qʼ] is a back velar ejective, made way back in the throat, almost at the uvula. It's the most challenging ejective to produce!"
+        }
+      ]
+    }
+  ]
+}
+

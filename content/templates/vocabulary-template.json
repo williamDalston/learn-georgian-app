@@ -1,0 +1,22 @@
+{
+  "lessonId": "[lesson-id]",
+  "level": "[A1/A2/B1/B2/C1]",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "გამარჯობა",
+      "transliteration": "gamarjoba",
+      "translation": "hello",
+      "ipa": "/ɡɑmɑrd͡ʒɔbɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, როგორ ხართ?",
+        "transliteration": "gamarjoba, rogor khart?",
+        "translation": "Hello, how are you?",
+        "audioUrl": "/audio/example1.mp3"
+      },
+      "notes": "Used as a greeting, formal and informal"
+    }
+  ]
+}
+

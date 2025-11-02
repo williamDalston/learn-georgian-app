@@ -1,0 +1,132 @@
+{
+  "lessonId": "b1-2",
+  "title": "Lesson B1-2 Assessment: Preverbs",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What are the two main functions of preverbs in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Person and number" },
+        { "id": "b", "text": "Directionality and aspect" },
+        { "id": "c", "text": "Tense and mood" },
+        { "id": "d", "text": "Gender and case" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Preverbs serve two main functions: they indicate directionality (where the action moves) and mark aspect (perfective vs imperfective).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "ვწერ [vts'er] demonstrates which aspect?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Perfective (completed)" },
+        { "id": "b", "text": "Imperfective (no preverb, ongoing)" },
+        { "id": "c", "text": "Future" },
+        { "id": "d", "text": "Past" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვწერ [vts'er] has no preverb, which indicates imperfective aspect - the action is ongoing or habitual.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "დავწერ [davts'er] demonstrates which aspect?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Imperfective" },
+        { "id": "b", "text": "Perfective (და- [da-] preverb)" },
+        { "id": "c", "text": "Present" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დავწერ [davts'er] has the preverb და- [da-], indicating perfective aspect - the action will be completed.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What direction does the preverb მი- [mi-] indicate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Out, away from" },
+        { "id": "b", "text": "Toward" },
+        { "id": "c", "text": "Up" },
+        { "id": "d", "text": "Down" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The preverb მი- [mi-] indicates directionality TOWARD something or someone.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q5",
+      "question": "What direction does the preverb გა- [ga-] typically indicate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Into" },
+        { "id": "b", "text": "Out, away from" },
+        { "id": "c", "text": "Toward" },
+        { "id": "d", "text": "Down" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The preverb გა- [ga-] typically indicates directionality OUT or AWAY FROM something.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Match the preverbs to their meanings:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "მი- [mi-]" },
+        { "id": "l2", "text": "გა- [ga-]" },
+        { "id": "l3", "text": "აკ- [ak'-]" },
+        { "id": "l4", "text": "ჩაკ- [ch'ak'-]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Toward" },
+        { "id": "r2", "text": "Out, away from" },
+        { "id": "r3", "text": "Up" },
+        { "id": "r4", "text": "Into" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Remember: მი- toward, გა- out/away, აკ- up, ჩაკ- into.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q7",
+      "question": "Which sentence means 'I will write the book' (and complete it)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვწერ წიგნს [vts'er ts'igns]" },
+        { "id": "b", "text": "დავწერ წიგნს [davts'er ts'igns]" },
+        { "id": "c", "text": "მივწერ წიგნს [mivts'er ts'igns]" },
+        { "id": "d", "text": "ჩავწერ წიგნს [ch'avts'er ts'igns]" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დავწერ [davts'er] uses the და- [da-] preverb for perfective aspect, meaning 'I will write and complete the book.'",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "In the sentence: ის მივიდა ოთახში [is mivida otakhshi], what does the preverb მი- indicate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "He went out of the room" },
+        { "id": "b", "text": "He went toward/into the room" },
+        { "id": "c", "text": "He went up to the room" },
+        { "id": "d", "text": "He went down to the room" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "მივიდა [mivida] uses preverb მი- [mi-] which means 'toward.' Combined with ოთახში [otakhshi] 'in the room,' it means 'went toward/into the room.'",
+      "points": 10
+    }
+  ]
+}
+

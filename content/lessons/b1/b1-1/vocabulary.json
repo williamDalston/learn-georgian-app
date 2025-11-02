@@ -1,0 +1,287 @@
+{
+  "lessonId": "b1-1",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "პოლიპერსონალური",
+      "transliteration": "polip'ersonal'uri",
+      "translation": "polypersonal",
+      "ipa": "/pɔlɪpʼɛrsɔnɑluri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ქართული ზმნები პოლიპერსონალურია",
+        "transliteration": "k'art'uli zmnebi polip'ersonal'uria",
+        "translation": "Georgian verbs are polypersonal"
+      },
+      "notes": "Refers to verbs that mark both subject and object in a single word form"
+    },
+    {
+      "id": "voc2",
+      "georgian": "ზმნა",
+      "transliteration": "zmna",
+      "translation": "verb",
+      "ipa": "/zmnɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეს არის დიდი ზმნა",
+        "transliteration": "es aris didi zmna",
+        "translation": "This is a big verb"
+      },
+      "notes": "The Georgian word for verb"
+    },
+    {
+      "id": "voc3",
+      "georgian": "ხედვა",
+      "transliteration": "khedva",
+      "translation": "to see",
+      "ipa": "/xɛdvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე შენ ვხედავ",
+        "transliteration": "me shen vkhedav",
+        "translation": "I see you"
+      },
+      "notes": "Class I transitive verb. Example of polypersonal agreement."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ვხედავ",
+      "transliteration": "vkhedav",
+      "translation": "I see",
+      "ipa": "/vxɛdɑv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვხედავ დათას",
+        "transliteration": "me vkhedav datas",
+        "translation": "I see Dato"
+      },
+      "notes": "First person singular, Series I. ვ- [v-] is the subject marker."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ხედავ",
+      "transliteration": "khedav",
+      "translation": "you see (informal)",
+      "ipa": "/xɛdɑv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "შენ მე ხედავ",
+        "transliteration": "shen me khedav",
+        "translation": "You see me"
+      },
+      "notes": "Second person singular informal, Series I. No subject prefix in this form."
+    },
+    {
+      "id": "voc6",
+      "georgian": "ხედავს",
+      "transliteration": "khedavs",
+      "translation": "he/she/it sees",
+      "ipa": "/xɛdɑvs/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ის ხედავს ჩვენ",
+        "transliteration": "is khedavs ch'ven",
+        "translation": "He sees us"
+      },
+      "notes": "Third person singular, Series I. -ს [-s] is the subject marker suffix."
+    },
+    {
+      "id": "voc7",
+      "georgian": "მუშაობა",
+      "transliteration": "mushaoba",
+      "translation": "to work",
+      "ipa": "/mʊʃɑɔbɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე კარგად ვმუშაობ",
+        "transliteration": "me k'argad vmushaob",
+        "translation": "I work well"
+      },
+      "notes": "Class II intransitive verb. No direct object required."
+    },
+    {
+      "id": "voc8",
+      "georgian": "ვმუშაობ",
+      "transliteration": "vmushaob",
+      "translation": "I work / I am working",
+      "ipa": "/vmʊʃɑɔb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "დღეს ვმუშაობ",
+        "transliteration": "dgh'es vmushaob",
+        "translation": "Today I work"
+      },
+      "notes": "First person singular, Series I. Can mean present or future depending on context."
+    },
+    {
+      "id": "voc9",
+      "georgian": "წერა",
+      "transliteration": "ts'era",
+      "translation": "to write",
+      "ipa": "/tsʼɛrɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე წიგნს ვწერ",
+        "transliteration": "me ts'igns vts'er",
+        "translation": "I write a book"
+      },
+      "notes": "Class I transitive verb. Takes a direct object."
+    },
+    {
+      "id": "voc10",
+      "georgian": "კითხვა",
+      "transliteration": "k'ithva",
+      "translation": "to read",
+      "ipa": "/kʼɪtxvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე წიგნს ვკითხულობ",
+        "transliteration": "me ts'igns vk'ithulob",
+        "translation": "I read the book"
+      },
+      "notes": "Class I transitive verb. Note the different form ვკითხულობ [vk'ithulob] 'I read'."
+    },
+    {
+      "id": "voc11",
+      "georgian": "სუბიექტი",
+      "transliteration": "subiekt'i",
+      "translation": "subject",
+      "ipa": "/subɪɛktʼɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ვ- სუბიექტის მარკერია",
+        "transliteration": "v- subiekt'is mark'eria",
+        "translation": "ვ- is the subject marker"
+      },
+      "notes": "Grammar term for subject of a sentence"
+    },
+    {
+      "id": "voc12",
+      "georgian": "ობიექტი",
+      "transliteration": "obiekt'i",
+      "translation": "object",
+      "ipa": "/ɔbɪɛktʼɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მ- ობიექტის მარკერია",
+        "transliteration": "m- obiekt'is mark'eria",
+        "translation": "მ- is the object marker"
+      },
+      "notes": "Grammar term for object of a sentence"
+    },
+    {
+      "id": "voc13",
+      "georgian": "სერია",
+      "transliteration": "seria",
+      "translation": "series",
+      "ipa": "/sɛrɪɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სერია I მოიცავს აწმყოთ და მომავალ თანხს",
+        "transliteration": "seria I moitsavs ats'mqot da momaval tanss",
+        "translation": "Series I includes present and future tense"
+      },
+      "notes": "Refers to the three series of Georgian verbal conjugation (I, II, III)"
+    },
+    {
+      "id": "voc14",
+      "georgian": "აწმყო",
+      "transliteration": "ats'mqo",
+      "translation": "present (tense)",
+      "ipa": "/ɑtsʼmqɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ვხედავ აწმყოშია",
+        "transliteration": "vkhedav ats'mqoshia",
+        "translation": "ვხედავ is in present tense"
+      },
+      "notes": "Grammar term for present tense"
+    },
+    {
+      "id": "voc15",
+      "georgian": "მომავალი",
+      "transliteration": "momavali",
+      "translation": "future (tense)",
+      "ipa": "/mɔmɑvɑlɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ვხედავ შეიძლება იყოს მომავალში",
+        "transliteration": "vkhedav sheidzleba ikhos momavalshi",
+        "translation": "ვხედავ can also be in future tense"
+      },
+      "notes": "Grammar term for future tense"
+    },
+    {
+      "id": "voc16",
+      "georgian": "კლასი",
+      "transliteration": "k'lasi",
+      "translation": "class",
+      "ipa": "/kʼlɑsɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ხედვა არის I კლასის ზმნა",
+        "transliteration": "khedva aris I k'lasis zmna",
+        "translation": "ხედვა is a Class I verb"
+      },
+      "notes": "Refers to verb class (Class I-IV) in Georgian grammar"
+    },
+    {
+      "id": "voc17",
+      "georgian": "ტრანზიტიური",
+      "transliteration": "t'ranzit'iuri",
+      "translation": "transitive",
+      "ipa": "/tʼrɑnzɪtʼɪʊrɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ტრანზიტიური ზმნები იღებს ობიექტს",
+        "transliteration": "t'ranzit'iuri zmnebi ighebs obiekt's",
+        "translation": "Transitive verbs take an object"
+      },
+      "notes": "Grammar term for verbs that take a direct object"
+    },
+    {
+      "id": "voc18",
+      "georgian": "ინტრანზიტიური",
+      "transliteration": "int'ranzit'iuri",
+      "translation": "intransitive",
+      "ipa": "/ɪntʼrɑnzɪtʼɪʊrɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ინტრანზიტიური ზმნები არ იღებს ობიექტს",
+        "transliteration": "int'ranzit'iuri zmnebi ar ighebs obiekt's",
+        "translation": "Intransitive verbs do not take an object"
+      },
+      "notes": "Grammar term for verbs that do not take a direct object"
+    },
+    {
+      "id": "voc19",
+      "georgian": "დათი",
+      "transliteration": "dati",
+      "translation": "Dato (common Georgian male name)",
+      "ipa": "/dɑtɪ/",
+      "partOfSpeech": "proper noun",
+      "exampleSentence": {
+        "georgian": "დათო მუშაობს ბანკში",
+        "transliteration": "dato mushaobs bankshi",
+        "translation": "Dato works in a bank"
+      },
+      "notes": "Common Georgian male name, used in example sentences"
+    },
+    {
+      "id": "voc20",
+      "georgian": "წიგნი",
+      "transliteration": "ts'igni",
+      "translation": "book",
+      "ipa": "/tsʼɪgnɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე წიგნს ვკითხულობ",
+        "transliteration": "me ts'igns vk'ithulob",
+        "translation": "I read the book"
+      },
+      "notes": "Common object in example sentences. Note: წიგნს [ts'igns] is in dative case as object."
+    }
+  ]
+}
+

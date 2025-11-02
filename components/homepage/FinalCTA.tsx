@@ -53,7 +53,7 @@ export default function FinalCTA() {
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.2 }}
             >
-              Join thousands who are mastering Georgian. Start your journey from beginner to conversational fluency today with a risk-free trial.
+              Join thousands who are mastering Georgian. Start your journey from beginner to conversational fluency today - completely free!
             </motion.p>
             <motion.div 
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
@@ -61,7 +61,7 @@ export default function FinalCTA() {
               transition={{ delay: 0.3 }}
             >
               <CTAButton href="/subscribe" variant="primary" size="lg" className="sm:w-auto bg-accent hover:bg-accent-dark text-white border-2 border-white/20 hover:border-white/40 shadow-xl hover:shadow-2xl">
-                Start Your Free Trial
+                Start Learning Free
               </CTAButton>
             </motion.div>
             <motion.div 
@@ -69,23 +69,24 @@ export default function FinalCTA() {
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.4 }}
             >
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>30-Day Money-Back Guarantee</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>Cancel Anytime</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>Lifetime Access</span>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>100% Free Forever</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>No Credit Card Required</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>Start Immediately</span>
+              </div>
             </motion.div>
           </AnimatedSection>
         </div>

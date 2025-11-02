@@ -1,7 +1,7 @@
 'use client'
 
 import { ReactNode } from 'react'
-import { motion } from 'framer-motion'
+import { motion, type TargetAndTransition } from 'framer-motion'
 import { hoverLift } from '@/lib/utils/animations'
 
 interface GlassCardProps {
@@ -17,7 +17,7 @@ export default function GlassCard({
 }: GlassCardProps) {
   return (
     <motion.div
-      whileHover={hoverable ? hoverLift : undefined}
+      whileHover={hoverable ? (hoverLift as TargetAndTransition) : undefined}
       className={`
         backdrop-blur-lg bg-white/80 
         border border-white/20 

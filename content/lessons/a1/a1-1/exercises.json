@@ -1,0 +1,165 @@
+{
+  "lessonId": "a1-1",
+  "lessonTitle": "Introduction: The Georgian Alphabet (Mkhedruli)",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Letter Recognition",
+      "instructions": "Choose the correct pronunciation for each Georgian letter.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What sound does the letter ა make?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "[a] as in 'father'"
+            },
+            {
+              "id": "b",
+              "text": "[e] as in 'bed'"
+            },
+            {
+              "id": "c",
+              "text": "[i] as in 'see'"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "The letter ა represents the vowel sound [a], similar to 'a' in 'father'."
+        },
+        {
+          "id": "q2",
+          "question": "What sound does the letter კ make?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "[k] regular 'k' sound"
+            },
+            {
+              "id": "b",
+              "text": "[kʼ] ejective 'k' with glottal closure"
+            },
+            {
+              "id": "c",
+              "text": "[g] like English 'g'"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "კ is an ejective consonant [kʼ], produced with a glottal closure creating a 'pop' sound. This is different from ქ [k]."
+        },
+        {
+          "id": "q3",
+          "question": "How many letters are in the Georgian Mkhedruli alphabet?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "26 letters"
+            },
+            {
+              "id": "b",
+              "text": "33 letters"
+            },
+            {
+              "id": "c",
+              "text": "30 letters"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The Mkhedruli alphabet consists of exactly 33 letters: 5 vowels and 28 consonants."
+        },
+        {
+          "id": "q4",
+          "question": "Does Georgian have uppercase and lowercase letters?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes, like English"
+            },
+            {
+              "id": "b",
+              "text": "No, each letter has only one form"
+            },
+            {
+              "id": "c",
+              "text": "Only for some letters"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Georgian has no distinction between uppercase and lowercase letters. Each letter has a single form, which actually makes learning easier!"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Letters to Sounds",
+      "instructions": "Match each Georgian letter with its correct pronunciation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q5",
+          "leftItems": [
+            { "id": "l1", "text": "ა" },
+            { "id": "l2", "text": "ბ" },
+            { "id": "l3", "text": "გ" },
+            { "id": "l4", "text": "თ" },
+            { "id": "l5", "text": "კ" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "[a]" },
+            { "id": "r2", "text": "[b]" },
+            { "id": "r3", "text": "[g]" },
+            { "id": "r4", "text": "[tʰ] aspirated" },
+            { "id": "r5", "text": "[kʼ] ejective" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" },
+            { "left": "l5", "right": "r5" }
+          ],
+          "explanation": "Practice recognizing letters and their sounds. Remember: თ is aspirated [tʰ] and კ is ejective [kʼ]."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Vowel Identification",
+      "instructions": "Identify which of these letters are vowels.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "Which of these are vowels? Select all that apply: ა, ბ, ე, გ, ი, ო, უ",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ა, ე, ი, ო, უ"
+            },
+            {
+              "id": "b",
+              "text": "ბ, გ"
+            },
+            {
+              "id": "c",
+              "text": "All of them"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Georgian has 5 vowels: ა [a], ე [e], ი [i], ო [o], and უ [u]. All other letters are consonants."
+        }
+      ]
+    }
+  ]
+}
+

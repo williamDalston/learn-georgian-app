@@ -1,0 +1,124 @@
+{
+  "lessonId": "a1-3",
+  "title": "Lesson A1-3 Assessment: Ejective Consonants Deep Dive",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "How many ejective consonants does Georgian have?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "3 ejectives" },
+        { "id": "b", "text": "6 ejectives" },
+        { "id": "c", "text": "9 ejectives" },
+        { "id": "d", "text": "12 ejectives" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian has exactly six ejective consonants: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], and ყ [qʼ].",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What is the key mechanism for producing ejective consonants?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Releasing air with force" },
+        { "id": "b", "text": "Closing the glottis, building pressure, then releasing with a pop" },
+        { "id": "c", "text": "Vibrating the vocal cords" },
+        { "id": "d", "text": "Whispering the sound" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Ejective consonants require closing the glottis (vocal cords), building pressure in the mouth cavity, and then releasing with a distinctive 'pop' sound. This is completely different from aspirated (air) or voiced (vibration) consonants.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "Which ejective consonant is produced the furthest back in the throat?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "კ [kʼ]" },
+        { "id": "b", "text": "პ [pʼ]" },
+        { "id": "c", "text": "ყ [qʼ]" },
+        { "id": "d", "text": "ჭ [tʃʼ]" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "ყ [qʼ] is a back velar ejective, made way back in the throat, almost at the uvula. It's the most challenging ejective to produce and requires positioning your tongue very far back.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Match the ejective consonants to their IPA symbols:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "კ" },
+        { "id": "l2", "text": "პ" },
+        { "id": "l3", "text": "ტ" },
+        { "id": "l4", "text": "წ" },
+        { "id": "l5", "text": "ჭ" },
+        { "id": "l6", "text": "ყ" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "[kʼ]" },
+        { "id": "r2", "text": "[pʼ]" },
+        { "id": "r3", "text": "[tʼ]" },
+        { "id": "r4", "text": "[tsʼ]" },
+        { "id": "r5", "text": "[tʃʼ]" },
+        { "id": "r6", "text": "[qʼ]" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" },
+        { "left": "l5", "right": "r5" },
+        { "left": "l6", "right": "r6" }
+      ],
+      "explanation": "All six ejectives with their IPA symbols: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], ყ [qʼ]. Notice all have the [ʼ] symbol indicating glottal closure.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Which word contains two ejective consonants?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "კაცი [kʼatsi] (man)" },
+        { "id": "b", "text": "წყალი [tsʼqʼali] (water)" },
+        { "id": "c", "text": "ტბა [tʼba] (lake)" },
+        { "id": "d", "text": "პაპა [pʼapʼa] (grandfather)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "წყალი [tsʼqʼali] contains two ejective consonants: წ [tsʼ] and ყ [qʼ]. This makes it one of the most challenging words to pronounce correctly! პაპა also has two (both პ), but წყალი has two DIFFERENT ejectives.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "What is the difference between თ [tʰ] and ტ [tʼ]?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "თ is aspirated (air), ტ is ejective (pop)" },
+        { "id": "b", "text": "თ is ejective, ტ is aspirated" },
+        { "id": "c", "text": "They are the same sound" },
+        { "id": "d", "text": "თ is voiced, ტ is voiceless" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "თ [tʰ] is aspirated - released with a puff of air. ტ [tʼ] is ejective - produced with glottal closure and a pop. These are completely different sounds in Georgian. Example minimal pair: თხა [tʰxa] (goat) vs ტბა [tʼba] (lake).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "Which word correctly uses an ejective consonant?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "თხა [tʰxa] (goat)" },
+        { "id": "b", "text": "ტბა [tʼba] (lake)" },
+        { "id": "c", "text": "ქალაქი [kʰalakʰi] (city)" },
+        { "id": "d", "text": "ფული [pʰuli] (money)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ტბა [tʼba] (lake) uses ejective ტ [tʼ]. All the other options use aspirated consonants: თ [tʰ], ქ [kʰ], ფ [pʰ].",
+      "points": 10
+    }
+  ]
+}
+

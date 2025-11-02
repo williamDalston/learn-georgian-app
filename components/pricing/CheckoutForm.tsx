@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import logger from '@/lib/utils/logger'
 import CTAButton from '@/components/shared/CTAButton'
 import TrustBadges from './TrustBadges'
 import { MobileFormInput } from '@/components/shared/MobileFormField'
@@ -56,23 +57,47 @@ export default function CheckoutForm() {
 
     setIsSubmitting(true)
 
-    // Stripe integration will be handled here
-    // This form validates and prepares data for Stripe payment processing
     try {
-      // TODO: Replace with actual Stripe checkout session creation
-      // Example: const session = await createCheckoutSession(formData)
-      // Then redirect to: router.push(session.url)
-      
-      // For development: simulate successful submission
-      console.log('Form submitted:', formData)
-      setIsSubmitting(false)
-      
-      // In production, redirect to Stripe checkout
-      // router.push('/api/checkout')
+      // Create Stripe checkout session via API
+      const response = await fetch('/api/checkout/create-session', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          plan: formData.plan,
+          email: formData.email,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to create checkout session')
+      }
+
+      // Redirect to Stripe checkout or dashboard
+      if (data.url) {
+        window.location.href = data.url
+      } else {
+        logger.debug('Checkout session created', {
+          context: 'CheckoutForm',
+          data: { sessionId: data.sessionId },
+        })
+        setIsSubmitting(false)
+        // TODO: Handle successful session creation (e.g., show success message)
+      }
     } catch (error) {
-      console.error('Checkout error:', error)
+      logger.error('Checkout error', {
+        context: 'CheckoutForm',
+        error: error instanceof Error ? error : new Error(String(error)),
+      })
       setIsSubmitting(false)
-      setErrors({ submit: 'There was an error processing your payment. Please try again.' })
+      setErrors({
+        submit: error instanceof Error
+          ? error.message
+          : 'There was an error processing your payment. Please try again.',
+      })
     }
   }
 

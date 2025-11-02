@@ -163,7 +163,7 @@ export default function ValueProposition() {
                 ref={(el) => {
                   itemRefs.current[index] = el
                 }}
-                className="group flex flex-col sm:flex-row gap-5 sm:gap-6 p-6 sm:p-8 rounded-xl bg-white border border-neutral-200 hover:border-accent/40 touch-manipulation cursor-pointer focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:outline-none backdrop-blur-sm"
+                className="group relative flex flex-col sm:flex-row gap-5 sm:gap-6 p-6 sm:p-8 rounded-xl bg-white border border-neutral-200 hover:border-accent/60 touch-manipulation cursor-pointer focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:outline-none backdrop-blur-sm overflow-hidden"
                 initial={prefersReducedMotion ? "visible" : "hidden"}
                 animate={isVisible ? "visible" : "hidden"}
                 variants={getAnimationVariants({
@@ -180,38 +180,90 @@ export default function ValueProposition() {
                 })}
                 whileHover={prefersReducedMotion ? {} : { 
                   y: -8,
-                  boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+                  boxShadow: "0 20px 40px rgba(0,0,0,0.12), 0 0 0 1px rgba(255,125,50,0.1)",
                   transition: { duration: 0.3 }
                 }}
                 role="article"
                 aria-labelledby={`benefit-title-${index}`}
                 tabIndex={0}
               >
-                <div className="flex-shrink-0 flex items-start justify-center sm:justify-start">
+                {/* Gradient overlay on hover */}
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary-200/5 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500"
+                  aria-hidden="true"
+                />
+                
+                {/* Animated border gradient */}
+                <motion.div
+                  className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 pointer-events-none"
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(255,125,50,0.2) 0%, rgba(255,125,50,0) 50%, rgba(8,36,52,0.1) 100%)',
+                    maskImage: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                    maskComposite: 'exclude',
+                    WebkitMaskComposite: 'xor',
+                    padding: '1px',
+                  }}
+                  aria-hidden="true"
+                />
+                
+                <div className="flex-shrink-0 flex items-start justify-center sm:justify-start relative z-10">
                   <motion.div 
-                    className="relative w-12 h-12 sm:w-14 sm:h-14 p-2 rounded-lg bg-gradient-to-br from-accent/10 to-accent/5 group-hover:from-accent/25 group-hover:to-accent/15 transition-all duration-500"
+                    className="relative w-12 h-12 sm:w-14 sm:h-14 p-2 rounded-lg bg-gradient-to-br from-accent/10 to-accent/5 group-hover:from-accent/30 group-hover:to-accent/20 transition-all duration-500"
                     whileHover={prefersReducedMotion ? {} : { 
-                      scale: 1.1, 
-                      rotate: 3,
-                      boxShadow: "0 10px 20px rgba(255,125,50,0.2)",
+                      scale: 1.15, 
+                      rotate: [0, -5, 5, 0],
+                      boxShadow: "0 10px 25px rgba(255,125,50,0.3)",
                     }}
-                    transition={{ duration: 0.3 }}
+                    transition={{ duration: 0.4 }}
                   >
-                    <div className="flex items-center justify-center h-full">
-                      {benefit.icon}
+                    {/* Icon glow effect */}
+                    <motion.div
+                      className="absolute inset-0 rounded-lg bg-accent/20 blur-md opacity-0 group-hover:opacity-100"
+                      animate={prefersReducedMotion ? {} : {
+                        scale: [1, 1.2, 1],
+                        opacity: [0, 0.6, 0],
+                      }}
+                      transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        ease: 'easeInOut',
+                        delay: index * 0.2,
+                      }}
+                      aria-hidden="true"
+                    />
+                    <div className="flex items-center justify-center h-full relative z-10">
+                      <motion.div
+                        animate={prefersReducedMotion ? {} : {
+                          scale: [1, 1.05, 1],
+                        }}
+                        transition={{
+                          duration: 3,
+                          repeat: Infinity,
+                          ease: 'easeInOut',
+                          delay: index * 0.3,
+                        }}
+                      >
+                        {benefit.icon}
+                      </motion.div>
                     </div>
                   </motion.div>
                 </div>
-                <div className="flex-1 text-center sm:text-left">
-                  <h3 
+                <div className="flex-1 text-center sm:text-left relative z-10">
+                  <motion.h3 
                     id={`benefit-title-${index}`}
                     className="text-xl sm:text-2xl lg:text-3xl font-serif text-primary-900 mb-3 sm:mb-4 leading-tight group-hover:text-accent transition-colors duration-300"
+                    whileHover={prefersReducedMotion ? {} : { x: 2 }}
+                    transition={{ duration: 0.2 }}
                   >
                     {benefit.title}
-                  </h3>
-                  <p className="text-base sm:text-lg font-sans text-gray-700 leading-relaxed font-light">
+                  </motion.h3>
+                  <motion.p 
+                    className="text-base sm:text-lg font-sans text-gray-700 leading-relaxed font-light group-hover:text-gray-800 transition-colors duration-300"
+                    initial={prefersReducedMotion ? {} : { opacity: 0.9 }}
+                    whileHover={prefersReducedMotion ? {} : { opacity: 1 }}
+                  >
                     {benefit.description}
-                  </p>
+                  </motion.p>
                 </div>
               </motion.div>
             )

@@ -22,19 +22,19 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'How long does it take to become conversational?',
-    answer: 'The program is self-paced, so progress depends on your dedication and practice time. Most students who study 3-5 hours per week reach conversational level within 4-6 months. The structured content covers 6 comprehensive levels, and you have lifetime access (as long as you maintain your subscription), so you can learn at your own pace and revisit lessons whenever needed.',
+    answer: 'The program is self-paced, so progress depends on your dedication and practice time. Most students who study 3-5 hours per week reach conversational level within 4-6 months. The structured content covers 5 comprehensive levels (A1-C1) with 33+ lessons total. Since the course is completely free, you have lifetime access and can learn at your own pace, revisiting lessons whenever needed.',
   },
   {
-    question: 'What if I\'m not satisfied?',
-    answer: 'We offer a 30-day money-back guarantee with no questions asked. If you\'re not completely satisfied with the program, simply contact us within 30 days of your purchase for a full refund. We\'re confident in the value we provide, but we want you to feel completely secure in your decision.',
+    question: 'Is the course really free?',
+    answer: 'Yes! The entire course from beginner (A1) to conversational (C1) is 100% free forever. No credit card required, no hidden fees, no subscriptions. Just create a free account to track your progress and start learning immediately.',
   },
   {
-    question: 'Can I cancel my subscription anytime?',
-    answer: 'Yes, absolutely. You can cancel your subscription at any time from your account settings. You\'ll continue to have access until the end of your billing period, and there are no cancellation fees or penalties.',
+    question: 'Do I need to create an account?',
+    answer: 'Yes, creating a free account allows you to track your progress through the 33+ lessons, save your completion status, and access your personalized dashboard. It only takes a minute to sign up with just your email and a password - no payment information needed.',
   },
   {
-    question: 'What happens if I can\'t afford the subscription?',
-    answer: 'We believe everyone deserves access to language learning. If you genuinely cannot afford a subscription, we offer a scholarship program. Simply visit our scholarship page and tell us about your situation. We review all requests with compassion and aim to support anyone committed to learning Georgian.',
+    question: 'What if I have questions or need help?',
+    answer: 'We\'re here to help! Contact our support team at support@learntogeorgian.com with any questions about the course content, technical issues, or learning strategies. We aim to respond to all inquiries within 24 hours.',
   },
   {
     question: 'What format is the content in?',

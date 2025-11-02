@@ -145,7 +145,7 @@ export const hoverLift = {
   y: -8,
   transition: {
     duration: 0.3,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
   },
 }
 

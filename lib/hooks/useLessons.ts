@@ -1,21 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-
-interface Lesson {
-  id: string
-  title: string
-  description: string
-  moduleNumber?: number
-  lessonNumber?: number
-  duration?: number
-  videoUrl?: string
-  exerciseMaterials?: {
-    name: string
-    url: string
-  }[]
-  isCompleted?: boolean
-}
+import { getAllLessons, getNextLesson, getLessonById, type Lesson } from '@/lib/data/courseStructure'
+import logger from '@/lib/utils/logger'
 
 export function useLessons() {
   const [lessons, setLessons] = useState<Lesson[]>([])
@@ -23,7 +10,7 @@ export function useLessons() {
   const [error, setError] = useState<string | null>(null)
   const [currentLessonId, setCurrentLessonId] = useState<string | null>(null)
 
-  // Mock lessons data - in production, this would come from an API
+  // Load lessons from course structure
   useEffect(() => {
     const loadLessons = async () => {
       setIsLoading(true)
@@ -31,32 +18,10 @@ export function useLessons() {
 
       try {
         // Simulate API call
-        await new Promise((resolve) => setTimeout(resolve, 500))
+        await new Promise((resolve) => setTimeout(resolve, 300))
 
-        // Mock data
-        const mockLessons: Lesson[] = [
-          {
-            id: 'lesson-1',
-            title: 'Introduction: Understanding Your Inner Landscape',
-            description:
-              'Begin your journey by exploring the foundational concepts of inner freedom and self-awareness.',
-            moduleNumber: 1,
-            lessonNumber: 1,
-            duration: 18,
-            isCompleted: false,
-          },
-          {
-            id: 'lesson-2',
-            title: 'Recognizing Patterns in Your Thoughts',
-            description:
-              'Learn to identify recurring thought patterns and understand their impact on your emotional state.',
-            moduleNumber: 1,
-            lessonNumber: 2,
-            duration: 22,
-            isCompleted: false,
-          },
-          // Add more lessons as needed
-        ]
+        // Get all lessons from course structure
+        const allLessons = getAllLessons()
 
         // Load completed lessons from localStorage
         if (typeof window !== 'undefined') {
@@ -64,18 +29,21 @@ export function useLessons() {
             const completed = localStorage.getItem('completedLessons')
             if (completed) {
               const completedIds = JSON.parse(completed) as string[]
-              mockLessons.forEach((lesson) => {
+              allLessons.forEach((lesson) => {
                 if (completedIds.includes(lesson.id)) {
                   lesson.isCompleted = true
                 }
               })
             }
           } catch (err) {
-            console.error('Failed to load completed lessons:', err)
+            logger.error('Failed to load completed lessons', {
+              context: 'useLessons',
+              error: err instanceof Error ? err : new Error(String(err)),
+            })
           }
         }
 
-        setLessons(mockLessons)
+        setLessons(allLessons)
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load lessons')
       } finally {
@@ -86,12 +54,13 @@ export function useLessons() {
     loadLessons()
   }, [])
 
-  const getNextLesson = (): Lesson | undefined => {
-    return lessons.find((lesson) => !lesson.isCompleted)
+  const getNextLessonLocal = (): Lesson | undefined => {
+    const completedIds = lessons.filter(l => l.isCompleted).map(l => l.id)
+    return getNextLesson(completedIds)
   }
 
-  const getLessonById = (id: string): Lesson | undefined => {
-    return lessons.find((lesson) => lesson.id === id)
+  const getLessonByIdLocal = (id: string): Lesson | undefined => {
+    return getLessonById(id) || lessons.find((lesson) => lesson.id === id)
   }
 
   const markLessonComplete = async (lessonId: string) => {
@@ -111,7 +80,10 @@ export function useLessons() {
           localStorage.setItem('completedLessons', JSON.stringify(completedIds))
         }
       } catch (err) {
-        console.error('Failed to save completed lesson:', err)
+        logger.error('Failed to save completed lesson', {
+          context: 'useLessons',
+          error: err instanceof Error ? err : new Error(String(err)),
+        })
       }
     }
   }
@@ -134,8 +106,8 @@ export function useLessons() {
     error,
     currentLessonId,
     setCurrentLessonId,
-    getNextLesson,
-    getLessonById,
+    getNextLesson: getNextLessonLocal,
+    getLessonById: getLessonByIdLocal,
     markLessonComplete,
     getProgressStats,
   }

@@ -1,0 +1,160 @@
+{
+  "lessonId": "b1-5",
+  "title": "Lesson B1-5 Assessment: Class IV (Indirect) Verbs",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the key characteristic of Class IV verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Subject in Nominative, object in Dative" },
+        { "id": "b", "text": "Experiencer in Dative, theme in Nominative" },
+        { "id": "c", "text": "Both subject and object in Nominative" },
+        { "id": "d", "text": "Subject in Dative, object in Genitive" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class IV verbs use Dative-Nominative alignment: the experiencer (person who wants/knows/likes) takes Dative case, and the theme (thing experienced) takes Nominative case.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which sentence correctly expresses 'I want an apple'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მე მინდა ვაშლი (me minda vashli)", "textGeorgian": "მე მინდა ვაშლი" },
+        { "id": "b", "text": "მე მინდა ვაშლს (me minda vashls)", "textGeorgian": "მე მინდა ვაშლს" },
+        { "id": "c", "text": "მე მინდა ვაშლის (me minda vashlis)", "textGeorgian": "მე მინდა ვაშლის" },
+        { "id": "d", "text": "მე მინდა ვაშლით (me minda vashlit)", "textGeorgian": "მე მინდა ვაშლით" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "In Class IV verbs, the theme (thing wanted) takes Nominative case. ვაშლი (vashli - apple) is in Nominative case, while ვაშლს is Dative, ვაშლის is Genitive, and ვაშლით is Instrumental.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What does 'მომწონს (momts'ons)' mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I want" },
+        { "id": "b", "text": "I know" },
+        { "id": "c", "text": "I like" },
+        { "id": "d", "text": "I study" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "მომწონს (momts'ons) means 'I like' or literally 'it pleases me.' It comes from the verb მოწონება (to like/to please).",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "In the sentence 'მე ვიცი ქართული (me vitsi kartuli - I know Georgian)', what case is 'მე (me - I)' in?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "Ergative" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In Class IV verbs like ცოდნა (to know), the experiencer 'მე' (I) takes Dative case, even though it appears as the subject in English. This is the key feature of Dative-Nominative alignment.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match the Georgian verb forms with their English translations:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "მინდა", "textGeorgian": "მინდა" },
+        { "id": "l2", "text": "ვიცი", "textGeorgian": "ვიცი" },
+        { "id": "l3", "text": "მომწონს", "textGeorgian": "მომწონს" },
+        { "id": "l4", "text": "ვსწავლობ", "textGeorgian": "ვსწავლობ" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "I want" },
+        { "id": "r2", "text": "I know" },
+        { "id": "r3", "text": "I like" },
+        { "id": "r4", "text": "I study" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "მინდა = I want (from უნდა), ვიცი = I know (from ცოდნა), მომწონს = I like (from მოწონება), ვსწავლობ = I study (from სწავლა).",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Which verb belongs to Class IV (Indirect verbs)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვხედავ (vkhedav - I see)", "textGeorgian": "ვხედავ" },
+        { "id": "b", "text": "ვიცი (vitsi - I know)", "textGeorgian": "ვიცი" },
+        { "id": "c", "text": "ვსაუბრობ (vsaubrob - I speak)", "textGeorgian": "ვსაუბრობ" },
+        { "id": "d", "text": "ვწერ (vts'er - I write)", "textGeorgian": "ვწერ" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვიცი (vitsi - I know) belongs to Class IV. The other verbs (ვხედავ, ვსაუბრობ, ვწერ) are Class I transitive verbs with Nominative-Dative alignment.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What is the main difference between Class I and Class IV verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Class I verbs use present tense, Class IV use past tense" },
+        { "id": "b", "text": "Class I verbs have subject in Nominative and object in Dative; Class IV verbs have experiencer in Dative and theme in Nominative" },
+        { "id": "c", "text": "Class I verbs are irregular, Class IV verbs are regular" },
+        { "id": "d", "text": "There is no difference" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The key difference is in case alignment: Class I verbs follow Nominative-Dative (subject-object) pattern, while Class IV verbs follow Dative-Nominative (experiencer-theme) pattern. This reflects different semantic roles: doing vs. experiencing.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q8",
+      "question": "Translate to Georgian: 'Do you (informal) know Georgian?'",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "შენ იცი ქართული? (shen itsi kartuli?)", "textGeorgian": "შენ იცი ქართული?" },
+        { "id": "b", "text": "შენ იცი ქართულს? (shen itsi kartuls?)", "textGeorgian": "შენ იცი ქართულს?" },
+        { "id": "c", "text": "შენ ვიცი ქართული? (shen vitsi kartuli?)", "textGeorgian": "შენ ვიცი ქართული?" },
+        { "id": "d", "text": "შენ იცი ქართულის? (shen itsi kartulis?)", "textGeorgian": "შენ იცი ქართულის?" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "The correct translation is 'შენ იცი ქართული?' In Class IV verbs, the theme (thing known) takes Nominative case, so ქართული (kartuli - Georgian) is correct, not ქართულს (Dative) or ქართულის (Genitive).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q9",
+      "question": "Which sentence is grammatically correct?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მას მოსწონს ეს ფილმი (mas mosts'ons es pilmi)", "textGeorgian": "მას მოსწონს ეს ფილმი" },
+        { "id": "b", "text": "მას მოსწონს ეს ფილმს (mas mosts'ons es pilms)", "textGeorgian": "მას მოსწონს ეს ფილმს" },
+        { "id": "c", "text": "მა მოსწონს ეს ფილმი (ma mosts'ons es pilmi)", "textGeorgian": "მა მოსწონს ეს ფილმი" },
+        { "id": "d", "text": "მას მოსწონს ეს ფილმის (mas mosts'ons es pilmis)", "textGeorgian": "მას მოსწონს ეს ფილმის" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "მას მოსწონს ეს ფილმი is correct. მას (mas - he/she) is in Dative case (experiencer), and ეს ფილმი (es pilmi - this film) is in Nominative case (theme).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q10",
+      "question": "What does 'დატივ-ნომინატიური გათანაბრება (Dative-Nominative alignment)' mean in the context of Class IV verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Both arguments are in the same case" },
+        { "id": "b", "text": "The experiencer takes Dative case and the theme takes Nominative case" },
+        { "id": "c", "text": "The verb agrees with both subject and object" },
+        { "id": "d", "text": "The verb changes based on the tense" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Dative-Nominative alignment means that in Class IV verbs, the experiencer (person feeling/thinking) takes Dative case, while the theme (thing being experienced) takes Nominative case. This is the opposite pattern from Class I verbs.",
+      "points": 15
+    }
+  ]
+}
+

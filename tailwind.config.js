@@ -67,10 +67,12 @@ module.exports = {
         },
       },
       fontFamily: {
-        // Serif for headlines (Authority & Trust)
-        serif: ['Playfair Display', 'Lora', 'Georgia', 'serif'],
-        // Sans-serif for body (Readability)
-        sans: ['Inter', 'Karla', 'system-ui', '-apple-system', 'sans-serif'],
+        // Serif for headlines (Authority & Trust) - loaded via next/font
+        serif: ['var(--font-serif)', 'Lora', 'Georgia', 'serif'],
+        // Sans-serif for body (Readability) - loaded via next/font
+        sans: ['var(--font-sans)', 'Karla', 'system-ui', '-apple-system', 'sans-serif'],
+        // Georgian font for proper character rendering
+        georgian: ['var(--font-georgian)', 'Noto Sans Georgian', 'BPG Nino Mtavruli', 'BPG Arial', 'Sylfaen', 'DejaVu Sans', 'sans-serif'],
       },
       fontSize: {
         'xs': '0.75rem',

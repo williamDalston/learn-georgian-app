@@ -1,0 +1,121 @@
+{
+  "lessonId": "a1-2",
+  "title": "Lesson A1-2 Assessment: Stop Consonants",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What are the three types of stop consonants in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Voiced, Voiceless, Ejective" },
+        { "id": "b", "text": "Voiced, Aspirated, Ejective" },
+        { "id": "c", "text": "Hard, Soft, Ejective" },
+        { "id": "d", "text": "Regular, Special, Ejective" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian distinguishes three types of stop consonants: Voiced (ბ, გ, დ), Aspirated (თ, ფ, ქ), and Ejective (კ, პ, ტ, წ, ჭ, ყ). This tripartite system is unique and crucial for proper Georgian pronunciation.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "How do you produce an ejective consonant?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "With vibrating vocal cords" },
+        { "id": "b", "text": "With a puff of air" },
+        { "id": "c", "text": "With glottal closure creating a 'pop' sound" },
+        { "id": "d", "text": "By whispering" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Ejective consonants are produced by closing the glottis (vocal cords), building pressure, and then releasing with a distinctive 'pop' sound. This is what makes them different from aspirated consonants.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the difference between თ [tʰ] and ტ [tʼ]?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "თ is aspirated (with air), ტ is ejective (with pop)" },
+        { "id": "b", "text": "თ is ejective, ტ is aspirated" },
+        { "id": "c", "text": "They are the same sound" },
+        { "id": "d", "text": "თ is voiced, ტ is voiceless" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "თ [tʰ] is aspirated - released with a puff of air. ტ [tʼ] is ejective - produced with glottal closure and a pop. These are completely different sounds in Georgian and can distinguish word meanings (e.g., თხა 'goat' vs ტბა 'lake').",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Match the consonants to their types:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ბ [b]" },
+        { "id": "l2", "text": "თ [tʰ]" },
+        { "id": "l3", "text": "კ [kʼ]" },
+        { "id": "l4", "text": "გ [g]" },
+        { "id": "l5", "text": "ქ [kʰ]" },
+        { "id": "l6", "text": "ტ [tʼ]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Voiced" },
+        { "id": "r2", "text": "Aspirated" },
+        { "id": "r3", "text": "Ejective" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r1" },
+        { "left": "l5", "right": "r2" },
+        { "left": "l6", "right": "r3" }
+      ],
+      "explanation": "Voiced: ბ [b], გ [g]. Aspirated: თ [tʰ], ქ [kʰ]. Ejective: კ [kʼ], ტ [tʼ].",
+      "points": 20
+    },
+    {
+      "id": "quiz-q5",
+      "question": "What does the [ʰ] symbol in IPA represent?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Ejective sound" },
+        { "id": "b", "text": "Aspiration (puff of air)" },
+        { "id": "c", "text": "Voicing" },
+        { "id": "d", "text": "Nasal sound" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The [ʰ] symbol in IPA (International Phonetic Alphabet) represents aspiration - a puff of air released when producing the consonant. Aspirated consonants in Georgian include თ [tʰ], ფ [pʰ], and ქ [kʰ].",
+      "points": 10
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Which word uses an ejective consonant: თხა (goat) or კაცი (man)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "თხა uses ejective" },
+        { "id": "b", "text": "კაცი uses ejective" },
+        { "id": "c", "text": "Both use ejective" },
+        { "id": "d", "text": "Neither uses ejective" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "კაცი [kʼatsi] (man) uses the ejective კ [kʼ]. თხა [tʰxa] (goat) uses the aspirated თ [tʰ]. Notice how the ejective has a 'pop' sound while the aspirated has a puff of air.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "Why is it important to master the tripartite distinction early?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Pronunciation habits become 'fossilized' and hard to change later" },
+        { "id": "b", "text": "It's just for academic purposes" },
+        { "id": "c", "text": "Native speakers won't understand you otherwise" },
+        { "id": "d", "text": "It's optional for basic communication" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Pronunciation fossilization is a real phenomenon. If incorrect pronunciation habits become ingrained early, they become very difficult to change later. This is why we dedicate significant time to mastering ejective consonants from the beginning!",
+      "points": 15
+    }
+  ]
+}
+

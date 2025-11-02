@@ -1,0 +1,231 @@
+{
+  "lessonId": "a2-1",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "კატა",
+      "transliteration": "kat'a",
+      "translation": "cat",
+      "ipa": "/kʼɑtʼɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კატა ხედავს",
+        "transliteration": "kat'a khedavs",
+        "translation": "The cat sees"
+      },
+      "notes": "Nominative form (dictionary form). Used as subject of sentence."
+    },
+    {
+      "id": "voc2",
+      "georgian": "კატას",
+      "transliteration": "kat'as",
+      "translation": "cat (Dative)",
+      "ipa": "/kʼɑtʼɑs/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვხედავ კატას",
+        "transliteration": "me vkhedav kat'as",
+        "translation": "I see the cat"
+      },
+      "notes": "Dative case form. Used for direct objects and indirect objects. Formed by adding -ს to Nominative."
+    },
+    {
+      "id": "voc3",
+      "georgian": "კატის",
+      "transliteration": "kat'is",
+      "translation": "of the cat / cat's",
+      "ipa": "/kʼɑtʼis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კატის სახლი",
+        "transliteration": "kat'is sakhli",
+        "translation": "The cat's house"
+      },
+      "notes": "Genitive case form. Used to show possession. Formed by replacing final vowel with -ის."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ბავშვი",
+      "transliteration": "bavshvi",
+      "translation": "child",
+      "ipa": "/bɑvʃvi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ბავშვი თამაშობს",
+        "transliteration": "bavshvi tamashobs",
+        "translation": "The child plays"
+      },
+      "notes": "Nominative form. Used as subject."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ბავშვს",
+      "transliteration": "bavshvs",
+      "translation": "child (Dative)",
+      "ipa": "/bɑvʃvs/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვაძლევ ბავშვს წიგნს",
+        "transliteration": "me vadzlev bavshvs ts'igns",
+        "translation": "I give the child a book"
+      },
+      "notes": "Dative case form. Can be used as direct or indirect object."
+    },
+    {
+      "id": "voc6",
+      "georgian": "ბავშვის",
+      "transliteration": "bavshvis",
+      "translation": "of the child / child's",
+      "ipa": "/bɑvʃvis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ეს არის ბავშვის წიგნი",
+        "transliteration": "es aris bavshvis ts'igni",
+        "translation": "This is the child's book"
+      },
+      "notes": "Genitive case form. Shows possession."
+    },
+    {
+      "id": "voc7",
+      "georgian": "წიგნი",
+      "transliteration": "ts'igni",
+      "translation": "book",
+      "ipa": "/tsʼiɡni/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წიგნი მაგიდაზეა",
+        "transliteration": "ts'igni magidazea",
+        "translation": "The book is on the table"
+      },
+      "notes": "Nominative form."
+    },
+    {
+      "id": "voc8",
+      "georgian": "წიგნს",
+      "transliteration": "ts'igns",
+      "translation": "book (Dative)",
+      "ipa": "/tsʼiɡns/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მე ვკითხულობ წიგნს",
+        "transliteration": "me vkit'khulob ts'igns",
+        "translation": "I read the book"
+      },
+      "notes": "Dative case form. Used as direct object."
+    },
+    {
+      "id": "voc9",
+      "georgian": "წიგნის",
+      "transliteration": "ts'ignis",
+      "translation": "of the book / book's",
+      "ipa": "/tsʼiɡnis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წიგნის გვერდი",
+        "transliteration": "ts'ignis gverdi",
+        "translation": "The book's page"
+      },
+      "notes": "Genitive case form."
+    },
+    {
+      "id": "voc10",
+      "georgian": "სახლი",
+      "transliteration": "sakhli",
+      "translation": "house",
+      "ipa": "/sɑxli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სახლი დიდია",
+        "transliteration": "sakhli didia",
+        "translation": "The house is big"
+      },
+      "notes": "Nominative form."
+    },
+    {
+      "id": "voc11",
+      "georgian": "სახლის",
+      "transliteration": "sakhlis",
+      "translation": "of the house / house's",
+      "ipa": "/sɑxlis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "სახლის კედელი",
+        "transliteration": "sakhlis k'edeli",
+        "translation": "The wall of the house"
+      },
+      "notes": "Genitive case form."
+    },
+    {
+      "id": "voc12",
+      "georgian": "მასწავლებელი",
+      "transliteration": "masts'avlebeli",
+      "translation": "teacher",
+      "ipa": "/mɑstsʼɑvlɛbɛli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მასწავლებელი კითხულობს",
+        "transliteration": "masts'avlebeli kit'khulobs",
+        "translation": "The teacher reads"
+      },
+      "notes": "Nominative form. Used as subject."
+    },
+    {
+      "id": "voc13",
+      "georgian": "მასწავლებლის",
+      "transliteration": "masts'avleblis",
+      "translation": "of the teacher / teacher's",
+      "ipa": "/mɑstsʼɑvlɛblis/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მასწავლებლის მაგიდა",
+        "transliteration": "masts'avleblis magida",
+        "translation": "The teacher's desk"
+      },
+      "notes": "Genitive case form."
+    },
+    {
+      "id": "voc14",
+      "georgian": "ნომინატივი",
+      "transliteration": "nominat'ivi",
+      "translation": "nominative (case)",
+      "ipa": "/nɔminɑtʼivi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ნომინატივი არის სახელის საწყისი ფორმა",
+        "transliteration": "nominat'ivi aris sakhelis sats'q'isi porma",
+        "translation": "Nominative is the dictionary form of the noun"
+      },
+      "notes": "Grammar term. The base form of nouns."
+    },
+    {
+      "id": "voc15",
+      "georgian": "დატივი",
+      "transliteration": "dat'ivi",
+      "translation": "dative (case)",
+      "ipa": "/dɑtʼivi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დატივი გამოიყენება ობიექტებისთვის",
+        "transliteration": "dat'ivi gamoiyeneba obiekt'ebistvis",
+        "translation": "Dative is used for objects"
+      },
+      "notes": "Grammar term. Used for direct and indirect objects."
+    },
+    {
+      "id": "voc16",
+      "georgian": "ნათესაობითი",
+      "transliteration": "natesaobiti",
+      "translation": "genitive (case)",
+      "ipa": "/nɑtɛsɑɔbiti/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ნათესაობითი აჩვენებს ნიშვნელობას",
+        "transliteration": "natesaobiti achvenebs nishvnelobas",
+        "translation": "Genitive shows possession"
+      },
+      "notes": "Grammar term. Used to express possession and relationships."
+    }
+  ]
+}
+

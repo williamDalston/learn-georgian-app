@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import { playfairDisplay, inter, georgianFont } from '@/lib/fonts'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -81,10 +82,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="pb-20 lg:pb-0 overscroll-y-none">
-        {/* Preconnect to external domains for performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <body className={`${playfairDisplay.variable} ${inter.variable} pb-20 lg:pb-0 overscroll-y-none`}>
         {children}
       </body>
     </html>
