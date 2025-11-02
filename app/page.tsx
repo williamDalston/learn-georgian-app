@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic'
 import Header from '@/components/shared/Header'
+import EmailCaptureBanner from '@/components/homepage/EmailCaptureBanner'
 import HeroSection from '@/components/homepage/HeroSection'
 import ValueProposition from '@/components/homepage/ValueProposition'
 import SkipLink from '@/components/shared/SkipLink'
@@ -57,6 +58,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <EmailCaptureBanner />
       <SkipLink />
       <ScrollProgress />
       <main id="main-content" className="min-h-screen pt-16">
