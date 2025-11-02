@@ -171,7 +171,7 @@ export default function Header() {
                 >
                   Login
                 </Link>
-                <CTAButton href="/subscribe" variant="primary" fullWidth>
+                <CTAButton href="/dashboard/courses" variant="primary" fullWidth>
                   Start Learning Free
                 </CTAButton>
               </div>

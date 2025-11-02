@@ -77,7 +77,7 @@ export default function StickyMobileCTA() {
     <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden slide-in-from-bottom duration-300">
       <div className="bg-white/95 backdrop-blur-sm border-t-2 border-neutral-200 shadow-2xl p-4">
         <div className="max-w-md mx-auto">
-          <CTAButton href="/subscribe" variant="primary" size="lg" fullWidth>
+          <CTAButton href="/dashboard/courses" variant="primary" size="lg" fullWidth>
             Start Learning Free
           </CTAButton>
         </div>

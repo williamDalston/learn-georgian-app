@@ -136,7 +136,7 @@ export default function HeroSection() {
               isVisible || prefersReducedMotion ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2 sm:pt-4 px-4 sm:px-0">
-                <CTAButton href="/subscribe" variant="primary" size="lg" className="sm:w-auto group/cta">
+                <CTAButton href="/dashboard/courses" variant="primary" size="lg" className="sm:w-auto group/cta">
                   <span className="flex items-center gap-2">
                     Start Learning Free
                     <svg 

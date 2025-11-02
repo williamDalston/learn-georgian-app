@@ -60,7 +60,7 @@ export default function FinalCTA() {
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.3 }}
             >
-              <CTAButton href="/subscribe" variant="primary" size="lg" className="sm:w-auto bg-accent hover:bg-accent-dark text-white border-2 border-white/20 hover:border-white/40 shadow-xl hover:shadow-2xl">
+              <CTAButton href="/dashboard/courses" variant="primary" size="lg" className="sm:w-auto bg-accent hover:bg-accent-dark text-white border-2 border-white/20 hover:border-white/40 shadow-xl hover:shadow-2xl">
                 Start Learning Free
               </CTAButton>
             </motion.div>

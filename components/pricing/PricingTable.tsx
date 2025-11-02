@@ -124,7 +124,7 @@ export default function PricingTable() {
 
               {/* CTA Button */}
               <CTAButton
-                href="/subscribe"
+                href="/dashboard/courses"
                 variant="primary"
                 fullWidth
                 size="lg"
