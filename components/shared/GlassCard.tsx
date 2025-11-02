@@ -8,16 +8,19 @@ interface GlassCardProps {
   children: ReactNode
   className?: string
   hoverable?: boolean
+  onClick?: () => void
 }
 
 export default function GlassCard({
   children,
   className = '',
   hoverable = true,
+  onClick,
 }: GlassCardProps) {
   return (
     <motion.div
       whileHover={hoverable ? (hoverLift as TargetAndTransition) : undefined}
+      onClick={onClick}
       className={`
         backdrop-blur-lg bg-white/80 
         border border-white/20 
