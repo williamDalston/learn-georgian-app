@@ -1,0 +1,191 @@
+{
+  "lessonId": "b1-6",
+  "title": "Lesson B1-6 Assessment: Conversation Practice - Present and Future Tenses",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What does 'როგორ ხარ?' (rogor khar?) mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "What are you doing?" },
+        { "id": "b", "text": "How are you?" },
+        { "id": "c", "text": "Where are you?" },
+        { "id": "d", "text": "What time is it?" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "როგორ ხარ? (rogor khar?) means 'How are you?' It's a common greeting question asking about well-being.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which is the correct response to 'რას აკეთებ დღეს?' (What are you doing today?)?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "კარგად ვარ (I'm fine)", "textGeorgian": "კარგად ვარ" },
+        { "id": "b", "text": "ვსწავლობ ქართულს (I study Georgian)", "textGeorgian": "ვსწავლობ ქართულს" },
+        { "id": "c", "text": "გამარჯობა (Hello)", "textGeorgian": "გამარჯობა" },
+        { "id": "d", "text": "მეც კარგად (I'm also fine)", "textGeorgian": "მეც კარგად" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რას აკეთებ დღეს? asks about current activities, so the answer should describe what you're doing. ვსწავლობ ქართულს (vsts'avlob kartuls) = I study Georgian.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "How do you express 'I like reading books' in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მე მომწონს წიგნების წაკითხვა", "textGeorgian": "მე მომწონს წიგნების წაკითხვა" },
+        { "id": "b", "text": "მე მომწონს წიგნების წაკითხვას", "textGeorgian": "მე მომწონს წიგნების წაკითხვას" },
+        { "id": "c", "text": "მე ვკითხულობ წიგნები", "textGeorgian": "მე ვკითხულობ წიგნები" },
+        { "id": "d", "text": "მე მოვწონებ წიგნების წაკითხვა", "textGeorgian": "მე მოვწონებ წიგნების წაკითხვა" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "მომწონს (momts'ons) = I like. წიგნების წაკითხვა (ts'ignebis ts'ak'it'khva) = reading books. The verbal noun takes Nominative case after Class IV verb მომწონს.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What does 'ხვალ' (khval) mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Yesterday" },
+        { "id": "b", "text": "Today" },
+        { "id": "c", "text": "Tomorrow" },
+        { "id": "d", "text": "Next week" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "ხვალ (khval) means 'tomorrow.' It's a time expression used with future tense contexts.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Translate to Georgian: 'Tomorrow I will travel to Batumi.'",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ხვალ ვიმოგზაურებ ბათუმში", "textGeorgian": "ხვალ ვიმოგზაურებ ბათუმში" },
+        { "id": "b", "text": "ხვალ ვმოგზაურებ ბათუმს", "textGeorgian": "ხვალ ვმოგზაურებ ბათუმს" },
+        { "id": "c", "text": "დღეს ვიმოგზაურებ ბათუმში", "textGeorgian": "დღეს ვიმოგზაურებ ბათუმში" },
+        { "id": "d", "text": "ხვალ მოვიმოგზაურებ ბათუმში", "textGeorgian": "ხვალ მოვიმოგზაურებ ბათუმში" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ხვალ (khval) = tomorrow, ვიმოგზაურებ (vimogzaurob) = I will travel, ბათუმში (bat'umshi) = to Batumi (Dative/Adverbial case).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Match the Georgian questions with their English translations:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "როგორ ხარ?", "textGeorgian": "როგორ ხარ?" },
+        { "id": "l2", "text": "რას აკეთებ დღეს?", "textGeorgian": "რას აკეთებ დღეს?" },
+        { "id": "l3", "text": "რას მოგწონს?", "textGeorgian": "რას მოგწონს?" },
+        { "id": "l4", "text": "რას გააკეთებ ხვალ?", "textGeorgian": "რას გააკეთებ ხვალ?" },
+        { "id": "l5", "text": "რა დროს?", "textGeorgian": "რა დროს?" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "How are you?" },
+        { "id": "r2", "text": "What are you doing today?" },
+        { "id": "r3", "text": "What do you like?" },
+        { "id": "r4", "text": "What will you do tomorrow?" },
+        { "id": "r5", "text": "What time?" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" },
+        { "left": "l5", "right": "r5" }
+      ],
+      "explanation": "როგორ ხარ? = How are you?, რას აკეთებ დღეს? = What are you doing today?, რას მოგწონს? = What do you like?, რას გააკეთებ ხვალ? = What will you do tomorrow?, რა დროს? = What time?",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "In Georgian conversation, what is 'შენ?' (shen?) used for?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Asking 'who are you?'" },
+        { "id": "b", "text": "Asking 'and you?' as a follow-up question" },
+        { "id": "c", "text": "Asking 'where are you?'" },
+        { "id": "d", "text": "Greeting someone" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "შენ? (shen?) is commonly used as a follow-up question meaning 'and you?' after answering a question yourself. It's a natural way to continue conversation.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "How do you ask 'What do you like to do in your free time?' in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "რას მოგწონს გაკეთება თავისუფალ დროს?", "textGeorgian": "რას მოგწონს გაკეთება თავისუფალ დროს?" },
+        { "id": "b", "text": "რას აკეთებ თავისუფალ დროს?", "textGeorgian": "რას აკეთებ თავისუფალ დროს?" },
+        { "id": "c", "text": "როგორ ხარ თავისუფალ დროს?", "textGeorgian": "როგორ ხარ თავისუფალ დროს?" },
+        { "id": "d", "text": "სად ხარ თავისუფალ დროს?", "textGeorgian": "სად ხარ თავისუფალ დროს?" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "რას მოგწონს გაკეთება თავისუფალ დროს? (ras mogts'ons gak'eteba tavisuphal dros?) = What do you like to do in your free time? The question uses Class IV verb მოგწონს (you like).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q9",
+      "question": "What is the main way Georgian expresses future tense in Series I verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "By using different verb endings" },
+        { "id": "b", "text": "By using time expressions and context, with the same Series I forms" },
+        { "id": "c", "text": "By adding a future particle before the verb" },
+        { "id": "d", "text": "By using a completely different verb form" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In Georgian, Series I verbs use the same forms for both present and future tense. The distinction is made through time expressions (like ხვალ - tomorrow) and context, not through verb conjugation changes.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q10",
+      "question": "Complete the conversation:\n\nA: გამარჯობა, როგორ ხარ?\nB: კარგად ვარ, გმადლობთ. __________?\nA: მეც კარგად. რას აკეთებ დღეს?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "შენ როგორ?", "textGeorgian": "შენ როგორ?" },
+        { "id": "b", "text": "რას მოგწონს?", "textGeorgian": "რას მოგწონს?" },
+        { "id": "c", "text": "სად ხარ?", "textGeorgian": "სად ხარ?" },
+        { "id": "d", "text": "რა დროს?", "textGeorgian": "რა დროს?" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "After responding to 'როგორ ხარ?' (How are you?), it's natural to ask the same question back: 'შენ როგორ?' (And you, how are you?) or just 'შენ?' (And you?).",
+      "points": 10
+    },
+    {
+      "id": "quiz-q11",
+      "question": "Which sentence correctly expresses 'What kind of music do you like?'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "რა სახის მუსიკა მოგწონს?", "textGeorgian": "რა სახის მუსიკა მოგწონს?" },
+        { "id": "b", "text": "რა სახის მუსიკა მოგწონსა?", "textGeorgian": "რა სახის მუსიკა მოგწონსა?" },
+        { "id": "c", "text": "რა მუსიკა მოგწონს?", "textGeorgian": "რა მუსიკა მოგწონს?" },
+        { "id": "d", "text": "რა სახის მუსიკას მოგწონს?", "textGeorgian": "რა სახის მუსიკას მოგწონს?" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "რა სახის მუსიკა მოგწონს? (ra sakhis musika mogts'ons?) = What kind of music do you like? რა სახის (ra sakhis) = what kind of. In Class IV verbs, the theme (მუსიკა) takes Nominative case.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q12",
+      "question": "Translate to English: 'რამდენ ხანს იქნები?'",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "What time will you be there?" },
+        { "id": "b", "text": "How long will you be there?" },
+        { "id": "c", "text": "Where will you be?" },
+        { "id": "d", "text": "When will you be there?" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რამდენ ხანს? (ramden khans?) = How long? იქნები (ik'nebi) = you will be (future form). So 'რამდენ ხანს იქნები?' = How long will you be (there)?",
+      "points": 10
+    }
+  ]
+}
+

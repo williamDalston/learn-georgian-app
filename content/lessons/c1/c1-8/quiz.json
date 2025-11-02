@@ -1,0 +1,160 @@
+{
+  "lessonId": "c1-8",
+  "title": "Lesson C1-8 Assessment: Pragmatic Mastery - Context and Implicature",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is conversational implicature?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Reading the literal meaning of words" },
+        { "id": "b", "text": "Understanding what speakers imply without explicitly stating it" },
+        { "id": "c", "text": "Speaking with correct grammar" },
+        { "id": "d", "text": "Using formal vocabulary" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Conversational implicature is when speakers suggest something without directly stating it. In Georgian, this is essential for understanding real communication beyond literal word meanings.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "When Speaker B says: 'შეიძლება, მგონია, მე უნდა ვიმუშაო...' in response to an invitation, what do they really mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "They're definitely coming after work" },
+        { "id": "b", "text": "They need to confirm their work schedule" },
+        { "id": "c", "text": "They're politely declining the invitation" },
+        { "id": "d", "text": "They're asking for more information" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The hedging words ('შეიძლება' - maybe, 'მგონია' - I think) combined with mentioning work is a typical Georgian polite refusal. This demonstrates pragmatic indirectness.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "Which pragmatic marker signals disbelief or ironic stance?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ანუ (anu)" },
+        { "id": "b", "text": "ვითომ (vitom)" },
+        { "id": "c", "text": "-ც (-c enclitic)" },
+        { "id": "d", "text": "-მც (-mc enclitic)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "'ვითომ' (vitom) means 'as if/supposedly' and carries disbelief, skepticism, or irony. It's a key pragmatic particle for non-literal meaning.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What is the pragmatic function of 'რთულია' in the sentence: 'რთულია ეს პროექტი მოგვცეს ასე სწრაფად'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Describing actual physical difficulty" },
+        { "id": "b", "text": "Signaling indirect refusal or preference against the action" },
+        { "id": "c", "text": "Asking for help" },
+        { "id": "d", "text": "Stating the project is large" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "'რთულია' (it's difficult) often signals 'I'd prefer not to' rather than literal difficulty. This is a common pattern of indirect refusal in Georgian.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match the pragmatic expressions to their implied meanings:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ვნახავთ" },
+        { "id": "l2", "text": "არ არის გამორიცხული" },
+        { "id": "l3", "text": "სწორად დაი" },
+        { "id": "l4", "text": "ალბათ აღარაფერი" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Probably not / soft no" },
+        { "id": "r2", "text": "Diplomatic hedging (often unlikelihood)" },
+        { "id": "r3", "text": "Strong affirmative (idiom)" },
+        { "id": "r4", "text": "Implied struggle/problems" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "These idioms demonstrate how Georgian uses indirect expressions: 'ვნახავთ' (we'll see) = soft refusal, 'არ არის გამორიცხული' = diplomatic uncertainty, 'სწორად დაი' = emphatic yes, 'ალბათ აღარაფერი' = signaling problems indirectly.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "At a supra, when the tamada says 'დურმა, ქალბატონო,' what does this require of the addressed person?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nothing specific" },
+        { "id": "b", "text": "To drink, acknowledge the toast, and potentially respond" },
+        { "id": "c", "text": "To introduce themselves" },
+        { "id": "d", "text": "To propose their own toast immediately" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "When addressed by title ('ქალბატონო') during a toast at a supra, the person must drink, acknowledge the toast, and may need to respond. This demonstrates pragmatic speech acts in cultural ritual.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What is the main difference between hierarchical address in Georgian ('ბატონო დავით' vs. 'დათი')?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "There is no pragmatic difference" },
+        { "id": "b", "text": "'ბატონო' creates formality and distance; first name alone implies close relationship and equal status" },
+        { "id": "c", "text": "The first is less respectful" },
+        { "id": "d", "text": "The second is more formal" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Address forms carry heavy pragmatic meaning in Georgian. 'ბატონო' (sir) establishes hierarchy and professional distance, while first name alone signals familiarity and equality. This affects how messages are interpreted.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "How does context change the pragmatic meaning of 'აუცილებელია ცვლილება'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "It means the same in all contexts" },
+        { "id": "b", "text": "In professional settings it's a firm directive; in family settings it would be unusually strong" },
+        { "id": "c", "text": "Context doesn't affect meaning" },
+        { "id": "d", "text": "It's always casual" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Same words, different contexts = different pragmatic force. Professional: assertive directive. Family: unusually demanding. This demonstrates how register and context determine pragmatic interpretation.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q9",
+      "question": "What is the implied meaning when someone says 'კარგად წავედით, ალბათ აღარაფერი' about their business?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "The business is thriving" },
+        { "id": "b", "text": "The business is struggling despite positive framing" },
+        { "id": "c", "text": "The speaker is uncertain about status" },
+        { "id": "d", "text": "The business is closing soon" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Despite saying 'კარგად წავედით' (we went well), the phrase 'ალბათ აღარაფერი' (probably nothing) signals underlying problems. This is characteristic Georgian indirect communication about difficulties.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q10",
+      "question": "What is the primary purpose of mastering pragmatics in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "To speak faster" },
+        { "id": "b", "text": "To understand what people really mean beyond literal words and navigate cultural subtext" },
+        { "id": "c", "text": "To use correct grammar" },
+        { "id": "d", "text": "To memorize vocabulary" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Pragmatics mastery means understanding implied meanings, cultural context, and non-literal communication. This is essential for true fluency in Georgian and any high-context culture.",
+      "points": 10
+    }
+  ]
+}
+

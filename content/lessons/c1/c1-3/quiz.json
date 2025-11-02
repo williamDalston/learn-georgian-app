@@ -1,0 +1,176 @@
+{
+  "lessonId": "c1-3",
+  "lessonTitle": "Idiomatic Expressions and Cultural Language",
+  "level": "C1",
+  "passingScore": 75,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz1",
+      "question": "What does 'ბედნიერ ვარსკვლავზე ბოლოვნება' mean?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "To be born unlucky"
+        },
+        {
+          "id": "b",
+          "text": "To be born on a happy star (very lucky)"
+        },
+        {
+          "id": "c",
+          "text": "To be born under a bad sign"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "One of the most beautiful Georgian idioms meaning someone is very fortunate and blessed with good luck."
+    },
+    {
+      "id": "quiz2",
+      "question": "When someone's 'ყურები ჩამოეცვა' (q'urebi chamoets'va), what happened?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "They became deaf"
+        },
+        {
+          "id": "b",
+          "text": "They became very sad/disappointed"
+        },
+        {
+          "id": "c",
+          "text": "They started listening carefully"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "This vivid idiom means someone's mood visibly dropped - they became dejected or disappointed."
+    },
+    {
+      "id": "quiz3",
+      "question": "If someone 'ვირიან თავზე დაჯდომაა' (virian tavze dajdomaa), what are they?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Very intelligent"
+        },
+        {
+          "id": "b",
+          "text": "Stubborn and obstinate"
+        },
+        {
+          "id": "c",
+          "text": "Feeling dizzy"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "This humorous idiom describes stubbornness - someone refusing to change their position, literally 'sitting on a donkey's head'."
+    },
+    {
+      "id": "quiz4",
+      "question": "What does 'ხელი აქვს' (kheli aqvs) mean?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Has hand (talented/skilled)"
+        },
+        {
+          "id": "b",
+          "text": "Has an injured hand"
+        },
+        {
+          "id": "c",
+          "text": "Is helpful"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "This idiom means someone has natural talent or skill. Georgians use 'hand' expressions to describe ability."
+    },
+    {
+      "id": "quiz5",
+      "question": "What does 'წვერი აქვს' (ts'veri aqvs) mean?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Has beard (wise/experienced)"
+        },
+        {
+          "id": "b",
+          "text": "Very old"
+        },
+        {
+          "id": "c",
+          "text": "Masculine appearance"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Respectful idiom for wisdom and experience, can be used for both genders despite literal meaning."
+    },
+    {
+      "id": "quiz6",
+      "question": "Translate: 'My friend is born on a happy star - she found the perfect job.'",
+      "type": "translation",
+      "points": 5,
+      "correctAnswer": "ჩემი მეგობარი ბედნიერ ვარსკვლავზე ბოლოვნებაა - მან იდეალური სამუშაო იპოვა.",
+      "alternatives": [
+        "ჩემი მეგობარი ბედნიერ ვარსკვლავზე ბოლოვნებაა - მან იდეალური სამუშაო იპოვა.",
+        "ჩემი მეგობარი იყო ბედნიერ ვარსკვლავზე ბოლოვნება"
+      ],
+      "explanation": "Use the idiom ბედნიერ ვარსკვლავზე ბოლოვნებაა for 'born on a happy star' - meaning very lucky."
+    },
+    {
+      "id": "quiz7",
+      "question": "What does 'გული აქვს ბრძოლისათვის' (guli aqvs brdzolisat'vis) reflect about Georgian culture?",
+      "type": "multiple-choice",
+      "points": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "Georgian warrior culture and values of courage"
+        },
+        {
+          "id": "b",
+          "text": "Love of sports and competition"
+        },
+        {
+          "id": "c",
+          "text": "Religious devotion"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "This idiom reflects deep cultural values of inner strength, determination, and warrior spirit valued in Georgian society."
+    },
+    {
+      "id": "quiz8",
+      "question": "If plans 'ყველაფერი წყლში ფლობს' (q'velaperi ts'qlshi plobs), they are:",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Very uncertain or unstable"
+        },
+        {
+          "id": "b",
+          "text": "Completely finalized"
+        },
+        {
+          "id": "c",
+          "text": "Water-related"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "This idiom describes an unstable or uncertain situation where everything is unclear - plans 'float' without direction."
+    }
+  ]
+}
+

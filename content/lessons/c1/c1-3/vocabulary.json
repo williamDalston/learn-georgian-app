@@ -1,0 +1,148 @@
+{
+  "lessonId": "c1-3",
+  "level": "C1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ბედნიერ ვარსკვლავზე ბოლოვნება",
+      "transliteration": "bednier varsk'vlavze bolovneba",
+      "translation": "to be born on a happy star (very lucky/fortunate)",
+      "ipa": "/bɛdnier vɑrsk'vlɑvze bɔlɔvneba/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ის ბედნიერ ვარსკვლავზე ბოლოვნებაა - მან ლატარეა მოიგო!",
+        "transliteration": "is bednier varsk'vlavze bolovnebaa - man lat'area moigo!",
+        "translation": "He/She is born on a happy star - he/she won the lottery!",
+        "audioUrl": "/audio/voc1.mp3"
+      },
+      "notes": "One of the most beautiful Georgian idioms. Expresses deep admiration for someone blessed with good fortune throughout life."
+    },
+    {
+      "id": "voc2",
+      "georgian": "ყურები ჩამოეცვა",
+      "transliteration": "q'urebi chamoets'va",
+      "translation": "ears dropped (very sad/dejected)",
+      "ipa": "/q'urebi tʃɑmɔɛtsvɑ/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "როდესაც გამოცდას ვერ ჩავაბარე, ყურები ჩამოეცვა.",
+        "transliteration": "rodesac gamotsdas ver chavabare, q'urebi chamoets'va.",
+        "translation": "When I failed the exam, my ears dropped (became very sad)."
+      },
+      "notes": "Creates vivid image of someone slumping with visible disappointment. Very commonly used."
+    },
+    {
+      "id": "voc3",
+      "georgian": "ვირიან თავზე დაჯდომა",
+      "transliteration": "virian tavze dajdoma",
+      "translation": "sitting on a donkey's head (stubborn)",
+      "ipa": "/viriɑn tɑvze dɑdʒdɔmɑ/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ჩემი მეგობარი ვირიან თავზე დაჯდომაა - არ დავტოვებს თავის დამოკიდებულებას.",
+        "transliteration": "chemi megobari virian tavze dajdomaa - ar davt'oebs tavs damok'idebulebas.",
+        "translation": "My friend is sitting on a donkey's head - he/she won't give up their position."
+      },
+      "notes": "Humorous idiom perfectly capturing willful stubbornness. Used both affectionately and critically."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ხელი აქვს",
+      "transliteration": "kheli aqvs",
+      "translation": "has hand (skilled/talented)",
+      "ipa": "/xɛli ɑqvs/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ეს ხელოვნები ხელი აქვს მუსიკისათვის.",
+        "transliteration": "es khelovnebi kheli aqvs musik'isat'vis.",
+        "translation": "These artists have hand for music (are talented)."
+      },
+      "notes": "Part of Georgian 'hand' expressions describing skill/talent. Can specify 'for something' or general talent."
+    },
+    {
+      "id": "voc5",
+      "georgian": "გული აქვს ბრძოლისათვის",
+      "transliteration": "guli aqvs brdzolisat'vis",
+      "translation": "has heart for battle (brave/determined)",
+      "ipa": "/ɡuli ɑqvs brdzɔlisɑt'vis/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ჩემი მეგობარი გული აქვს ბრძოლისათვის - ყოველთვის იბრძვის.",
+        "transliteration": "chemi megobari guli aqvs brdzolisat'vis - qovelt'vis ibrdzvis.",
+        "translation": "My friend has heart for battle - always fights/struggles."
+      },
+      "notes": "Reflects Georgian warrior culture values. Expresses deep respect for inner strength and determination."
+    },
+    {
+      "id": "voc6",
+      "georgian": "წვერი აქვს",
+      "transliteration": "ts'veri aqvs",
+      "translation": "has beard (wise/experienced)",
+      "ipa": "/ts'vɛri ɑqvs/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ჩემი დედა წვერი აქვს - იცის ყველაფერი.",
+        "transliteration": "chemi deda ts'veri aqvs - its'is q'velaperi.",
+        "translation": "My mother has beard - knows everything (is wise)."
+      },
+      "notes": "Respectful idiom for wisdom. Can be used for both men and women. Reflects traditional wisdom symbols."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ცეცხლი გადაენაცვლება",
+      "transliteration": "tsetskhli gadaenatsvleba",
+      "translation": "fire is exchanged (very energetic)",
+      "ipa": "/tsɛtsxli ɡɑdɑɛnɑtsvlɛbɑ/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ამ ბავშვებს ცეცხლი გადაენაცვლება!",
+        "transliteration": "am bavshevs tsetskhli gadaenatsvleba!",
+        "translation": "These children have fire exchanged! (are extremely energetic)."
+      },
+      "notes": "Describes incredible vitality and energy. Often used for children or very active people."
+    },
+    {
+      "id": "voc8",
+      "georgian": "დაწყნარების ნისლი",
+      "transliteration": "dats'q'narebis nisli",
+      "translation": "fog of confusion",
+      "ipa": "/dɑts'q'nɑrɛbis nisli/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ეს თემა დაწყნარების ნისლში არის.",
+        "transliteration": "es tema dats'q'narebis nisli-shi aris.",
+        "translation": "This topic is in a fog of confusion (very unclear)."
+      },
+      "notes": "Used when things are very confusing or unclear. Literary and expressive."
+    },
+    {
+      "id": "voc9",
+      "georgian": "ყველაფერი წყლში ფლობს",
+      "transliteration": "q'velaperi ts'qlshi plobs",
+      "translation": "everything floats in water (very uncertain)",
+      "ipa": "/q'vɛlɑpɛri ts'q'lʃi plɔbs/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "ჩვენი გეგმები ყველაფერი წყლში ფლობს.",
+        "transliteration": "chveni gegnebi q'velaperi ts'qlshi plobs.",
+        "translation": "Our plans, everything floats in water (very uncertain)."
+      },
+      "notes": "Describes instability or uncertainty. Often used for uncertain future plans."
+    },
+    {
+      "id": "voc10",
+      "georgian": "საზღვარი არ ვიცი",
+      "transliteration": "sazghvari ar vitsi",
+      "translation": "I don't know the border (I'm excessive)",
+      "ipa": "/sɑzɣvɑri ɑr vitsi/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "საკვებში საზღვარი არ ვიცი - ვჭამ ბევრს.",
+        "transliteration": "sak'vebshi sazghvari ar vitsi - vch'am bevrs.",
+        "translation": "I don't know the border in food - I eat a lot."
+      },
+      "notes": "Humble admission of not knowing limits or going too far. Self-deprecating humor."
+    }
+  ]
+}
+

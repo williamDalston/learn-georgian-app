@@ -1,0 +1,221 @@
+{
+  "lessonId": "c1-3",
+  "lessonTitle": "Idiomatic Expressions and Cultural Language",
+  "level": "C1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Idiom Meaning Identification",
+      "instructions": "Choose the correct meaning for each Georgian idiom.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does 'ბედნიერ ვარსკვლავზე ბოლოვნება' (bednier varsk'vlavze bolovneba) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Born unlucky"
+            },
+            {
+              "id": "b",
+              "text": "Born on a happy star (very lucky)"
+            },
+            {
+              "id": "c",
+              "text": "Born under a bad sign"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This beautiful idiom means someone is very fortunate or lucky, blessed with good fortune throughout life."
+        },
+        {
+          "id": "q2",
+          "question": "What does 'ყურები ჩამოეცვა' (q'urebi chamoets'va) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ears dropped (very sad)"
+            },
+            {
+              "id": "b",
+              "text": "Listening carefully"
+            },
+            {
+              "id": "c",
+              "text": "Deaf"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This idiom means someone became sad, disappointed, or dejected - their mood visibly dropped."
+        },
+        {
+          "id": "q3",
+          "question": "What does 'ვირიან თავზე დაჯდომა' (virian tavze dajdoma) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Very intelligent"
+            },
+            {
+              "id": "b",
+              "text": "Sitting on a donkey's head (stubborn)"
+            },
+            {
+              "id": "c",
+              "text": "Feeling dizzy"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This humorous idiom describes someone who is stubborn and willfully refuses to change their mind."
+        },
+        {
+          "id": "q4",
+          "question": "What does 'ხელი აქვს' (kheli aqvs) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Has hand (skilled/talented)"
+            },
+            {
+              "id": "b",
+              "text": "Injured hand"
+            },
+            {
+              "id": "c",
+              "text": "Helpful"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This idiom means someone has natural talent or skill in something."
+        },
+        {
+          "id": "q5",
+          "question": "What does 'წვერი აქვს' (ts'veri aqvs) mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Has beard (wise/experienced)"
+            },
+            {
+              "id": "b",
+              "text": "Very old"
+            },
+            {
+              "id": "c",
+              "text": "Masculine appearance"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This respectful idiom means someone is wise, experienced, or mature."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Idioms to Situations",
+      "instructions": "Match each idiom to the appropriate situation.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q6",
+          "leftItems": [
+            {
+              "id": "l1",
+              "text": "ბედნიერ ვარსკვლავზე ბოლოვნება",
+              "textGeorgian": "ბედნიერ ვარსკვლავზე ბოლოვნება"
+            },
+            {
+              "id": "l2",
+              "text": "ყურები ჩამოეცვა",
+              "textGeorgian": "ყურები ჩამოეცვა"
+            },
+            {
+              "id": "l3",
+              "text": "ვირიან თავზე დაჯდომა",
+              "textGeorgian": "ვირიან თავზე დაჯდომა"
+            },
+            {
+              "id": "l4",
+              "text": "ხელი აქვს",
+              "textGeorgian": "ხელი აქვს"
+            }
+          ],
+          "rightItems": [
+            {
+              "id": "r1",
+              "text": "Someone very talented at music"
+            },
+            {
+              "id": "r2",
+              "text": "Someone who won the lottery"
+            },
+            {
+              "id": "r3",
+              "text": "Someone very sad after failing an exam"
+            },
+            {
+              "id": "r4",
+              "text": "Someone refusing to change their opinion"
+            }
+          ],
+          "correctMatches": [
+            {
+              "left": "l1",
+              "right": "r2"
+            },
+            {
+              "left": "l2",
+              "right": "r3"
+            },
+            {
+              "left": "l3",
+              "right": "r4"
+            },
+            {
+              "left": "l4",
+              "right": "r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "translation",
+      "title": "Using Idioms in Context",
+      "instructions": "Translate the sentences including the appropriate Georgian idiom.",
+      "points": 5,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "'My friend is born on a happy star - she found the perfect job.'",
+          "correctAnswer": "ჩემი მეგობარი ბედნიერ ვარსკვლავზე ბოლოვნებაა - მან იდეალური სამუშაო იპოვა.",
+          "alternatives": [
+            "ჩემი მეგობარი ბედნიერ ვარსკვლავზე ბოლოვნებაა - მან იდეალური სამუშაო იპოვა.",
+            "ჩემი მეგობარი იყო ბედნიერ ვარსკვლავზე ბოლოვნება - მან სიდიალური სამუშაო იპოვა."
+          ],
+          "explanation": "Use 'ბედნიერ ვარსკვლავზე ბოლოვნებაა' (bednier varsk'vlavze bolovnebaa) for 'born on a happy star' - meaning very lucky or fortunate."
+        },
+        {
+          "id": "q8",
+          "question": "'When he refused to listen, they said he was sitting on a donkey's head.'",
+          "correctAnswer": "როდესაც არ დაუსმენდა, ვირიან თავზე დაჯდომა უწოდეს.",
+          "alternatives": [
+            "როდესაც არ დაუსმენდა, ვირიან თავზე დაჯდომა უწოდეს.",
+            "როდესაც ის არ დაუსმენდა, ვირი თავზე დაჯდომა უწოდეს."
+          ],
+          "explanation": "ვირიან თავზე დაჯდომა (virian tavze dajdoma) is the idiom for 'stubborn' - literally 'sitting on a donkey's head'."
+        }
+      ]
+    }
+  ]
+}
+

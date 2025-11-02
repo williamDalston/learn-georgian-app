@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { playfairDisplay, inter, georgianFont } from '@/lib/fonts'
+import { playfairDisplay, inter } from '@/lib/fonts'
 import './globals.css'
 
 export const metadata: Metadata = {

@@ -1,0 +1,287 @@
+{
+  "lessonId": "c1-8",
+  "level": "C1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ვითომ",
+      "transliteration": "vitom",
+      "translation": "As if / Supposedly",
+      "ipa": "/vɪtʼɔm/",
+      "partOfSpeech": "pragmatic particle",
+      "exampleSentence": {
+        "georgian": "ვითომ მან ვიცო პასუხი.",
+        "transliteration": "vitom man vits'o p'asukhi.",
+        "translation": "As if he supposedly knew the answer."
+      },
+      "notes": "Key pragmatic marker signaling disbelief, irony, or skeptical stance. Can't be translated literally - it's about conveying attitude."
+    },
+    {
+      "id": "voc2",
+      "georgian": "ანუ",
+      "transliteration": "anu",
+      "translation": "That is / I mean / In other words",
+      "ipa": "/ɑnu/",
+      "partOfSpeech": "conjunction (pragmatic)",
+      "exampleSentence": {
+        "georgian": "ანუ, თქვენ არ ხართ დარწმუნებული.",
+        "transliteration": "anu, tk'ven ar khart dartsmunebuli.",
+        "translation": "That is / I mean, you're not sure."
+      },
+      "notes": "Used for reformulation, clarification, or restating ideas. Crucial for managing conversational clarity and emphasis."
+    },
+    {
+      "id": "voc3",
+      "georgian": "რთულია",
+      "transliteration": "rtilia",
+      "translation": "It's difficult",
+      "ipa": "/rt'ɪlɪɑ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რთულია ეს პროექტი მოგვცეს ასე სწრაფად.",
+        "transliteration": "rtilia es p'roekt'i mogvts'es ase stsrap'ad.",
+        "translation": "It's difficult for us to give this project so quickly."
+      },
+      "notes": "Pragmatically often signals 'I'd prefer not to' rather than literal difficulty. Common indirect refusal pattern."
+    },
+    {
+      "id": "voc4",
+      "georgian": "-ც",
+      "transliteration": "-c",
+      "translation": "Even / Also / Too (enclitic)",
+      "ipa": "/-ts/",
+      "partOfSpeech": "enclitic particle",
+      "exampleSentence": {
+        "georgian": "მე მიყვარს თქვენც.",
+        "transliteration": "me miq'vars tk'vents.",
+        "translation": "I love you too."
+      },
+      "notes": "Postpositional particle added to words to add emphasis or 'also/even.' Must attach to the stressed word. Changes pragmatic focus."
+    },
+    {
+      "id": "voc5",
+      "georgian": "-მც",
+      "transliteration": "-mc",
+      "translation": "Also / In addition (enclitic)",
+      "ipa": "/-mts/",
+      "partOfSpeech": "enclitic particle",
+      "exampleSentence": {
+        "georgian": "ოთახში ყოფნამც კარგია.",
+        "transliteration": "otakhshi q'op'namc k'argia.",
+        "translation": "Staying in the room is also good."
+      },
+      "notes": "Adds 'also/in addition.' Different from -ც in that it emphasizes additional options rather than parallel emphasis."
+    },
+    {
+      "id": "voc6",
+      "georgian": "არ არის გამორიცხული",
+      "transliteration": "ar aris gamoritskhuli",
+      "translation": "It's not excluded / It's possible",
+      "ipa": "/ɑr ɑrɪs gɑmɔrɪtsxulɪ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "არ არის გამორიცხული, რომ ვნახოთ.",
+        "transliteration": "ar aris gamoritskhuli, rom vnakhot.",
+        "translation": "It's not excluded that we'll see (maybe it will happen)."
+      },
+      "notes": "Diplomatic hedging phrase. Suggests possibility while often pragmatically conveying unlikelihood. Common in formal discourse."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ვნახავთ",
+      "transliteration": "vnakhvat",
+      "translation": "We'll see / Let's see",
+      "ipa": "/vnɑxvɑt'/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "ვნახავთ, შეიძლება მოვიდე მოვიდე.",
+        "transliteration": "vnakhvat, sheidzleba movide movide.",
+        "translation": "We'll see, maybe I'll come."
+      },
+      "notes": "Often a soft 'no' or 'probably not.' Pragmatically suggests leaving things open-ended rather than commitment. Very common indirect refusals."
+    },
+    {
+      "id": "voc8",
+      "georgian": "თვალში დავინახე",
+      "transliteration": "tvalshi davinakhe",
+      "translation": "I saw (it) in his/her eyes",
+      "ipa": "/tvɑlʃɪ dɑvɪnɑxɛ/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "თვალში დავინახე, რომ გაბრაზდა.",
+        "transliteration": "tvalshi davinakhe, rom gabrazda.",
+        "translation": "I saw in his eyes that he got angry."
+      },
+      "notes": "Georgian idiom expressing understanding through non-verbal cues. Emphasizes importance of reading body language pragmatically."
+    },
+    {
+      "id": "voc9",
+      "georgian": "სწორად დაი",
+      "transliteration": "stsrap'ad dai",
+      "translation": "Go straight / Absolutely yes",
+      "ipa": "/sts'rɑp'ɑd dɑɪ/",
+      "partOfSpeech": "idiom",
+      "exampleSentence": {
+        "georgian": "როგორ ხარ? სწორად დაი!",
+        "transliteration": "rogors khar? stsrap'ad dai!",
+        "translation": "How are you? Straight forward! (Absolutely great!)"
+      },
+      "notes": "Literal: 'go straight.' Pragmatic meaning: emphatic affirmation 'absolutely, yes!' Cannot be understood literally. Cultural idiom."
+    },
+    {
+      "id": "voc10",
+      "georgian": "სად ეტყოდა",
+      "transliteration": "sad etq'oda",
+      "translation": "Where would you say",
+      "ipa": "/sɑd ɛt'q'ɔdɑ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "სად ეტყოდა... ნელა... ალბათ კარგია.",
+        "transliteration": "sad etq'oda... nela... albat k'argia.",
+        "translation": "Where would you say... slowly... it's probably fine."
+      },
+      "notes": "Hedging phrase expressing hesitant, cautious agreement. Shows reluctance to fully commit to a position. Pragmatically indicates reservation."
+    },
+    {
+      "id": "voc11",
+      "georgian": "ბატონო",
+      "transliteration": "batono",
+      "translation": "Sir / Mr.",
+      "ipa": "/bɑtʼɔnɔ/",
+      "partOfSpeech": "title/address form",
+      "exampleSentence": {
+        "georgian": "ბატონო დავით, თქვენ ახლობლები ხართ?",
+        "transliteration": "batono davit', tk'ven akhlobleb khart?",
+        "translation": "Sir Davit, are you nearby?"
+      },
+      "notes": "Formal address showing respect and hierarchy. Creates distance and professionalism. Use with first name or full name. Significant pragmatic meaning."
+    },
+    {
+      "id": "voc12",
+      "georgian": "ქალბატონო",
+      "transliteration": "kalbatono",
+      "translation": "Madam / Mrs. / Ms.",
+      "ipa": "/kɑlbɑtʼɔnɔ/",
+      "partOfSpeech": "title/address form",
+      "exampleSentence": {
+        "georgian": "დურმა, ქალბატონო!",
+        "transliteration": "durma, kalbatono!",
+        "translation": "To your health, madam! (Supra toast)"
+      },
+      "notes": "Female formal address. In supra context, signals directed toast requiring drinking response. Shows respect and hierarchy awareness."
+    },
+    {
+      "id": "voc13",
+      "georgian": "დურმა",
+      "transliteration": "durma",
+      "translation": "To your health / Cheers (toast)",
+      "ipa": "/durmɑ/",
+      "partOfSpeech": "interjection",
+      "exampleSentence": {
+        "georgian": "დურმა, ყველას და ყველას ოჯახს!",
+        "transliteration": "durma, q'velas da q'velas ojakhs!",
+        "translation": "To your health, everyone and every family!"
+      },
+      "notes": "Traditional Georgian supra toast formula. When directed at someone (with their name/title), requires them to drink and respond. Heavy pragmatic significance."
+    },
+    {
+      "id": "voc14",
+      "georgian": "შეიძლება, კარგი იყოს",
+      "transliteration": "sheidzleba, k'argi ik'os",
+      "translation": "Maybe it would be good / Could be good",
+      "ipa": "/ʃɛɪdzlɛbɑ, k'ɑrgɪ ɪk'ɔs/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "შეიძლება, კარგი იყოს დავხუროთ ფანჯარა.",
+        "transliteration": "sheidzleba, k'argi ik'os davkhurot p'anjara.",
+        "translation": "Maybe it would be good to close the window."
+      },
+      "notes": "Indirect suggestion marker. Literal meaning about possibility, but pragmatically functions as soft directive. Common polite request form."
+    },
+    {
+      "id": "voc15",
+      "georgian": "ნატურალურია",
+      "transliteration": "nat'uraluria",
+      "translation": "It's natural / Naturally",
+      "ipa": "/nɑt'urɑlurɪɑ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "ნატურალურია, რომ ეს ასე არის.",
+        "transliteration": "nat'uraluria, rom es ase aris.",
+        "translation": "It's natural that it's like this."
+      },
+      "notes": "Signals that something is expected or culturally appropriate. Pragmatically conveys 'this is how it should be.' Establishes normative context."
+    },
+    {
+      "id": "voc16",
+      "georgian": "რა ღუ",
+      "transliteration": "ra ghu",
+      "translation": "What (emphatic/interrogative with tone variation)",
+      "ipa": "/rɑ ɣu/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რა ღუ? (rising tone - surprise)\nრა ღუ? (falling tone - annoyance)",
+        "transliteration": "ra ghu?",
+        "translation": "What (surprise) / What (annoyance)"
+      },
+      "notes": "Same words, different intonation = different pragmatic meaning. Rising = surprise/inquiry. Falling = dismissal/frustration. Demonstrates intonational pragmatics."
+    },
+    {
+      "id": "voc17",
+      "georgian": "ალბათ აღარაფერი",
+      "transliteration": "albat agharap'eri",
+      "translation": "Probably nothing / Most likely nothing",
+      "ipa": "/ɑlbɑt' ɑɣɑrɑp'ɛrɪ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "კარგად წავედით, ალბათ აღარაფერი...",
+        "transliteration": "k'argad ts'avedit', albat agharap'eri...",
+        "translation": "We went well, probably nothing (implied: we're struggling)."
+      },
+      "notes": "Key idiom showing Georgian indirectness. Despite positive framing ('კარგად წავედით'), this phrase signals underlying problems. Cultural pragmatics."
+    },
+    {
+      "id": "voc18",
+      "georgian": "თუმცა",
+      "transliteration": "tumts'a",
+      "translation": "However / But",
+      "ipa": "/tumts'ɑ/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "გეთანხმებით, თუმცა მე ვიფიქრო სხვანაირად.",
+        "transliteration": "getanx'mebit, tumts'a me vip'ikro skhvanairad.",
+        "translation": "I agree with you, however I think differently."
+      },
+      "notes": "Stronger contrast than 'მაგრამ.' Creates respectful disagreement space. Shows you acknowledge the other position before presenting yours."
+    },
+    {
+      "id": "voc19",
+      "georgian": "ასევე გასათვალისწინებელია",
+      "transliteration": "aseve gasatvalists'inebelia",
+      "translation": "Also worth considering / Should also be taken into account",
+      "ipa": "/ɑsɛvɛ gɑsɑtvɑlɪsts'ɪnɛbɛlɪɑ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "დიახ, თუმცა ასევე გასათვალისწინებელია სხვა ფაქტორებიც.",
+        "transliteration": "diakh, tumts'a aseve gasatvalists'inebelia skhva p'akt'orebits.",
+        "translation": "Yes, however we should also consider other factors."
+      },
+      "notes": "Sophisticated way to add additional considerations without dismissing previous points. Shows nuanced argumentation typical of C1-level discourse."
+    },
+    {
+      "id": "voc20",
+      "georgian": "აუცილებელია",
+      "transliteration": "autsilebelia",
+      "translation": "It's necessary / It's required",
+      "ipa": "/ɑutsilɛbɛlɪɑ/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "აუცილებელია ცვლილება წარმოადგინოთ.",
+        "transliteration": "autsilebelia tsvlileba tsarmoadginot.",
+        "translation": "It's necessary to present changes."
+      },
+      "notes": "Context-dependent pragmatics: in professional settings = firm directive. In family settings = unusually strong. Register matters for interpretation."
+    }
+  ]
+}
+

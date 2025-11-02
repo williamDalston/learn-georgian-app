@@ -1,10 +1,13 @@
 // Achievement definitions for the Georgian learning course
 
+export type AchievementCategory = 'lessons' | 'streaks' | 'time' | 'milestones'
+
 export interface Achievement {
   id: string
   title: string
   description: string
   icon: string
+  category: AchievementCategory
   condition: (progress: {
     completedLessons: number
     daysPracticed: number
@@ -21,6 +24,7 @@ export const achievements: Achievement[] = [
     title: 'First Steps',
     description: 'Complete your first lesson',
     icon: '🚀',
+    category: 'lessons',
     condition: (progress) => progress.completedLessons >= 1,
   },
   {
@@ -28,6 +32,7 @@ export const achievements: Achievement[] = [
     title: 'A1 Master',
     description: 'Complete all A1 level lessons',
     icon: '📚',
+    category: 'lessons',
     condition: (progress) => {
       // This will be checked separately based on lesson completion
       // For now, we'll check this in the component that tracks level completion
@@ -39,6 +44,7 @@ export const achievements: Achievement[] = [
     title: 'Week Warrior',
     description: 'Maintain a 7-day practice streak',
     icon: '🔥',
+    category: 'streaks',
     condition: (progress) => progress.currentStreak >= 7,
   },
   {
@@ -46,6 +52,7 @@ export const achievements: Achievement[] = [
     title: 'Consistency Champion',
     description: 'Maintain a 30-day practice streak',
     icon: '⭐',
+    category: 'streaks',
     condition: (progress) => progress.currentStreak >= 30,
   },
   {
@@ -53,6 +60,7 @@ export const achievements: Achievement[] = [
     title: 'Dedicated Learner',
     description: 'Spend 10 hours learning',
     icon: '⏰',
+    category: 'time',
     condition: (progress) => progress.totalTime >= 600,
   },
   {
@@ -60,6 +68,7 @@ export const achievements: Achievement[] = [
     title: 'Serious Student',
     description: 'Spend 50 hours learning',
     icon: '💎',
+    category: 'time',
     condition: (progress) => progress.totalTime >= 3000,
   },
   {
@@ -67,6 +76,7 @@ export const achievements: Achievement[] = [
     title: 'First Week Complete',
     description: 'Practice for 7 days',
     icon: '📅',
+    category: 'milestones',
     condition: (progress) => progress.daysPracticed >= 7,
   },
   {
@@ -74,6 +84,7 @@ export const achievements: Achievement[] = [
     title: 'Monthly Milestone',
     description: 'Practice for 30 days',
     icon: '🗓️',
+    category: 'milestones',
     condition: (progress) => progress.daysPracticed >= 30,
   },
   {
@@ -81,6 +92,7 @@ export const achievements: Achievement[] = [
     title: 'Halfway There',
     description: 'Complete 50% of the course',
     icon: '🎯',
+    category: 'milestones',
     condition: (progress) => progress.completedLessons >= 16, // 33 total lessons
   },
   {
@@ -88,6 +100,7 @@ export const achievements: Achievement[] = [
     title: 'Almost There',
     description: 'Complete 75% of the course',
     icon: '🏆',
+    category: 'milestones',
     condition: (progress) => progress.completedLessons >= 25,
   },
 ]

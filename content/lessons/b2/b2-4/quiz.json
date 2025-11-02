@@ -1,0 +1,157 @@
+{
+  "lessonId": "b2-4",
+  "title": "Lesson B2-4 Assessment: Class II and Class III Verbs",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the key characteristic of Class II (intransitive) verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "They always shift to Ergative in Series II/III" },
+        { "id": "b", "text": "They always keep Nominative alignment in all series" },
+        { "id": "c", "text": "They use special Dative alignment" },
+        { "id": "d", "text": "They require direct objects" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class II (intransitive) verbs always keep Nominative alignment for subjects, regardless of which verb series (I, II, or III) they're in. This is because they have no direct object, so there's no ergative-absolutive relationship to create.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which of these is a Class II (intransitive) verb?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვხედავ კატას [vkhedav kat'as] 'I see the cat'" },
+        { "id": "b", "text": "ვირბინ [virbin] 'I run'" },
+        { "id": "c", "text": "ვჭამ პურს [vch'am p'urs] 'I eat bread'" },
+        { "id": "d", "text": "ვწერ წიგნს [vts'er ts'igns] 'I write a book'" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვირბინ 'I run' is Class II because it has no direct object. The other verbs all have direct objects (კატას, პურს, წიგნს), making them Class I (transitive).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "In the sentence 'ბავშვი ირბინა' [bavshvi irbina] 'The child ran', what case is ბავშვი in?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative (correct for Class II in Series II)" },
+        { "id": "b", "text": "Ergative (because it's past tense)" },
+        { "id": "c", "text": "Dative" },
+        { "id": "d", "text": "Accusative" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ბავშვი is Nominative because ირბინა 'ran' is Class II (intransitive). Class II verbs keep Nominative subjects even in Series II (Aorist). Only Class I transitive verbs shift to Ergative in Series II/III.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What makes Class III (medial) verbs different from Class I and II?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "They follow the same Nom → Erg shift as Class I" },
+        { "id": "b", "text": "They always keep Nominative like Class II" },
+        { "id": "c", "text": "They have unique alignment patterns that don't follow standard rules" },
+        { "id": "d", "text": "They cannot be used in Series II or III" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Class III (medial) verbs have special alignment patterns - they may use Dative subject agreement or other unique patterns that don't follow the standard Class I (Nom → Erg) or Class II (always Nom) rules. They often require individual memorization.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match each verb class to its alignment pattern:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "Class I (transitive)" },
+        { "id": "l2", "text": "Class II (intransitive)" },
+        { "id": "l3", "text": "Class III (medial)" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Always Nominative alignment" },
+        { "id": "r2", "text": "Nominative → Ergative shift in Series II/III" },
+        { "id": "r3", "text": "Special alignment patterns (often Dative)" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r2" },
+        { "left": "l2", "right": "r1" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "Class I shifts from Nominative to Ergative in Series II/III. Class II always keeps Nominative. Class III uses special patterns, often with Dative subject agreement.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Which sentence correctly demonstrates Class II verb case marking in Series II?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ბავშვმა მოვიდა [bavshvma movida] 'The child came'" },
+        { "id": "b", "text": "ბავშვი მოვიდა [bavshvi movida] 'The child came'" },
+        { "id": "c", "text": "ბავშვს მოვიდა [bavshvs movida] 'The child came'" },
+        { "id": "d", "text": "All are correct" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Option (b) is correct. მოვიდა [movida] 'came' is Class II (intransitive motion verb), so the subject ბავშვი stays Nominative even in Series II (Aorist). Class II verbs never take Ergative case.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "True or False: All verbs in Series II (Aorist) take Ergative case for their subjects.",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "True - all verbs use Ergative in Series II" },
+        { "id": "b", "text": "False - only Class I (transitive) verbs use Ergative; Class II stays Nominative" },
+        { "id": "c", "text": "False - only Class III verbs use Ergative" },
+        { "id": "d", "text": "False - no verbs use Ergative in Series II" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "False! Only Class I (transitive) verbs shift to Ergative in Series II/III. Class II (intransitive) verbs always keep Nominative alignment, and Class III (medial) verbs have their own special patterns.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "How should you approach learning Class III (medial) verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Apply the same rules as Class I" },
+        { "id": "b", "text": "Memorize them individually and learn their specific alignment patterns" },
+        { "id": "c", "text": "They all follow the same simple pattern" },
+        { "id": "d", "text": "They don't exist in Georgian" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class III verbs are less common and often need to be memorized individually because they have unique alignment patterns that don't follow the standard rules of Class I or Class II. Learn each one's specific pattern.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q9",
+      "question": "What is the main difference between Class I and Class II verbs in terms of case marking?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Class I has direct objects and shifts to Ergative in Series II/III; Class II has no objects and always stays Nominative" },
+        { "id": "b", "text": "Class I always uses Nominative; Class II uses Ergative" },
+        { "id": "c", "text": "There is no difference" },
+        { "id": "d", "text": "Class I uses Dative; Class II uses Nominative" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Class I (transitive) verbs have direct objects and shift from Nominative to Ergative in Series II/III. Class II (intransitive) verbs have no direct objects and always keep Nominative alignment in all series.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q10",
+      "question": "Which verb is correctly identified?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "დგას [dgass] 'stands' - Class I (has object)" },
+        { "id": "b", "text": "დგას [dgass] 'stands' - Class II (no object, always Nominative)" },
+        { "id": "c", "text": "დგას [dgass] 'stands' - Class III (medial verb)" },
+        { "id": "d", "text": "დგას [dgass] 'stands' - Class IV (indirect verb)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დგას 'stands' is Class II (intransitive) because it has no direct object. It's a state verb that always keeps Nominative alignment. The subject of დგას will always be Nominative, even in Series II and III.",
+      "points": 15
+    }
+  ]
+}
+

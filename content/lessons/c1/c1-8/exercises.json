@@ -1,0 +1,354 @@
+{
+  "lessonId": "c1-8",
+  "lessonTitle": "Pragmatic Mastery: Context and Implicature",
+  "level": "C1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Conversational Implicature",
+      "instructions": "Read each conversation and identify what the speaker really means (the implied meaning).",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "A: გიბიძგებთ ჩემთან ჩასვლა ხვალ საღამოს?\nB: შეიძლება, მგონია, მე უნდა ვიმუშაო...\n\nWhat does B really mean?",
+          "questionGeorgian": "A: გიბიძგებთ ჩემთან ჩასვლა ხვალ საღამოს? B: შეიძლება, მგონია, მე უნდა ვიმუშაო...",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "B will definitely work tomorrow evening"
+            },
+            {
+              "id": "b",
+              "text": "B is politely declining the invitation"
+            },
+            {
+              "id": "c",
+              "text": "B needs to confirm their work schedule"
+            },
+            {
+              "id": "d",
+              "text": "B will come after finishing work"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The hedging words 'შეიძლება' (maybe) and 'მგონია' (I think) combined with mentioning work obligations is a typical Georgian way of politely declining without directly saying 'no'."
+        },
+        {
+          "id": "q2",
+          "question": "A: როგორ გაქვს ბიზნესი?\nB: კარგად წავედით, ალბათ აღარაფერი...\n\nWhat is the implied meaning of B's response?",
+          "questionGeorgian": "A: როგორ გაქვს ბიზნესი? B: კარგად წავედით, ალბათ აღარაფერი...",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "The business is doing very well"
+            },
+            {
+              "id": "b",
+              "text": "The business is struggling despite positive framing"
+            },
+            {
+              "id": "c",
+              "text": "B is uncertain about the business status"
+            },
+            {
+              "id": "d",
+              "text": "The business closed recently"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Despite saying 'კარგად წავედით' (we went well), the phrase 'ალბათ აღარაფერი' (probably nothing) suggests underlying problems. This is a Georgian way of signaling difficulties indirectly."
+        },
+        {
+          "id": "q3",
+          "question": "Mother: არ მოვიდე ეს თით ხეებზე?\n\nWhat is the mother really asking?",
+          "questionGeorgian": "დედა: არ მოვიდე ეს თით ხეებზე?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "A literal question about a finger and trees"
+            },
+            {
+              "id": "b",
+              "text": "An indirect request to help with gardening"
+            },
+            {
+              "id": "c",
+              "text": "A question about health"
+            },
+            {
+              "id": "d",
+              "text": "A statement about nature"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This is a Georgian idiom. The literal translation is about a finger coming to trees, but it pragmatically means 'to help clean/garden.' This is an indirect speech act - a request disguised as a question."
+        },
+        {
+          "id": "q4",
+          "question": "Speaker: ფაქტია, ახლა ბევრად ცივია ბინა.\n\nWhat is the speaker really doing?",
+          "questionGeorgian": "ხოლმე: ფაქტია, ახლა ბევრად ცივია ბინა.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Simply stating a fact about temperature"
+            },
+            {
+              "id": "b",
+              "text": "Indirectly requesting someone to turn up the heat"
+            },
+            {
+              "id": "c",
+              "text": "Complaining about the apartment"
+            },
+            {
+              "id": "d",
+              "text": "Suggesting to move apartments"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "While literally noting the temperature, this statement pragmatically functions as an indirect request to increase heating. The phrase 'ფაქტია' signals this is an observation requiring action."
+        },
+        {
+          "id": "q5",
+          "question": "Which pragmatic marker often signals disbelief or ironic stance?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ვითომ (vitom)"
+            },
+            {
+              "id": "b",
+              "text": "ანუ (anu)"
+            },
+            {
+              "id": "c",
+              "text": "-ც (-c)"
+            },
+            {
+              "id": "d",
+              "text": "-მც (-mc)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "'ვითომ' (vitom) means 'as if / supposedly' and is used to signal disbelief, skepticism, or an ironic stance. It's a key pragmatic marker for expressing non-literal meanings."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Context-Dependent Interpretation",
+      "instructions": "Fill in the blanks with the most appropriate pragmatic phrase based on context.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "Professional context: აუცილებელია _____ წარმოადგინოთ საბუთები.\n(Politely but firmly: necessary to present documents)",
+          "correctAnswer": "წარმოადგინოთ",
+          "alternatives": ["წარმოადგინოთ", "გამოიყენოთ", "შეავსოთ"],
+          "explanation": "In professional contexts, 'აუცილებელია' (it's necessary) creates a formal directive tone. The phrase is assertive but not overly demanding."
+        },
+        {
+          "id": "q7",
+          "question": "Polite refusal context: _____ _____ _____, ვერ ვისარგებლებ შემოთავაზებით.\n(Indirect refusal: 'Not excluded' form)",
+          "correctAnswer": "არ არის გამორიცხული",
+          "alternatives": ["არ არის გამორიცხული", "შეიძლება", "მგონია"],
+          "explanation": "'არ არის გამორიცხული' (it's not excluded) creates diplomatic hedging. It suggests possibility while often pragmatically conveying unlikelihood."
+        },
+        {
+          "id": "q8",
+          "question": "Hedging context: _____ ეს მიდგომა უფრო ეფექტურია.\n('I think' - showing intellectual humility)",
+          "correctAnswer": "მგონია",
+          "alternatives": ["მგონია", "ვარ დარწმუნებული", "სწორია"],
+          "explanation": "'მგონია' (I think/It seems to me) is the most common hedge in Georgian, signaling intellectual humility and allowing for nuance in debate."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "matching",
+      "title": "Match Pragmatic Markers to Their Functions",
+      "instructions": "Match each Georgian pragmatic marker with its primary communicative function.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q9",
+          "leftItems": [
+            { "id": "l1", "text": "ვითომ (vitom)" },
+            { "id": "l2", "text": "ანუ (anu)" },
+            { "id": "l3", "text": "-ც (-c enclitic)" },
+            { "id": "l4", "text": "რთულია (rtilia)" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Signals disbelief/irony" },
+            { "id": "r2", "text": "Adds emphasis or 'also/even'" },
+            { "id": "r3", "text": "Reformulation/clarification" },
+            { "id": "r4", "text": "Indicates preference against action" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r3" },
+            { "left": "l3", "right": "r2" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "Understanding pragmatic markers allows you to decode subtle communicative intent. These particles and expressions modify meaning beyond literal interpretation."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Reading Hierarchical Subtext",
+      "instructions": "Analyze how relationship dynamics affect meaning in these utterances.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "ბატონო დავით, თქვენ ახლობლები ხართ?\nvs.\nდათი, ახლობლები ხარ?\n\nWhat does the use of 'ბატონო' vs. first name imply?",
+          "questionGeorgian": "A: ბატონო დავით, თქვენ ახლობლები ხართ? B: დათი, ახლობლები ხარ?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "No difference in meaning"
+            },
+            {
+              "id": "b",
+              "text": "The first shows formal respect and professional distance; the second shows close friendship"
+            },
+            {
+              "id": "c",
+              "text": "The first is more casual"
+            },
+            {
+              "id": "d",
+              "text": "The second is more respectful"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "'ბატონო' (sir) creates formal hierarchy and suggests professional or distant relationship. First name alone implies familiarity, friendship, and equal status. In Georgian culture, address forms carry heavy pragmatic meaning."
+        },
+        {
+          "id": "q11",
+          "question": "At a supra (traditional feast), the tamada says: 'დურმა, ქალბატონო...' What does this imply?",
+          "questionGeorgian": "სუფრაზე ტამადა ამბობს: დურმა, ქალბატონო...",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "He wants you to drink"
+            },
+            {
+              "id": "b",
+              "text": "A toast is directed specifically at you"
+            },
+            {
+              "id": "c",
+              "text": "You need to respond appropriately"
+            },
+            {
+              "id": "d",
+              "text": "All of the above"
+            }
+          ],
+          "correctAnswer": "d",
+          "explanation": "At a supra, addressing someone with 'ქალბატონო' (madam) during a toast is a direct pragmatic act. It requires drinking, acknowledging the toast, and potentially responding. Georgian supra rituals are heavily pragmatic."
+        },
+        {
+          "id": "q12",
+          "question": "Speaker 1: როგორ ხარ?\nSpeaker 2: სწორად დაი\n\nWhat is the pragmatic function of 'სწორად დაი'?",
+          "questionGeorgian": "A: როგორ ხარ? B: სწორად დაი",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "A literal description of going straight"
+            },
+            {
+              "id": "b",
+              "text": "A strong affirmative agreement idiom"
+            },
+            {
+              "id": "c",
+              "text": "A neutral response"
+            },
+            {
+              "id": "d",
+              "text": "A polite refusal"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "'სწორად დაი' literally means 'go straight' but pragmatically functions as an emphatic 'absolutely yes' idiom. It's a cultural expression that cannot be understood literally."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Understanding Register and Tone",
+      "instructions": "Select the most appropriate pragmatic interpretation based on context.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q13",
+          "question": "Professional context: 'აუცილებელია ცვლილება.'\nFamily context: 'შეიძლება, ცვლილება არ გამოუვიდეს?'\n\nWhat's the pragmatic difference?",
+          "questionGeorgian": "პროფესიონალური: აუცილებელია ცვლილება. ოჯახური: შეიძლება, ცვლილება არ გამოუვიდეს?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "The first is softer, the second is more demanding"
+            },
+            {
+              "id": "b",
+              "text": "The first is a firm directive; the second is a very soft, indirect suggestion"
+            },
+            {
+              "id": "c",
+              "text": "They mean exactly the same thing"
+            },
+            {
+              "id": "d",
+              "text": "The first is a question, the second is a statement"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Context dramatically changes pragmatic meaning. 'აუცილებელია' (it's necessary) is assertive in professional settings. 'შეიძლება არ გამოუვიდეს?' (couldn't it work out?) is extremely indirect family talk, avoiding confrontation."
+        },
+        {
+          "id": "q14",
+          "question": "Which phrase signals the strongest hedging/uncertainty?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ალბათ (albat - probably)"
+            },
+            {
+              "id": "b",
+              "text": "შეიძლება (sheidzleba - perhaps/maybe)"
+            },
+            {
+              "id": "c",
+              "text": "მგონია (mgonia - I think)"
+            },
+            {
+              "id": "d",
+              "text": "დარწმუნებული ვარ (dartsmunebuli var - I'm sure)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "'შეიძლება' (perhaps/maybe) carries the softest uncertainty and is often used for polite refusals or hesitant agreement. It creates maximum flexibility in interpretation."
+        }
+      ]
+    }
+  ]
+}
+

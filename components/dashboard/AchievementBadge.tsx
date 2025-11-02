@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { triggerConfetti } from './ConfettiAnimation'
 
 interface Achievement {
   id: string
@@ -27,6 +28,9 @@ export default function AchievementBadge({
       setIsUnlocked(true)
       setIsCelebrating(true)
       onUnlock?.(achievement.id)
+
+      // Trigger confetti celebration
+      triggerConfetti({ variant: 'celebratory', intensity: 'medium' })
 
       // Show celebration animation
       setTimeout(() => {
@@ -98,6 +102,13 @@ export default function AchievementBadge({
 
 // Achievement Celebration Modal
 export function AchievementCelebration({ achievement }: { achievement?: Achievement }) {
+  useEffect(() => {
+    if (achievement) {
+      // Trigger confetti celebration
+      triggerConfetti({ variant: 'celebratory', intensity: 'high' })
+    }
+  }, [achievement])
+
   if (!achievement) return null
 
   return (

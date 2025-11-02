@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import Container from '@/components/shared/Container'
 import CTAButton from '@/components/shared/CTAButton'
 import GradientText from '@/components/shared/GradientText'
+import LiveStudentCount from './LiveStudentCount'
 import { usePrefersReducedMotion } from '@/lib/hooks/usePrefersReducedMotion'
 import { fadeInUp, textReveal, getAnimationVariants } from '@/lib/utils/animations'
 
@@ -186,6 +187,16 @@ export default function HeroSection() {
                     <span className="group-hover/trust:text-primary-900 transition-colors">{item.text}</span>
                   </motion.div>
                 ))}
+              </motion.div>
+              
+              {/* Live Student Count */}
+              <motion.div
+                className="flex justify-center lg:justify-start px-4 sm:px-0 pt-2"
+                initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
+                animate={isVisible || prefersReducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+                transition={{ duration: 0.5, delay: 0.9 }}
+              >
+                <LiveStudentCount baseCount={1247} />
               </motion.div>
             </div>
           </div>
