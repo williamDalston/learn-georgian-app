@@ -21,11 +21,19 @@ export interface Lesson {
     type?: 'pdf' | 'audio' | 'interactive' | 'worksheet'
   }[]
   vocabulary?: {
+    id?: string
     georgian: string
     transliteration: string
     translation: string
     ipa?: string
     example?: string
+    exampleSentence?: {
+      georgian: string
+      transliteration: string
+      translation: string
+    }
+    partOfSpeech?: string
+    notes?: string
   }[]
   isCompleted?: boolean
 }
