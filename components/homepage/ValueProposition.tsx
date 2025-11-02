@@ -1,8 +1,10 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 import Container from '@/components/shared/Container'
 import { usePrefersReducedMotion } from '@/lib/hooks/usePrefersReducedMotion'
+import { getAnimationVariants } from '@/lib/utils/animations'
 
 interface Benefit {
   icon: React.ReactNode
@@ -28,8 +30,8 @@ const benefits: Benefit[] = [
         />
       </svg>
     ),
-    title: '10+ Hours of Transformative Video Lessons',
-    description: 'Deep-dive video content that goes beyond surface-level tips. Each lesson builds on the last, creating a complete framework for understanding your mind and achieving lasting change.',
+    title: '50+ Interactive Video Lessons',
+    description: 'Comprehensive video lessons covering Georgian alphabet, grammar, vocabulary, and conversation skills. Each lesson builds on the previous one, taking you from beginner basics to conversational fluency.',
   },
   {
     icon: (
@@ -48,8 +50,8 @@ const benefits: Benefit[] = [
         />
       </svg>
     ),
-    title: 'Step-by-Step Exercises for Deep Healing',
-    description: 'Hands-on practices and downloadable worksheets that help you integrate insights into daily life. These aren\'t just concepts—they\'re actionable tools for real transformation.',
+    title: 'Practice Exercises & Quizzes',
+    description: 'Interactive exercises, downloadable worksheets, and quizzes that help you practice reading, writing, speaking, and listening. Track your progress and reinforce what you learn through hands-on practice.',
   },
   {
     icon: (
@@ -68,8 +70,8 @@ const benefits: Benefit[] = [
         />
       </svg>
     ),
-    title: 'Guidance from an Experienced Teacher',
-    description: 'Learn from someone who\'s walked the path themselves. Our teacher combines decades of experience, scientific rigor, and genuine empathy to guide you every step of the way.',
+    title: 'Learn from Native Georgian Speakers',
+    description: 'Learn from experienced teachers who are native Georgian speakers. Get authentic pronunciation, cultural insights, and real-world language usage from instructors who understand both the language and the culture.',
   },
   {
     icon: (
@@ -88,8 +90,8 @@ const benefits: Benefit[] = [
         />
       </svg>
     ),
-    title: 'Private Community Support',
-    description: 'Join a community of serious seekers committed to growth. Share insights, ask questions, and find support from others who understand your journey.',
+    title: 'Practice with Fellow Learners',
+    description: 'Join a community of Georgian language learners. Practice conversations, share progress, ask questions, and get support from others on the same learning journey.',
   },
 ]
 
@@ -147,7 +149,7 @@ export default function ValueProposition() {
             What You'll Get
           </h2>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light">
-            Everything you need to transform your relationship with yourself and build lasting inner freedom
+            Everything you need to master Georgian from beginner to conversational level
           </p>
         </div>
 

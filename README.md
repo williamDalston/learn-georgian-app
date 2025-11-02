@@ -1,6 +1,6 @@
-# Inner Freedom Program - Subscription Website
+# Learn Georgian - From Beginner to Conversational
 
-A high-conversion subscription website built with Next.js, TypeScript, and Tailwind CSS for an "Inner Freedom" wellness program.
+A high-conversion subscription website built with Next.js, TypeScript, and Tailwind CSS for learning the Georgian language from beginner to conversational level.
 
 ## 🚀 Getting Started
 

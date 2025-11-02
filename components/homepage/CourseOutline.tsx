@@ -13,34 +13,34 @@ interface Module {
 
 const modules: Module[] = [
   {
-    week: 'Week 1',
-    title: 'Understanding Your Inner Self',
-    description: 'Learn to recognize your reactive patterns and understand the nature of your mind.',
+    week: 'Beginner',
+    title: 'Georgian Alphabet & Basics',
+    description: 'Master the unique Georgian script, learn essential greetings, numbers, and basic vocabulary to get started.',
   },
   {
-    week: 'Week 2',
-    title: 'Healing Past Wounds',
-    description: 'Discover practical tools for processing past trauma and emotional pain with compassion.',
+    week: 'Beginner+',
+    title: 'Grammar Foundations',
+    description: 'Build your grammar skills with verb conjugations, noun cases, and sentence structure basics.',
   },
   {
-    week: 'Week 3',
-    title: 'Breaking Reactive Patterns',
-    description: 'Develop skills to pause, observe, and respond instead of automatically reacting.',
+    week: 'Elementary',
+    title: 'Daily Conversations',
+    description: 'Learn to talk about yourself, your family, daily activities, and navigate common situations.',
   },
   {
-    week: 'Week 4',
-    title: 'Building Emotional Resilience',
-    description: 'Strengthen your capacity to navigate difficult emotions with grace and wisdom.',
+    week: 'Intermediate',
+    title: 'Complex Grammar & Culture',
+    description: 'Master advanced grammar, idiomatic expressions, and gain insights into Georgian culture and traditions.',
   },
   {
-    week: 'Week 5',
-    title: 'Cultivating Inner Peace',
-    description: 'Learn meditation practices and mindfulness techniques that create lasting calm.',
+    week: 'Upper-Intermediate',
+    title: 'Fluency Building',
+    description: 'Expand your vocabulary, practice expressing opinions, and handle more complex real-world conversations.',
   },
   {
-    week: 'Week 6',
-    title: 'Living with Purpose',
-    description: 'Align your actions with your values and create a life of meaning and fulfillment.',
+    week: 'Conversational',
+    title: 'Confident Communication',
+    description: 'Achieve conversational fluency with practice in debates, storytelling, and nuanced cultural communication.',
   },
 ]
 
@@ -51,10 +51,10 @@ export default function CourseOutline() {
         <AnimatedSection direction="up">
           <div className="text-center mb-10 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary-900 mb-3 sm:mb-4 font-bold">
-              Your Journey to Inner Freedom
+              Your Path to Georgian Fluency
             </h2>
             <p className="text-base sm:text-lg font-sans text-gray-700 max-w-2xl mx-auto px-4 sm:px-0 leading-relaxed">
-              A structured, self-paced program designed to guide you step-by-step toward lasting transformation
+              A structured, self-paced program that takes you from complete beginner to conversational fluency
             </p>
           </div>
         </AnimatedSection>
@@ -131,7 +131,7 @@ export default function CourseOutline() {
               </p>
             </div>
             <p className="text-sm sm:text-base font-sans text-gray-600">
-              Plus bonus materials, theory lectures, and ongoing updates added regularly.
+              Plus bonus cultural content, pronunciation guides, and new lessons added regularly.
             </p>
           </div>
         </div>

@@ -46,14 +46,14 @@ export default function FinalCTA() {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-6 leading-tight"
               variants={getAnimationVariants(fadeInUp)}
             >
-              Ready to <GradientText gradient="accent" className="text-white bg-gradient-to-r from-accent via-accent-dark to-accent bg-clip-text text-transparent">Transform</GradientText> Your Life?
+              Ready to <GradientText gradient="accent" className="text-white bg-gradient-to-r from-accent via-accent-dark to-accent bg-clip-text text-transparent">Speak Georgian</GradientText> with Confidence?
             </motion.h2>
             <motion.p 
               className="text-lg sm:text-xl md:text-2xl font-sans text-neutral-200 mb-8 leading-relaxed font-light max-w-2xl mx-auto"
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.2 }}
             >
-              Join thousands who have discovered lasting inner freedom. Start your journey today with a risk-free trial.
+              Join thousands who are mastering Georgian. Start your journey from beginner to conversational fluency today with a risk-free trial.
             </motion.p>
             <motion.div 
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"

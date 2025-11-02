@@ -12,20 +12,20 @@ interface CredentialsProps {
 
 const defaultCredentials: Credential[] = [
   {
-    title: 'PhD in Psychology',
-    description: 'Specialized in contemplative neuroscience',
+    title: 'MA in Georgian Language & Literature',
+    description: 'Specialized in language pedagogy and linguistics',
   },
   {
-    title: 'Certified Meditation Teacher',
-    description: '20+ years of teaching experience',
+    title: 'Certified Language Teacher',
+    description: '15+ years teaching Georgian to international students',
   },
   {
     title: 'Published Author',
-    description: 'Multiple books on inner transformation',
+    description: 'Multiple books on Georgian language learning',
   },
   {
     title: 'Featured Expert',
-    description: 'Regular contributor to leading wellness publications',
+    description: 'Regular contributor to language learning publications',
   },
 ]
 
@@ -40,7 +40,7 @@ export default function Credentials({
             Credentials & Authority
           </h2>
           <p className="text-base sm:text-lg font-sans text-gray-600 max-w-2xl mx-auto px-4 sm:px-0 leading-relaxed">
-            Built on decades of study, practice, and real-world application
+            Built on years of teaching experience, native language expertise, and proven methods
           </p>
         </div>
 

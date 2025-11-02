@@ -21,15 +21,15 @@ interface TeacherBioProps {
 
 export default function TeacherBio({
   photo = '/images/teacher-photo.jpg',
-  photoAlt = 'Your guide to inner freedom',
+  photoAlt = 'Your Georgian language teacher',
   credentials = {
-    author: 'The Path to Inner Freedom',
-    degree: 'PhD in Psychology',
-    experience: '20+ Years Guiding Individuals to Inner Freedom',
-    featuredIn: ['New York Times', 'Psychology Today', 'Mindful Magazine'],
+    author: 'Mastering Georgian: A Complete Guide',
+    degree: 'MA in Georgian Language & Literature',
+    experience: '15+ Years Teaching Georgian to International Students',
+    featuredIn: ['Tbilisi State University', 'Georgian Language Institute', 'International Language Schools'],
   },
-  personalNarrative = 'My journey to inner freedom wasn\'t a straight line. Like many seekers, I found myself stuck in patterns of reactivity and emotional turmoil, searching for answers in books, retreats, and spiritual practices. Through years of dedicated practice and study, I discovered that true transformation comes not from dogmatic approaches or quick fixes, but from understanding the nature of the mind itself. This program is the practical framework I wish I had when I started—one that bridges ancient wisdom with modern science, and guides you step-by-step toward genuine inner freedom.',
-  philosophy = 'This program is different. We move beyond dogma and "quick fixes." This is a practical, science-backed framework for understanding your mind and fundamentally changing your relationship with the world. Here, you\'ll find no New Age fluff, but also no overly cerebral rabbit holes. Instead, you\'ll discover a structured, empathetic path that honors both the wisdom traditions and the latest insights from neuroscience and psychology.',
+  personalNarrative = 'Growing up in Tbilisi, I never imagined I\'d spend my career teaching my native language to students from around the world. But after years of working with international students, I discovered a passion for making Georgian accessible and enjoyable. Georgian has a reputation for being challenging—and it is! But with the right approach, anyone can learn to speak it confidently. This program is the comprehensive method I\'ve developed over 15 years of teaching, combining structured grammar instruction with real-world conversation practice and cultural insights.',
+  philosophy = 'Learning Georgian isn\'t just about memorizing vocabulary or grammar rules—it\'s about connecting with a rich culture and history. We focus on practical communication skills while respecting the beautiful complexity of the language. No boring drills or outdated methods. Instead, you\'ll learn through engaging videos, interactive exercises, and real conversations that prepare you to actually use Georgian in daily life.',
 }: TeacherBioProps) {
   return (
     <section className="section-padding bg-gradient-to-b from-white via-neutral-50/50 to-white relative overflow-hidden">
@@ -138,7 +138,7 @@ export default function TeacherBio({
             variants={getAnimationVariants(slideInRight)}
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-primary-900 mb-4 sm:mb-6">
-              My journey to inner freedom wasn't a straight line.
+              Learning Georgian is an adventure worth taking.
             </h3>
 
             {/* Personal Narrative */}

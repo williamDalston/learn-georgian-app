@@ -12,7 +12,7 @@ export default function NotFound() {
             Page Not Found
           </h2>
           <p className="text-lg font-sans text-gray-700 mb-8 max-w-md mx-auto">
-            The page you're looking for doesn't exist. Let's get you back on the path to inner freedom.
+            The page you're looking for doesn't exist. Let's get you back on your path to learning Georgian.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/" variant="primary">

@@ -25,9 +25,9 @@ const plans: PricingPlan[] = [
     description: 'Perfect for trying out the program',
     features: [
       'Full access to all video lessons',
-      'Step-by-step exercises and practices',
-      'Guided meditations and audio content',
-      'Theory lectures and insights',
+      'Interactive exercises and quizzes',
+      'Pronunciation guides and audio content',
+      'Grammar explanations and cultural insights',
       'Email support',
       'Cancel anytime',
     ],
@@ -36,7 +36,7 @@ const plans: PricingPlan[] = [
     name: 'Annual',
     priceMonthly: 19,
     priceAnnual: 199,
-    description: 'Best value for committed seekers',
+    description: 'Best value for committed learners',
     popular: true,
     features: [
       'Everything in Monthly plan',
@@ -73,7 +73,7 @@ export default function PricingTable() {
         <AnimatedSection direction="up">
           <div className="text-center mb-8 sm:mb-12 px-4 sm:px-0">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary-900 mb-3 sm:mb-4">
-              Choose Your Path to Inner Freedom
+              Choose Your Path to Georgian Fluency
             </h2>
             <p className="text-base sm:text-lg font-sans text-gray-700 max-w-2xl mx-auto">
               Simple, transparent pricing. Start your free trial today.

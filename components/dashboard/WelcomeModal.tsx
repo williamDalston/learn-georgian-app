@@ -129,10 +129,10 @@ export default function WelcomeModal({
               id="welcome-modal-title"
               className="font-serif text-3xl text-primary-900 mb-3"
             >
-              Welcome to Your Journey
+              Welcome to Your Georgian Learning Journey
             </h2>
             <p className="font-sans text-lg text-gray-600 leading-relaxed">
-              You're about to begin a transformative path to inner freedom.
+              You're about to begin an exciting journey to master Georgian.
               Let's get you started.
             </p>
           </div>

@@ -8,19 +8,19 @@ import Container from '@/components/shared/Container'
 const mockLessons: Record<string, any> = {
   'lesson-1': {
     id: 'lesson-1',
-    title: 'Introduction: Understanding Your Inner Landscape',
+    title: 'Introduction: The Georgian Alphabet',
     description:
-      'Begin your journey by exploring the foundational concepts of inner freedom and self-awareness. This lesson introduces you to the key principles that will guide your transformation. We will explore how to recognize patterns in your thoughts and emotions, and begin building the foundation for lasting change.',
+      'Begin your journey by learning the unique Georgian alphabet. This lesson introduces you to the 33 letters of the Mkhedruli script and their sounds. We will explore pronunciation, letter forms, and begin building the foundation for reading and writing in Georgian.',
     duration: 18,
     videoUrl: '', // Add video URL here when available
     exerciseMaterials: [
       {
-        name: 'Reflection Worksheet',
-        url: '/materials/reflection-worksheet.pdf',
+        name: 'Alphabet Practice Sheet',
+        url: '/materials/alphabet-practice.pdf',
       },
       {
-        name: 'Practice Guide',
-        url: '/materials/practice-guide.pdf',
+        name: 'Pronunciation Guide',
+        url: '/materials/pronunciation-guide.pdf',
       },
     ],
     isCompleted: false,

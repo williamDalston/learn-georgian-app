@@ -2,21 +2,21 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Inner Freedom Program | Transform Your Life',
-  description: 'A practical, step-by-step path to inner freedom. Move beyond temporary calm and build a life of lasting clarity and purpose.',
-  keywords: ['inner freedom', 'mindfulness', 'meditation', 'personal growth', 'wellness', 'self-improvement', 'transformation'],
-  authors: [{ name: 'Inner Freedom Program' }],
+  title: 'Learn Georgian | From Beginner to Conversational',
+  description: 'Master Georgian from beginner to conversational level. An immersive, structured program with native speakers that takes you step-by-step through real conversations, grammar, and cultural insights.',
+  keywords: ['learn georgian', 'georgian language', 'georgian course', 'georgian lessons', 'georgian alphabet', 'learn georgian online', 'georgian grammar', 'conversational georgian'],
+  authors: [{ name: 'Learn Georgian' }],
   openGraph: {
-    title: 'Inner Freedom Program | Transform Your Life',
-    description: 'A practical, step-by-step path to inner freedom. Move beyond temporary calm and build a life of lasting clarity and purpose.',
+    title: 'Learn Georgian | From Beginner to Conversational',
+    description: 'Master Georgian from beginner to conversational level. An immersive, structured program with native speakers that takes you step-by-step through real conversations, grammar, and cultural insights.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'Inner Freedom Program',
+    siteName: 'Learn Georgian',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Inner Freedom Program | Transform Your Life',
-    description: 'A practical, step-by-step path to inner freedom. Move beyond temporary calm and build a life of lasting clarity and purpose.',
+    title: 'Learn Georgian | From Beginner to Conversational',
+    description: 'Master Georgian from beginner to conversational level. An immersive, structured program with native speakers that takes you step-by-step through real conversations, grammar, and cultural insights.',
   },
   robots: {
     index: true,
@@ -57,20 +57,20 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Course',
-              name: 'Inner Freedom Program',
-              description: 'A practical, step-by-step path to inner freedom. Move beyond temporary calm and build a life of lasting clarity and purpose.',
+              name: 'Learn Georgian - From Beginner to Conversational',
+              description: 'Master Georgian from beginner to conversational level. An immersive, structured program with native speakers that takes you step-by-step through real conversations, grammar, and cultural insights.',
               provider: {
                 '@type': 'Organization',
-                name: 'Inner Freedom Program',
+                name: 'Learn Georgian',
               },
               courseMode: 'online',
               educationalLevel: 'Beginner',
               teaches: [
-                'Mindfulness',
-                'Meditation',
-                'Personal Growth',
-                'Emotional Resilience',
-                'Inner Peace',
+                'Georgian Language',
+                'Georgian Alphabet',
+                'Georgian Grammar',
+                'Georgian Conversation',
+                'Georgian Culture',
               ],
               aggregateRating: {
                 '@type': 'AggregateRating',

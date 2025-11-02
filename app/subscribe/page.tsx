@@ -12,10 +12,10 @@ export default function SubscribePage() {
           {/* Header */}
           <div className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl font-serif text-primary-900 mb-2">
-              Start Your Journey to Inner Freedom
+              Start Learning Georgian Today
             </h1>
             <p className="text-lg font-sans text-gray-700">
-              Complete your purchase below to begin your transformation
+              Complete your purchase below to begin your journey to Georgian fluency
             </p>
           </div>
 
@@ -39,8 +39,8 @@ export default function SubscribePage() {
             </div>
             <p className="text-xs font-sans text-gray-500">
               Need help? Our support team is here for you. Contact us at{' '}
-              <a href="mailto:support@innerfreedomprogram.com" className="text-accent hover:text-accent-dark underline">
-                support@innerfreedomprogram.com
+              <a href="mailto:support@learntogeorgian.com" className="text-accent hover:text-accent-dark underline">
+                support@learntogeorgian.com
               </a>
             </p>
           </div>

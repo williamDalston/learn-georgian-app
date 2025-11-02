@@ -111,7 +111,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.1 }}
               >
                 <GradientText gradient="primary" className="font-bold">
-                  Stop Reacting.
+                  Learn Georgian.
                 </GradientText>
               </motion.span>{' '}
               <motion.span 
@@ -120,7 +120,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.3 }}
               >
                 <GradientText gradient="accent" className="font-bold">
-                  Start Living.
+                  Speak with Confidence.
                 </GradientText>
               </motion.span>
             </motion.h1>
@@ -128,7 +128,7 @@ export default function HeroSection() {
             <h2 className={`text-lg sm:text-xl md:text-2xl lg:text-2xl font-sans text-gray-700 leading-relaxed max-w-2xl mx-auto lg:mx-0 px-4 sm:px-0 font-light transition-all duration-700 delay-300 ${
               isVisible || prefersReducedMotion ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}>
-              The subscription program for inner freedom. A practical, step-by-step path from a trusted guide to help you move beyond temporary calm and build a life of lasting clarity and purpose.
+              Master Georgian from beginner to conversational level. An immersive, structured program that takes you step-by-step through real conversations, grammar, and cultural insights to help you speak Georgian with confidence.
             </h2>
 
             <div className={`space-y-4 transition-all duration-700 delay-500 ${
@@ -210,7 +210,7 @@ export default function HeroSection() {
                 </div>
               </div>
               <p className="font-serif text-sm sm:text-base opacity-90 mb-2 font-medium">Begin Your Journey</p>
-              <p className="font-sans text-xs sm:text-sm opacity-75">Transform your life with inner freedom</p>
+              <p className="font-sans text-xs sm:text-sm opacity-75">Start speaking Georgian today</p>
             </div>
           </div>
         </div>

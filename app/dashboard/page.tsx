@@ -86,7 +86,7 @@ export default function DashboardPage() {
               Welcome Back
             </h1>
             <p className="font-sans text-base sm:text-lg text-gray-600">
-              Continue your journey to inner freedom
+              Continue your journey to Georgian fluency
             </p>
           </div>
           

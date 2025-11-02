@@ -31,8 +31,8 @@ export default function ScholarshipSection() {
               Our Mission
             </h3>
             <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-6">
-              We believe everyone deserves access to these transformative tools, regardless of their financial situation. 
-              Our mission is to make inner freedom accessible to all who seek it.
+              We believe everyone deserves access to quality language education, regardless of their financial situation. 
+              Our mission is to make Georgian language learning accessible to all who are committed to learning.
             </p>
             <p className="text-base md:text-lg font-sans text-gray-700 leading-relaxed mb-4">
               If you genuinely cannot afford a subscription, please{' '}

@@ -13,16 +13,16 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: 'How is this different from other meditation apps like Calm or Headspace?',
-    answer: 'While those apps focus on quick relaxation and sleep, our program goes deeper. We combine practical tools with science-backed frameworks to help you understand your mind and fundamentally change how you relate to your thoughts and emotions. This isn\'t just about feeling calm—it\'s about achieving lasting inner freedom.',
+    question: 'How is this different from other language learning apps like Duolingo or Babbel?',
+    answer: 'While those apps are great for vocabulary, our program focuses on comprehensive Georgian language mastery. We cover the unique Georgian alphabet, complex grammar, real conversation skills, and cultural context that other apps miss. Our structured approach takes you from absolute beginner to conversational fluency with native speaker instruction.',
   },
   {
-    question: 'I\'m a beginner. Will this be too advanced for me?',
-    answer: 'Not at all! The program is designed for everyone, whether you\'re new to mindfulness or have years of experience. Our step-by-step approach makes complex concepts accessible, and the teacher guides you with warmth and clarity. Many of our most successful students started as complete beginners.',
+    question: 'I\'m a complete beginner. Will this be too advanced for me?',
+    answer: 'Not at all! The program is designed specifically for absolute beginners. We start with the Georgian alphabet and basic greetings, then gradually build your skills. Our step-by-step approach makes even complex Georgian grammar accessible, and our teachers guide you with patience and clarity. Many of our most successful students started with zero knowledge of Georgian.',
   },
   {
-    question: 'How long does the program take to complete?',
-    answer: 'The program is self-paced, so you can move through it at your own rhythm. The structured content covers 6 core modules, and most students spend 2-3 months going through the material thoroughly. However, you have lifetime access (as long as you maintain your subscription), so you can revisit lessons whenever you need them.',
+    question: 'How long does it take to become conversational?',
+    answer: 'The program is self-paced, so progress depends on your dedication and practice time. Most students who study 3-5 hours per week reach conversational level within 4-6 months. The structured content covers 6 comprehensive levels, and you have lifetime access (as long as you maintain your subscription), so you can learn at your own pace and revisit lessons whenever needed.',
   },
   {
     question: 'What if I\'m not satisfied?',
@@ -34,15 +34,15 @@ const faqs: FAQItem[] = [
   },
   {
     question: 'What happens if I can\'t afford the subscription?',
-    answer: 'We believe everyone deserves access to these transformative tools. If you genuinely cannot afford a subscription, we offer a scholarship program. Simply visit our scholarship page and tell us about your situation. We review all requests with compassion and aim to support anyone committed to their journey.',
+    answer: 'We believe everyone deserves access to language learning. If you genuinely cannot afford a subscription, we offer a scholarship program. Simply visit our scholarship page and tell us about your situation. We review all requests with compassion and aim to support anyone committed to learning Georgian.',
   },
   {
     question: 'What format is the content in?',
-    answer: 'The program includes high-quality video lessons, audio meditations and guided practices, downloadable exercise materials, and written content. Everything is available in your member dashboard and works on any device—phone, tablet, or computer.',
+    answer: 'The program includes high-quality video lessons with native speakers, audio pronunciation guides, interactive exercises and quizzes, downloadable worksheets, and written grammar explanations. Everything is available in your member dashboard and works on any device—phone, tablet, or computer.',
   },
   {
     question: 'How much time do I need to commit each week?',
-    answer: 'We recommend dedicating about 2-3 hours per week to get the most out of the program. This includes watching lessons, doing exercises, and practicing the techniques. However, since it\'s self-paced, you can adjust this to fit your schedule. Even 30 minutes a week can create meaningful change.',
+    answer: 'We recommend dedicating about 3-5 hours per week to make steady progress toward conversational fluency. This includes watching lessons, completing exercises, and practicing speaking. However, since it\'s self-paced, you can adjust this to fit your schedule. Even 1-2 hours per week will help you make progress, though it may take longer to reach your goals.',
   },
 ]
 
@@ -152,7 +152,7 @@ export default function FAQ() {
               Still have questions? We're here to help.
             </p>
             <a
-              href="mailto:support@innerfreedomprogram.com"
+              href="mailto:support@learntogeorgian.com"
               className="inline-block text-accent hover:text-accent-dark font-sans font-semibold underline transition-colors"
             >
               Contact Support

@@ -134,14 +134,14 @@ export default function SocialProof() {
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.4 }}
             >
-              Join thousands who have transformed their lives through inner freedom
+              Join thousands who are mastering the Georgian language
             </motion.p>
             <motion.p 
               className="text-sm md:text-base font-sans text-neutral-400 mt-4"
               variants={getAnimationVariants(fadeInUp)}
               transition={{ delay: 0.5 }}
             >
-              Trusted by professionals, parents, students, and seekers worldwide
+              Trusted by language learners, travelers, students, and professionals worldwide
             </motion.p>
           </AnimatedSection>
         </div>

@@ -22,22 +22,22 @@ type FilterType = 'all' | 'theory' | 'expert' | 'exercise'
 const defaultRecommendations: Recommendation[] = [
   {
     id: 'theory-1',
-    title: 'Understanding the Nature of Mind',
-    description: 'Deep dive into the philosophical foundations of inner freedom',
+    title: 'Georgian Grammar Deep Dive',
+    description: 'Comprehensive explanation of Georgian verb conjugation and noun cases',
     type: 'theory',
     duration: 25,
   },
   {
     id: 'expert-1',
-    title: 'Conversation with Dr. Sarah Chen',
-    description: 'Expert insights on mindfulness and neuroscience',
+    title: 'Conversation with Native Speaker',
+    description: 'Practice real conversations with a native Georgian speaker',
     type: 'expert',
     duration: 45,
   },
   {
     id: 'exercise-1',
-    title: 'Daily Reflection Exercise',
-    description: 'A practical exercise to deepen your practice',
+    title: 'Pronunciation Practice',
+    description: 'Interactive exercises to perfect your Georgian pronunciation',
     type: 'exercise',
     duration: 15,
   },

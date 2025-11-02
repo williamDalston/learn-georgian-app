@@ -1,7 +1,7 @@
 {
-  "name": "inner-freedom-program-stripe-class",
+  "name": "learn-georgian-app",
   "version": "1.0.0",
-  "description": "Inner Freedom Program - High-Conversion Subscription Website",
+  "description": "Learn Georgian - From Beginner to Conversational - High-Conversion Language Learning Website",
   "private": true,
   "scripts": {
     "dev": "next dev",
