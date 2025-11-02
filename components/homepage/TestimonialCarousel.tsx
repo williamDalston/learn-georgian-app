@@ -6,7 +6,8 @@ import Container from '@/components/shared/Container'
 import AnimatedSection from '@/components/shared/AnimatedSection'
 import { getAnimationVariants } from '@/lib/utils/animations'
 import { usePrefersReducedMotion } from '@/lib/hooks/usePrefersReducedMotion'
-import { testimonials, Testimonial } from '@/components/testimonials/testimonialsData'
+import { testimonials } from '@/components/testimonials/testimonialsData'
+import type { Testimonial } from '@/components/testimonials/types'
 
 interface TestimonialCarouselProps {
   /** How often to auto-rotate to next testimonial (in milliseconds) */
