@@ -85,8 +85,19 @@ export function useGet<T = unknown>(endpoint: string) {
  */
 export function usePost<T = unknown, D = unknown>(endpoint: string) {
   return useApi<T>((...args: unknown[]) => {
-    const data = args[0] as D
-    return apiClient.post<T>(endpoint, data)
+    const body = args[0] as D
+    return apiClient
+      .post<T>(endpoint, body)
+      .then((res: any) => {
+        // Works whether apiClient returns T or AxiosResponse<T>
+        const data = (res && typeof res === 'object' && 'data' in res) ? (res.data as T) : (res as T)
+        const status = (res && typeof res === 'object' && 'status' in res) ? (res.status as number) : undefined
+        return { 
+          success: true, 
+          data,
+          ...(status !== undefined && { status })
+        } as ApiResponse<T>
+      })
   })
 }
 
