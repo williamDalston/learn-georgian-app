@@ -4,8 +4,10 @@ import path from 'node:path'
 
 export async function GET(
   _req: Request,
-  { params }: { params: { slug: string[] } }
+  context: { params: Promise<{ slug: string[] }> }
 ) {
+  // In Next.js 15+, params is a Promise - await it
+  const params = await context.params
   // slug looks like: ["a1", "a1-1", "video-script.md"] or ["a1", "a1-1", "worksheet.md"]
   const rel = params.slug.join('/')
   const full = path.join(process.cwd(), 'content', 'lessons', rel)
