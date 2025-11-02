@@ -41,7 +41,7 @@ Let me show you:
 - შენ [shen] - you (the object)
 - მიყვარხარ [mikhvar'khar] - I love you (the verb containing 'I' and 'you')
 
-Georgian verbs are called 'polypersonal' because they simultaneously mark the subject AND the object in a single verb form. This is revolutionary compared to languages like English, Spanish, or French.
+Georgian verbs are called 'polypersonal' because they show both the subject AND the object in a single verb form. This means one verb word tells you who does the action AND who receives it - this is very different from languages like English, Spanish, or French.
 
 **[Display visual comparison]**
 
@@ -230,7 +230,7 @@ Great job! Keep practicing these patterns."
 
 "Let's review what we learned today:
 
-1. **Polypersonal verbs** - Georgian verbs contain both subject AND object information in a single word form
+1. **Polypersonal verbs** - Georgian verbs show both who does the action (subject) AND who receives it (object) in a single word form
 2. **Series I** - Covers Present and Future tenses with the same verb form
 3. **Subject markers** - Prefixes like ვ- [v-] or suffixes like -ს [-s] mark who does the action
 4. **Four verb classes** - Georgian divides verbs into Class I-IV based on their grammatical behavior

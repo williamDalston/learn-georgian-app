@@ -44,9 +44,9 @@ Same verb root 'write,' but completely different meaning! What's the difference?
 
 **[Display visual explanation]**
 
-Preverbs are prefixes added to verbs that do TWO things simultaneously:
-1. **Indicate directionality** - where the action moves in space
-2. **Mark perfective aspect** - whether the action is complete or ongoing
+Preverbs are prefixes added to verbs that do TWO things at once:
+1. **Show direction** - where the action moves in space
+2. **Show if action is complete** - whether the action is finished or still happening
 
 Let me show you with a concrete example:
 
@@ -76,20 +76,20 @@ Do you see the pattern? Preverbs add nuance and completion!"
 - Habitual action
 - Examples: 'I am writing,' 'I write daily,' 'I keep writing'
 
-**Perfective Aspect:**
-- Completed action
-- Single, finished event
+**Perfective (Completed Action):**
+- The action is finished or will be finished
+- A single, complete event
 - Examples: 'I wrote (finished),' 'I will write (and complete it),' 'I have written'
 
 **[Display Georgian comparison]**
 
 In Georgian, the presence or absence of a preverb determines aspect!
 
-**Without preverb (Imperfective):**
+**Without preverb (Ongoing Action):**
 - ვწერ წიგნს [vts'er ts'igns] - 'I am writing the book' (ongoing)
 - ვმუშაობ [vmushaob] - 'I work/I am working' (ongoing habit)
 
-**With preverb (Perfective):**
+**With preverb (Completed Action):**
 - დავწერ წიგნს [davts'er ts'igns] - 'I will write the book' (and complete it)
 - მოვიმუშავებ [movimushaveb] - 'I will work (for a period and finish)'
 
