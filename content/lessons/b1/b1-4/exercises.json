@@ -1,0 +1,227 @@
+{
+  "lessonId": "b1-4",
+  "lessonTitle": "Class I (Transitive) Verbs and Series I Conjugation Mastery",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Class I (Transitive) Verbs",
+      "instructions": "Choose the correct answer about Class I transitive verbs and Series I conjugation.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What characterizes Class I verbs in Georgian?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "They don't take objects"
+            },
+            {
+              "id": "b",
+              "text": "They are transitive verbs that take direct objects"
+            },
+            {
+              "id": "c",
+              "text": "They are only used in past tense"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Class I verbs are transitive verbs that take direct objects - someone does something TO something or someone."
+        },
+        {
+          "id": "q2",
+          "question": "What is the complete Series I verb structure?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Subject + Root"
+            },
+            {
+              "id": "b",
+              "text": "Subject + Preverb + Version + Root + Suffix"
+            },
+            {
+              "id": "c",
+              "text": "Root + Tense"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The complete Series I structure is: Subject Marker + Preverb + Version + Root + Suffix"
+        },
+        {
+          "id": "q3",
+          "question": "ვდაიწერ [vdaints'er] has which components?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ვ- 'I' + და- preverb + ი- subjective version + წერ 'write'"
+            },
+            {
+              "id": "b",
+              "text": "ვ- 'I' + root only"
+            },
+            {
+              "id": "c",
+              "text": "და- preverb + root"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვდაიწერ [vdaints'er] contains: ვ- subject marker + და- preverb + ი- subjective version + წერ root."
+        },
+        {
+          "id": "q4",
+          "question": "Which of these is a Class I (transitive) verb?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მუშაობა [mushaoba] - to work"
+            },
+            {
+              "id": "b",
+              "text": "ხედვა [khedva] - to see"
+            },
+            {
+              "id": "c",
+              "text": "Both are transitive"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ხედვა [khedva] 'to see' is Class I transitive because you see something/someone. მუშაობა [mushaoba] 'to work' is Class II intransitive."
+        },
+        {
+          "id": "q5",
+          "question": "What does ვდაუწერ [vdauts'er] mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "I am writing for someone (perfective + objective)"
+            },
+            {
+              "id": "b",
+              "text": "I will write for myself"
+            },
+            {
+              "id": "c",
+              "text": "I wrote (past tense)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვდაუწერ [vdauts'er] contains: ვ- 'I' + და- preverb (perfective) + უ- objective version + წერ 'write' = 'I will write for someone.'"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Conjugations to Meanings",
+      "instructions": "Match the Georgian verb forms with their correct English translations.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "leftItems": [
+            { "id": "l1", "text": "ვხედავ [vkhedav]" },
+            { "id": "l2", "text": "მივხედავ [mivkhedav]" },
+            { "id": "l3", "text": "დავხედავ [davkhedav]" },
+            { "id": "l4", "text": "ვდაიხედავ [vdaikhedav]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "I see (base form)" },
+            { "id": "r2", "text": "I will look toward (with preverb)" },
+            { "id": "r3", "text": "I will see (perfective)" },
+            { "id": "r4", "text": "I will look for myself (perfective + subjective)" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "Remember the structure: base form, then add preverbs and versions to modify meaning."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Complete the Conjugation",
+      "instructions": "Fill in the correct verb forms based on the structure provided.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "Complete: ის _____ წიგნს [is _____ ts'igns] He writes the book (3rd person singular, base form)",
+          "correctAnswer": "წერს",
+          "alternatives": ["წერს", "ვწერ", "დაწერს"],
+          "explanation": "ის წერს [is ts'ers] is third person singular of წერა [ts'era] 'to write' in base form."
+        },
+        {
+          "id": "q8",
+          "question": "Complete: ჩვენ _____ წიგნს [ch'ven _____ ts'igns] We will write the book (1st person plural with და- preverb)",
+          "correctAnswer": "ვდავწერთ",
+          "alternatives": ["ვდავწერთ", "ვწერთ", "ვდაიწერთ"],
+          "explanation": "ვდავწერთ [vdavts'ert] is first person plural with და- [da-] preverb for perfective aspect."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Identify Verb Components",
+      "instructions": "Break down the verb form and identify its components.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "მივუხედავ [mivukh'edav] contains which components?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მე 'I' + მი- 'toward' + უ- objective version + ხედავ 'look'"
+            },
+            {
+              "id": "b",
+              "text": "მე 'I' + root only"
+            },
+            {
+              "id": "c",
+              "text": "მი- preverb + root"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "მივუხედავ [mivukh'edav] breaks down as: მე [me] implied 'I' + მი- [mi-] preverb 'toward' + უ- [u-] objective version + ხედავ [khedav] root 'look'."
+        },
+        {
+          "id": "q10",
+          "question": "დაიწერს [daints'ers] is which person?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "First person singular"
+            },
+            {
+              "id": "b",
+              "text": "Third person singular"
+            },
+            {
+              "id": "c",
+              "text": "Third person plural"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "დაიწერს [daints'ers] ends in -ს [-s], which marks third person singular. It also has და- [da-] preverb and ი- [i-] subjective version."
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,169 @@
+{
+  "lessonId": "c1-2",
+  "lessonTitle": "Complex Sentence Embedding",
+  "level": "C1",
+  "passingScore": 75,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz1",
+      "question": "Which conjunction is used to introduce complement clauses in Georgian?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "თუ (tu)"
+        },
+        {
+          "id": "b",
+          "text": "რომ (rom)"
+        },
+        {
+          "id": "c",
+          "text": "რადგან (radgan)"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რომ (rom) is the primary complementizer used to introduce complement clauses that function as objects or subjects of verbs."
+    },
+    {
+      "id": "quiz2",
+      "question": "What type of clause is introduced by როდესაც?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Complement clause"
+        },
+        {
+          "id": "b",
+          "text": "Temporal adverbial clause"
+        },
+        {
+          "id": "c",
+          "text": "Conditional clause"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "როდესაც means 'when' and introduces temporal adverbial clauses expressing time relationships."
+    },
+    {
+      "id": "quiz3",
+      "question": "Fill in: თუ ბევრს ივარჯიშებ, _____ ქართულ ენას დაეუფლები.",
+      "questionGeorgian": "თუ ბევრს ივარჯიშებ, _____ ქართულ ენას დაეუფლები.",
+      "type": "fill-blank",
+      "points": 3,
+      "correctAnswer": "მაშინ",
+      "alternatives": ["მაშინ", "თუმცა", "იმიტომ რომ"],
+      "explanation": "მაშინ (mashin) means 'then' and completes the if-then conditional structure."
+    },
+    {
+      "id": "quiz4",
+      "question": "Which sentence demonstrates coordination?",
+      "type": "multiple-choice",
+      "points": 3,
+      "questionGeorgian": "ა) რთულია ქართული, მაგრამ საინტერესოა.\nბ) ვფიქრობ რომ ქართული კარგია.\nგ) როდესაც ვსწავლობ, ვფიქრობ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A - Uses მაგრამ (but) for contrast",
+          "textGeorgian": "რთულია ქართული, მაგრამ საინტერესოა."
+        },
+        {
+          "id": "b",
+          "text": "B - Uses რომ for complement",
+          "textGeorgian": "ვფიქრობ რომ ქართული კარგია."
+        },
+        {
+          "id": "c",
+          "text": "C - Uses როდესაც for time",
+          "textGeorgian": "როდესაც ვსწავლობ, ვფიქრობ."
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Sentence A uses მაგრამ to coordinate two equal clauses expressing contrast."
+    },
+    {
+      "id": "quiz5",
+      "question": "What does რათა mean?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "because"
+        },
+        {
+          "id": "b",
+          "text": "so that / in order to"
+        },
+        {
+          "id": "c",
+          "text": "if / when"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რათა introduces purpose clauses meaning 'so that' or 'in order to'."
+    },
+    {
+      "id": "quiz6",
+      "question": "How would you say 'I think that you know that I'm studying'?",
+      "type": "translation",
+      "points": 5,
+      "correctAnswer": "ვფიქრობ რომ იცით რომ ვსწავლობ.",
+      "alternatives": [
+        "ვფიქრობ რომ შენ იცი რომ მე ვსწავლობ.",
+        "მე ვფიქრობ რომ შენ იცი რომ მე ვსწავლობ."
+      ],
+      "explanation": "This demonstrates double complement clause embedding: ვფიქრობ takes a complement that itself contains another complement (იცით რომ...)."
+    },
+    {
+      "id": "quiz7",
+      "question": "Which is more formal: იმიტომ რომ or რადგან?",
+      "type": "multiple-choice",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "იმიტომ რომ"
+        },
+        {
+          "id": "b",
+          "text": "რადგან"
+        },
+        {
+          "id": "c",
+          "text": "They are equally formal"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "რადგან is more formal and preferred in written Georgian, while იმიტომ რომ is more common in spoken Georgian."
+    },
+    {
+      "id": "quiz8",
+      "question": "What type of clause is 'რომც რთული იყოს, მაინც გავაკეთებ'?",
+      "type": "multiple-choice",
+      "points": 3,
+      "questionGeorgian": "რომც რთული იყოს, მაინც გავაკეთებ",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concessive conditional clause"
+        },
+        {
+          "id": "b",
+          "text": "Complement clause"
+        },
+        {
+          "id": "c",
+          "text": "Temporal clause"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "რომც expresses concession ('even if' or 'even though'), making this a concessive conditional."
+    }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "lessonId": "a2-6",
+  "lessonTitle": "Formal Address and Cultural Etiquette",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Formal Address",
+      "instructions": "Choose the correct formal address.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How do you address a man formally?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "ბატონო (batono)" },
+            { "id": "b", "text": "ქალბატონო (kalbatono)" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ბატონო (batono) is used for formal address of men."
+        }
+      ]
+    }
+  ]
+}
+

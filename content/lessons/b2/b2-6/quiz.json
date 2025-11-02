@@ -1,0 +1,232 @@
+{
+  "lessonId": "b2-6",
+  "lessonTitle": "Navigating the Verb Class-Screeve Matrix",
+  "level": "B2",
+  "passingScore": 80,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "quiz1",
+      "type": "multiple-choice",
+      "question": "Which verb class shifts to Ergative-Absolutive alignment in Series II?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Class I (Transitive)"
+        },
+        {
+          "id": "b",
+          "text": "Class II (Intransitive)"
+        },
+        {
+          "id": "c",
+          "text": "Class IV (Indirect)"
+        },
+        {
+          "id": "d",
+          "text": "All of them"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Only Class I (Transitive) verbs shift to Ergative-Absolutive alignment in Series II. This is the key feature of Georgian split-ergativity."
+    },
+    {
+      "id": "quiz2",
+      "type": "multiple-choice",
+      "question": "What case alignment does Class II use in Series II?",
+      "points": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "Ergative-Absolutive"
+        },
+        {
+          "id": "b",
+          "text": "Nominative"
+        },
+        {
+          "id": "c",
+          "text": "Dative-Nominative"
+        },
+        {
+          "id": "d",
+          "text": "Nominative-Accusative"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class II (Intransitive) verbs maintain Nominative case in ALL series - they never shift to Ergative."
+    },
+    {
+      "id": "quiz3",
+      "type": "multiple-choice",
+      "question": "What is the systematic process for conjugating a verb?",
+      "points": 3,
+      "options": [
+        {
+          "id": "a",
+          "text": "Guess and check"
+        },
+        {
+          "id": "b",
+          "text": "Memorize each form individually"
+        },
+        {
+          "id": "c",
+          "text": "1) Identify Class, 2) Determine Series, 3) Predict Alignment, 4) Apply Conjugation, 5) Verify"
+        },
+        {
+          "id": "d",
+          "text": "Always use Nominative-Accusative"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The systematic 5-step process allows you to conjugate any verb in any tense methodically."
+    },
+    {
+      "id": "quiz4",
+      "type": "fill-blank",
+      "question": "Complete: მე _____ კატა (I saw the cat - should use Series II)",
+      "points": 2,
+      "correctAnswer": "ვნახე",
+      "alternatives": ["ვნახე", "ვხედავ", "ვნახიყავ", "ვნახავ"],
+      "explanation": "ვნახე is Series II (Aorist) with Ergative-Absolutive alignment (cat is now Nominative/Absolutive without case marker)."
+    },
+    {
+      "id": "quiz5",
+      "type": "matching",
+      "question": "Match each Class-Series combination to its alignment in Series II",
+      "points": 3,
+      "leftItems": [
+        { "id": "l1", "text": "Class I + Series II" },
+        { "id": "l2", "text": "Class II + Series II" },
+        { "id": "l3", "text": "Class IV + Series II" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Ergative-Absolutive" },
+        { "id": "r2", "text": "Nominative only" },
+        { "id": "r3", "text": "Dative-Nominative" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "In Series II: Class I shifts to Ergative-Absolutive, Class II stays Nominative, Class IV stays Dative-Nominative."
+    },
+    {
+      "id": "quiz6",
+      "type": "multiple-choice",
+      "question": "What is the Perfect (Series III) case alignment for Class I verbs?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Ergative-Absolutive"
+        },
+        {
+          "id": "b",
+          "text": "Nominative-Accusative (shifts BACK)"
+        },
+        {
+          "id": "c",
+          "text": "Dative-Nominative"
+        },
+        {
+          "id": "d",
+          "text": "Nominative only"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class I verbs shift BACK to Nominative-Accusative in Series III (Perfect), returning to the Series I pattern."
+    },
+    {
+      "id": "quiz7",
+      "type": "multiple-choice",
+      "question": "In the sentence 'როცა ჩავედი, უკვე დავასრულედმიყავ საშინაოდრო' (When I arrived, I had already finished homework), which tense is 'დავასრულედმიყავ'?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Series I (Present)"
+        },
+        {
+          "id": "b",
+          "text": "Series II (Aorist)"
+        },
+        {
+          "id": "c",
+          "text": "Series III (Pluperfect)"
+        },
+        {
+          "id": "d",
+          "text": "Imperfect"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "წინადროიტალური (Pluperfect) is Series III Perfect, showing the homework was finished BEFORE the arrival (past before past)."
+    },
+    {
+      "id": "quiz8",
+      "type": "fill-blank",
+      "question": "Complete: მე კატას _____ (I have seen the cat - Series III)",
+      "points": 2,
+      "correctAnswer": "ვნახიყავ",
+      "alternatives": ["ვნახიყავ", "ვნახე", "ვხედავ", "ვნახავ"],
+      "explanation": "ვნახიყავ is Series III Perfect, and the case alignment shifts BACK to Nominative-Accusative (კატას is Dative again)."
+    },
+    {
+      "id": "quiz9",
+      "type": "multiple-choice",
+      "question": "What is the key insight about the Georgian verb system?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "It's completely irregular"
+        },
+        {
+          "id": "b",
+          "text": "Only Class I shifts alignment in Series II; others stay stable"
+        },
+        {
+          "id": "c",
+          "text": "All verbs use the same conjugation"
+        },
+        {
+          "id": "d",
+          "text": "Series doesn't matter"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The systematic pattern is that only Class I shifts to Ergative in Series II. All other classes maintain their alignment across all series."
+    },
+    {
+      "id": "quiz10",
+      "type": "multiple-choice",
+      "question": "After mastering this matrix, what can you do?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Only conjugate basic verbs"
+        },
+        {
+          "id": "b",
+          "text": "Systematically conjugate ANY verb in ANY tense"
+        },
+        {
+          "id": "c",
+          "text": "Understand some verbs"
+        },
+        {
+          "id": "d",
+          "text": "Memorize irregular verbs"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Mastering the matrix gives you systematic mastery - you can predict and conjugate any verb form using the systematic approach."
+    }
+  ]
+}
+

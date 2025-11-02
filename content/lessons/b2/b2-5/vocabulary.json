@@ -1,0 +1,157 @@
+{
+  "lessonId": "b2-5",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "სრულყოფილი",
+      "transliteration": "srulk'opili",
+      "translation": "perfect (aspect)",
+      "ipa": "/srukʼɔpʼili/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "სრულყოფილი დრო მნიშვნელოვანია ქართულში",
+        "transliteration": "srulk'opili dro mnishvnelovania kart'ulshi",
+        "translation": "Perfect aspect is important in Georgian",
+        "audioUrl": "/audio/b2-5/voc1.mp3"
+      },
+      "notes": "Refers to the perfect aspect in Series III, not perfection. Comes from 'სრული' (complete) + 'ყოფილი' (aspect marker)."
+    },
+    {
+      "id": "voc2",
+      "georgian": "წინადროიტალური",
+      "transliteration": "ts'inadroitaluri",
+      "translation": "pluperfect",
+      "ipa": "/tsʼinɑdrɔitʼɑluri/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "წინადროიტალური აღნიშნავს წარსულის წინ წარსულ მოქმედებას",
+        "transliteration": "ts'inadroitaluri aghnishnavs ts'arsulis ts'in ts'arsul mokmedebas",
+        "translation": "Pluperfect indicates a past action before another past",
+        "audioUrl": "/audio/b2-5/voc2.mp3"
+      },
+      "notes": "Literally means 'before-past' (წინა = before, დროიტალური = temporal). Sometimes called 'past perfect' in English."
+    },
+    {
+      "id": "voc3",
+      "georgian": "დამხმარე ზმნა",
+      "transliteration": "damkhmare zmna",
+      "translation": "auxiliary verb",
+      "ipa": "/dɑmxmɑrɛ zmnɑ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "სერია III იყენებს დამხმარე ზმნას",
+        "transliteration": "seria III ik'enebs damkhmare zmnas",
+        "translation": "Series III uses auxiliary verbs",
+        "audioUrl": "/audio/b2-5/voc3.mp3"
+      },
+      "notes": "In Series III, the auxiliary verbs are derived from 'იყო' [ik'o] - to be."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ნახიყავ",
+      "transliteration": "nakhik'av",
+      "translation": "have seen (Perfect)",
+      "ipa": "/nɑxikʼɑv/",
+      "partOfSpeech": "verb (Perfect tense)",
+      "exampleSentence": {
+        "georgian": "ვნახიყავ ფილმი და მომეწონა",
+        "transliteration": "vnakhik'av p'ilmi da momets'ona",
+        "translation": "I have seen the movie and I liked it",
+        "audioUrl": "/audio/b2-5/voc4.mp3"
+      },
+      "notes": "Perfect form of ხედვა [khedva] - to see. Used for completed actions with present relevance."
+    },
+    {
+      "id": "voc5",
+      "georgian": "დავწერიყავ",
+      "transliteration": "davts'erik'av",
+      "translation": "have written (Perfect)",
+      "ipa": "/dɑvtsʼɛrikʼɑv/",
+      "partOfSpeech": "verb (Perfect tense)",
+      "exampleSentence": {
+        "georgian": "დავწერიყავ წერილი და გავაგზავნე",
+        "transliteration": "davts'erik'av ts'erili da vagazavne",
+        "translation": "I have written the letter and sent it",
+        "audioUrl": "/audio/b2-5/voc5.mp3"
+      },
+      "notes": "Perfect form of წერა [ts'era] - to write. Notice the perfect stem is 'დაწერი' [dats'eri]."
+    },
+    {
+      "id": "voc6",
+      "georgian": "ვნახედმიყავ",
+      "transliteration": "vnakhedmik'av",
+      "translation": "had seen (Pluperfect)",
+      "ipa": "/vnɑxɛdmikʼɑv/",
+      "partOfSpeech": "verb (Pluperfect tense)",
+      "exampleSentence": {
+        "georgian": "ვნახედმიყავ ფილმი, როცა შენ ჩავედი",
+        "transliteration": "vnakhedmik'av p'ilmi, rotsa shen ch'avedi",
+        "translation": "I had seen the movie when you arrived",
+        "audioUrl": "/audio/b2-5/voc6.mp3"
+      },
+      "notes": "Pluperfect form showing the action happened before another past event."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ვიმუშავიყავ",
+      "transliteration": "vimushavik'av",
+      "translation": "have worked (Perfect)",
+      "ipa": "/vimushɑvikʼɑv/",
+      "partOfSpeech": "verb (Perfect tense)",
+      "exampleSentence": {
+        "georgian": "ვიმუშავიყავ აქ 10 წელი",
+        "transliteration": "vimushavik'av ak 10 ts'eli",
+        "translation": "I have worked here for 10 years (completed period)",
+        "audioUrl": "/audio/b2-5/voc7.mp3"
+      },
+      "notes": "Perfect form of მუშაობა [mushaoba] - to work. Used for completed work periods."
+    },
+    {
+      "id": "voc8",
+      "georgian": "დავასრულედმიყავ",
+      "transliteration": "davasruledmik'av",
+      "translation": "had finished (Pluperfect)",
+      "ipa": "/dɑvɑsrulɛdmikʼɑv/",
+      "partOfSpeech": "verb (Pluperfect tense)",
+      "exampleSentence": {
+        "georgian": "დავასრულედმიყავ საშინაოდრო, როცა წავიდა",
+        "transliteration": "davasruledmik'av sashinaodro, rotsa ts'avida",
+        "translation": "I had finished the homework when he left",
+        "audioUrl": "/audio/b2-5/voc8.mp3"
+      },
+      "notes": "Pluperfect of დასრულება [dasruleba] - to finish. Used for sequencing past events."
+    },
+    {
+      "id": "voc9",
+      "georgian": "წაიკითხიყვის",
+      "transliteration": "ts'aik'ithik'vis",
+      "translation": "has read (Perfect)",
+      "ipa": "/tsʼɑikʼitʰikʼvis/",
+      "partOfSpeech": "verb (Perfect tense)",
+      "exampleSentence": {
+        "georgian": "ის წაიკითხიყვის ეს წიგნი ორჯერ",
+        "transliteration": "is ts'aik'ithik'vis es ts'igni orjer",
+        "translation": "He has read this book twice",
+        "audioUrl": "/audio/b2-5/voc9.mp3"
+      },
+      "notes": "Perfect third person of კითხვა [k'ithva] - to read. Shows present experience."
+    },
+    {
+      "id": "voc10",
+      "georgian": "სრულყოფილი ასპექტი",
+      "transliteration": "srulk'opili asp'ekt'i",
+      "translation": "perfect aspect",
+      "ipa": "/srukʼɔpʼili ɑspʼɛktʼi/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "სრულყოფილი ასპექტი აჩვენებს დასრულებულ მოქმედებას მიმდინარე რელევანტურობით",
+        "transliteration": "srulk'opili asp'ekt'i ach'venebs dasrulebul mokmedebas mimdinare relevan'turbit",
+        "translation": "Perfect aspect shows a completed action with present relevance",
+        "audioUrl": "/audio/b2-5/voc10.mp3"
+      },
+      "notes": "Grammatical term for the aspectual category distinguishing Series III from Series II."
+    }
+  ]
+}
+

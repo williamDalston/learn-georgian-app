@@ -1,0 +1,217 @@
+{
+  "lessonId": "b1-4",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ტრანზიტიური ზმნა",
+      "transliteration": "t'ranzit'iuri zmna",
+      "translation": "transitive verb",
+      "ipa": "/tʼrɑnzɪtʼɪʊrɪ zmnɑ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "I კლასის ზმნები ტრანზიტიურია",
+        "transliteration": "I k'lasis zmnebi t'ranzit'iuria",
+        "translation": "Class I verbs are transitive"
+      },
+      "notes": "Grammar term for verbs that take direct objects"
+    },
+    {
+      "id": "voc2",
+      "georgian": "შედგენილი",
+      "transliteration": "shedgenili",
+      "translation": "compound, complex",
+      "ipa": "/ʃɛdgɛnɪlɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "შედგენილი ზმნები რთულია",
+        "transliteration": "shedgenili zmnebi rt'ulia",
+        "translation": "Compound verbs are complex"
+      },
+      "notes": "Describes verbs with preverbs and versions"
+    },
+    {
+      "id": "voc3",
+      "georgian": "დამოკიდებულება",
+      "transliteration": "damok'idebuleba",
+      "translation": "dependence, relationship",
+      "ipa": "/dɑmɔkʼɪdɛbulɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ზმნების დამოკიდებულება",
+        "transliteration": "zmnebis damok'idebuleba",
+        "translation": "verb relationships"
+      },
+      "notes": "Grammar concept"
+    },
+    {
+      "id": "voc4",
+      "georgian": "კონიუგაცია",
+      "transliteration": "k'oniugatsia",
+      "translation": "conjugation",
+      "ipa": "/kʼɔnɪʊɡɑtsɪɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "I სერიის კონიუგაცია",
+        "transliteration": "I seriis k'oniugatsia",
+        "translation": "Series I conjugation"
+      },
+      "notes": "Grammar term for verb conjugation"
+    },
+    {
+      "id": "voc5",
+      "georgian": "სრულებული",
+      "transliteration": "srulebuli",
+      "translation": "complete, finished",
+      "ipa": "/srʊlɛbulɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "სრულებული ზმნა",
+        "transliteration": "srulebuli zmna",
+        "translation": "complete verb"
+      },
+      "notes": "Describes fully conjugated verbs"
+    },
+    {
+      "id": "voc6",
+      "georgian": "მიცნობა",
+      "transliteration": "mitsnoba",
+      "translation": "to know",
+      "ipa": "/mɪtsnɔbɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე კარგად მიცნობენ",
+        "transliteration": "me k'argad mitsnoben",
+        "translation": "They know me well"
+      },
+      "notes": "Class I transitive verb"
+    },
+    {
+      "id": "voc7",
+      "georgian": "მიმართვა",
+      "transliteration": "mimartva",
+      "translation": "to address, turn to",
+      "ipa": "/mɪmɑrtvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვმიმართავ მას",
+        "transliteration": "vmimart'av mas",
+        "translation": "I am addressing him"
+      },
+      "notes": "Class I transitive verb"
+    },
+    {
+      "id": "voc8",
+      "georgian": "ვდაიხედავ",
+      "transliteration": "vdaikhedav",
+      "translation": "I will look (for myself, perfective)",
+      "ipa": "/vdɑɪxɛdɑv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვდაიხედავ ფანჯარიდან",
+        "transliteration": "vdaikhedav panjaridan",
+        "translation": "I will look out the window"
+      },
+      "notes": "Complete conjugation with preverb and subjective version"
+    },
+    {
+      "id": "voc9",
+      "georgian": "მივხედავ",
+      "transliteration": "mivkhedav",
+      "translation": "I will look toward",
+      "ipa": "/mɪvxɛdɑv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მივხედავ შენკენ",
+        "transliteration": "mivkhedav shenken",
+        "translation": "I will look toward you"
+      },
+      "notes": "ხედვა [khedva] with მი- [mi-] preverb"
+    },
+    {
+      "id": "voc10",
+      "georgian": "დაწერს",
+      "transliteration": "dats'ers",
+      "translation": "he/she will write",
+      "ipa": "/dɑtsʼɛrs/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ის დაწერს წერილს",
+        "transliteration": "is dats'ers ts'erils",
+        "translation": "He will write a letter"
+      },
+      "notes": "წერა [ts'era] third person with და- [da-] preverb"
+    },
+    {
+      "id": "voc11",
+      "georgian": "დაიწერს",
+      "transliteration": "daints'ers",
+      "translation": "he/she will write (for him/herself)",
+      "ipa": "/dɑɪntsʼɛrs/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ის დაიწერს ჩანაწერებს",
+        "transliteration": "is daints'ers chanats'erebs",
+        "translation": "He will write down notes for himself"
+      },
+      "notes": "წერა [ts'era] with და- [da-] and ი- [i-] version"
+    },
+    {
+      "id": "voc12",
+      "georgian": "ვდაუწერ",
+      "transliteration": "vdauts'er",
+      "translation": "I will write (for someone)",
+      "ipa": "/vdɑʊtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვდაუწერ წერილს მეგობარს",
+        "transliteration": "vdauts'er ts'erils megobars",
+        "translation": "I will write a letter for my friend"
+      },
+      "notes": "წერა [ts'era] with და- [da-] and უ- [u-] version"
+    },
+    {
+      "id": "voc13",
+      "georgian": "პერსონა",
+      "transliteration": "p'ersona",
+      "translation": "person (grammar)",
+      "ipa": "/pʼɛrsɔnɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პირველი პერსონა",
+        "transliteration": "p'irveli p'ersona",
+        "translation": "first person"
+      },
+      "notes": "Grammar term for verb person"
+    },
+    {
+      "id": "voc14",
+      "georgian": "წერილი",
+      "transliteration": "ts'erili",
+      "translation": "letter",
+      "ipa": "/tsʼɛrɪlɪ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ვწერ წერილს",
+        "transliteration": "vts'er ts'erils",
+        "translation": "I am writing a letter"
+      },
+      "notes": "Common noun in verb examples"
+    },
+    {
+      "id": "voc15",
+      "georgian": "შენკენ",
+      "transliteration": "shenken",
+      "translation": "toward you",
+      "ipa": "/ʃɛnkʼɛn/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "მივხედავ შენკენ",
+        "transliteration": "mivkhedav shenken",
+        "translation": "I will look toward you"
+      },
+      "notes": "Directional adverb used with მი- [mi-] preverb"
+    }
+  ]
+}
+

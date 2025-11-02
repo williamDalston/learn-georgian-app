@@ -1,0 +1,291 @@
+{
+  "lessonId": "b2-6",
+  "lessonTitle": "Navigating the Verb Class-Screeve Matrix",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Verb Class",
+      "instructions": "Determine the verb class for each verb given.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What verb class is ხედვა [khedva] (to see)?",
+          "questionGeorgian": "რა ზმნის კლასია ხედვა?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (Transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (Intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (Medial)"
+            },
+            {
+              "id": "d",
+              "text": "Class IV (Indirect)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ხედვა takes a direct object (you see something/someone), making it Class I (Transitive).",
+          "explanationGeorgian": "ხედვა იღებს პირდაპირ ობიექტს (რაღაცას/ვინმეს ხედავ), რაც ხდის მას I კლასის (ტრანზიტული)."
+        },
+        {
+          "id": "q2",
+          "question": "What verb class is მუშაობა [mushaoba] (to work)?",
+          "questionGeorgian": "რა ზმნის კლასია მუშაობა?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (Transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (Intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (Medial)"
+            },
+            {
+              "id": "d",
+              "text": "Class IV (Indirect)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "მუშაობა does not take a direct object (you just work, you don't 'work something'), making it Class II (Intransitive).",
+          "explanationGeorgian": "მუშაობა არ იღებს პირდაპირ ობიექტს (უბრალოდ მუშაობ, არ 'მუშაობს რაღაცას'), რაც ხდის მას II კლასის (არატრანზიტული)."
+        },
+        {
+          "id": "q3",
+          "question": "What verb class is ყველას [khvelas] (to love)?",
+          "questionGeorgian": "რა ზმნის კლასია ყველას?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (Transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (Intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (Medial)"
+            },
+            {
+              "id": "d",
+              "text": "Class IV (Indirect)"
+            }
+          ],
+          "correctAnswer": "d",
+          "explanation": "ყველას is an emotion verb (indirect verb) that uses Dative-Nominative alignment, making it Class IV (Indirect).",
+          "explanationGeorgian": "ყველას არის ემოციური ზმნა (არაპირდაპირი ზმნა), რომელიც იყენებს დათივ-ნომინატივულ გასწორებას, რაც ხდის მას IV კლასის (არაპირდაპირი)."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "Predicting Case Alignment",
+      "instructions": "Based on the verb class and series, predict the case alignment that should be used.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "For ხედვა [khedva] (Class I) in Series II, what case alignment should be used?",
+          "questionGeorgian": "ხედვასთვის (I კლასი) სერია II-ში, რა ბრუნვის გასწორება უნდა გამოყენებულ იქნას?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative-Accusative"
+            },
+            {
+              "id": "b",
+              "text": "Ergative-Absolutive"
+            },
+            {
+              "id": "c",
+              "text": "Dative-Nominative"
+            },
+            {
+              "id": "d",
+              "text": "Nominative only"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Class I verbs in Series II (Aorist) shift to Ergative-Absolutive alignment - this is THE key feature of Georgian split-ergativity!",
+          "explanationGeorgian": "I კლასის ზმნები სერია II-ში (აორისტი) გადადის ერგატიულ-აბსოლუტურ გასწორებაზე - ეს არის ქართული გაყოფილი ერგატიულობის ძირითადი მახასიათებელი!"
+        },
+        {
+          "id": "q5",
+          "question": "For მუშაობა [mushaoba] (Class II) in Series II, what case alignment should be used?",
+          "questionGeorgian": "მუშაობისთვის (II კლასი) სერია II-ში, რა ბრუნვის გასწორება?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative-Accusative"
+            },
+            {
+              "id": "b",
+              "text": "Ergative-Absolutive"
+            },
+            {
+              "id": "c",
+              "text": "Dative-Nominative"
+            },
+            {
+              "id": "d",
+              "text": "Nominative only"
+            }
+          ],
+          "correctAnswer": "d",
+          "explanation": "Class II verbs (intransitive) maintain Nominative alignment in ALL series - they never shift to Ergative!",
+          "explanationGeorgian": "II კლასის ზმნები (არატრანზიტული) ინარჩუნებენ ნომინატიულ გასწორებას ყველა სერიაში - ისინი არასოდეს გადადიან ერგატიულზე!"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Completing Conjugations",
+      "instructions": "Complete the sentence with the correct verb form based on Class, Series, and alignment.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "მე _____ კატას (I see the cat - Series I)",
+          "correctAnswer": "ვხედავ",
+          "alternatives": ["ვხედავ", "ვნახე", "ვნახიყავ", "ვნახავ"],
+          "explanation": "Series I present tense of ხედვა is ვხედავ with Nominative-Accusative alignment."
+        },
+        {
+          "id": "q7",
+          "question": "მე _____ კატა (I saw the cat - Series II)",
+          "correctAnswer": "ვნახე",
+          "alternatives": ["ვხედავ", "ვნახე", "ვნახიყავ", "ვნახავ"],
+          "explanation": "Series II Aorist of ხედვა is ვნახე with Ergative-Absolutive alignment (notice cat is now Nominative/Absolutive)."
+        },
+        {
+          "id": "q8",
+          "question": "მე _____ კატას (I have seen the cat - Series III)",
+          "correctAnswer": "ვნახიყავ",
+          "alternatives": ["ვხედავ", "ვნახე", "ვნახიყავ", "ვნახავ"],
+          "explanation": "Series III Perfect of ხედვა is ვნახიყავ, and the case alignment shifts BACK to Nominative-Accusative."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Analyzing Complex Sentences",
+      "instructions": "Analyze the sentence structure and identify the Class, Series, and Alignment for each verb.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "In the sentence: ორი წლის წინ მე დავწერე წიგნი, რომელიც ახლა წავიკითხავ (Two years ago I wrote a book, which I will read now). What is 'დავწერე'?",
+          "questionGeorgian": "წინადადებაში: ორი წლის წინ მე დავწერე წიგნი, რომელიც ახლა წავიკითხავ - რა არის 'დავწერე'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I, Series II, Ergative-Absolutive"
+            },
+            {
+              "id": "b",
+              "text": "Class I, Series I, Nominative-Accusative"
+            },
+            {
+              "id": "c",
+              "text": "Class II, Series II, Nominative"
+            },
+            {
+              "id": "d",
+              "text": "Class IV, Series I, Dative-Nominative"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "დავწერე is წერა (to write) which is Class I (transitive). It's past tense so Series II. Class I + Series II = Ergative-Absolutive alignment.",
+          "explanationGeorgian": "დავწერე არის წერა (to write), რომელიც არის I კლასი (ტრანზიტული). ეს არის წარსული დრო, ასე რომ სერია II. I კლასი + სერია II = ერგატიულ-აბსოლუტური გასწორება."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "title": "Matrix Matching Exercise",
+      "instructions": "Match each verb-class combination to its correct case alignment in Series I.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q10",
+          "leftItems": [
+            { "id": "l1", "text": "Class I (Transitive)", "textGeorgian": "I კლასი" },
+            { "id": "l2", "text": "Class II (Intransitive)", "textGeorgian": "II კლასი" },
+            { "id": "l3", "text": "Class IV (Indirect)", "textGeorgian": "IV კლასი" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Nominative-Accusative", "textGeorgian": "ნომინატივ-აკუზატივი" },
+            { "id": "r2", "text": "Nominative only", "textGeorgian": "მხოლოდ ნომინატივი" },
+            { "id": "r3", "text": "Dative-Nominative", "textGeorgian": "დათივ-ნომინატივი" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" }
+          ],
+          "explanation": "In Series I: Class I uses Nominative-Accusative, Class II uses Nominative only, Class IV uses Dative-Nominative."
+        }
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "title": "Series II Case Shift Recognition",
+      "instructions": "Identify which verbs will shift case alignment in Series II.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q11",
+          "question": "Which verb will shift to Ergative-Absolutive alignment in Series II?",
+          "questionGeorgian": "რომელი ზმნა გადავა ერგატიულ-აბსოლუტურ გასწორებაზე სერია II-ში?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "მუშაობა [mushaoba] - to work"
+            },
+            {
+              "id": "b",
+              "text": "ხედვა [khedva] - to see"
+            },
+            {
+              "id": "c",
+              "text": "გაგონება [gagoneba] - to hear"
+            },
+            {
+              "id": "d",
+              "text": "ყველას [khvelas] - to love"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ხედვა is Class I (transitive), which is the ONLY class that shifts to Ergative-Absolutive in Series II.",
+          "explanationGeorgian": "ხედვა არის I კლასი (ტრანზიტული), რომელიც ერთადერთი კლასია, რომელიც გადადის ერგატიულ-აბსოლუტურ ზე სერია II-ში."
+        }
+      ]
+    }
+  ]
+}
+

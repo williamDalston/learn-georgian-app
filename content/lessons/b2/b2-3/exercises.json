@@ -1,0 +1,126 @@
+{
+  "lessonId": "b2-3",
+  "lessonTitle": "Ergative Case Marking in Past Transitive Verbs",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill-blank",
+      "title": "Ergative Case Formation",
+      "instructions": "Convert each noun or pronoun to Ergative case. Use -მა suffix for nouns, appropriate forms for pronouns.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "ბავშვი [bavshvi] 'child' → Ergative: _____",
+          "correctAnswer": "ბავშვმა",
+          "alternatives": ["ბავშვმა", "ბავშვი", "ბავშვს"],
+          "explanation": "Most nouns ending in -ი drop it and add -მა for Ergative: ბავშვი → ბავშვმა."
+        },
+        {
+          "id": "q2",
+          "question": "ის [is] 'he/she' → Ergative: _____",
+          "correctAnswer": "მან",
+          "alternatives": ["მან", "ის", "ისმა"],
+          "explanation": "Third person singular pronoun changes form in Ergative: ის → მან."
+        },
+        {
+          "id": "q3",
+          "question": "მასწავლებელი [masts'avlebeli] 'teacher' → Ergative: _____",
+          "correctAnswer": "მასწავლებელმა",
+          "alternatives": ["მასწავლებელმა", "მასწავლებელი", "მასწავლებელს"],
+          "explanation": "Nouns ending in -ი drop it and add -მა: მასწავლებელი → მასწავლებელმა."
+        },
+        {
+          "id": "q4",
+          "question": "ისინი [isini] 'they' → Ergative: _____",
+          "correctAnswer": "მათ",
+          "alternatives": ["მათ", "ისინი", "ისინიმა"],
+          "explanation": "Third person plural pronoun changes form in Ergative: ისინი → მათ."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "Identifying Correct Case Marking",
+      "instructions": "Choose the sentence with correct Ergative case marking.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "Which sentence has correct Ergative marking?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ბავშვი წაიკითხა წიგნი [bavshvi ts'aikit'kha ts'igni]"
+            },
+            {
+              "id": "b",
+              "text": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]"
+            },
+            {
+              "id": "c",
+              "text": "ბავშვმა კითხულობს წიგნს [bavshvma kit'khulobs ts'igns]"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Option (b) is correct. In Aorist (Series II) with a transitive verb, the subject must be Ergative: ბავშვმა."
+        },
+        {
+          "id": "q6",
+          "question": "Which sentence correctly uses Ergative case?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ის წავიდა [is ts'avida] - 'He went'"
+            },
+            {
+              "id": "b",
+              "text": "მან წაიკითხა წიგნი [man ts'aikit'kha ts'igni] - 'He read the book'"
+            },
+            {
+              "id": "c",
+              "text": "Both are correct"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Option (b) uses Ergative correctly (მან) for a transitive verb in Aorist. Option (a) correctly uses Nominative (ის) for an intransitive verb."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Transitive vs Intransitive",
+      "instructions": "Identify whether each sentence has a transitive or intransitive verb, and whether Ergative marking is needed.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "In 'მე ვირბინე' [me virbine] - 'I ran', should the subject be Ergative?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes, because it's past tense"
+            },
+            {
+              "id": "b",
+              "text": "No, because 'to run' is intransitive"
+            },
+            {
+              "id": "c",
+              "text": "Sometimes, depending on context"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "No. 'To run' is intransitive (no object), so the subject stays in Nominative case even in past tense. Only transitive verbs use Ergative in Series II/III."
+        }
+      ]
+    }
+  ]
+}
+

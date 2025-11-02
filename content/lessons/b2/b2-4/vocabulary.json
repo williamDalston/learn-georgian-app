@@ -1,0 +1,230 @@
+{
+  "lessonId": "b2-4",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ირბინებს",
+      "transliteration": "irbinebs",
+      "translation": "runs",
+      "ipa": "/irbinɛbs/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ბავშვი ირბინებს პარკში",
+        "transliteration": "bavshvi irbinebs p'ark'shi",
+        "translation": "The child runs in the park"
+      },
+      "notes": "Class II (intransitive) verb. Subject always stays Nominative in all series."
+    },
+    {
+      "id": "voc2",
+      "georgian": "მიდის",
+      "transliteration": "midis",
+      "translation": "goes",
+      "ipa": "/midis/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ის მიდის სკოლაში",
+        "transliteration": "is midis sk'olashi",
+        "translation": "He/she goes to school"
+      },
+      "notes": "Class II motion verb. Always Nominative alignment."
+    },
+    {
+      "id": "voc3",
+      "georgian": "მოდის",
+      "transliteration": "modis",
+      "translation": "comes",
+      "ipa": "/mɔdis/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "დედა მოდის სახლში",
+        "transliteration": "deda modis sakh'lshi",
+        "translation": "Mother comes home"
+      },
+      "notes": "Class II motion verb. Subject always Nominative."
+    },
+    {
+      "id": "voc4",
+      "georgian": "დგას",
+      "transliteration": "dgass",
+      "translation": "stands",
+      "ipa": "/dgɑs/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ბავშვი დგას ფანჯრასთან",
+        "transliteration": "bavshvi dgass p'anjrastan",
+        "translation": "The child stands by the window"
+      },
+      "notes": "Class II state verb. Always keeps Nominative alignment."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ზის",
+      "transliteration": "zis",
+      "translation": "sits",
+      "ipa": "/zis/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ის ზის სკამზე",
+        "transliteration": "is zis sk'amze",
+        "translation": "He/she sits on the chair"
+      },
+      "notes": "Class II state verb. Never uses Ergative case."
+    },
+    {
+      "id": "voc6",
+      "georgian": "წევს",
+      "transliteration": "ts'evs",
+      "translation": "lies",
+      "ipa": "/tsʼɛvs/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "კატა წევს სხედან",
+        "transliteration": "kat'a ts'evs skhedan",
+        "translation": "The cat lies on the sofa"
+      },
+      "notes": "Class II state verb. Always Nominative alignment."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ღიმის",
+      "transliteration": "ghimis",
+      "translation": "smiles",
+      "ipa": "/ɣimis/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ბავშვი ღიმის",
+        "transliteration": "bavshvi ghimis",
+        "translation": "The child smiles"
+      },
+      "notes": "Class II emotion/expression verb. No object, always Nominative."
+    },
+    {
+      "id": "voc8",
+      "georgian": "ტირის",
+      "transliteration": "t'iris",
+      "translation": "cries",
+      "ipa": "/tʼiris/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ბავშვი ტირის",
+        "transliteration": "bavshvi t'iris",
+        "translation": "The child cries"
+      },
+      "notes": "Class II intransitive verb. Subject always Nominative."
+    },
+    {
+      "id": "voc9",
+      "georgian": "იცვლება",
+      "transliteration": "itsvleba",
+      "translation": "changes",
+      "ipa": "/itsvlɛbɑ/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "exampleSentence": {
+        "georgian": "ამინდი იცვლება",
+        "transliteration": "amindi itsvleba",
+        "translation": "The weather changes"
+      },
+      "notes": "Class II intransitive verb. Always keeps Nominative alignment."
+    },
+    {
+      "id": "voc10",
+      "georgian": "იცვამს",
+      "transliteration": "itsvams",
+      "translation": "puts on / dresses (oneself)",
+      "ipa": "/itsvɑms/",
+      "partOfSpeech": "verb",
+      "verbClass": "III",
+      "exampleSentence": {
+        "georgian": "ჩემს ვიცვამ ქურთუკს",
+        "transliteration": "chems vitsvam kurt'uks",
+        "translation": "I put on a coat (for myself)"
+      },
+      "notes": "Class III (medial) verb. Uses special alignment pattern with Dative subject agreement."
+    },
+    {
+      "id": "voc11",
+      "georgian": "იბანს",
+      "transliteration": "ibans",
+      "translation": "washes (oneself)",
+      "ipa": "/ibɑns/",
+      "partOfSpeech": "verb",
+      "verbClass": "III",
+      "exampleSentence": {
+        "georgian": "ის იბანს სახელს",
+        "transliteration": "is ibans sakhels",
+        "translation": "He/she washes (his/her) face"
+      },
+      "notes": "Class III medial/reflexive verb. Has special case alignment patterns."
+    },
+    {
+      "id": "voc12",
+      "georgian": "ინტრანზიტური",
+      "transliteration": "int'ranzit'uri",
+      "translation": "intransitive",
+      "ipa": "/intʼrɑnzitʼuri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ინტრანზიტური ზმნა",
+        "transliteration": "int'ranzit'uri zmna",
+        "translation": "intransitive verb"
+      },
+      "notes": "Linguistic term: describes verbs without direct objects (Class II)."
+    },
+    {
+      "id": "voc13",
+      "georgian": "ტრანზიტური",
+      "transliteration": "t'ranzit'uri",
+      "translation": "transitive",
+      "ipa": "/tʼrɑnzitʼuri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ტრანზიტური ზმნა",
+        "transliteration": "t'ranzit'uri zmna",
+        "translation": "transitive verb"
+      },
+      "notes": "Linguistic term: describes verbs with direct objects (Class I)."
+    },
+    {
+      "id": "voc14",
+      "georgian": "მედიური",
+      "transliteration": "mediuri",
+      "translation": "medial",
+      "ipa": "/mɛdiuri/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "მედიური ზმნა",
+        "transliteration": "mediuri zmna",
+        "translation": "medial verb"
+      },
+      "notes": "Linguistic term: describes Class III verbs with special alignment patterns."
+    },
+    {
+      "id": "voc15",
+      "georgian": "ვირბინე",
+      "transliteration": "virbine",
+      "translation": "I ran",
+      "ipa": "/virbinɛ/",
+      "partOfSpeech": "verb",
+      "verbClass": "II",
+      "tense": "Aorist (Series II)",
+      "exampleSentence": {
+        "georgian": "მე ვირბინე პარკში",
+        "transliteration": "me virbine p'ark'shi",
+        "translation": "I ran in the park"
+      },
+      "notes": "Class II verb in Series II (Aorist). Subject მე remains Nominative (not Ergative), demonstrating that Class II verbs never shift to Ergative alignment."
+    }
+  ]
+}
+

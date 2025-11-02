@@ -1,0 +1,147 @@
+{
+  "lessonId": "a1-6",
+  "level": "A1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "გამეორება",
+      "transliteration": "gameoreba",
+      "translation": "repetition / review",
+      "ipa": "/ɡɑmɛɔrɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "რეგულარული გამეორება მნიშვნელოვანია",
+        "transliteration": "regulari gameoreba mnishvnelovania",
+        "translation": "Regular repetition is important"
+      },
+      "notes": "This word itself relates to the concept of repetition in learning. Essential for understanding SRS principles!"
+    },
+    {
+      "id": "voc2",
+      "georgian": "სწავლა",
+      "transliteration": "sts'avla",
+      "translation": "study / learning",
+      "ipa": "/stsʼɑvlɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართულის სწავლა",
+        "transliteration": "kartulis sts'avla",
+        "translation": "learning Georgian"
+      },
+      "notes": "General word for studying or learning. You'll use this when talking about your language learning journey."
+    },
+    {
+      "id": "voc3",
+      "georgian": "ტრენინგი",
+      "transliteration": "t'ren'ingi",
+      "translation": "training / practice",
+      "ipa": "/tʼrɛniŋɡi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ყოველდღიური ტრენინგი",
+        "transliteration": "q'oveldghiu'ri t'ren'ingi",
+        "translation": "daily training / practice"
+      },
+      "notes": "Loanword from English 'training'. Used for practice and training activities."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ყოველდღე",
+      "transliteration": "q'oveldghe",
+      "translation": "every day / daily",
+      "ipa": "/qʼɔvɛldɣɛ/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "მე ვსწავლობ ყოველდღე",
+        "transliteration": "me vsts'avlob q'oveldghe",
+        "translation": "I study every day"
+      },
+      "notes": "Essential for talking about daily routines and practice schedules."
+    },
+    {
+      "id": "voc5",
+      "georgian": "პრაქტიკა",
+      "transliteration": "p'rakt'ik'a",
+      "translation": "practice",
+      "ipa": "/pʼrɑkʰtʼikʼɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "რეგულარული პრაქტიკა",
+        "transliteration": "regulari p'rakt'ik'a",
+        "translation": "regular practice"
+      },
+      "notes": "Another word for practice. Useful when discussing your study routine."
+    },
+    {
+      "id": "voc6",
+      "georgian": "პროგრესი",
+      "transliteration": "p'rogresi",
+      "translation": "progress",
+      "ipa": "/pʼrɔɡrɛsi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კარგი პროგრესი",
+        "transliteration": "k'argi p'rogresi",
+        "translation": "good progress"
+      },
+      "notes": "Important for tracking your language learning progress!"
+    },
+    {
+      "id": "voc7",
+      "georgian": "სიტყვა",
+      "transliteration": "sitqva",
+      "translation": "word",
+      "ipa": "/sitʼqʼvɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ახალი სიტყვა",
+        "transliteration": "akhali sitqva",
+        "translation": "new word"
+      },
+      "notes": "Essential vocabulary word - you'll use this when talking about learning new words!"
+    },
+    {
+      "id": "voc8",
+      "georgian": "საუბარი",
+      "transliteration": "saubari",
+      "translation": "conversation / speaking",
+      "ipa": "/sɑubɑri/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართულად საუბარი",
+        "transliteration": "kartulad saubari",
+        "translation": "speaking in Georgian"
+      },
+      "notes": "Useful for talking about speaking practice and conversations."
+    },
+    {
+      "id": "voc9",
+      "georgian": "შესწავლა",
+      "transliteration": "shests'avla",
+      "translation": "to study / to learn",
+      "ipa": "/ʃɛstsʼɑvlɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვსწავლობ ქართულს",
+        "transliteration": "me vsts'avlob kartuls",
+        "translation": "I study Georgian"
+      },
+      "notes": "The verb form of 'to study'. Essential for expressing your learning activities."
+    },
+    {
+      "id": "voc10",
+      "georgian": "დაიმახსოვრება",
+      "transliteration": "daimakhsovreba",
+      "translation": "to memorize / to remember",
+      "ipa": "/dɑimɑx sɔvrɛbɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე მინდა დაიმახსოვრო ახალი სიტყვები",
+        "transliteration": "me minda daimakhsovro akhali sitqvebi",
+        "translation": "I want to memorize new words"
+      },
+      "notes": "Important verb when discussing vocabulary memorization and SRS practice!"
+    }
+  ]
+}
+

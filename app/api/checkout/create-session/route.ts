@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { config } from '@/lib/config'
 import logger from '@/lib/utils/logger'
+import { checkRateLimit, getClientIdentifier } from '@/lib/utils/rateLimit'
+import { validateEmail, sanitizeInput } from '@/lib/utils/validation'
 
 /**
  * POST /api/checkout/create-session
@@ -9,6 +11,22 @@ import logger from '@/lib/utils/logger'
  */
 export async function POST(request: NextRequest) {
   try {
+    // Rate limiting
+    const clientId = getClientIdentifier(request)
+    const rateLimit = checkRateLimit(clientId, { windowMs: 60000, maxRequests: 5 })
+    
+    if (!rateLimit.allowed) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        { 
+          status: 429,
+          headers: {
+            'Retry-After': String(Math.ceil((rateLimit.resetTime - Date.now()) / 1000)),
+          },
+        }
+      )
+    }
+
     if (!config.features.enableStripe) {
       return NextResponse.json(
         { error: 'Stripe is not enabled' },
@@ -17,11 +35,29 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json()
-    const { plan, email } = body // plan: 'monthly' | 'annual'
+    const plan = sanitizeInput(body.plan)
+    const email = sanitizeInput(body.email)
 
     if (!plan || !email) {
       return NextResponse.json(
         { error: 'Plan and email are required' },
+        { status: 400 }
+      )
+    }
+
+    // Validate plan
+    if (plan !== 'monthly' && plan !== 'annual') {
+      return NextResponse.json(
+        { error: 'Invalid plan. Must be "monthly" or "annual"' },
+        { status: 400 }
+      )
+    }
+
+    // Validate email
+    const emailValidation = validateEmail(email)
+    if (!emailValidation.isValid) {
+      return NextResponse.json(
+        { error: emailValidation.errors[0] },
         { status: 400 }
       )
     }

@@ -1,0 +1,132 @@
+{
+  "lessonId": "b1-4",
+  "title": "Lesson B1-4 Assessment: Class I Mastery",
+  "passingScore": 80,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What characterizes Class I verbs in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "They don't take objects" },
+        { "id": "b", "text": "They are transitive verbs that take direct objects" },
+        { "id": "c", "text": "They are only intransitive" },
+        { "id": "d", "text": "They have no subject markers" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Class I verbs are transitive verbs that take direct objects - someone does something TO something or someone.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What is the complete Series I verb structure?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Subject + Root" },
+        { "id": "b", "text": "Subject + Preverb + Version + Root + Suffix" },
+        { "id": "c", "text": "Root + Tense" },
+        { "id": "d", "text": "Preverb + Subject" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The complete Series I structure is: Subject Marker + Preverb + Version + Root + Suffix",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "ვდაიწერ [vdaints'er] has which components?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვ- 'I' + და- preverb + ი- subjective version + წერ 'write'" },
+        { "id": "b", "text": "ვ- 'I' + root only" },
+        { "id": "c", "text": "და- preverb + root" },
+        { "id": "d", "text": "ვ- 'I' + ი- version only" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ვდაიწერ [vdaints'er] contains: ვ- subject marker + და- preverb + ი- subjective version + წერ root.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "What does ვდაუწერ [vdauts'er] mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I am writing for someone (perfective + objective)" },
+        { "id": "b", "text": "I will write for myself" },
+        { "id": "c", "text": "I wrote (past tense)" },
+        { "id": "d", "text": "I am writing (neutral)" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ვდაუწერ [vdauts'er] contains: ვ- 'I' + და- preverb (perfective) + უ- objective version + წერ 'write' = 'I will write for someone.'",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Match conjugations to meanings:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ვხედავ [vkhedav]" },
+        { "id": "l2", "text": "მივხედავ [mivkhedav]" },
+        { "id": "l3", "text": "დავხედავ [davkhedav]" },
+        { "id": "l4", "text": "ვდაიხედავ [vdaikhedav]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "I see (base form)" },
+        { "id": "r2", "text": "I will look toward" },
+        { "id": "r3", "text": "I will see (perfective)" },
+        { "id": "r4", "text": "I will look (perfective + subjective)" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Base forms show person, preverbs add aspect/direction, versions add perspective.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Which of these is a Class I (transitive) verb?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მუშაობა [mushaoba] - to work" },
+        { "id": "b", "text": "ხედვა [khedva] - to see" },
+        { "id": "c", "text": "Both are transitive" },
+        { "id": "d", "text": "Neither is transitive" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ხედვა [khedva] 'to see' is Class I transitive because you see something/someone. მუშაობა [mushaoba] 'to work' is Class II intransitive.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "დაიწერს [daints'ers] is which person?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "First person singular" },
+        { "id": "b", "text": "Third person singular" },
+        { "id": "c", "text": "Third person plural" },
+        { "id": "d", "text": "Second person" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დაიწერს [daints'ers] ends in -ს [-s], which marks third person singular. It has და- preverb and ი- subjective version.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "Which sentence correctly uses a complete Series I Class I conjugation?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ვმუშაობ კარგად [vmushaob k'argad]" },
+        { "id": "b", "text": "ვდაუწერ წერილს მეგობარს [vdauts'er ts'erils megobars]" },
+        { "id": "c", "text": "მთაში ვარ [mtashi var]" },
+        { "id": "d", "text": "კარგად ვარ [k'argad var]" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვდაუწერ [vdauts'er] contains all components: ვ- subject + და- preverb + უ- version + წერ root. This is a complete Series I Class I transitive conjugation.",
+      "points": 15
+    }
+  ]
+}
+

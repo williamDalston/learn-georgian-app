@@ -1,0 +1,170 @@
+{
+  "lessonId": "c1-7",
+  "title": "Lesson C1-7 Assessment: Advanced Conversation - Debates and Discussions",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the softest way to express disagreement with someone older than you in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ეს არასწორია!" },
+        { "id": "b", "text": "არ შემიძლია შევთანხმდე 100%" },
+        { "id": "c", "text": "ლოგიკურად ეს არ იწერება" },
+        { "id": "d", "text": "არ გეთანხმებით" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "'არ შემიძლია შევთანხმდე 100%' is the softest possible form of disagreement in Georgian, showing utmost respect for hierarchy and cultural norms.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which hedging phrase shows the highest degree of probability in Georgian?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "შეიძლება" },
+        { "id": "b", "text": "ალბათ" },
+        { "id": "c", "text": "დიდი ალბათობით" },
+        { "id": "d", "text": "არ არის გამორიცხული" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "'დიდი ალბათობით' (very probably) shows the highest probability among hedging phrases, indicating strong likelihood while still showing humility.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "In an academic debate, which phrase is most appropriate for presenting statistical evidence?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მგონია, რომ სტატისტიკა მიუთითებს..." },
+        { "id": "b", "text": "სტატისტიკური მონაცემები აჩვენებენ..." },
+        { "id": "c", "text": "ყველა თქვა, რომ ციფრები..." },
+        { "id": "d", "text": "მგონია, ყველა გაეთანხმება..." }
+      ],
+      "correctAnswer": "b",
+      "explanation": "When presenting statistical data, use objective language: 'სტატისტიკური მონაცემები აჩვენებენ' maintains formal, evidence-based tone without hedging.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Match the debate phrases with their English translations:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "როგორც ჩემი აზრით" },
+        { "id": "l2", "text": "თუმცა, სხვა კუთხითაც შეიძლება შევხედოთ" },
+        { "id": "l3", "text": "გეთანხმებით ნაწილობრივ" },
+        { "id": "l4", "text": "ფაქტია რომ" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "As far as I'm concerned" },
+        { "id": "r2", "text": "However, we can also look at it from another angle" },
+        { "id": "r3", "text": "I partly agree with you" },
+        { "id": "r4", "text": "The fact is that" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Master these core debate phrases to participate effectively in Georgian discussions.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "You're at a family supra discussing Georgian traditions. Someone suggests tourism is destroying Georgian culture. How should you respond?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ეს სულელურია! ტურიზმი კარგია!" },
+        { "id": "b", "text": "თუმცა, სხვა კუთხითაც შეიძლება შევხედოთ - ტურიზმმა შეიძლება დადებითად იმოქმედოს განათლებაზე" },
+        { "id": "c", "text": "არ გეთანხმებით სრულიად" },
+        { "id": "d", "text": "ლოგიკურად ეს არ იწერება" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "At a family supra, use the softest framing: acknowledge their perspective while introducing an alternative angle. This respects cultural hierarchy and values intellectual humility.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Complete this sentence: '_____ რომ ეკონომიკური რეფორმა საჭიროა განახლებისთვის.'",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "მგონია" },
+        { "id": "b", "text": "შეიძლება" },
+        { "id": "c", "text": "ალბათ" },
+        { "id": "d", "text": "All of the above would be correct" }
+      ],
+      "correctAnswer": "d",
+      "explanation": "All three hedging phrases work grammatically and contextually. 'მგონია' shows more conviction, 'შეიძლება' is softer, and 'ალბათ' suggests higher probability - choose based on your intended emphasis.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What makes Georgian debate culture unique compared to Western debating styles?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Georgians never disagree" },
+        { "id": "b", "text": "Georgian debate emphasizes passionate expression within respectful cultural boundaries" },
+        { "id": "c", "text": "Georgians only debate in formal settings" },
+        { "id": "d", "text": "Georgian debate has no rules" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Georgian debate culture uniquely combines passionate intellectual expression with strong respect for hierarchy and cultural norms. Direct contradiction must be softened, especially with older speakers.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "Match the political vocabulary:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "მთავრობა" },
+        { "id": "l2", "text": "ინფლაცია" },
+        { "id": "l3", "text": "უმუშევრობა" },
+        { "id": "l4", "text": "კორუფცია" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Government" },
+        { "id": "r2", "text": "Inflation" },
+        { "id": "r3", "text": "Unemployment" },
+        { "id": "r4", "text": "Corruption" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" },
+        { "left": "l4", "right": "r4" }
+      ],
+      "explanation": "Mastering political vocabulary is essential for C1 debate participation.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q9",
+      "question": "What is the purpose of hedging in Georgian debate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "To show weakness" },
+        { "id": "b", "text": "To demonstrate intellectual humility and create space for nuanced discussion" },
+        { "id": "c", "text": "To confuse the listener" },
+        { "id": "d", "text": "Georgians don't use hedging" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Hedging in Georgian debate shows intellectual humility and creates intellectual space for discussion. It demonstrates respect for alternative perspectives while still expressing your position.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q10",
+      "question": "In a debate about social policy, you want to acknowledge someone's point before adding your perspective. Which phrase is most appropriate?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "გაქვთ მართალი, თუმცა ასევე გასათვალისწინებელია ეკონომიკური ფაქტორები" },
+        { "id": "b", "text": "ეს არასწორია!" },
+        { "id": "c", "text": "არ გეთანხმებით" },
+        { "id": "d", "text": "ყველაფერი რასაც თქვით არასწორია" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "'გაქვთ მართალი, თუმცა...' validates their point before adding your perspective. This is culturally appropriate and demonstrates respectful argumentation.",
+      "points": 15
+    }
+  ]
+}

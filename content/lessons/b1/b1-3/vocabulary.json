@@ -1,0 +1,217 @@
+{
+  "lessonId": "b1-3",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ვერსია",
+      "transliteration": "versia",
+      "translation": "version",
+      "ipa": "/vɛrsɪɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართულ ზმნებს აქვს ვერსიები",
+        "transliteration": "k'art'ul zmnebs akvs versiebi",
+        "translation": "Georgian verbs have versions"
+      },
+      "notes": "Grammar term for version vowels"
+    },
+    {
+      "id": "voc2",
+      "georgian": "ვიწერ",
+      "transliteration": "vits'er",
+      "translation": "I write (for myself)",
+      "ipa": "/vɪtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვიწერ წიგნს ჩემთვის",
+        "transliteration": "vits'er ts'igns chemtvis",
+        "translation": "I write a book for myself"
+      },
+      "notes": "წერა [ts'era] with subjective version ი- [i-]"
+    },
+    {
+      "id": "voc3",
+      "georgian": "ვუწერ",
+      "transliteration": "vuts'er",
+      "translation": "I write (for someone)",
+      "ipa": "/vʊtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვუწერ წიგნს მეგობარს",
+        "transliteration": "vuts'er ts'igns megobars",
+        "translation": "I write a book for my friend"
+      },
+      "notes": "წერა [ts'era] with objective version უ- [u-]"
+    },
+    {
+      "id": "voc4",
+      "georgian": "ვიაშენებ",
+      "transliteration": "viasheneb",
+      "translation": "I build (for myself)",
+      "ipa": "/vɪɑʃɛnɛb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვიაშენებ სახლს",
+        "transliteration": "viasheneb sakhls",
+        "translation": "I am building a house for myself"
+      },
+      "notes": "აშენება [asheneba] with subjective version"
+    },
+    {
+      "id": "voc5",
+      "georgian": "ვუშენებ",
+      "transliteration": "vusheneb",
+      "translation": "I build (for someone)",
+      "ipa": "/vʊʃɛnɛb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვუშენებ სახლს ოჯახს",
+        "transliteration": "vusheneb sakhls ojakhs",
+        "translation": "I am building a house for my family"
+      },
+      "notes": "აშენება [asheneba] with objective version"
+    },
+    {
+      "id": "voc6",
+      "georgian": "ვიყიდულობ",
+      "transliteration": "viqidulob",
+      "translation": "I buy (for myself)",
+      "ipa": "/vɪqɪdʊlɔb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვიყიდულობ ტანსაცმელს",
+        "transliteration": "viqidulob t'ansasmels",
+        "translation": "I am buying clothes for myself"
+      },
+      "notes": "ყიდულობს [qidulobs] with subjective version"
+    },
+    {
+      "id": "voc7",
+      "georgian": "ვუყიდულობ",
+      "transliteration": "vuqidulob",
+      "translation": "I buy (for someone)",
+      "ipa": "/vʊqɪdʊlɔb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვუყიდულობ საჩუქარს დედას",
+        "transliteration": "vuqidulob sach'uk'ars dedas",
+        "translation": "I am buying a gift for my mother"
+      },
+      "notes": "ყიდულობს [qidulobs] with objective version"
+    },
+    {
+      "id": "voc8",
+      "georgian": "ვდაიწერ",
+      "transliteration": "vdaints'er",
+      "translation": "I will write (for myself, perfective)",
+      "ipa": "/vdɑɪntsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვდაიწერ ლექსს",
+        "transliteration": "vdaints'er lekss",
+        "translation": "I will write a poem for myself"
+      },
+      "notes": "წერა [ts'era] + და- [da-] preverb + ი- [i-] subjective"
+    },
+    {
+      "id": "voc9",
+      "georgian": "ვდაუწერ",
+      "transliteration": "vdauts'er",
+      "translation": "I will write (for someone, perfective)",
+      "ipa": "/vdɑʊtsʼɛr/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "ვდაუწერ წერილს დათს",
+        "transliteration": "vdauts'er ts'erils dats",
+        "translation": "I will write a letter for Dato"
+      },
+      "notes": "წერა [ts'era] + და- [da-] preverb + უ- [u-] objective"
+    },
+    {
+      "id": "voc10",
+      "georgian": "სუბიექტური",
+      "transliteration": "subiekt'uri",
+      "translation": "subjective",
+      "ipa": "/subɪɛktʼʊrɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ი- სუბიექტური ვერსიაა",
+        "transliteration": "i- subiekt'uri versiaa",
+        "translation": "ი- is the subjective version"
+      },
+      "notes": "Grammar term for subjective version"
+    },
+    {
+      "id": "voc11",
+      "georgian": "ობიექტური",
+      "transliteration": "obiekt'uri",
+      "translation": "objective",
+      "ipa": "/ɔbɪɛktʼʊrɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "უ- ობიექტური ვერსიაა",
+        "transliteration": "u- obiekt'uri versiaa",
+        "translation": "უ- is the objective version"
+      },
+      "notes": "Grammar term for objective version"
+    },
+    {
+      "id": "voc12",
+      "georgian": "ი-",
+      "transliteration": "i-",
+      "translation": "subjective version vowel",
+      "ipa": "/ɪ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "ი- ნიშნავს საკუთარ თავზე",
+        "transliteration": "i- nishnavs sak'ut'ar tavze",
+        "translation": "ი- means 'for oneself'"
+      },
+      "notes": "Subjective version prefix: for myself"
+    },
+    {
+      "id": "voc13",
+      "georgian": "უ-",
+      "transliteration": "u-",
+      "translation": "objective version vowel",
+      "ipa": "/ʊ-/",
+      "partOfSpeech": "prefix",
+      "exampleSentence": {
+        "georgian": "უ- ნიშნავს სხვისთვის",
+        "transliteration": "u- nishnavs skhvistvis",
+        "translation": "უ- means 'for others'"
+      },
+      "notes": "Objective version prefix: for others"
+    },
+    {
+      "id": "voc14",
+      "georgian": "საკუთარი",
+      "transliteration": "sak'ut'ari",
+      "translation": "one's own",
+      "ipa": "/sɑkʼʊtʼɑrɪ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "საკუთარი სახლი",
+        "transliteration": "sak'ut'ari sakhli",
+        "translation": "one's own house"
+      },
+      "notes": "Relates to subjective version concept"
+    },
+    {
+      "id": "voc15",
+      "georgian": "სხვისთვის",
+      "transliteration": "skhvistvis",
+      "translation": "for others",
+      "ipa": "/skxvɪstvɪs/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ვუწერ სხვისთვის",
+        "transliteration": "vuts'er skhvistvis",
+        "translation": "I write for others"
+      },
+      "notes": "Relates to objective version concept"
+    }
+  ]
+}
+

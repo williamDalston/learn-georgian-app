@@ -1,0 +1,133 @@
+{
+  "lessonId": "a2-4",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ხედვა",
+      "transliteration": "khedva",
+      "translation": "to see",
+      "ipa": "/xɛdvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვხედავ კატას",
+        "transliteration": "me vkhedav kat'as",
+        "translation": "I see the cat"
+      },
+      "notes": "Series I verb. Conjugation: ვხედავ (I see), ხედავ (you see), ხედავს (he/she sees)"
+    },
+    {
+      "id": "voc2",
+      "georgian": "ვხედავ",
+      "transliteration": "vkhedav",
+      "translation": "I see",
+      "ipa": "/vxɛdɑv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვხედავ სახლს",
+        "transliteration": "me vkhedav sakhl-s",
+        "translation": "I see the house"
+      },
+      "notes": "First person singular of ხედვა"
+    },
+    {
+      "id": "voc3",
+      "georgian": "კითხვა",
+      "transliteration": "kit'khva",
+      "translation": "to read",
+      "ipa": "/kʼitʼxvɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვკითხულობ წიგნს",
+        "transliteration": "me vkit'khulob ts'igns",
+        "translation": "I read the book"
+      },
+      "notes": "Series I verb. Conjugation: ვკითხულობ, კითხულობ, კითხულობს"
+    },
+    {
+      "id": "voc4",
+      "georgian": "ვკითხულობ",
+      "transliteration": "vkit'khulob",
+      "translation": "I read",
+      "ipa": "/vkʼitʼxulɔb/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვკითხულობ წიგნს ყოველდღე",
+        "transliteration": "me vkit'khulob ts'igns q'oveldghe",
+        "translation": "I read the book every day"
+      },
+      "notes": "First person singular of კითხვა"
+    },
+    {
+      "id": "voc5",
+      "georgian": "მიცემა",
+      "transliteration": "mitsema",
+      "translation": "to give",
+      "ipa": "/mitsɛmɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვაძლევ ბავშვს წიგნს",
+        "transliteration": "me vadzlev bavshvs ts'igns",
+        "translation": "I give the child a book"
+      },
+      "notes": "Series I verb with two objects (both Dative). Conjugation: ვაძლევ, აძლევ, აძლევს"
+    },
+    {
+      "id": "voc6",
+      "georgian": "ვაძლევ",
+      "transliteration": "vadzlev",
+      "translation": "I give",
+      "ipa": "/vɑdzlɛv/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვაძლევ საჩუქარს მეგობარს",
+        "transliteration": "me vadzlev sachuk'ars megobars",
+        "translation": "I give a gift to a friend"
+      },
+      "notes": "First person singular of მიცემა"
+    },
+    {
+      "id": "voc7",
+      "georgian": "მე",
+      "transliteration": "me",
+      "translation": "I",
+      "ipa": "/mɛ/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "მე ვარ აქ",
+        "transliteration": "me var ak",
+        "translation": "I am here"
+      },
+      "notes": "First person singular pronoun"
+    },
+    {
+      "id": "voc8",
+      "georgian": "შენ",
+      "transliteration": "shen",
+      "translation": "you (singular, informal)",
+      "ipa": "/ʃɛn/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "შენ ხარ კარგი",
+        "transliteration": "shen khar k'argi",
+        "translation": "You are good"
+      },
+      "notes": "Second person singular pronoun (informal)"
+    },
+    {
+      "id": "voc9",
+      "georgian": "ის",
+      "transliteration": "is",
+      "translation": "he, she, it",
+      "ipa": "/is/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "ის არის აქ",
+        "transliteration": "is aris ak",
+        "translation": "He/She is here"
+      },
+      "notes": "Third person singular pronoun (no gender distinction)"
+    }
+  ]
+}
+

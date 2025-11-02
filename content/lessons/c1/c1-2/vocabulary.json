@@ -1,0 +1,218 @@
+{
+  "lessonId": "c1-2",
+  "level": "C1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "რომ",
+      "transliteration": "rom",
+      "translation": "that (complementizer)",
+      "ipa": "/rɔm/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "მე ვფიქრობ რომ ქართული მშვენიერია.",
+        "transliteration": "me vp'ik'rob rom kartuli mshvenieria.",
+        "translation": "I think that Georgian is beautiful.",
+        "audioUrl": "/audio/voc1.mp3"
+      },
+      "notes": "Used to introduce complement clauses that function as objects or subjects of verbs. Different from relative clause rom."
+    },
+    {
+      "id": "voc2",
+      "georgian": "როდესაც",
+      "transliteration": "rodesac",
+      "translation": "when",
+      "ipa": "/rɔdɛsɑts/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "როდესაც ქართულად ვსაუბრობ, მე უსიამოვნობა ვგრძნობ.",
+        "transliteration": "rodesac kartulad vsaubrobo, me usiamovnoba vgrtsnob.",
+        "translation": "When I speak in Georgian, I feel uncomfortable."
+      },
+      "notes": "Temporal conjunction introducing adverbial clauses of time."
+    },
+    {
+      "id": "voc3",
+      "georgian": "სანამ",
+      "transliteration": "sanam",
+      "translation": "until / while",
+      "ipa": "/sɑnɑm/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "სანამ წიგნს ვკითხულობ, ხმა არ შემომხმარებოდეს.",
+        "transliteration": "sanam ts'igns vk'itkhulob, khma ar shemomkhmarebodes.",
+        "translation": "While I'm reading the book, don't distract me."
+      },
+      "notes": "Can mean both 'until' (temporal limit) and 'while' (duration). Context determines meaning."
+    },
+    {
+      "id": "voc4",
+      "georgian": "თუ",
+      "transliteration": "tu",
+      "translation": "if",
+      "ipa": "/tu/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "თუ ბევრს ივარჯიშებ, ქართულ ენას დაეუფლები.",
+        "transliteration": "tu bevrs ivardzisheb, kartul enas daeuplebi.",
+        "translation": "If you practice a lot, you'll master the Georgian language."
+      },
+      "notes": "Conditional conjunction introducing hypothetical conditions."
+    },
+    {
+      "id": "voc5",
+      "georgian": "იმიტომ რომ",
+      "transliteration": "imit'om rom",
+      "translation": "because",
+      "ipa": "/imit'ɔm rɔm/",
+      "partOfSpeech": "conjunction phrase",
+      "exampleSentence": {
+        "georgian": "მე დავეწყე იმიტომ რომ ქართული კულტურა ჩემთვის საინტერესოა.",
+        "transliteration": "me davets'q'e imit'om rom kartuli k'ult'ura chemt'vis saint'eresoa.",
+        "translation": "I started because Georgian culture is interesting to me."
+      },
+      "notes": "Causal conjunction explaining reasons. More common in spoken Georgian than რადგან."
+    },
+    {
+      "id": "voc6",
+      "georgian": "რადგან",
+      "transliteration": "radgan",
+      "translation": "because",
+      "ipa": "/rɑdgɑn/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "ვსწავლობ ქართულს რადგან კულტურა მომხიბლავია.",
+        "transliteration": "vsts'avlob kartuls radgan k'ult'ura momkhiblavia.",
+        "translation": "I study Georgian because the culture is fascinating."
+      },
+      "notes": "More formal than იმიტომ რომ. Used in written and formal speech."
+    },
+    {
+      "id": "voc7",
+      "georgian": "რათა",
+      "transliteration": "rata",
+      "translation": "so that / in order to",
+      "ipa": "/rɑtɑ/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "ქართულად ვსწავლობ რათა ქართველ მეგობრებთან ვისაუბრო.",
+        "transliteration": "kartulad vsts'avlob rata kartvel megobretan visaubro.",
+        "translation": "I study Georgian so that I can talk with Georgian friends."
+      },
+      "notes": "Purpose conjunction introducing goals or intentions."
+    },
+    {
+      "id": "voc8",
+      "georgian": "და",
+      "transliteration": "da",
+      "translation": "and",
+      "ipa": "/dɑ/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "ვფიქრობ ქართული ლექსი და ისიც ასე ფიქრობს.",
+        "transliteration": "vp'ik'rob kartuli lek'si da isits ase p'ik'robs.",
+        "translation": "I think Georgian is beautiful, and he/she also thinks so."
+      },
+      "notes": "Primary coordinating conjunction linking equal elements."
+    },
+    {
+      "id": "voc9",
+      "georgian": "მაგრამ",
+      "transliteration": "magram",
+      "translation": "but / however",
+      "ipa": "/mɑgrɑm/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "რთულია ქართული, მაგრამ საინტერესო.",
+        "transliteration": "rtulia kartuli, magram saint'ereso.",
+        "translation": "Georgian is difficult, but interesting."
+      },
+      "notes": "Contrasting coordinating conjunction."
+    },
+    {
+      "id": "voc10",
+      "georgian": "ან",
+      "transliteration": "an",
+      "translation": "or",
+      "ipa": "/ɑn/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "დავეწყებ ლექციას ან პრაქტიკას ავირჩევ.",
+        "transliteration": "davets'q'eb lek'sias an p'rakt'ik'as avirchev.",
+        "translation": "I will start a lecture, or I will choose practice."
+      },
+      "notes": "Alternative coordinating conjunction."
+    },
+    {
+      "id": "voc11",
+      "georgian": "რომც",
+      "transliteration": "romc",
+      "translation": "even if / even though",
+      "ipa": "/rɔmts/",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "georgian": "რომც რთული იყოს, მაინც გავაკეთებ.",
+        "transliteration": "romc rtuli iq'os, maints gavak'eteb.",
+        "translation": "Even if it's difficult, I'll still do it."
+      },
+      "notes": "Concessive conjunction expressing unexpected contrast."
+    },
+    {
+      "id": "voc12",
+      "georgian": "ასე რომ",
+      "transliteration": "ase rom",
+      "translation": "so / therefore",
+      "ipa": "/ɑsɛ rɔm/",
+      "partOfSpeech": "conjunction phrase",
+      "exampleSentence": {
+        "georgian": "ბევრს ვივარჯიშებ, ასე რომ მალე ჩავაბარებ გამოცდაში.",
+        "transliteration": "bevrs vivardzisheb, ase rom male chavabareb gamotsdashi.",
+        "translation": "I practice a lot, so I will pass the exam soon."
+      },
+      "notes": "Result or consequence conjunction."
+    },
+    {
+      "id": "voc13",
+      "georgian": "შემავალი",
+      "transliteration": "shemavali",
+      "translation": "embedded / included",
+      "ipa": "/ʃɛmɑvɑli/",
+      "partOfSpeech": "participle/adjective",
+      "exampleSentence": {
+        "georgian": "შემავალი წინადადებები რთულია.",
+        "transliteration": "shemavali ts'inadadebeshi rtulia.",
+        "translation": "Embedded sentences are difficult."
+      },
+      "notes": "Technical term for embedded clauses in linguistic discussion."
+    },
+    {
+      "id": "voc14",
+      "georgian": "დაჯგუფება",
+      "transliteration": "dadzg'upeba",
+      "translation": "coordination / grouping",
+      "ipa": "/dɑdzg'upɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დაჯგუფება და გამოყოფა წინადადებათა ძირითადი ტიპებია.",
+        "transliteration": "dadzg'upeba da gamoq'opa ts'inadadat'a dziritadi t'ipebia.",
+        "translation": "Coordination and subordination are basic types of sentences."
+      },
+      "notes": "Grammar term for coordinating clauses."
+    },
+    {
+      "id": "voc15",
+      "georgian": "გამოყოფა",
+      "transliteration": "gamoq'opa",
+      "translation": "subordination",
+      "ipa": "/ɡɑmɔq'ɔpɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გამოყოფაში ერთი წინადადება ამაღლებულია.",
+        "transliteration": "gamoq'opa-shi erti ts'inadadesha amaghlebulia.",
+        "translation": "In subordination, one sentence is subordinate."
+      },
+      "notes": "Grammar term for subordinating clauses."
+    }
+  ]
+}
+

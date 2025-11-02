@@ -1,0 +1,208 @@
+{
+  "lessonId": "a1-4",
+  "lessonTitle": "Additional Difficult Sounds: Trilled R and Gutturals",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Sound Identification",
+      "instructions": "Identify which sound is described.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which sound is produced by vibrating the tongue against the alveolar ridge?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "რ [r] - trilled r" },
+            { "id": "b", "text": "ხ [x] - voiceless guttural" },
+            { "id": "c", "text": "ღ [ɣ] - voiced guttural" },
+            { "id": "d", "text": "ყ [qʼ] - ejective" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "რ [r] is the alveolar trill, produced by vibrating the tongue tip against the alveolar ridge. This is the 'rolled r' sound."
+        },
+        {
+          "id": "q2",
+          "question": "What is the difference between ღ [ɣ] and ხ [x]?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "ღ is voiced, ხ is voiceless" },
+            { "id": "b", "text": "ხ is voiced, ღ is voiceless" },
+            { "id": "c", "text": "They are the same sound" },
+            { "id": "d", "text": "One is ejective, one is not" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ღ [ɣ] is voiced (vocal cords vibrate), ხ [x] is voiceless (no vibration). Both are guttural fricatives made at the back of the throat."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Sounds to Their Descriptions",
+      "instructions": "Match each sound with its correct description.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q3",
+          "leftItems": [
+            { "id": "l1", "text": "რ [r]" },
+            { "id": "l2", "text": "ღ [ɣ]" },
+            { "id": "l3", "text": "ხ [x]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Alveolar trill - tongue vibrates" },
+            { "id": "r2", "text": "Voiced guttural fricative - throat sound with vibration" },
+            { "id": "r3", "text": "Voiceless guttural fricative - throat sound without vibration" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" }
+          ],
+          "explanation": "რ [r] is the trilled r, ღ [ɣ] is voiced guttural (like clearing throat with voice), ხ [x] is voiceless guttural (like clearing throat without voice)."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "audio",
+      "title": "Pronunciation Practice: Trilled R",
+      "instructions": "Listen and repeat the trilled რ [r]. Practice the tongue vibration.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "audioUrl": "/audio/trilled-r.mp3",
+          "text": "რ",
+          "transliteration": "r",
+          "translation": "letter r (trilled)",
+          "responseType": "recording",
+          "explanation": "Practice vibrating your tongue tip against the alveolar ridge. Start with 'drrr' or 'prrr' if helpful, then isolate the trill."
+        },
+        {
+          "id": "q5",
+          "audioUrl": "/audio/ra.mp3",
+          "text": "რა",
+          "transliteration": "ra",
+          "translation": "what",
+          "responseType": "recording",
+          "explanation": "Common word with trilled რ. Practice the smooth trill at the beginning."
+        },
+        {
+          "id": "q6",
+          "audioUrl": "/audio/sakhli.mp3",
+          "text": "სახლი",
+          "transliteration": "sakhl-i",
+          "translation": "house",
+          "responseType": "recording",
+          "explanation": "Contains რ (though not word-initial). Practice the trill in the middle of the word."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "audio",
+      "title": "Pronunciation Practice: Guttural Fricatives",
+      "instructions": "Listen and repeat ღ [ɣ] and ხ [x]. Notice the difference between voiced and voiceless.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q7",
+          "audioUrl": "/audio/ghame.mp3",
+          "text": "ღამე",
+          "transliteration": "ghame",
+          "translation": "night",
+          "responseType": "recording",
+          "explanation": "Voiced guttural ღ [ɣ] - feel the vibration in your throat. Like a voiced version of clearing your throat."
+        },
+        {
+          "id": "q8",
+          "audioUrl": "/audio/xari.mp3",
+          "text": "ხარი",
+          "transliteration": "xari",
+          "translation": "bull",
+          "responseType": "recording",
+          "explanation": "Voiceless guttural ხ [x] - no vibration. Similar to German 'ch' in 'Bach' or Spanish 'j' in 'Jose'."
+        },
+        {
+          "id": "q9",
+          "audioUrl": "/audio/xeli.mp3",
+          "text": "ხელი",
+          "transliteration": "xeli",
+          "translation": "hand",
+          "responseType": "recording",
+          "explanation": "Common word with voiceless guttural ხ [x]. Practice the throat friction without vibration."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "fill-blank",
+      "title": "Complete Words with Difficult Sounds",
+      "instructions": "Complete each word with the correct sound based on the pronunciation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "Complete: __ა (what - uses trilled r):",
+          "correctAnswer": "რ",
+          "alternatives": ["რ", "რ", "ლ"],
+          "explanation": "რა [ra] uses trilled რ [r]. One of the most common words in Georgian!"
+        },
+        {
+          "id": "q11",
+          "question": "Complete: __ამე (night - uses voiced guttural):",
+          "correctAnswer": "ღ",
+          "alternatives": ["ღ", "ხ", "ყ"],
+          "explanation": "ღამე [ɣame] uses voiced guttural ღ [ɣ]. Remember: voiced means you feel vibration!"
+        },
+        {
+          "id": "q12",
+          "question": "Complete: __არი (bull - uses voiceless guttural):",
+          "correctAnswer": "ხ",
+          "alternatives": ["ხ", "ღ", "ყ"],
+          "explanation": "ხარი [xari] uses voiceless guttural ხ [x]. No vibration - just throat friction."
+        }
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple-choice",
+      "title": "Consonant Clusters",
+      "instructions": "Answer questions about Georgian consonant clusters.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q13",
+          "question": "Which word contains a complex consonant cluster?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "სახლი [sakhl-i] (house)" },
+            { "id": "b", "text": "გრძელი [grdzeli] (long)" },
+            { "id": "c", "text": "რა [ra] (what)" },
+            { "id": "d", "text": "ხარი [xari] (bull)" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "გრძელი [grdzeli] contains the cluster 'grdz' - four consonants in a row! Georgian is famous for complex clusters like this."
+        },
+        {
+          "id": "q14",
+          "question": "What's the best strategy for practicing consonant clusters?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Start slow, pronounce each consonant separately, then speed up" },
+            { "id": "b", "text": "Always say them as fast as possible" },
+            { "id": "c", "text": "Skip the difficult ones" },
+            { "id": "d", "text": "Only practice one consonant at a time" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Start slow and pronounce each consonant separately (gr-dz-eli), then gradually speed up until you can say it smoothly (grdzeli). This builds muscle memory!"
+        }
+      ]
+    }
+  ]
+}
+

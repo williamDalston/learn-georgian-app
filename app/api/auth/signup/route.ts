@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import logger from '@/lib/utils/logger'
+import { checkRateLimit, getClientIdentifier } from '@/lib/utils/rateLimit'
+import { validateEmail, validatePassword, sanitizeInput } from '@/lib/utils/validation'
 
 /**
  * POST /api/auth/signup
@@ -8,8 +10,25 @@ import logger from '@/lib/utils/logger'
  */
 export async function POST(request: NextRequest) {
   try {
+    // Rate limiting (stricter for signup)
+    const clientId = getClientIdentifier(request)
+    const rateLimit = checkRateLimit(clientId, { windowMs: 3600000, maxRequests: 3 }) // 3 per hour
+    
+    if (!rateLimit.allowed) {
+      return NextResponse.json(
+        { error: 'Too many signup attempts. Please try again later.' },
+        { 
+          status: 429,
+          headers: {
+            'Retry-After': String(Math.ceil((rateLimit.resetTime - Date.now()) / 1000)),
+          },
+        }
+      )
+    }
+
     const body = await request.json()
-    const { email, password } = body
+    const email = sanitizeInput(body.email)
+    const password = sanitizeInput(body.password)
 
     if (!email || !password) {
       return NextResponse.json(
@@ -18,19 +37,20 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Validate email format
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    if (!emailRegex.test(email)) {
+    // Validate email
+    const emailValidation = validateEmail(email)
+    if (!emailValidation.isValid) {
       return NextResponse.json(
-        { error: 'Invalid email format' },
+        { error: emailValidation.errors[0] },
         { status: 400 }
       )
     }
 
-    // Validate password strength
-    if (password.length < 8) {
+    // Validate password
+    const passwordValidation = validatePassword(password)
+    if (!passwordValidation.isValid) {
       return NextResponse.json(
-        { error: 'Password must be at least 8 characters' },
+        { error: passwordValidation.errors[0] },
         { status: 400 }
       )
     }

@@ -1,0 +1,244 @@
+{
+  "lessonId": "b2-5",
+  "lessonTitle": "Series III: Perfect and Pluperfect",
+  "level": "B2",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz1",
+      "type": "multiple-choice",
+      "question": "What is the main grammatical difference between Series II (Aorist) and Series III (Perfect)?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Series II is for present, Series III is for future"
+        },
+        {
+          "id": "b",
+          "text": "Series II uses simple past, Series III uses auxiliary verbs + main verb"
+        },
+        {
+          "id": "c",
+          "text": "Series II is formal, Series III is informal"
+        },
+        {
+          "id": "d",
+          "text": "There is no real difference"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The key structural difference is that Series III uses auxiliary verb + main verb combination, while Series II uses simple conjugated forms."
+    },
+    {
+      "id": "quiz2",
+      "type": "multiple-choice",
+      "question": "When should you use Perfect tense instead of Aorist?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "When talking about actions in the distant past"
+        },
+        {
+          "id": "b",
+          "text": "When the action is completed but still relevant to the present"
+        },
+        {
+          "id": "c",
+          "text": "When the action hasn't happened yet"
+        },
+        {
+          "id": "d",
+          "text": "Only in formal writing"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Perfect tense is used when an action is completed but has present relevance or connection to the current moment."
+    },
+    {
+      "id": "quiz3",
+      "type": "fill-blank",
+      "question": "Complete: დავასრულედმიყავ საშინაოდრო, როცა მასწავლებელი ______ (I had finished homework when the teacher arrived)",
+      "points": 2,
+      "correctAnswer": "მოვიდა",
+      "alternatives": ["მოვიდა", "მოდის", "მოვიდოდა", "მოვა"],
+      "explanation": "The teacher's arrival is in simple past (Aorist: მოვიდა) to contrast with the Pluperfect 'had finished'."
+    },
+    {
+      "id": "quiz4",
+      "type": "multiple-choice",
+      "question": "What is the Perfect first person form of ხედვა (to see)?",
+      "points": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "ვხედავ",
+          "textGeorgian": "ვხედავ"
+        },
+        {
+          "id": "b",
+          "text": "ვნახე",
+          "textGeorgian": "ვნახე"
+        },
+        {
+          "id": "c",
+          "text": "ვნახიყავ",
+          "textGeorgian": "ვნახიყავ"
+        },
+        {
+          "id": "d",
+          "text": "ვნახავ",
+          "textGeorgian": "ვნახავ"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "ვნახიყავ is the Perfect form with the perfect stem ნახ and auxiliary ending იყავ."
+    },
+    {
+      "id": "quiz5",
+      "type": "multiple-choice",
+      "question": "When should you use Pluperfect tense?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "For all past actions"
+        },
+        {
+          "id": "b",
+          "text": "When one past action happened before another past action"
+        },
+        {
+          "id": "c",
+          "text": "For actions happening now"
+        },
+        {
+          "id": "d",
+          "text": "Only in questions"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Pluperfect (also called Past Perfect) sequences past events, showing which happened first."
+    },
+    {
+      "id": "quiz6",
+      "type": "matching",
+      "question": "Match each verb to its correct series classification",
+      "points": 3,
+      "leftItems": [
+        { "id": "l1", "text": "ვხედავ (I see)" },
+        { "id": "l2", "text": "ვნახე (I saw)" },
+        { "id": "l3", "text": "ვნახიყავ (I have seen)" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Series I (Present)" },
+        { "id": "r2", "text": "Series II (Aorist)" },
+        { "id": "r3", "text": "Series III (Perfect)" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "Each series has distinct forms: Series I for present/future, Series II for simple past, Series III for perfect aspect."
+    },
+    {
+      "id": "quiz7",
+      "type": "multiple-choice",
+      "question": "What is the Perfect third person form of წერა (to write)?",
+      "points": 1,
+      "options": [
+        {
+          "id": "a",
+          "text": "დაწერა",
+          "textGeorgian": "დაწერა"
+        },
+        {
+          "id": "b",
+          "text": "დაწერიყვის",
+          "textGeorgian": "დაწერიყვის"
+        },
+        {
+          "id": "c",
+          "text": "წერს",
+          "textGeorgian": "წერს"
+        },
+        {
+          "id": "d",
+          "text": "დაწერს",
+          "textGeorgian": "დაწერს"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "დაწერიყვის uses the perfect stem დაწერ plus the third person auxiliary ending იყვის."
+    },
+    {
+      "id": "quiz8",
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses Perfect tense?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "გუშინ ვნახიყავ ფილმი",
+          "textGeorgian": "გუშინ ვნახიყავ ფილმი"
+        },
+        {
+          "id": "b",
+          "text": "ვნახიყავ ფილმი და მომეწონა",
+          "textGeorgian": "ვნახიყავ ფილმი და მომეწონა"
+        },
+        {
+          "id": "c",
+          "text": "ხვალ ვნახიყავ ფილმს",
+          "textGeorgian": "ხვალ ვნახიყავ ფილმს"
+        },
+        {
+          "id": "d",
+          "text": "ვხედავ ფილმი ახლა",
+          "textGeorgian": "ვხედავ ფილმი ახლა"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Option b correctly uses Perfect to show a completed action (seeing the movie) that has present relevance (feeling about it now)."
+    },
+    {
+      "id": "quiz9",
+      "type": "fill-blank",
+      "question": "Complete: ვნახედმიყავ ფილმი, _____ _____ ჩავედი (I had seen the movie before you arrived)",
+      "points": 2,
+      "correctAnswer": "სანამ შენ",
+      "alternatives": ["სანამ შენ", "როცა შენ", "თუ შენ", "რადგან შენ"],
+      "explanation": "სანამ (before) is the correct temporal conjunction to show the order of past events with Pluperfect."
+    },
+    {
+      "id": "quiz10",
+      "type": "multiple-choice",
+      "question": "What aspect does Series III express?",
+      "points": 2,
+      "options": [
+        {
+          "id": "a",
+          "text": "Perfective aspect (complete whole)"
+        },
+        {
+          "id": "b",
+          "text": "Imperfective aspect (ongoing)"
+        },
+        {
+          "id": "c",
+          "text": "Perfect aspect (completed with relevance)"
+        },
+        {
+          "id": "d",
+          "text": "Future aspect"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Series III expresses perfect aspect, where actions are completed but still hold relevance to the discourse context."
+    }
+  ]
+}
+

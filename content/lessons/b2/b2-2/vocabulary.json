@@ -1,0 +1,217 @@
+{
+  "lessonId": "b2-2",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "აორისტი",
+      "transliteration": "aorist'i",
+      "translation": "aorist (tense)",
+      "ipa": "/ɑɔristʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "აორისტი არის სერია II-ის წარსული დრო",
+        "transliteration": "aorist'i aris seria II-is ts'arsuli dro",
+        "translation": "Aorist is the past tense of Series II"
+      },
+      "notes": "A perfective past tense in Georgian that views actions as complete, whole events. Belongs to Series II and triggers Ergative-Absolutive alignment for transitive verbs."
+    },
+    {
+      "id": "voc2",
+      "georgian": "პრევერბი",
+      "transliteration": "preverbi",
+      "translation": "preverb",
+      "ipa": "/prɛvɛrbi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პრევერბი და- ქმნის პერფექტურ ზმნურ ფუძეს",
+        "transliteration": "preverbi da- kmnis p'erp'ekt'ur zmnur p'udzes",
+        "translation": "The preverb da- creates a perfective verbal stem"
+      },
+      "notes": "A prefix added to verb roots to create perfective stems. Common preverbs include: და-, წა-, მო-, გა-, შე-, ა-. They add perfective aspect and sometimes directional meaning."
+    },
+    {
+      "id": "voc3",
+      "georgian": "პერფექტური ფუძე",
+      "transliteration": "p'erp'ekt'uri p'udze",
+      "translation": "perfective stem",
+      "ipa": "/pʼɛrpʼɛktʼuri pʼudzɛ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "პერფექტური ფუძე გამოიყენება სერია II-ში",
+        "transliteration": "p'erp'ekt'uri p'udze gamoiq'eneba seria II-shi",
+        "translation": "Perfective stem is used in Series II"
+      },
+      "notes": "The verb stem used for perfective aspect, typically formed by adding a preverb to the root. Used in Series II (Aorist) and Series III (Perfect)."
+    },
+    {
+      "id": "voc4",
+      "georgian": "იმპერფექტური ფუძე",
+      "transliteration": "imp'erp'ekt'uri p'udze",
+      "translation": "imperfective stem",
+      "ipa": "/impʼɛrpʼɛktʼuri pʼudzɛ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "იმპერფექტური ფუძე გამოიყენება სერია I-ში",
+        "transliteration": "imp'erp'ekt'uri p'udze gamoiq'eneba seria I-shi",
+        "translation": "Imperfective stem is used in Series I"
+      },
+      "notes": "The verb stem used for imperfective aspect, used in Series I (Present/Future). Does not require preverbs."
+    },
+    {
+      "id": "voc5",
+      "georgian": "ზმნური შეთანხმება",
+      "transliteration": "zmnuri shetankhmeba",
+      "translation": "polypersonal agreement",
+      "ipa": "/zmnuɾi ʃɛtʰɑnxmɛbɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ქართულ ენაში არის ზმნური შეთანხმება",
+        "transliteration": "kartul enashi aris zmnuri shetankhmeba",
+        "translation": "Georgian has polypersonal agreement"
+      },
+      "notes": "A grammatical feature where verbs agree with both subject and object. In Series II, verbs show agreement with Ergative subject and Nominative object through special markers."
+    },
+    {
+      "id": "voc6",
+      "georgian": "და-",
+      "transliteration": "da-",
+      "translation": "da- (preverb)",
+      "ipa": "/dɑ/",
+      "partOfSpeech": "preverb",
+      "exampleSentence": {
+        "georgian": "დავწერე [davts'ere] - 'I wrote'",
+        "transliteration": "davts'ere",
+        "translation": "I wrote"
+      },
+      "notes": "Common preverb meaning 'completion' or adding perfective aspect. Used in many verbs like დავწერე (I wrote), დავკითხე (I read)."
+    },
+    {
+      "id": "voc7",
+      "georgian": "წა-",
+      "transliteration": "ts'a-",
+      "translation": "ts'a- (preverb)",
+      "ipa": "/tsʼɑ/",
+      "partOfSpeech": "preverb",
+      "exampleSentence": {
+        "georgian": "წავიკითხე [ts'avikit'khe] - 'I read'",
+        "transliteration": "ts'avikit'khe",
+        "translation": "I read"
+      },
+      "notes": "Preverb indicating perfective aspect, often with directional meaning 'away from'. Used in verbs like წავიკითხე (I read), წავედი (I went)."
+    },
+    {
+      "id": "voc8",
+      "georgian": "მო-",
+      "transliteration": "mo-",
+      "translation": "mo- (preverb)",
+      "ipa": "/mɔ/",
+      "partOfSpeech": "preverb",
+      "exampleSentence": {
+        "georgian": "მოვედი [movedi] - 'I came'",
+        "transliteration": "movedi",
+        "translation": "I came"
+      },
+      "notes": "Preverb indicating perfective aspect with directional meaning 'toward'. Used in verbs like მოვედი (I came), მოვიღე (I brought)."
+    },
+    {
+      "id": "voc9",
+      "georgian": "გა-",
+      "transliteration": "ga-",
+      "translation": "ga- (preverb)",
+      "ipa": "/ɡɑ/",
+      "partOfSpeech": "preverb",
+      "exampleSentence": {
+        "georgian": "გავიკეთე [gavik'ete] - 'I did'",
+        "transliteration": "gavik'ete",
+        "translation": "I did"
+      },
+      "notes": "Preverb adding perfective aspect. Used in various verbs to form perfective stems."
+    },
+    {
+      "id": "voc10",
+      "georgian": "შე-",
+      "transliteration": "she-",
+      "translation": "she- (preverb)",
+      "ipa": "/ʃɛ/",
+      "partOfSpeech": "preverb",
+      "exampleSentence": {
+        "georgian": "შევიცანი [shevitsani] - 'I met'",
+        "transliteration": "shevitsani",
+        "translation": "I met"
+      },
+      "notes": "Preverb adding perfective aspect. Often used with verbs of meeting, knowing, or understanding."
+    },
+    {
+      "id": "voc11",
+      "georgian": "დავწერე",
+      "transliteration": "davts'ere",
+      "translation": "I wrote (Aorist)",
+      "ipa": "/dɑvtsʼɛrɛ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე დავწერე წერილი [me davts'ere ts'erili]",
+        "transliteration": "me davts'ere ts'erili",
+        "translation": "I wrote a letter"
+      },
+      "notes": "First person singular Aorist of 'to write'. Uses perfective stem with preverb და-."
+    },
+    {
+      "id": "voc12",
+      "georgian": "წაიკითხა",
+      "transliteration": "ts'aikit'kha",
+      "translation": "he/she read (Aorist)",
+      "ipa": "/tsʼɑikʼitʼxɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მან წაიკითხა წიგნი [man ts'aikit'kha ts'igni]",
+        "transliteration": "man ts'aikit'kha ts'igni",
+        "translation": "He read the book"
+      },
+      "notes": "Third person singular Aorist of 'to read'. Uses perfective stem with preverb წა-."
+    },
+    {
+      "id": "voc13",
+      "georgian": "ვნახე",
+      "transliteration": "vnakhe",
+      "translation": "I saw (Aorist)",
+      "ipa": "/vnɑxɛ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მე ვნახე კატა [me vnakhe kat'a]",
+        "transliteration": "me vnakhe kat'a",
+        "translation": "I saw the cat"
+      },
+      "notes": "First person singular Aorist of 'to see'. This verb uses a suppletive perfective stem (different root from imperfective ვხედავ)."
+    },
+    {
+      "id": "voc14",
+      "georgian": "სუპლეტივი",
+      "transliteration": "sup'let'ivi",
+      "translation": "suppletive (stem)",
+      "ipa": "/supʼlɛtʼivi/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "'ხედვა' და 'ნახვა' არის სუპლეტივი ფუძეები",
+        "transliteration": "'khedva' da 'nakhva' aris sup'let'ivi p'udzebi",
+        "translation": "'To see' and 'to see' (different forms) are suppletive stems"
+      },
+      "notes": "Describes verb stems where the perfective form uses a completely different root from the imperfective form. Example: ვხედავ (I see, imperfective) vs. ვნახე (I saw, perfective suppletive)."
+    },
+    {
+      "id": "voc15",
+      "georgian": "დამიწერა",
+      "transliteration": "damits'era",
+      "translation": "he/she wrote me (Aorist with 1st person object)",
+      "ipa": "/dɑmitsʼɛrɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "მან დამიწერა წერილი [man damits'era ts'erili]",
+        "transliteration": "man damits'era ts'erili",
+        "translation": "He wrote me a letter"
+      },
+      "notes": "Third person Aorist with first person object marker მ- [m-] meaning 'me'. Shows polypersonal agreement in Series II."
+    }
+  ]
+}
+

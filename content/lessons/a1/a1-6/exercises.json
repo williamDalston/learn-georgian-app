@@ -1,0 +1,164 @@
+{
+  "lessonId": "a1-6",
+  "lessonTitle": "SRS Setup and Daily Practice Routine",
+  "level": "A1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Understanding SRS",
+      "instructions": "Answer questions about Spaced Repetition Systems.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is a Spaced Repetition System (SRS)?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "A system that shows you words just before you forget them, optimizing memory retention" },
+            { "id": "b", "text": "A way to cram vocabulary all at once" },
+            { "id": "c", "text": "A method of learning grammar rules" },
+            { "id": "d", "text": "A pronunciation practice tool" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "An SRS is a system that uses algorithms to show you information at optimal intervals - right before you're about to forget it. This maximizes memory retention and efficiency."
+        },
+        {
+          "id": "q2",
+          "question": "Why is SRS more effective than cramming?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "It shows you words at optimal intervals, preventing forgetting" },
+            { "id": "b", "text": "It's easier than studying regularly" },
+            { "id": "c", "text": "It doesn't require daily practice" },
+            { "id": "d", "text": "You only need to study once" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Research shows we forget 50-80% of new information within 24 hours. SRS shows you words just before you forget them, strengthening memory each time. Cramming doesn't work for long-term retention."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "SRS Tools and Setup",
+      "instructions": "Answer questions about setting up and using SRS tools.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q3",
+          "question": "What are the main advantages of Anki?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Free, customizable, available on all platforms" },
+            { "id": "b", "text": "More expensive but easier to use" },
+            { "id": "c", "text": "Only works on mobile devices" },
+            { "id": "d", "text": "Requires internet connection at all times" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Anki is free, highly customizable, and available on desktop, mobile, and web. It syncs across devices and works offline. It's ideal for serious language learners."
+        },
+        {
+          "id": "q4",
+          "question": "How many new cards should you start with per day in Anki?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "10-15 new cards per day" },
+            { "id": "b", "text": "50-100 new cards per day" },
+            { "id": "c", "text": "1-2 new cards per day" },
+            { "id": "d", "text": "As many as possible" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Start with 10-15 new cards per day. This prevents overload while building a sustainable habit. You can increase this number later as you become more comfortable with the system."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Flashcard Best Practices",
+      "instructions": "Answer questions about creating effective flashcards.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "What should every good Georgian flashcard include?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Georgian script, transliteration, IPA, translation, example sentence" },
+            { "id": "b", "text": "Only English translation" },
+            { "id": "c", "text": "Only transliteration" },
+            { "id": "d", "text": "Only Georgian script" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Effective flashcards should include Georgian script (to learn the alphabet), transliteration (for pronunciation), IPA (for accurate pronunciation), translation (for meaning), and example sentences (for context). This comprehensive approach accelerates learning."
+        },
+        {
+          "id": "q6",
+          "question": "Why should you prioritize vocabulary from frequency lists?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "High-frequency words appear more often, so you'll use them more in real conversation" },
+            { "id": "b", "text": "They're easier to remember" },
+            { "id": "c", "text": "You only need to learn 100 words total" },
+            { "id": "d", "text": "Low-frequency words aren't useful" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "The top 100 words in Georgian appear in 50% of all text. The top 500 cover 70% of daily conversation. Learning these first maximizes your communication ability quickly. You can always add specialized vocabulary later."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "writing",
+      "title": "Create Your Practice Plan",
+      "instructions": "Write out your daily practice routine for using SRS.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "Plan your daily SRS practice routine. Include: time of day, duration, what you'll do.",
+          "type": "writing",
+          "instructions": "Write a detailed plan for your daily SRS practice. Include specific times, duration, and activities.",
+          "explanation": "A good routine might include: Morning (10-15 min) - Review all due cards, learn 5-10 new cards, practice pronunciation. Evening (5-10 min) - Quick review of difficult cards, add new words from lessons. Consistency is more important than intensity!"
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Progress and Consistency",
+      "instructions": "Answer questions about maintaining your study routine.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "What's more effective for vocabulary learning?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "15 minutes every day" },
+            { "id": "b", "text": "2 hours once a week" },
+            { "id": "c", "text": "5 hours once a month" },
+            { "id": "d", "text": "Only when you feel like it" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Consistency beats intensity. 15 minutes daily is far more effective than long sessions once a week because SRS works best with regular reinforcement. Daily practice prevents forgetting and builds strong memories."
+        },
+        {
+          "id": "q9",
+          "question": "What should you do if you miss a day of SRS practice?",
+          "type": "multiple-choice",
+          "options": [
+            { "id": "a", "text": "Don't panic, just continue the next day - the system will catch up" },
+            { "id": "b", "text": "Give up and stop studying" },
+            { "id": "c", "text": "Cram everything you missed" },
+            { "id": "d", "text": "Start completely over" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Missing a day is normal - don't let perfect be the enemy of good! Just continue your routine the next day. The SRS system will show you cards that are due, and you'll catch up naturally. Consistency over time matters more than perfection."
+        }
+      ]
+    }
+  ]
+}
+

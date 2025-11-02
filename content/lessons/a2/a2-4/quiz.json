@@ -1,0 +1,65 @@
+{
+  "lessonId": "a2-4",
+  "title": "Lesson A2-4 Assessment: SVO Sentence Structure Basics",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What does SVO stand for?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Subject-Verb-Object" },
+        { "id": "b", "text": "Simple-Verb-Object" },
+        { "id": "c", "text": "Subject-Voice-Object" },
+        { "id": "d", "text": "Singular-Verb-Object" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "SVO stands for Subject-Verb-Object, the basic sentence structure in both English and Georgian.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What case do objects take in Georgian sentences?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "No case needed" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Objects in Georgian sentences take Dative case. Example: მე ვხედავ კატას (I see the cat), where კატას is Dative.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the correct form of 'to see' for 'I see'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ხედავ (khedav)" },
+        { "id": "b", "text": "ვხედავ (vkhedav)" },
+        { "id": "c", "text": "ხედავს (khedavs)" },
+        { "id": "d", "text": "ხედავთ (khedavt)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "For 'I see', we use ვხედავ (vkhedav) with the ვ- prefix indicating first person.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "In the sentence 'მე ვაძლევ ბავშვს წიგნს' (I give the child a book), how many objects are there?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "One object" },
+        { "id": "b", "text": "Two objects (both Dative)" },
+        { "id": "c", "text": "No objects" },
+        { "id": "d", "text": "One subject and one object" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The verb 'to give' takes two objects: ბავშვს (indirect object - to the child) and წიგნს (direct object - the book). Both are in Dative case.",
+      "points": 20
+    }
+  ]
+}
+

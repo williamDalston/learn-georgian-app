@@ -1,0 +1,205 @@
+{
+  "lessonId": "b1-3",
+  "lessonTitle": "Version Vowels: Subjective (ი-) and Objective (უ-)",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Understanding Version Vowels",
+      "instructions": "Choose the correct answer about version vowels in Georgian.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What do version vowels indicate in Georgian verbs?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tense (past, present, future)"
+            },
+            {
+              "id": "b",
+              "text": "Whose benefit or perspective the action is for"
+            },
+            {
+              "id": "c",
+              "text": "Number of objects"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Version vowels indicate whose benefit or perspective the action is for - subjective (for oneself) or objective (for others)."
+        },
+        {
+          "id": "q2",
+          "question": "What does the subjective version ი- [i-] mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "For someone else"
+            },
+            {
+              "id": "b",
+              "text": "For myself, my own benefit"
+            },
+            {
+              "id": "c",
+              "text": "Neutral action"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The subjective version ი- [i-] indicates the action is for the subject's own benefit or perspective - 'for myself.'"
+        },
+        {
+          "id": "q3",
+          "question": "What does the objective version უ- [u-] mean?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "For myself"
+            },
+            {
+              "id": "b",
+              "text": "For others, someone else's benefit"
+            },
+            {
+              "id": "c",
+              "text": "Imperfective aspect"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The objective version უ- [u-] indicates the action is for someone else's benefit - 'for others.'"
+        },
+        {
+          "id": "q4",
+          "question": "ვიწერ [vits'er] uses which version?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Subjective version ი- [i-]"
+            },
+            {
+              "id": "b",
+              "text": "Objective version უ- [u-]"
+            },
+            {
+              "id": "c",
+              "text": "No version (neutral)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვიწერ [vits'er] uses subjective version ი- [i-], meaning 'I write for myself.'"
+        },
+        {
+          "id": "q5",
+          "question": "ვუწერ [vuts'er] uses which version?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Subjective version ი- [i-]"
+            },
+            {
+              "id": "b",
+              "text": "Objective version უ- [u-]"
+            },
+            {
+              "id": "c",
+              "text": "No version (neutral)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ვუწერ [vuts'er] uses objective version უ- [u-], meaning 'I write for someone else.'"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "matching",
+      "title": "Match Verb Forms to Versions",
+      "instructions": "Match each Georgian verb form with the correct version type.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "leftItems": [
+            { "id": "l1", "text": "ვიწერ [vits'er]" },
+            { "id": "l2", "text": "ვუწერ [vuts'er]" },
+            { "id": "l3", "text": "ვწერ [vts'er]" },
+            { "id": "l4", "text": "ვიყიდულობ [viqidulob]" },
+            { "id": "l5", "text": "ვუყიდულობ [vuqidulob]" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Subjective version (for myself)" },
+            { "id": "r2", "text": "Objective version (for others)" },
+            { "id": "r3", "text": "No version (neutral)" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r1" },
+            { "left": "l5", "right": "r2" }
+          ],
+          "explanation": "Remember: ი- [i-] indicates subjective (for myself), უ- [u-] indicates objective (for others), and no vowel means neutral."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Version + Preverb Combinations",
+      "instructions": "Identify the correct meaning of verbs with version + preverb combinations.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "ვდაიწერ [vdaints'er] means:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "I will write for myself (perfective + subjective)"
+            },
+            {
+              "id": "b",
+              "text": "I am writing for someone (imperfective + objective)"
+            },
+            {
+              "id": "c",
+              "text": "I wrote (past tense)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვდაიწერ [vdaints'er] combines: ვ- [v-] 'I' + და- [da-] perfective + ი- [i-] subjective = 'I will write for myself.'"
+        },
+        {
+          "id": "q8",
+          "question": "ვდაუწერ [vdauts'er] means:",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "I wrote for myself"
+            },
+            {
+              "id": "b",
+              "text": "I will write for someone (perfective + objective)"
+            },
+            {
+              "id": "c",
+              "text": "I am writing for myself"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ვდაუწერ [vdauts'er] combines: ვ- [v-] 'I' + და- [da-] perfective + უ- [u-] objective = 'I will write for someone.'"
+        }
+      ]
+    }
+  ]
+}
+

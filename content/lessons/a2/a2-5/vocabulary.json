@@ -1,0 +1,35 @@
+{
+  "lessonId": "a2-5",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "დედა",
+      "transliteration": "deda",
+      "translation": "mother",
+      "ipa": "/dɛdɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დედა სახლშია",
+        "transliteration": "deda sakhlshia",
+        "translation": "Mother is at home"
+      },
+      "notes": "Family member"
+    },
+    {
+      "id": "voc2",
+      "georgian": "მამა",
+      "transliteration": "mama",
+      "translation": "father",
+      "ipa": "/mɑmɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მამა მუშაობს",
+        "transliteration": "mama mushaobs",
+        "translation": "Father works"
+      },
+      "notes": "Family member"
+    }
+  ]
+}
+

@@ -1,0 +1,141 @@
+{
+  "lessonId": "c1-2",
+  "lessonTitle": "Complex Sentence Embedding",
+  "level": "C1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Clause Types",
+      "instructions": "Identify whether the underlined clause is a complement clause, adverbial clause, or relative clause.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "მე ვფიქრობ [რომ ქართული ენა მშვენიერია].",
+          "questionGeorgian": "მე ვფიქრობ [რომ ქართული ენა მშვენიერია].",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Complement clause"
+            },
+            {
+              "id": "b",
+              "text": "Adverbial clause"
+            },
+            {
+              "id": "c",
+              "text": "Relative clause"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "This is a complement clause because it functions as the object of the verb ვფიქრობ (I think). Complement clauses typically use რომ."
+        },
+        {
+          "id": "q2",
+          "question": "ის მიყვა [რომ იცოდა რომ ჩემი მეგობარი წერს წიგნს].",
+          "questionGeorgian": "ის მიყვა [რომ იცოდა რომ ჩემი მეგობარი წერს წიგნს].",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Complement clause"
+            },
+            {
+              "id": "b",
+              "text": "Adverbial clause"
+            },
+            {
+              "id": "c",
+              "text": "Both a and b (double embedding)"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "This sentence has complement clause embedding: მიყვა takes a complement that itself contains another complement clause (იცოდა takes a complement). This is advanced multi-level embedding."
+        },
+        {
+          "id": "q3",
+          "question": "თუ ბევრს ივარჯიშებ, ქართულ ენას დაეუფლები.",
+          "questionGeorgian": "თუ ბევრს ივარჯიშებ, ქართულ ენას დაეუფლები.",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Complement clause"
+            },
+            {
+              "id": "b",
+              "text": "Adverbial clause (conditional)"
+            },
+            {
+              "id": "c",
+              "text": "Relative clause"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This is a conditional adverbial clause introduced by თუ (if). Adverbial clauses modify the main verb by adding context about conditions, time, reason, etc."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Choosing Correct Conjunctions",
+      "instructions": "Fill in the blank with the appropriate conjunction.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "როდესაც ქართულად ვსაუბრობ, მე უსიამოვნობა ვგრძნობ.",
+          "correctAnswer": "როდესაც",
+          "alternatives": ["როდესაც", "რადგან", "თუ"],
+          "explanation": "როდესაც means 'when' and introduces a temporal adverbial clause."
+        },
+        {
+          "id": "q5",
+          "question": "მე დავეწყე _____ ქართული კულტურა ჩემთვის საინტერესოა.",
+          "correctAnswer": "იმიტომ რომ",
+          "alternatives": ["იმიტომ რომ", "რადგან", "შემდეგ რომ"],
+          "explanation": "იმიტომ რომ means 'because' and introduces a causal adverbial clause explaining the reason."
+        },
+        {
+          "id": "q6",
+          "question": "ქართულად ვსწავლობ _____ ქართველ მეგობრებთან ვისაუბრო.",
+          "correctAnswer": "რათა",
+          "alternatives": ["რათა", "თუ", "რადგან"],
+          "explanation": "რათა means 'so that' or 'in order to' and introduces a purpose clause."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "translation",
+      "title": "Creating Complex Sentences",
+      "instructions": "Translate these English sentences, ensuring you use multiple embedded clauses.",
+      "points": 5,
+      "questions": [
+        {
+          "id": "q7",
+          "question": "'I know that you think Georgian is difficult, but it's very interesting.'",
+          "correctAnswer": "ვიცი რომ ფიქრობ რომ ქართული რთულია, მაგრამ ძალიან საინტერესოა.",
+          "alternatives": [
+            "ვიცი რომ ფიქრობ რომ ქართული რთულია, მაგრამ ძალიან საინტერესოა.",
+            "მე ვიცი რომ შენ ფიქრობ რომ ქართული რთულია, მაგრამ ის ძალიან საინტერესოა."
+          ],
+          "explanation": "This combines a complement clause (ვიცი რომ...) with another embedded complement (ფიქრობ რომ...) and coordination with მაგრამ."
+        },
+        {
+          "id": "q8",
+          "question": "'When I came to Georgia, I realized that the culture was fascinating.'",
+          "correctAnswer": "როდესაც საქართველოში მოვედი, ვგააცნობიერე რომ კულტურა მომხიბლავი იყო.",
+          "alternatives": [
+            "როდესაც საქართველოში მოვედი, გავიგე რომ კულტურა საინტერესო იყო."
+          ],
+          "explanation": "Combines a temporal adverbial clause (როდესაც...) with a complement clause (ვგააცნობიერე რომ...)."
+        }
+      ]
+    }
+  ]
+}
+

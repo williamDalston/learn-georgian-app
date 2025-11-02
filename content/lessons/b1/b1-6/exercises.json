@@ -1,0 +1,189 @@
+{
+  "lessonId": "b1-6",
+  "lessonTitle": "Conversation Practice: Present and Future Tenses",
+  "level": "B1",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match the Questions and Answers",
+      "instructions": "Match each question with the appropriate answer.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "leftItems": [
+            { "id": "l1", "text": "როგორ ხარ?", "textGeorgian": "როგორ ხარ?" },
+            { "id": "l2", "text": "რას აკეთებ დღეს?", "textGeorgian": "რას აკეთებ დღეს?" },
+            { "id": "l3", "text": "რას მოგწონს?", "textGeorgian": "რას მოგწონს?" },
+            { "id": "l4", "text": "რას გააკეთებ ხვალ?", "textGeorgian": "რას გააკეთებ ხვალ?" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "კარგად ვარ, გმადლობთ" },
+            { "id": "r2", "text": "ვსწავლობ ქართულს" },
+            { "id": "r3", "text": "მომწონს წიგნების წაკითხვა" },
+            { "id": "r4", "text": "ვიმოგზაურებ" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r4" }
+          ],
+          "explanation": "როგორ ხარ? = How are you? (კარგად ვარ = I'm fine), რას აკეთებ დღეს? = What are you doing today? (ვსწავლობ = I study), რას მოგწონს? = What do you like? (მომწონს = I like), რას გააკეთებ ხვალ? = What will you do tomorrow? (ვიმოგზაურებ = I will travel)."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Complete the Conversation",
+      "instructions": "Fill in the blanks to complete the conversation.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q2",
+          "question": "გიორგი: როგორ _____? (How are you?)\nნინო: კარგად _____, გმადლობთ. (I'm fine, thank you.)",
+          "correctAnswer": "ხარ, ვარ",
+          "alternatives": ["ხარ, ვარ"],
+          "explanation": "როგორ ხარ? (rogor khar?) = How are you? კარგად ვარ (k'argad var) = I'm fine.",
+          "explanationGeorgian": "როგორ ხარ? - მეორე პირი, კარგად ვარ - პირველი პირი."
+        },
+        {
+          "id": "q3",
+          "question": "გიორგი: რას _____ დღეს? (What are you doing today?)\nნინო: ვსწავლობ ქართულს და _____ ოფისში. (I study Georgian and work in the office.)",
+          "correctAnswer": "აკეთებ, ვმუშაობ",
+          "alternatives": ["აკეთებ, ვმუშაობ"],
+          "explanation": "რას აკეთებ? (ras ak'eteb?) = What are you doing? ვმუშაობ (vmushaob) = I work.",
+          "explanationGeorgian": "აკეთებ - მეორე პირი, ვმუშაობ - პირველი პირი."
+        },
+        {
+          "id": "q4",
+          "question": "ნინო: რას _____ გაკეთება თავისუფალ დროს? (What do you like to do in free time?)\nგიორგი: _____ წიგნების წაკითხვა. (I like reading books.)",
+          "correctAnswer": "მოგწონს, მომწონს",
+          "alternatives": ["მოგწონს, მომწონს"],
+          "explanation": "რას მოგწონს? (ras mogts'ons?) = What do you like? მომწონს (momts'ons) = I like.",
+          "explanationGeorgian": "მოგწონს - მეორე პირი, მომწონს - პირველი პირი."
+        },
+        {
+          "id": "q5",
+          "question": "ნინო: რას გააკეთებ _____? (What will you do tomorrow?)\nგიორგი: _____ ვიმოგზაურებ ბათუმში. (Tomorrow I will travel to Batumi.)",
+          "correctAnswer": "ხვალ, ხვალ",
+          "alternatives": ["ხვალ"],
+          "explanation": "ხვალ (khval) = tomorrow. Both blanks need 'ხვალ' - once in the question, once in the answer.",
+          "explanationGeorgian": "ხვალ = tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Understanding Conversation Context",
+      "instructions": "Choose the most appropriate response for each situation.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "If someone asks 'რას მოგწონს?' (What do you like?), which is the best response?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "კარგად ვარ (I'm fine)",
+              "textGeorgian": "კარგად ვარ"
+            },
+            {
+              "id": "b",
+              "text": "მომწონს მუსიკა (I like music)",
+              "textGeorgian": "მომწონს მუსიკა"
+            },
+            {
+              "id": "c",
+              "text": "ვმუშაობ ოფისში (I work in the office)",
+              "textGeorgian": "ვმუშაობ ოფისში"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "რას მოგწონს? asks about preferences/likes, so the answer should use მომწონს (I like).",
+          "explanationGeorgian": "რას მოგწონს? - კითხვა მოსწონებაზეა, ამიტომ პასუხი მომწონს-ით უნდა იყოს."
+        },
+        {
+          "id": "q7",
+          "question": "If someone says 'გამარჯობა, როგორ ხარ?' (Hello, how are you?), which is NOT an appropriate response?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "კარგად ვარ, გმადლობთ (I'm fine, thank you)",
+              "textGeorgian": "კარგად ვარ, გმადლობთ"
+            },
+            {
+              "id": "b",
+              "text": "ვსწავლობ ქართულს (I study Georgian)",
+              "textGeorgian": "ვსწავლობ ქართულს"
+            },
+            {
+              "id": "c",
+              "text": "მეც კარგად (I'm also fine)",
+              "textGeorgian": "მეც კარგად"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "როგორ ხარ? asks about well-being/how you are, not about what you're doing. 'ვსწავლობ ქართულს' answers 'რას აკეთებ?' not 'როგორ ხარ?'.",
+          "explanationGeorgian": "როგორ ხარ? კითხვაა ჯანმრთელობაზე, არა იმაზე, თუ რას აკეთებ."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "translation",
+      "title": "Translate the Conversation",
+      "instructions": "Translate these Georgian sentences to English.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "რას აკეთებ დღეს?",
+          "correctAnswer": "What are you doing today?",
+          "alternatives": ["What are you doing today?", "What do you do today?"],
+          "explanation": "რას (ras) = what, აკეთებ (ak'eteb) = you do/are doing, დღეს (dghes) = today.",
+          "explanationGeorgian": "რას = what, აკეთებ = you do, დღეს = today."
+        },
+        {
+          "id": "q9",
+          "question": "მომწონს წიგნების წაკითხვა თავისუფალ დროს",
+          "correctAnswer": "I like reading books in my free time",
+          "alternatives": ["I like reading books in my free time", "I like to read books in free time"],
+          "explanation": "მომწონს (momts'ons) = I like, წიგნების წაკითხვა (ts'ignebis ts'ak'it'khva) = reading books, თავისუფალ დროს (tavisuphal dros) = in free time.",
+          "explanationGeorgian": "მომწონს = I like, წაკითხვა = reading, თავისუფალი დრო = free time."
+        },
+        {
+          "id": "q10",
+          "question": "ხვალ ვიმოგზაურებ ბათუმში",
+          "correctAnswer": "Tomorrow I will travel to Batumi",
+          "alternatives": ["Tomorrow I will travel to Batumi", "Tomorrow I am traveling to Batumi"],
+          "explanation": "ხვალ (khval) = tomorrow, ვიმოგზაურებ (vimogzaurob) = I will travel, ბათუმში (bat'umshi) = to Batumi.",
+          "explanationGeorgian": "ხვალ = tomorrow, ვიმოგზაურებ = I will travel, ბათუმში = to Batumi."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "writing",
+      "title": "Write Your Own Conversation",
+      "instructions": "Write a short conversation (3-4 exchanges) about daily routine or hobbies. Use at least one Class I verb and one Class IV verb.",
+      "points": 5,
+      "questions": [
+        {
+          "id": "q11",
+          "question": "Write a conversation between two people discussing their hobbies. Include:\n- A greeting\n- Questions about hobbies\n- Responses with Class I and Class IV verbs\n- At least 4 exchanges",
+          "correctAnswer": "Sample answer:\n\nA: გამარჯობა! რას მოგწონს გაკეთება?\nB: გამარჯობა! მომწონს მუსიკის მოსმენა. შენ?\nA: მომწონს წიგნების წაკითხვა და ფილმების ყურება.\nB: რა სახის ფილმები მოგწონს?\nA: მომწონს ისტორიული ფილმები.",
+          "alternatives": ["Any conversation with proper greetings, questions, and responses using Class I and Class IV verbs"],
+          "explanation": "A good conversation should include greetings, questions, and responses. It should use both Class I verbs (like ვყურებ - I watch) and Class IV verbs (like მომწონს - I like).",
+          "explanationGeorgian": "კარგი საუბარი უნდა შეიცავდეს მისალმებას, კითხვებს და პასუხებს. უნდა გამოიყენოს როგორც კლას I, ასევე კლას IV ზმნები."
+        }
+      ]
+    }
+  ]
+}
+

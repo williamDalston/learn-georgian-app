@@ -1,0 +1,232 @@
+{
+  "lessonId": "b1-6",
+  "level": "B1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "როგორ ხარ?",
+      "transliteration": "rogor khar?",
+      "translation": "How are you? (informal)",
+      "ipa": "/rɔgɔr xɑr/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "როგორ ხარ? - კარგად ვარ, გმადლობთ.",
+        "transliteration": "rogor khar? - k'argad var, gmadlobt'.",
+        "translation": "How are you? - I'm fine, thank you.",
+        "audioUrl": "/audio/b1-6-voc1.mp3"
+      },
+      "notes": "Common greeting question. Response: კარგად ვარ (k'argad var - I'm fine)."
+    },
+    {
+      "id": "voc2",
+      "georgian": "რას აკეთებ?",
+      "transliteration": "ras ak'eteb?",
+      "translation": "What are you doing?",
+      "ipa": "/rɑs ɑk'ɛtɛb/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რას აკეთებ დღეს?",
+        "transliteration": "ras ak'eteb dghes?",
+        "translation": "What are you doing today?",
+        "audioUrl": "/audio/b1-6-voc2.mp3"
+      },
+      "notes": "Question about current activities. დღეს (dghes) = today."
+    },
+    {
+      "id": "voc3",
+      "georgian": "თავისუფალი დრო",
+      "transliteration": "tavisuphali dro",
+      "translation": "free time",
+      "ipa": "/tɑvisuphɑli drɔ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "რას აკეთებ თავისუფალ დროს?",
+        "transliteration": "ras ak'eteb tavisuphal dros?",
+        "translation": "What do you do in your free time?",
+        "audioUrl": "/audio/b1-6-voc3.mp3"
+      },
+      "notes": "თავისუფალი (tavisuphali) = free, დრო (dro) = time. In the phrase 'in free time,' დროს (dros) is Dative case."
+    },
+    {
+      "id": "voc4",
+      "georgian": "წაკითხვა",
+      "transliteration": "ts'ak'it'khva",
+      "translation": "reading",
+      "ipa": "/ts'ɑk'it'xva/",
+      "partOfSpeech": "verbal noun",
+      "exampleSentence": {
+        "georgian": "მომწონს წიგნების წაკითხვა",
+        "transliteration": "momts'ons ts'ignebis ts'ak'it'khva",
+        "translation": "I like reading books",
+        "audioUrl": "/audio/b1-6-voc4.mp3"
+      },
+      "notes": "From verb ვკითხულობ (vk'it'khulob - I read). წიგნების წაკითხვა = reading of books (Genitive construction)."
+    },
+    {
+      "id": "voc5",
+      "georgian": "მოსმენა",
+      "transliteration": "mosmena",
+      "translation": "listening",
+      "ipa": "/mɔsmɛnɑ/",
+      "partOfSpeech": "verbal noun",
+      "exampleSentence": {
+        "georgian": "მომწონს მუსიკის მოსმენა",
+        "transliteration": "momts'ons musik'is mosmena",
+        "translation": "I like listening to music",
+        "audioUrl": "/audio/b1-6-voc5.mp3"
+      },
+      "notes": "From verb ვისმენ (vismen - I listen). მუსიკის მოსმენა = listening to music."
+    },
+    {
+      "id": "voc6",
+      "georgian": "კინოთეატრი",
+      "transliteration": "kinot'eat'ri",
+      "translation": "cinema, movie theater",
+      "ipa": "/k'inɔt'ɛɑt'ri/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მომწონს კინოთეატრში წასვლა",
+        "transliteration": "momts'ons kinot'eat'rshi ts'asvla",
+        "translation": "I like going to the cinema",
+        "audioUrl": "/audio/b1-6-voc6.mp3"
+      },
+      "notes": "კინოთეატრში (kinot'eat'rshi) = to the cinema (Dative/Adverbial case)."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ხვალ",
+      "transliteration": "khval",
+      "translation": "tomorrow",
+      "ipa": "/xval/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ხვალ ვიმოგზაურებ",
+        "transliteration": "khval vimogzaurob",
+        "translation": "Tomorrow I will travel",
+        "audioUrl": "/audio/b1-6-voc7.mp3"
+      },
+      "notes": "Time expression for future tense. Used with Series I verbs to indicate future action."
+    },
+    {
+      "id": "voc8",
+      "georgian": "ვიმოგზაურებ",
+      "transliteration": "vimogzaurob",
+      "translation": "I will travel",
+      "ipa": "/vimɔgzɑurɔb/",
+      "partOfSpeech": "verb (1st person, future)",
+      "exampleSentence": {
+        "georgian": "ხვალ ვიმოგზაურებ ბათუმში",
+        "transliteration": "khval vimogzaurob bat'umshi",
+        "translation": "Tomorrow I will travel to Batumi",
+        "audioUrl": "/audio/b1-6-voc8.mp3"
+      },
+      "notes": "Future tense form. From verb მოგზაურობა (mogzauroba - to travel). ბათუმში (bat'umshi) = to Batumi."
+    },
+    {
+      "id": "voc9",
+      "georgian": "ვწავლიბ",
+      "transliteration": "vts'avlib",
+      "translation": "I will go",
+      "ipa": "/vts'ɑvlib/",
+      "partOfSpeech": "verb (1st person, future)",
+      "exampleSentence": {
+        "georgian": "ვწავლიბ ბათუმში",
+        "transliteration": "vts'avlib bat'umshi",
+        "translation": "I will go to Batumi",
+        "audioUrl": "/audio/b1-6-voc9.mp3"
+      },
+      "notes": "Future tense form. From verb წასვლა (ts'asvla - to go). სადღაც (sadghats) = somewhere."
+    },
+    {
+      "id": "voc10",
+      "georgian": "დავბრუნდები",
+      "transliteration": "davbrundebi",
+      "translation": "I will return",
+      "ipa": "/dɑvbrundɛbi/",
+      "partOfSpeech": "verb (1st person, future)",
+      "exampleSentence": {
+        "georgian": "შემდეგ დავბრუნდები თბილისში",
+        "transliteration": "shemdeg davbrundebi t'bilisshi",
+        "translation": "Then I will return to Tbilisi",
+        "audioUrl": "/audio/b1-6-voc10.mp3"
+      },
+      "notes": "Future tense form. From verb დაბრუნება (dabruneba - to return). შემდეგ (shemdeg) = then."
+    },
+    {
+      "id": "voc11",
+      "georgian": "რამდენ ხანს?",
+      "transliteration": "ramden khans?",
+      "translation": "How long?",
+      "ipa": "/rɑmdɛn xɑns/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რამდენ ხანს იქნები?",
+        "transliteration": "ramden khans ik'nebi?",
+        "translation": "How long will you be there?",
+        "audioUrl": "/audio/b1-6-voc11.mp3"
+      },
+      "notes": "Question about duration. იქნები (ik'nebi) = you will be (future form of ხარ khar - you are)."
+    },
+    {
+      "id": "voc12",
+      "georgian": "რა სახის?",
+      "transliteration": "ra sakhis?",
+      "translation": "What kind of?",
+      "ipa": "/rɑ sɑxis/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რა სახის მუსიკა მოგწონს?",
+        "transliteration": "ra sakhis musika mogts'ons?",
+        "translation": "What kind of music do you like?",
+        "audioUrl": "/audio/b1-6-voc12.mp3"
+      },
+      "notes": "Question asking about type/category. სახის (sakhis) = kind of (Genitive of სახე sakhe - kind/type)."
+    },
+    {
+      "id": "voc13",
+      "georgian": "შენ?",
+      "transliteration": "shen?",
+      "translation": "And you?",
+      "ipa": "/ʃɛn/",
+      "partOfSpeech": "pronoun (question)",
+      "exampleSentence": {
+        "georgian": "მომწონს წიგნები. შენ?",
+        "transliteration": "momts'ons ts'ignebi. Shen?",
+        "translation": "I like books. And you?",
+        "audioUrl": "/audio/b1-6-voc13.mp3"
+      },
+      "notes": "Common follow-up question in conversation to ask the other person the same question."
+    },
+    {
+      "id": "voc14",
+      "georgian": "საინტერესო",
+      "transliteration": "saint'ereso",
+      "translation": "interesting",
+      "ipa": "/sɑint'ɛrɛsɔ/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ძალიან საინტერესოა!",
+        "transliteration": "dzalian saint'eresoa!",
+        "translation": "Very interesting!",
+        "audioUrl": "/audio/b1-6-voc14.mp3"
+      },
+      "notes": "Used to express interest in conversation. ძალიან (dzalian) = very."
+    },
+    {
+      "id": "voc15",
+      "georgian": "რა დროს?",
+      "transliteration": "ra dros?",
+      "translation": "What time?",
+      "ipa": "/rɑ drɔs/",
+      "partOfSpeech": "phrase",
+      "exampleSentence": {
+        "georgian": "რა დროს იწყებ მუშაობას?",
+        "transliteration": "ra dros its'q'eb mushaobas?",
+        "translation": "What time do you start work?",
+        "audioUrl": "/audio/b1-6-voc15.mp3"
+      },
+      "notes": "Question about time. დროს (dros) = at time (Dative case of დრო dro - time)."
+    }
+  ]
+}
+

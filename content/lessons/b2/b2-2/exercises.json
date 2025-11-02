@@ -1,0 +1,210 @@
+{
+  "lessonId": "b2-2",
+  "lessonTitle": "Series II (Aorist): Simple Past Formation",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill-blank",
+      "title": "Perfective Stem Formation",
+      "instructions": "Fill in the blank with the correct Aorist form. Use the perfective stem with appropriate preverb.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Present: მე ვწერ [me vts'er] - 'I write' → Aorist: მე _____ [me _____] - 'I wrote'",
+          "questionGeorgian": "აწმყო: მე ვწერ → აორისტი: მე _____",
+          "correctAnswer": "დავწერე",
+          "alternatives": ["დავწერე", "ვწერე", "წავწერე"],
+          "explanation": "The verb 'to write' forms its perfective stem by adding the preverb და- [da-]. So ვწერ becomes დავწერე in Aorist."
+        },
+        {
+          "id": "q2",
+          "question": "Present: მე ვკითხულობ [me vkit'khulob] - 'I read' → Aorist: მე _____ [me _____] - 'I read'",
+          "questionGeorgian": "აწმყო: მე ვკითხულობ → აორისტი: მე _____",
+          "correctAnswer": "წავიკითხე",
+          "alternatives": ["წავიკითხე", "ვკითხე", "დავკითხე"],
+          "explanation": "The verb 'to read' uses the preverb წა- [ts'a-] for perfective aspect. The Aorist form is წავიკითხე or წაიკითხე."
+        },
+        {
+          "id": "q3",
+          "question": "Present: მე ვხედავ [me vkhedav] - 'I see' → Aorist: მე _____ [me _____] - 'I saw'",
+          "questionGeorgian": "აწმყო: მე ვხედავ → აორისტი: მე _____",
+          "correctAnswer": "ვნახე",
+          "alternatives": ["ვნახე", "დავხედე", "ვხედე"],
+          "explanation": "The verb 'to see' has a suppletive perfective stem. The imperfective is ვხედავ, but the perfective is ვნახე (different root)."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "Identifying Preverbs",
+      "instructions": "Identify which preverb is used in each Aorist form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What preverb is used in 'დავწერე' [davts'ere] - 'I wrote'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ა- [a-]"
+            },
+            {
+              "id": "b",
+              "text": "და- [da-]"
+            },
+            {
+              "id": "c",
+              "text": "წა- [ts'a-]"
+            },
+            {
+              "id": "d",
+              "text": "მო- [mo-]"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The preverb და- [da-] is used in დავწერე. This preverb adds perfective aspect and often means 'completion'."
+        },
+        {
+          "id": "q5",
+          "question": "What preverb is used in 'წაიკითხა' [ts'aikit'kha] - 'he read'?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "და- [da-]"
+            },
+            {
+              "id": "b",
+              "text": "წა- [ts'a-]"
+            },
+            {
+              "id": "c",
+              "text": "მო- [mo-]"
+            },
+            {
+              "id": "d",
+              "text": "გა- [ga-]"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The preverb წა- [ts'a-] is used in წაიკითხა. This preverb adds perfective aspect and can have directional meaning 'away'."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Complete Aorist Sentences",
+      "instructions": "Transform the present tense sentence to Aorist, including the correct case shift.",
+      "points": 4,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "Present: მე ვწერ წერილს [me vts'er ts'erils] → Aorist: მე _____ _____ [me _____ _____]",
+          "questionGeorgian": "აწმყო: მე ვწერ წერილს → აორისტი: მე _____ _____",
+          "correctAnswer": "დავწერე წერილი",
+          "alternatives": ["დავწერე წერილი", "ვწერე წერილს", "დავწერე წერილს"],
+          "explanation": "Verb changes to perfective stem: ვწერ → დავწერე. Object shifts from Dative წერილს to Absolutive/Nominative წერილი."
+        },
+        {
+          "id": "q7",
+          "question": "Present: ბავშვი კითხულობს წიგნს [bavshvi kit'khulobs ts'igns] → Aorist: _____ _____ _____ [_____ _____ _____]",
+          "questionGeorgian": "აწმყო: ბავშვი კითხულობს წიგნს → აორისტი: _____ _____ _____",
+          "correctAnswer": "ბავშვმა წაიკითხა წიგნი",
+          "alternatives": ["ბავშვმა წაიკითხა წიგნი", "ბავშვი წაიკითხა წიგნს", "ბავშვმა კითხულობს წიგნი"],
+          "explanation": "Subject becomes Ergative: ბავშვი → ბავშვმა. Verb: კითხულობს → წაიკითხა. Object: წიგნს → წიგნი (Dative to Absolutive)."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple-choice",
+      "title": "Understanding Polypersonal Agreement",
+      "instructions": "Answer questions about polypersonal agreement markers in Series II.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q8",
+          "question": "In 'მან დამიწერა წერილი' [man damits'era ts'erili] - 'He wrote me a letter', what does the marker 'მ-' in 'დამიწერა' indicate?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "First person subject (I)"
+            },
+            {
+              "id": "b",
+              "text": "First person object (me)"
+            },
+            {
+              "id": "c",
+              "text": "Second person object (you)"
+            },
+            {
+              "id": "d",
+              "text": "Past tense marker"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The marker მ- [m-] in Series II indicates first person object ('me'). The subject is third person (მან 'he'), and the object marker shows who received the letter."
+        },
+        {
+          "id": "q9",
+          "question": "What is the difference between 'დავწერე' [davts'ere] and 'დაწერე' [dats'ere] in Aorist?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "დავწერე is first person, დაწერე is second person"
+            },
+            {
+              "id": "b",
+              "text": "დავწერე is past tense, დაწერე is present tense"
+            },
+            {
+              "id": "c",
+              "text": "No difference, they're the same"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "დავწერე [davts'ere] has the first person marker ვ- [v-] (I wrote). დაწერე [dats'ere] is second person singular (you wrote) without a subject marker."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Intransitive vs Transitive in Aorist",
+      "instructions": "Identify whether the verb is transitive or intransitive and how it affects case marking.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q10",
+          "question": "In the sentence 'მე ვირბინე' [me virbine] - 'I ran', why is the subject 'მე' NOT in Ergative case?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Because it's present tense, not past"
+            },
+            {
+              "id": "b",
+              "text": "Because 'to run' is an intransitive verb, so no case shift occurs"
+            },
+            {
+              "id": "c",
+              "text": "Because first person never takes Ergative"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Intransitive verbs (like 'to run') don't trigger the case shift. Their subjects remain in Nominative case in all series, including Aorist. Only transitive verbs show the Ergative-Absolutive alignment in Series II."
+        }
+      ]
+    }
+  ]
+}
+

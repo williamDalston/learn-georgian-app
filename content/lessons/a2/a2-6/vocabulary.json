@@ -1,0 +1,35 @@
+{
+  "lessonId": "a2-6",
+  "level": "A2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ბატონო",
+      "transliteration": "batono",
+      "translation": "sir, Mr.",
+      "ipa": "/bɑtʼɔnɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, ბატონო",
+        "transliteration": "gamarjoba, batono",
+        "translation": "Hello, sir"
+      },
+      "notes": "Formal address for men"
+    },
+    {
+      "id": "voc2",
+      "georgian": "ქალბატონო",
+      "transliteration": "kalbatono",
+      "translation": "madam, Mrs., Ms.",
+      "ipa": "/kɑlbɑtʼɔnɔ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "გამარჯობა, ქალბატონო",
+        "transliteration": "gamarjoba, kalbatono",
+        "translation": "Hello, madam"
+      },
+      "notes": "Formal address for women"
+    }
+  ]
+}
+

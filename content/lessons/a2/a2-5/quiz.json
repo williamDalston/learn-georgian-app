@@ -1,0 +1,22 @@
+{
+  "lessonId": "a2-5",
+  "title": "Lesson A2-5 Assessment: High-Frequency Vocabulary",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What does 'დედა' mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "mother" },
+        { "id": "b", "text": "father" },
+        { "id": "c", "text": "sister" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "დედა (deda) means 'mother'.",
+      "points": 10
+    }
+  ]
+}
+

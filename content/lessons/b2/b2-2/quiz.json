@@ -1,0 +1,213 @@
+{
+  "lessonId": "b2-2",
+  "title": "Lesson B2-2 Assessment: Series II (Aorist) - Simple Past Formation",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the Aorist tense?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "A present tense with perfective aspect"
+        },
+        {
+          "id": "b",
+          "text": "A perfective past tense belonging to Series II"
+        },
+        {
+          "id": "c",
+          "text": "An imperfective future tense"
+        },
+        {
+          "id": "d",
+          "text": "A conditional mood form"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Aorist is a perfective past tense that belongs to Series II. It views actions as complete, whole events and triggers Ergative-Absolutive alignment for transitive verbs.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q2",
+      "question": "How are perfective stems typically formed?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "By changing word order"
+        },
+        {
+          "id": "b",
+          "text": "By adding preverbs to the verb root"
+        },
+        {
+          "id": "c",
+          "text": "By using different pronouns"
+        },
+        {
+          "id": "d",
+          "text": "By changing case endings"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Perfective stems are typically formed by adding preverbs (prefixes like და-, წა-, მო-, გა-, შე-) to the verb root. These preverbs add perfective aspect.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the Aorist form of 'მე ვწერ' [me vts'er] (I write)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "მე ვწერე [me vts'ere]"
+        },
+        {
+          "id": "b",
+          "text": "მე დავწერე [me davts'ere]"
+        },
+        {
+          "id": "c",
+          "text": "მე წავწერე [me ts'avts'ere]"
+        },
+        {
+          "id": "d",
+          "text": "მე ვწერ [me vts'er] (same as present)"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The verb 'to write' forms its perfective stem with the preverb და- [da-]. So ვწერ becomes დავწერე in Aorist.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Which preverb is commonly used in 'წაიკითხა' [ts'aikit'kha] (he read)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "და- [da-]"
+        },
+        {
+          "id": "b",
+          "text": "წა- [ts'a-]"
+        },
+        {
+          "id": "c",
+          "text": "მო- [mo-]"
+        },
+        {
+          "id": "d",
+          "text": "გა- [ga-]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The preverb წა- [ts'a-] is used in წაიკითხა. This preverb adds perfective aspect and can have directional meaning 'away'.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q5",
+      "question": "In 'მან დამიწერა წერილი' [man damits'era ts'erili] (He wrote me a letter), what does the marker 'მ-' indicate?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "First person subject (I)"
+        },
+        {
+          "id": "b",
+          "text": "First person object (me)"
+        },
+        {
+          "id": "c",
+          "text": "Second person object (you)"
+        },
+        {
+          "id": "d",
+          "text": "Past tense marker"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The marker მ- [m-] in Series II indicates first person object ('me'). This is an example of polypersonal agreement, where the verb agrees with both subject (მან 'he') and object (me).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "True or False: Intransitive verbs in Aorist show case shift (Ergative marking for subjects).",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "True - all verbs show case shift in Aorist"
+        },
+        {
+          "id": "b",
+          "text": "False - only transitive verbs show case shift"
+        },
+        {
+          "id": "c",
+          "text": "Only some intransitive verbs show case shift"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "False. Only transitive verbs show the case shift in Series II. Intransitive verbs keep their subjects in Nominative case in all series. The Ergative-Absolutive alignment only applies to transitive verbs.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What is the correct Aorist transformation of 'ბავშვი კითხულობს წიგნს' [bavshvi kit'khulobs ts'igns] (The child reads the book)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ბავშვი წაიკითხა წიგნს [bavshvi ts'aikit'kha ts'igns]"
+        },
+        {
+          "id": "b",
+          "text": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]"
+        },
+        {
+          "id": "c",
+          "text": "ბავშვმა კითხულობს წიგნი [bavshvma kit'khulobs ts'igni]"
+        },
+        {
+          "id": "d",
+          "text": "ბავშვი წაიკითხა წიგნი [bavshvi ts'aikit'kha ts'igni]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Subject must be Ergative (ბავშვმა with -მა), verb must be Aorist (წაიკითხა with perfective stem), and object must shift to Absolutive/Nominative (წიგნი instead of წიგნს).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q8",
+      "question": "What is polypersonal agreement?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agreement between verbs and multiple subjects"
+        },
+        {
+          "id": "b",
+          "text": "Agreement between verbs and both subject and object"
+        },
+        {
+          "id": "c",
+          "text": "Agreement only with objects"
+        },
+        {
+          "id": "d",
+          "text": "No agreement at all"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Polypersonal agreement means verbs agree with both subject and object through special markers. In Series II, verbs show agreement with Ergative subject and Nominative object, allowing Georgian to track both arguments grammatically.",
+      "points": 10
+    }
+  ]
+}
+

@@ -1,0 +1,101 @@
+{
+  "lessonId": "a2-3",
+  "title": "Lesson A2-3 Assessment: Postpositions and Case Requirements",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the difference between English prepositions and Georgian postpositions?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Prepositions come before nouns, postpositions come after nouns" },
+        { "id": "b", "text": "They're the same thing" },
+        { "id": "c", "text": "Prepositions are more formal" },
+        { "id": "d", "text": "Postpositions don't require cases" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Prepositions come before nouns (like 'for the child'), while postpositions come after nouns (like 'ბავშვისთვის' - child-for).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "Which case does -tvis (for) require?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "It doesn't require a case" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "-tvis requires Genitive case. Example: ბავშვისთვის uses Genitive ბავშვის + -თვის.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "Which case does -shi (in, at) require?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "It doesn't require a case" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "-shi requires Dative case. Example: სახლში uses Dative სახლს + -ში.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Which case does -dan (from) require?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Nominative" },
+        { "id": "b", "text": "Dative" },
+        { "id": "c", "text": "Genitive" },
+        { "id": "d", "text": "It doesn't require a case" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "-dan requires Genitive case. Example: სახლიდან uses Genitive სახლის + -დან.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "What is the correct form for 'for the child'?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ბავშვისთვის (bavshvistvis)" },
+        { "id": "b", "text": "ბავშვისში (bavshvisshi)" },
+        { "id": "c", "text": "ბავშვისდან (bavshvisdan)" },
+        { "id": "d", "text": "ბავშვის (bavshvis)" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Use Genitive + -tvis: ბავშვისთვის (bavshvistvis). The other options use wrong postpositions.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Match postpositions to their meanings:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "-tvis" },
+        { "id": "l2", "text": "-shi" },
+        { "id": "l3", "text": "-dan" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "in, at" },
+        { "id": "r2", "text": "for, to" },
+        { "id": "r3", "text": "from, since" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r2" },
+        { "left": "l2", "right": "r1" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "-tvis means 'for', -shi means 'in/at', and -dan means 'from'.",
+      "points": 20
+    }
+  ]
+}
+

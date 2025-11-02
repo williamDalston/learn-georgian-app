@@ -1,0 +1,21 @@
+{
+  "lessonId": "a2-6",
+  "title": "Lesson A2-6 Assessment: Formal Address",
+  "passingScore": 70,
+  "timeLimit": 10,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the formal address for a man?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ბატონო (batono)" },
+        { "id": "b", "text": "ქალბატონო (kalbatono)" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ბატონო (batono) is the formal address for men.",
+      "points": 10
+    }
+  ]
+}
+

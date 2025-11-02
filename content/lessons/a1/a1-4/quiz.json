@@ -1,0 +1,115 @@
+{
+  "lessonId": "a1-4",
+  "title": "Lesson A1-4 Assessment: Additional Difficult Sounds",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "How is the trilled რ [r] produced?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "By vibrating the tongue tip against the alveolar ridge" },
+        { "id": "b", "text": "By making a sound at the back of the throat" },
+        { "id": "c", "text": "By closing the glottis and releasing" },
+        { "id": "d", "text": "By whispering" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "The trilled რ [r] is produced by vibrating the tongue tip against the alveolar ridge (that bumpy part just behind your upper teeth). The tongue should vibrate rapidly, creating a 'rolling' or 'trilling' sound.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What is the difference between ღ [ɣ] and ხ [x]?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ღ is voiced (with vibration), ხ is voiceless (no vibration)" },
+        { "id": "b", "text": "ხ is voiced, ღ is voiceless" },
+        { "id": "c", "text": "They are the same sound" },
+        { "id": "d", "text": "One is ejective, one is not" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ღ [ɣ] is a voiced guttural fricative - you feel vibration in your throat. ხ [x] is a voiceless guttural fricative - no vibration, just throat friction. Both are made at the back of the throat.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "Match the sounds to their descriptions:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "რ [r]" },
+        { "id": "l2", "text": "ღ [ɣ]" },
+        { "id": "l3", "text": "ხ [x]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Alveolar trill - tongue vibrates" },
+        { "id": "r2", "text": "Voiced guttural fricative - throat sound with vibration" },
+        { "id": "r3", "text": "Voiceless guttural fricative - throat sound without vibration" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "რ [r] is the trilled r (tongue vibration), ღ [ɣ] is voiced guttural (throat with voice), ხ [x] is voiceless guttural (throat without voice).",
+      "points": 20
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Which word contains a complex consonant cluster?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "რა [ra] (what)" },
+        { "id": "b", "text": "გრძელი [grdzeli] (long)" },
+        { "id": "c", "text": "ხარი [khari] (bull)" },
+        { "id": "d", "text": "ღამე [ghame] (night)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "გრძელი [grdzeli] contains the cluster 'grdz' - four consonants in a row! Georgian is famous for complex consonant clusters like this.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Complete: __ამე (night - uses voiced guttural):",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ღ" },
+        { "id": "b", "text": "ხ" },
+        { "id": "c", "text": "ყ" },
+        { "id": "d", "text": "რ" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ღამე [ɣame] uses voiced guttural ღ [ɣ]. Remember: voiced means you feel vibration in your throat when pronouncing it!",
+      "points": 10
+    },
+    {
+      "id": "quiz-q6",
+      "question": "Complete: __არი (bull - uses voiceless guttural):",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "ხ" },
+        { "id": "b", "text": "ღ" },
+        { "id": "c", "text": "ყ" },
+        { "id": "d", "text": "რ" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ხარი [xari] uses voiceless guttural ხ [x]. No vibration - just throat friction. Similar to German 'ch' in 'Bach'.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "What's the best strategy for practicing consonant clusters?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Start slow, pronounce each consonant separately, then speed up" },
+        { "id": "b", "text": "Always say them as fast as possible" },
+        { "id": "c", "text": "Skip the difficult ones" },
+        { "id": "d", "text": "Only practice one consonant at a time" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "The best strategy is to start slow and pronounce each consonant separately (gr-dz-eli), then gradually speed up until you can say it smoothly (grdzeli). This builds muscle memory and helps you master complex clusters!",
+      "points": 15
+    }
+  ]
+}
+

@@ -1,0 +1,157 @@
+{
+  "lessonId": "b2-6",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "მატრიქსი",
+      "transliteration": "mat'riks'i",
+      "translation": "matrix",
+      "ipa": "/mɑtʼriksʼi/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ზმნის კლას-სკრივიანი მატრიქსი რთულია",
+        "transliteration": "zmnis k'las-sk'rivanii mat'riks'i rt'vulia",
+        "translation": "The verb class-screeve matrix is complex",
+        "audioUrl": "/audio/b2-6/voc1.mp3"
+      },
+      "notes": "A systematic grid organizing verb classes by screeve series."
+    },
+    {
+      "id": "voc2",
+      "georgian": "სისტემატურად",
+      "transliteration": "sist'emat'urad",
+      "translation": "systematically",
+      "ipa": "/sistʼɛmɑtʼurɑd/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "სისტემატურად ისწავლეთ ზმნების კონიუგაცია",
+        "transliteration": "sist'emat'urad ists'avlet z'mnebis k'on'yugatsia",
+        "translation": "Learn verb conjugation systematically",
+        "audioUrl": "/audio/b2-6/voc2.mp3"
+      },
+      "notes": "Following a systematic, orderly approach to learning."
+    },
+    {
+      "id": "voc3",
+      "georgian": "წინასწარ ვარაუდი",
+      "transliteration": "ts'inasts'ar varaudi",
+      "translation": "prediction",
+      "ipa": "/tsʼinɑstsʼɑr vɑrɑudi/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "შეგიძლიათ წინასწარ ვარაუდი ზმნის გასწორება",
+        "transliteration": "shegits'liat' ts'inasts'ar varaudi z'mnis gasts'oreba",
+        "translation": "You can predict the verb's case alignment",
+        "audioUrl": "/audio/b2-6/voc3.mp3"
+      },
+      "notes": "Using the matrix to predict conjugation before applying it."
+    },
+    {
+      "id": "voc4",
+      "georgian": "ერგატივ-აბსოლუტური",
+      "transliteration": "ergat'iv-absol'ut'uri",
+      "translation": "Ergative-Absolutive",
+      "ipa": "/ɛrgɑtʼiv-ɑbsɔlutʼuri/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "I კლასი სერია II-ში იყენებს ერგატივ-აბსოლუტურ გასწორებას",
+        "transliteration": "I k'lasi seria II-shi ik'enebs ergat'iv-absol'ut'ur gasts'orebas",
+        "translation": "Class I in Series II uses Ergative-Absolutive alignment",
+        "audioUrl": "/audio/b2-6/voc4.mp3"
+      },
+      "notes": "The ergative case alignment system used in Series II for transitive verbs."
+    },
+    {
+      "id": "voc5",
+      "georgian": "შეკავშირება",
+      "transliteration": "shek'avshireba",
+      "translation": "to link/connect",
+      "ipa": "/ʃɛkʼɑvʃirɛbɑ/",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "georgian": "უნდა შევკავშიროთ კლასი სკრივთან",
+        "transliteration": "unda shevk'avshirot k'lasi sk'rivtan",
+        "translation": "We need to link the class with the screeve",
+        "audioUrl": "/audio/b2-6/voc5.mp3"
+      },
+      "notes": "The process of systematically connecting verb class to screeve series."
+    },
+    {
+      "id": "voc6",
+      "georgian": "ბრუნვის გამოყენება",
+      "transliteration": "brunvis gamok'eneba",
+      "translation": "case usage/application",
+      "ipa": "/brunvis ɡɑmɔkʼɛnɛbɑ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "ყოველი კლასს აქვს თავისი ბრუნვის გამოყენება",
+        "transliteration": "kh'oveli k'lass ak'vs tavisi brunvis gamok'eneba",
+        "translation": "Each class has its own case usage",
+        "audioUrl": "/audio/b2-6/voc6.mp3"
+      },
+      "notes": "How different verb classes determine which grammatical cases are used."
+    },
+    {
+      "id": "voc7",
+      "georgian": "რეგულარული",
+      "transliteration": "reg'ular'i",
+      "translation": "regular",
+      "ipa": "/rɛɡʼulɑrʼuli/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ბევრი ზმნა რეგულარულია და ადვილად ისწავლება",
+        "transliteration": "bevri z'mna reg'ular'ia da advilad ists'avleba",
+        "translation": "Many verbs are regular and easily learned",
+        "audioUrl": "/audio/b2-6/voc7.mp3"
+      },
+      "notes": "Following predictable patterns in conjugation."
+    },
+    {
+      "id": "voc8",
+      "georgian": "წარსული თანმიმდევრობა",
+      "transliteration": "ts'arsuli tanmimdevroba",
+      "translation": "past sequence",
+      "ipa": "/tsʼɑrsuli tɑnmimdɛvrɔbɑ/",
+      "partOfSpeech": "noun phrase",
+      "exampleSentence": {
+        "georgian": "წინადროიტალური აჩვენებს წარსულ თანმიმდევრობას",
+        "transliteration": "ts'inadroitaluri ach'venebs ts'arsul tanmimdevrobas",
+        "translation": "Pluperfect shows past sequence",
+        "audioUrl": "/audio/b2-6/voc8.mp3"
+      },
+      "notes": "Using Pluperfect to sequence past events temporally."
+    },
+    {
+      "id": "voc9",
+      "georgian": "თვითმყოფად",
+      "transliteration": "tvit' mk'hop'ad",
+      "translation": "intransitive",
+      "ipa": "/tʰvitʼ mkʼhɔpʼɑd/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "თვითმყოფად ზმნები არ იცვლიან გასწორებას",
+        "transliteration": "tvit' mk'hop'ad z'mnebi ar its'vlian gasts'orebas",
+        "translation": "Intransitive verbs don't change alignment",
+        "audioUrl": "/audio/b2-6/voc9.mp3"
+      },
+      "notes": "Verbs without direct objects (Class II and some others)."
+    },
+    {
+      "id": "voc10",
+      "georgian": "დაუღალავად",
+      "transliteration": "daug'alavad",
+      "translation": "effortlessly, fluently",
+      "ipa": "/dɑuɣʼɑlɑvɑd/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "მატრიქსის ისწავლის შემდეგ, დაუღალავად გამოიყენებთ ზმნებს",
+        "transliteration": "mat'riks'is ists'avlis shemdeg, daug'alavad gamoik'enebt' z'mnebs",
+        "translation": "After learning the matrix, you'll use verbs effortlessly",
+        "audioUrl": "/audio/b2-6/voc10.mp3"
+      },
+      "notes": "The goal: using the verb system naturally without conscious effort."
+    }
+  ]
+}
+

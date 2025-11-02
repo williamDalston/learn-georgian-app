@@ -1,0 +1,63 @@
+{
+  "lessonId": "b2-3",
+  "level": "B2",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "ბავშვმა",
+      "transliteration": "bavshvma",
+      "translation": "the child (Ergative case)",
+      "ipa": "/bɑvʃvmɑ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]",
+        "transliteration": "bavshvma ts'aikit'kha ts'igni",
+        "translation": "The child read the book"
+      },
+      "notes": "Ergative case of ბავშვი (child). Formed by dropping -ი and adding -მა. Used for transitive subjects in Series II/III."
+    },
+    {
+      "id": "voc2",
+      "georgian": "მან",
+      "transliteration": "man",
+      "translation": "he/she (Ergative case)",
+      "ipa": "/mɑn/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "მან ნახა ფილმი [man nakha p'ilmi]",
+        "transliteration": "man nakha p'ilmi",
+        "translation": "He saw the film"
+      },
+      "notes": "Ergative form of third person singular pronoun ის (he/she). Used when ის is the subject of a transitive verb in Series II/III."
+    },
+    {
+      "id": "voc3",
+      "georgian": "მათ",
+      "transliteration": "mat",
+      "translation": "they (Ergative case)",
+      "ipa": "/mɑt/",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": {
+        "georgian": "მათ წაიკითხეს წიგნები [mat ts'aikit'khes ts'ignebi]",
+        "transliteration": "mat ts'aikit'khes ts'ignebi",
+        "translation": "They read the books"
+      },
+      "notes": "Ergative form of third person plural pronoun ისინი (they). Used when ისინი is the subject of a transitive verb in Series II/III."
+    },
+    {
+      "id": "voc4",
+      "georgian": "-მა",
+      "transliteration": "-ma",
+      "translation": "-ma (Ergative case suffix)",
+      "ipa": "/mɑ/",
+      "partOfSpeech": "suffix",
+      "exampleSentence": {
+        "georgian": "მასწავლებელი → მასწავლებელმა",
+        "transliteration": "masts'avlebeli → masts'avlebelma",
+        "translation": "teacher → teacher (Ergative)"
+      },
+      "notes": "Common Ergative case suffix added to most nouns. Typically added after dropping the final -ი from nominative forms."
+    }
+  ]
+}
+

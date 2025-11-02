@@ -1,0 +1,91 @@
+{
+  "lessonId": "a2-4",
+  "lessonTitle": "SVO Sentence Structure Basics",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill-blank",
+      "title": "Verb Conjugation - To See",
+      "instructions": "Conjugate the verb 'to see' (ხედვა) for each subject.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "მე _____ კატას (I see the cat)",
+          "correctAnswer": "ვხედავ",
+          "alternatives": ["ვხედავ"],
+          "explanation": "მე (I) requires ვ- prefix: ვხედავ (vkhedav)"
+        },
+        {
+          "id": "q2",
+          "question": "შენ _____ წიგნს (You see the book)",
+          "correctAnswer": "ხედავ",
+          "alternatives": ["ხედავ"],
+          "explanation": "შენ (you) uses base form without prefix: ხედავ (khedav)"
+        },
+        {
+          "id": "q3",
+          "question": "ის _____ სახლს (He/She sees the house)",
+          "correctAnswer": "ხედავს",
+          "alternatives": ["ხედავს"],
+          "explanation": "ის (he/she) requires -ს suffix: ხედავს (khedavs)"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill-blank",
+      "title": "Build SVO Sentences",
+      "instructions": "Complete each sentence with the correct verb and case form.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q4",
+          "question": "მე _____ წიგნს (I read the book)",
+          "correctAnswer": "ვკითხულობ",
+          "alternatives": ["ვკითხულობ"],
+          "explanation": "Use 'to read' with I: ვკითხულობ (vkit'khulob). Object წიგნს is in Dative case."
+        },
+        {
+          "id": "q5",
+          "question": "ბავშვი _____ წიგნს (The child reads the book)",
+          "correctAnswer": "კითხულობს",
+          "alternatives": ["კითხულობს"],
+          "explanation": "Use 'to read' with he/she: კითხულობს (kit'khulobs)"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple-choice",
+      "title": "Case Agreement",
+      "instructions": "Choose the correct case for the object in each sentence.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q6",
+          "question": "In 'მე ვხედავ კატას', what case is კატას?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Dative"
+            },
+            {
+              "id": "c",
+              "text": "Genitive"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Objects of verbs take Dative case. კატას is Dative (from კატა + -ს)."
+        }
+      ]
+    }
+  ]
+}
+

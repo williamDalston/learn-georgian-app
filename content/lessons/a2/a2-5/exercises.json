@@ -1,0 +1,36 @@
+{
+  "lessonId": "a2-5",
+  "lessonTitle": "High-Frequency Vocabulary",
+  "level": "A2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "title": "Match Vocabulary",
+      "instructions": "Match Georgian words with English translations.",
+      "points": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "leftItems": [
+            { "id": "l1", "text": "დედა" },
+            { "id": "l2", "text": "მამა" },
+            { "id": "l3", "text": "მაგიდა" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "mother" },
+            { "id": "r2", "text": "father" },
+            { "id": "r3", "text": "table" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r1" },
+            { "left": "l2", "right": "r2" },
+            { "left": "l3", "right": "r3" }
+          ],
+          "explanation": "Practice recognizing high-frequency words."
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,245 @@
+{
+  "lessonId": "a1-4",
+  "level": "A1",
+  "vocabulary": [
+    {
+      "id": "voc1",
+      "georgian": "რ",
+      "transliteration": "r",
+      "translation": "letter 'r' (trilled)",
+      "ipa": "/r/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "რ - რა",
+        "transliteration": "r - ra",
+        "translation": "r - what"
+      },
+      "notes": "Alveolar trill - the tongue vibrates against the alveolar ridge. Practice with 'drrr' or 'prrr' if helpful. Very common in Georgian!"
+    },
+    {
+      "id": "voc2",
+      "georgian": "რა",
+      "transliteration": "ra",
+      "translation": "what",
+      "ipa": "/rɑ/",
+      "partOfSpeech": "interrogative",
+      "exampleSentence": {
+        "georgian": "რა არის ეს?",
+        "transliteration": "ra aris es?",
+        "translation": "What is this?"
+      },
+      "notes": "One of the most common words in Georgian. Word-initial trilled რ [r]. Essential vocabulary!"
+    },
+    {
+      "id": "voc3",
+      "georgian": "როგორ",
+      "transliteration": "rogor",
+      "translation": "how",
+      "ipa": "/rɔɡɔr/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "როგორ ხართ?",
+        "transliteration": "rogor khart?",
+        "translation": "How are you?"
+      },
+      "notes": "Contains trilled რ [r] at the beginning. Very common question word."
+    },
+    {
+      "id": "voc4",
+      "georgian": "სახლი",
+      "transliteration": "sakhl-i",
+      "translation": "house",
+      "ipa": "/sɑxli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დიდი სახლი",
+        "transliteration": "didi sakhl-i",
+        "translation": "big house"
+      },
+      "notes": "Contains რ in the middle. Also contains ხ [x] - voiceless guttural. Notice the 'kh' cluster."
+    },
+    {
+      "id": "voc5",
+      "georgian": "საქართველო",
+      "transliteration": "sakartvelo",
+      "translation": "Georgia",
+      "ipa": "/sɑkʰɑrtvɛlɔ/",
+      "partOfSpeech": "proper noun",
+      "exampleSentence": {
+        "georgian": "მე ვარ საქართველოდან",
+        "transliteration": "me var sakartvelodan",
+        "translation": "I am from Georgia"
+      },
+      "notes": "Contains trilled რ [r]. The name Georgians use for their country."
+    },
+    {
+      "id": "voc6",
+      "georgian": "ღ",
+      "transliteration": "gh",
+      "translation": "letter (voiced guttural)",
+      "ipa": "/ɣ/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ღ - ღამე",
+        "transliteration": "gh - ghame",
+        "translation": "gh - night"
+      },
+      "notes": "Voiced guttural fricative - made at the back of the throat with vocal cord vibration. Similar to German 'g' in 'sagen' or like clearing your throat with voice."
+    },
+    {
+      "id": "voc7",
+      "georgian": "ღამე",
+      "transliteration": "ghame",
+      "translation": "night",
+      "ipa": "/ɣɑmɛ/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "ღამე მშვიდობისა",
+        "transliteration": "ghame mshvidobisa",
+        "translation": "good night"
+      },
+      "notes": "Word-initial voiced guttural ღ [ɣ]. Feel the vibration in your throat when pronouncing this."
+    },
+    {
+      "id": "voc8",
+      "georgian": "ღარიბი",
+      "transliteration": "gharibi",
+      "translation": "poor",
+      "ipa": "/ɣɑribi/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "ღარიბი ადამიანი",
+        "transliteration": "gharibi adamiani",
+        "translation": "poor person"
+      },
+      "notes": "Word-initial voiced guttural ღ [ɣ]. Practice the voiced throat sound."
+    },
+    {
+      "id": "voc9",
+      "georgian": "ღვთის",
+      "transliteration": "ghvtis",
+      "translation": "God's",
+      "ipa": "/ɣvtis/",
+      "partOfSpeech": "noun (genitive)",
+      "exampleSentence": {
+        "georgian": "ღვთის სიტყვა",
+        "transliteration": "ghvtis sitqva",
+        "translation": "God's word"
+      },
+      "notes": "Contains voiced guttural ღ [ɣ] and complex cluster 'ghvt'. Excellent practice for consonant clusters!"
+    },
+    {
+      "id": "voc10",
+      "georgian": "ხ",
+      "transliteration": "kh",
+      "translation": "letter (voiceless guttural)",
+      "ipa": "/x/",
+      "partOfSpeech": "consonant",
+      "exampleSentence": {
+        "georgian": "ხ - ხარი",
+        "transliteration": "kh - khari",
+        "translation": "kh - bull"
+      },
+      "notes": "Voiceless guttural fricative - made at the back of the throat WITHOUT vocal cord vibration. Similar to German 'ch' in 'Bach', Spanish 'j' in 'Jose', or like clearing your throat without voice."
+    },
+    {
+      "id": "voc11",
+      "georgian": "ხარი",
+      "transliteration": "khari",
+      "translation": "bull",
+      "ipa": "/xɑri/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "დიდი ხარი",
+        "transliteration": "didi khari",
+        "translation": "big bull"
+      },
+      "notes": "Word-initial voiceless guttural ხ [x]. No vibration - just throat friction. Compare with ღ [ɣ] which is voiced."
+    },
+    {
+      "id": "voc12",
+      "georgian": "ხელი",
+      "transliteration": "kheli",
+      "translation": "hand",
+      "ipa": "/xɛli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "მარჯვენა ხელი",
+        "transliteration": "marjvena kheli",
+        "translation": "right hand"
+      },
+      "notes": "Word-initial voiceless guttural ხ [x]. Very common word. Practice the voiceless throat sound."
+    },
+    {
+      "id": "voc13",
+      "georgian": "სახელი",
+      "transliteration": "sakheli",
+      "translation": "name",
+      "ipa": "/sɑxɛli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "რა არის თქვენი სახელი?",
+        "transliteration": "ra aris tkveni sakheli?",
+        "translation": "What is your name?"
+      },
+      "notes": "Contains voiceless guttural ხ [x]. Essential vocabulary - you'll use this when introducing yourself!"
+    },
+    {
+      "id": "voc14",
+      "georgian": "ქართული",
+      "transliteration": "kartuli",
+      "translation": "Georgian (language)",
+      "ipa": "/kʰɑrtuli/",
+      "partOfSpeech": "adjective/noun",
+      "exampleSentence": {
+        "georgian": "მე ვსწავლობ ქართულს",
+        "transliteration": "me vsts'avlob kartuls",
+        "translation": "I study Georgian"
+      },
+      "notes": "Contains trilled რ [r] and voiceless guttural ხ [x] (in transliteration 'kh'). Essential word for talking about the Georgian language!"
+    },
+    {
+      "id": "voc15",
+      "georgian": "ხვალ",
+      "transliteration": "khval",
+      "translation": "tomorrow",
+      "ipa": "/xvɑl/",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "georgian": "ხვალ ვიქნები",
+        "transliteration": "khval viknebi",
+        "translation": "I will be there tomorrow"
+      },
+      "notes": "Word-initial voiceless guttural ხ [x]. Also contains the cluster 'xv'. Practice both sounds!"
+    },
+    {
+      "id": "voc16",
+      "georgian": "გრძელი",
+      "transliteration": "grdzeli",
+      "translation": "long",
+      "ipa": "/ɡrdzɛli/",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "georgian": "გრძელი გზა",
+        "transliteration": "grdzeli gza",
+        "translation": "long road"
+      },
+      "notes": "Contains complex cluster 'grdz' - four consonants in a row! Practice slowly: gr-dz-eli, then speed up to grdzeli."
+    },
+    {
+      "id": "voc17",
+      "georgian": "მწვრთნელი",
+      "transliteration": "mts'vrtneli",
+      "translation": "coach / trainer",
+      "ipa": "/mtsʼvrtnɛli/",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "georgian": "კარგი მწვრთნელი",
+        "transliteration": "k'argi mts'vrtneli",
+        "translation": "good coach"
+      },
+      "notes": "Contains extremely complex cluster 'mts'vrt' - 6 consonants! This is Georgian's famous consonant cluster. Practice very slowly, one sound at a time!"
+    }
+  ]
+}
+

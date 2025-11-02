@@ -1,0 +1,312 @@
+{
+  "lessonId": "b2-4",
+  "lessonTitle": "Class II (Intransitive) and Class III (Medial) Verbs",
+  "level": "B2",
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple-choice",
+      "title": "Identifying Verb Classes",
+      "instructions": "Identify whether each verb is Class I (transitive), Class II (intransitive), or Class III (medial).",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "ვირბინ [virbin] 'I run' - Which verb class?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (medial)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ვირბინ [virbin] 'I run' is Class II because it has no direct object - running is an intransitive action. Class II verbs always keep Nominative alignment."
+        },
+        {
+          "id": "q2",
+          "question": "ვხედავ კატას [vkhedav kat'as] 'I see the cat' - Which verb class?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (medial)"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "ვხედავ კატას has a direct object (კატას 'the cat'), so it's Class I (transitive). Transitive verbs shift from Nominative to Ergative in Series II/III."
+        },
+        {
+          "id": "q3",
+          "question": "ჩემს ვიცვამ [chems vitsvam] 'I put on (myself)' - Which verb class?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (medial)"
+            }
+          ],
+          "correctAnswer": "c",
+          "explanation": "ჩემს ვიცვამ is Class III (medial) because it's a reflexive-like verb that uses special alignment (Dative subject agreement). Class III verbs have unique patterns."
+        },
+        {
+          "id": "q4",
+          "question": "მოვდივარ [movdivar] 'I come' - Which verb class?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Class I (transitive)"
+            },
+            {
+              "id": "b",
+              "text": "Class II (intransitive)"
+            },
+            {
+              "id": "c",
+              "text": "Class III (medial)"
+            }
+          ],
+          "correctAnswer": "b",
+          "explanation": "მოვდივარ 'I come' is Class II (intransitive) because motion verbs like 'come' don't take direct objects. The subject will always stay Nominative."
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple-choice",
+      "title": "Case Alignment in Different Series",
+      "instructions": "Determine whether the subject takes Nominative or Ergative case based on verb class and series.",
+      "points": 3,
+      "questions": [
+        {
+          "id": "q5",
+          "question": "In Series II (Aorist), what case does the subject take for Class II verbs?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative (always)"
+            },
+            {
+              "id": "b",
+              "text": "Ergative"
+            },
+            {
+              "id": "c",
+              "text": "Dative"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Class II verbs always use Nominative case for subjects, even in Series II (Aorist) and Series III (Perfect). Only Class I transitive verbs shift to Ergative in past tenses."
+        },
+        {
+          "id": "q6",
+          "question": "მე ვირბინე [me virbine] 'I ran' - What case is მე in?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nominative"
+            },
+            {
+              "id": "b",
+              "text": "Ergative"
+            },
+            {
+              "id": "c",
+              "text": "Dative"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "მე is Nominative because ვირბინე [virbine] 'I ran' is Class II (intransitive). Even though it's in Series II (Aorist), Class II verbs never take Ergative case."
+        },
+        {
+          "id": "q7",
+          "question": "Which sentence correctly shows Class II verb case marking?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "ბავშვი ირბინა [bavshvi irbina] 'The child ran'"
+            },
+            {
+              "id": "b",
+              "text": "ბავშვმა ირბინა [bavshvma irbina] 'The child ran'"
+            },
+            {
+              "id": "c",
+              "text": "ბავშვს ირბინა [bavshvs irbina] 'The child ran'"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Option (a) is correct. ბავშვი [bavshvi] is Nominative because ირბინა [irbina] is Class II (intransitive). Class II verbs always keep Nominative subjects, even in Series II."
+        },
+        {
+          "id": "q8",
+          "question": "Compare: მე ვირბინე [me virbine] 'I ran' vs მე ვნახე კატა [me vnakhe kat'a] 'I saw the cat'. Why is მე Nominative in the first but Ergative in the second?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "The first is Class II (intransitive), so Nominative. The second is Class I (transitive in Series II), so Ergative."
+            },
+            {
+              "id": "b",
+              "text": "Both should be Ergative in Series II"
+            },
+            {
+              "id": "c",
+              "text": "The tense is different"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "The verb class determines case marking. ირბინებს [irbinebs] 'runs' is Class II (no object) → always Nominative. ვნახე [vnakhe] 'I saw' with object კატა is Class I (transitive in Series II) → Ergative."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "fill-blank",
+      "title": "Classifying Common Verbs",
+      "instructions": "Classify each verb as Class I, II, or III. Then indicate the case the subject will take in Series II.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q9",
+          "question": "მიდის [midis] 'goes' - Class: _____, Subject case in Series II: _____",
+          "correctAnswer": "Class II, Nominative",
+          "alternatives": ["Class II, Nominative", "Class II, Ergative", "Class I, Nominative"],
+          "explanation": "მიდის is Class II (intransitive motion verb). Class II subjects always stay Nominative, even in Series II."
+        },
+        {
+          "id": "q10",
+          "question": "ხედავს კატას [khedavs kat'as] 'sees the cat' - Class: _____, Subject case in Series II: _____",
+          "correctAnswer": "Class I, Ergative",
+          "alternatives": ["Class I, Ergative", "Class II, Nominative", "Class III, Dative"],
+          "explanation": "ხედავს has a direct object (კატას), so it's Class I (transitive). In Series II, Class I transitive subjects take Ergative case."
+        },
+        {
+          "id": "q11",
+          "question": "დგას [dgass] 'stands' - Class: _____, Subject case in Series II: _____",
+          "correctAnswer": "Class II, Nominative",
+          "alternatives": ["Class II, Nominative", "Class I, Ergative", "Class III, Dative"],
+          "explanation": "დგას 'stands' is Class II (intransitive state verb). Class II verbs always keep Nominative subjects."
+        },
+        {
+          "id": "q12",
+          "question": "იცვამს [itsvams] 'puts on (oneself)' - Class: _____, Subject case pattern: _____",
+          "correctAnswer": "Class III, Special (Dative)",
+          "alternatives": ["Class III, Special (Dative)", "Class II, Nominative", "Class I, Ergative"],
+          "explanation": "იცვამს is Class III (medial/reflexive verb). Class III verbs use special alignment patterns, often with Dative subject agreement."
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "matching",
+      "title": "Matching Verbs to Their Classes",
+      "instructions": "Match each verb to its correct class and alignment pattern.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q13",
+          "leftItems": [
+            { "id": "l1", "text": "ვირბინ [virbin] 'I run'" },
+            { "id": "l2", "text": "ვხედავ კატას [vkhedav kat'as] 'I see the cat'" },
+            { "id": "l3", "text": "ჩემს ვიცვამ [chems vitsvam] 'I put on (myself)'" },
+            { "id": "l4", "text": "მოვდივარ [movdivar] 'I come'" }
+          ],
+          "rightItems": [
+            { "id": "r1", "text": "Class I: Nom → Erg in Series II" },
+            { "id": "r2", "text": "Class II: Always Nominative" },
+            { "id": "r3", "text": "Class III: Special alignment" }
+          ],
+          "correctMatches": [
+            { "left": "l1", "right": "r2" },
+            { "left": "l2", "right": "r1" },
+            { "left": "l3", "right": "r3" },
+            { "left": "l4", "right": "r2" }
+          ],
+          "explanation": "ვირბინ and მოვდივარ are Class II (intransitive) - always Nominative. ვხედავ კატას is Class I (transitive) - shifts to Ergative in Series II. ჩემს ვიცვამ is Class III (medial) - special alignment pattern."
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple-choice",
+      "title": "Class III Special Patterns",
+      "instructions": "Answer questions about Class III (medial) verb characteristics and patterns.",
+      "points": 2,
+      "questions": [
+        {
+          "id": "q14",
+          "question": "What makes Class III verbs special compared to Class I and II?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "They have unique alignment patterns that don't follow the standard Nom → Erg shift"
+            },
+            {
+              "id": "b",
+              "text": "They always use Ergative case"
+            },
+            {
+              "id": "c",
+              "text": "They never have objects"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Class III verbs have special alignment patterns - they may use Dative subject agreement or other unique patterns that don't follow the standard Class I (Nom → Erg) or Class II (always Nom) patterns."
+        },
+        {
+          "id": "q15",
+          "question": "How should you approach learning Class III verbs?",
+          "type": "multiple-choice",
+          "options": [
+            {
+              "id": "a",
+              "text": "Memorize them individually and their specific alignment patterns"
+            },
+            {
+              "id": "b",
+              "text": "Apply the same rules as Class I"
+            },
+            {
+              "id": "c",
+              "text": "They all follow one simple pattern"
+            }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Class III verbs are less common and often need to be memorized individually because they have unique alignment patterns that don't follow the standard rules of Class I or Class II."
+        }
+      ]
+    }
+  ]
+}
+

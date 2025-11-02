@@ -1,0 +1,129 @@
+{
+  "lessonId": "b1-3",
+  "title": "Lesson B1-3 Assessment: Version Vowels",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What do version vowels indicate in Georgian verbs?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Tense" },
+        { "id": "b", "text": "Whose benefit or perspective the action is for" },
+        { "id": "c", "text": "Mood" },
+        { "id": "d", "text": "Aspect" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Version vowels indicate whose benefit or perspective the action is for - subjective (for oneself) or objective (for others).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What does the subjective version ი- [i-] mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "For someone else" },
+        { "id": "b", "text": "For myself, my own benefit" },
+        { "id": "c", "text": "Neutral" },
+        { "id": "d", "text": "Perfective" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The subjective version ი- [i-] indicates the action is for the subject's own benefit - 'for myself.'",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What does the objective version უ- [u-] mean?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "For myself" },
+        { "id": "b", "text": "For others, someone else's benefit" },
+        { "id": "c", "text": "Imperfective" },
+        { "id": "d", "text": "Perfective" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The objective version უ- [u-] indicates the action is for someone else's benefit - 'for others.'",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Match the verb forms to their correct version types:",
+      "type": "matching",
+      "leftItems": [
+        { "id": "l1", "text": "ვიწერ [vits'er]" },
+        { "id": "l2", "text": "ვუწერ [vuts'er]" },
+        { "id": "l3", "text": "ვწერ [vts'er]" }
+      ],
+      "rightItems": [
+        { "id": "r1", "text": "Subjective version (for myself)" },
+        { "id": "r2", "text": "Objective version (for others)" },
+        { "id": "r3", "text": "No version (neutral)" }
+      ],
+      "correctMatches": [
+        { "left": "l1", "right": "r1" },
+        { "left": "l2", "right": "r2" },
+        { "left": "l3", "right": "r3" }
+      ],
+      "explanation": "ვიწერ uses ი- subjective, ვუწერ uses უ- objective, ვწერ has no version (neutral).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "ვდაიწერ [vdaints'er] means:",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I will write for myself (perfective + subjective)" },
+        { "id": "b", "text": "I am writing for someone" },
+        { "id": "c", "text": "I wrote (past)" },
+        { "id": "d", "text": "I will write for someone" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "ვდაიწერ combines: ვ- [v-] 'I' + და- [da-] perfective + ი- [i-] subjective = 'I will write for myself.'",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "ვდაუწერ [vdauts'er] means:",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I wrote for myself" },
+        { "id": "b", "text": "I will write for someone (perfective + objective)" },
+        { "id": "c", "text": "I am writing for myself" },
+        { "id": "d", "text": "I will write (neutral)" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვდაუწერ combines: ვ- [v-] 'I' + და- [da-] perfective + უ- [u-] objective = 'I will write for someone.'",
+      "points": 15
+    },
+    {
+      "id": "quiz-q7",
+      "question": "ვიყიდულობ წიგნს [viqidulob ts'igns] - What does ი- [i-] indicate here?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I am buying the book for someone else" },
+        { "id": "b", "text": "I am buying the book for myself" },
+        { "id": "c", "text": "I bought the book (past tense)" },
+        { "id": "d", "text": "I will buy the book" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვიყიდულობ [viqidulob] uses subjective version ი- [i-], meaning 'I am buying the book for myself.'",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "ვუყიდულობ წიგნს [vuqidulob ts'igns] - What does უ- [u-] indicate here?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "I am buying the book for myself" },
+        { "id": "b", "text": "I am buying the book for someone else" },
+        { "id": "c", "text": "I bought the book (past)" },
+        { "id": "d", "text": "I will buy the book" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "ვუყიდულობ [vuqidulob] uses objective version უ- [u-], meaning 'I am buying the book for someone else.'",
+      "points": 10
+    }
+  ]
+}
+

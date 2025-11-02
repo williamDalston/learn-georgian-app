@@ -1,0 +1,193 @@
+{
+  "lessonId": "b2-3",
+  "title": "Lesson B2-3 Assessment: Ergative Case Marking",
+  "passingScore": 75,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "When is Ergative case used for subjects?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Always in past tense"
+        },
+        {
+          "id": "b",
+          "text": "For transitive verbs in Series II and III"
+        },
+        {
+          "id": "c",
+          "text": "For all verbs in Series II"
+        },
+        {
+          "id": "d",
+          "text": "Only for third person subjects"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Ergative case is used specifically for transitive verbs (verbs with objects) in Series II (Aorist) and Series III (Perfect). Intransitive verbs keep Nominative in all series.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What is the Ergative form of 'ბავშვი' [bavshvi] (child)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ბავშვი [bavshvi]"
+        },
+        {
+          "id": "b",
+          "text": "ბავშვმა [bavshvma]"
+        },
+        {
+          "id": "c",
+          "text": "ბავშვს [bavshvs]"
+        },
+        {
+          "id": "d",
+          "text": "ბავშვის [bavshvis]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The Ergative form is ბავშვმა, formed by dropping the final -ი and adding -მა suffix.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q3",
+      "question": "What is the Ergative form of 'ის' [is] (he/she)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ის [is]"
+        },
+        {
+          "id": "b",
+          "text": "მან [man]"
+        },
+        {
+          "id": "c",
+          "text": "ისმა [isma]"
+        },
+        {
+          "id": "d",
+          "text": "მას [mas]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Third person singular pronoun changes form in Ergative: ის → მან. This is a special form, not formed with -მა suffix.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q4",
+      "question": "In the sentence 'მე ვირბინე' [me virbine] (I ran), should 'მე' be in Ergative case?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, because it's past tense"
+        },
+        {
+          "id": "b",
+          "text": "No, because 'to run' is intransitive"
+        },
+        {
+          "id": "c",
+          "text": "Only if it's Series III"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "No. 'To run' is an intransitive verb (no direct object), so the subject stays in Nominative case even in past tense. Only transitive verbs trigger Ergative marking.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "Which sentence has correct Ergative marking?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ბავშვი წაიკითხა წიგნი [bavshvi ts'aikit'kha ts'igni]"
+        },
+        {
+          "id": "b",
+          "text": "ბავშვმა წაიკითხა წიგნი [bavshvma ts'aikit'kha ts'igni]"
+        },
+        {
+          "id": "c",
+          "text": "ბავშვმა კითხულობს წიგნს [bavshvma kit'khulobs ts'igns]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Option (b) is correct. In Aorist (Series II) with a transitive verb, the subject must be Ergative (ბავშვმა). Option (a) incorrectly uses Nominative. Option (c) incorrectly uses Ergative in present tense (Series I).",
+      "points": 15
+    },
+    {
+      "id": "quiz-q6",
+      "question": "What is the Ergative form of 'ისინი' [isini] (they)?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ისინი [isini]"
+        },
+        {
+          "id": "b",
+          "text": "მათ [mat]"
+        },
+        {
+          "id": "c",
+          "text": "ისინიმა [isinima]"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Third person plural pronoun changes form in Ergative: ისინი → მათ. Like singular მან, this is a special form.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q7",
+      "question": "True or False: All verbs in Series II use Ergative case for their subjects.",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "True"
+        },
+        {
+          "id": "b",
+          "text": "False - only transitive verbs use Ergative"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "False. Only transitive verbs (verbs with direct objects) use Ergative case for subjects in Series II/III. Intransitive verbs keep Nominative subjects in all series.",
+      "points": 10
+    },
+    {
+      "id": "quiz-q8",
+      "question": "How is Ergative case typically marked on common nouns?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "By adding -მა suffix after dropping final -ი"
+        },
+        {
+          "id": "b",
+          "text": "By changing word order"
+        },
+        {
+          "id": "c",
+          "text": "By using a different article"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Most common nouns form Ergative by dropping the final -ი (if present) and adding the -მა suffix. Example: ბავშვი → ბავშვმა.",
+      "points": 15
+    }
+  ]
+}
+

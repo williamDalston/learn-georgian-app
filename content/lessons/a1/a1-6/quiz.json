@@ -1,0 +1,93 @@
+{
+  "lessonId": "a1-6",
+  "title": "Lesson A1-6 Assessment: SRS Setup and Daily Practice",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "quiz-q1",
+      "question": "What is the main benefit of using a Spaced Repetition System?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "It shows you words at optimal intervals, maximizing memory retention" },
+        { "id": "b", "text": "It's easier than regular study" },
+        { "id": "c", "text": "You only need to study once" },
+        { "id": "d", "text": "It's free" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "SRS uses algorithms to show you information just before you forget it, which maximizes memory retention. Research shows this is the most efficient way to build long-term vocabulary.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q2",
+      "question": "What should every good Georgian flashcard include?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Georgian script, transliteration, IPA, translation, example sentence" },
+        { "id": "b", "text": "Only English translation" },
+        { "id": "c", "text": "Only transliteration" },
+        { "id": "d", "text": "Only Georgian script" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Effective flashcards should include Georgian script (to learn the alphabet), transliteration (for pronunciation), IPA (for accurate pronunciation), translation (for meaning), and example sentences (for context). This comprehensive approach accelerates learning.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q3",
+      "question": "How many new cards should you start with per day in Anki?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "10-15 new cards per day" },
+        { "id": "b", "text": "50-100 new cards per day" },
+        { "id": "c", "text": "1-2 new cards per day" },
+        { "id": "d", "text": "As many as possible" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Start with 10-15 new cards per day. This prevents overload while building a sustainable habit. You can increase this number later as you become more comfortable with the system and as your review load stabilizes.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q4",
+      "question": "Why should you prioritize vocabulary from frequency lists?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "High-frequency words appear more often, so you'll use them more in real conversation" },
+        { "id": "b", "text": "They're easier to remember" },
+        { "id": "c", "text": "You only need to learn 100 words total" },
+        { "id": "d", "text": "Low-frequency words aren't useful" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "The top 100 words in Georgian appear in 50% of all text. The top 500 cover 70% of daily conversation. Learning these first maximizes your communication ability quickly and efficiently.",
+      "points": 15
+    },
+    {
+      "id": "quiz-q5",
+      "question": "What's more effective for vocabulary learning?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "15 minutes every day" },
+        { "id": "b", "text": "2 hours once a week" },
+        { "id": "c", "text": "5 hours once a month" },
+        { "id": "d", "text": "Only when you feel like it" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Consistency beats intensity. 15 minutes daily is far more effective than long sessions once a week because SRS works best with regular reinforcement. Daily practice prevents forgetting and builds strong memories.",
+      "points": 20
+    },
+    {
+      "id": "quiz-q6",
+      "question": "What should you do if you miss a day of SRS practice?",
+      "type": "multiple-choice",
+      "options": [
+        { "id": "a", "text": "Don't panic, just continue the next day - the system will catch up" },
+        { "id": "b", "text": "Give up and stop studying" },
+        { "id": "c", "text": "Cram everything you missed" },
+        { "id": "d", "text": "Start completely over" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Missing a day is normal - don't let perfect be the enemy of good! Just continue your routine the next day. The SRS system will show you cards that are due, and you'll catch up naturally. Consistency over time matters more than perfection.",
+      "points": 20
+    }
+  ]
+}
+
