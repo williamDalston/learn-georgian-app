@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState, useRef } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence, type Variants, type Transition } from 'framer-motion'
 import { useHapticFeedback } from '@/lib/hooks/useHapticFeedback'
 
 interface BottomSheetProps {
@@ -125,24 +125,22 @@ export default function BottomSheet({
     return () => document.removeEventListener('keydown', handleEsc)
   }, [isOpen])
 
+  const SHEET_TRANSITION: Transition = {
+    type: 'spring',
+    stiffness: 300,
+    damping: 30,
+  }
+
   const sheetVariants = {
     hidden: {
       y: '100%',
-      transition: {
-        type: 'spring',
-        stiffness: 300,
-        damping: 30,
-      },
+      transition: SHEET_TRANSITION,
     },
     visible: {
       y: 0,
-      transition: {
-        type: 'spring',
-        stiffness: 300,
-        damping: 30,
-      },
+      transition: SHEET_TRANSITION,
     },
-  }
+  } satisfies Variants
 
   const backdropVariants = {
     hidden: { opacity: 0 },
