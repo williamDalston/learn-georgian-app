@@ -237,6 +237,43 @@ export async function playPhraseAudio(
 }
 
 /**
+ * Load and play minimal pair audio
+ */
+export async function playMinimalPairAudio(
+  pairId: string,
+  options: AudioLoadOptions = {}
+): Promise<HTMLAudioElement | null> {
+  const { getMinPairPath } = await import('./audioManifest')
+  const audioUrl = getMinPairPath(pairId)
+  
+  // Check if audio file exists
+  const exists = await audioFileExists(audioUrl)
+  
+  if (exists) {
+    // Play native audio
+    const audio = createAudioElement(audioUrl, options)
+    
+    // Add ended event handler
+    audio.onended = () => {
+      options.onLoad?.()
+    }
+    
+    try {
+      await audio.play()
+      return audio
+    } catch (error) {
+      console.error('Failed to play minimal pair audio:', error)
+      options.onError?.(error as Error)
+      return null
+    }
+  } else {
+    const error = new Error(`Minimal pair audio file not found: ${audioUrl}`)
+    options.onError?.(error)
+    return null
+  }
+}
+
+/**
  * Preload audio files for better performance
  */
 export async function preloadAudio(urls: string[]): Promise<void> {

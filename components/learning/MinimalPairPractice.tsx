@@ -4,6 +4,7 @@ import { useState } from 'react'
 import AudioRecorder from './AudioRecorder'
 import GlassCard from '@/components/shared/GlassCard'
 import { motion } from 'framer-motion'
+import { useLetterAudio, useMinimalPairAudio, useVocabularyAudio } from '@/lib/hooks/useAudio'
 
 interface MinimalPair {
   id: string
@@ -32,6 +33,31 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
 
   const currentPair = pairs[currentIndex]
   const isLastPair = currentIndex >= pairs.length - 1
+
+  // Audio hooks for each letter
+  const letter1Audio = useLetterAudio(currentPair.letter1, { fallbackToTTS: true })
+  const letter2Audio = useLetterAudio(currentPair.letter2, { fallbackToTTS: true })
+  
+  // Audio for minimal pair comparison (if audioUrl is provided)
+  const pairId = currentPair.audioUrl 
+    ? currentPair.audioUrl.replace('/audio/min-pairs/', '').replace('.mp3', '')
+    : `${currentPair.letter1}-${currentPair.letter2}`
+  const pairAudio = useMinimalPairAudio(
+    currentPair.audioUrl ? pairId : null,
+    { fallbackToTTS: false }
+  )
+
+  // Audio for example words (if provided)
+  const letter1ExampleAudio = useVocabularyAudio(
+    currentPair.letter1Example?.word || '',
+    undefined,
+    { fallbackToTTS: true }
+  )
+  const letter2ExampleAudio = useVocabularyAudio(
+    currentPair.letter2Example?.word || '',
+    undefined,
+    { fallbackToTTS: true }
+  )
 
   const handleRecordingComplete = (blob: Blob) => {
     setUserRecording(blob)
@@ -98,9 +124,42 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
             <h3 className="text-2xl font-bold text-primary-900 mb-4">
               Sound Discrimination Practice
             </h3>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-600 mb-4">
               {currentPair.description}
             </p>
+            {/* Play pair audio button */}
+            {currentPair.audioUrl && (
+              <button
+                onClick={() => pairAudio.play()}
+                disabled={pairAudio.isLoading || pairAudio.isPlaying}
+                className="px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg font-medium transition-colors flex items-center gap-2 mx-auto disabled:opacity-50"
+                aria-label="Play minimal pair comparison"
+              >
+                {pairAudio.isLoading ? (
+                  <>
+                    <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Loading...
+                  </>
+                ) : pairAudio.isPlaying ? (
+                  <>
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                    </svg>
+                    Playing...
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    Play Comparison
+                  </>
+                )}
+              </button>
+            )}
           </div>
 
           {/* Pair Display */}
@@ -122,8 +181,35 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
               onClick={() => handleSelectLetter(currentPair.letter1)}
             >
               <div className="text-center mb-4">
-                <div className="text-6xl font-serif text-primary-900 mb-2">
-                  {currentPair.letter1}
+                <div className="flex items-center justify-center gap-3 mb-2">
+                  <div className="text-6xl font-serif text-primary-900">
+                    {currentPair.letter1}
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      letter1Audio.play()
+                    }}
+                    disabled={letter1Audio.isLoading || letter1Audio.isPlaying}
+                    className="p-2 bg-accent/10 hover:bg-accent/20 rounded-full transition-colors disabled:opacity-50"
+                    aria-label={`Play ${currentPair.letter1}`}
+                    title={`Play ${currentPair.letter1}`}
+                  >
+                    {letter1Audio.isLoading ? (
+                      <svg className="w-4 h-4 animate-spin text-accent" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                      </svg>
+                    ) : letter1Audio.isPlaying ? (
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                      </svg>
+                    ) : (
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    )}
+                  </button>
                 </div>
                 <div className="text-2xl text-gray-600 font-mono">
                   /{currentPair.letter1Ipa}/
@@ -131,8 +217,35 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
               </div>
               {currentPair.letter1Example && (
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-xl font-serif text-primary-900">
-                    {currentPair.letter1Example.word}
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <div className="text-xl font-serif text-primary-900">
+                      {currentPair.letter1Example.word}
+                    </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        letter1ExampleAudio.play()
+                      }}
+                      disabled={letter1ExampleAudio.isLoading || letter1ExampleAudio.isPlaying}
+                      className="p-1.5 bg-accent/10 hover:bg-accent/20 rounded-full transition-colors disabled:opacity-50"
+                      aria-label={`Play ${currentPair.letter1Example.word}`}
+                      title={`Play ${currentPair.letter1Example.word}`}
+                    >
+                      {letter1ExampleAudio.isLoading ? (
+                        <svg className="w-3 h-3 animate-spin text-accent" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                        </svg>
+                      ) : letter1ExampleAudio.isPlaying ? (
+                        <svg className="w-3 h-3 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                        </svg>
+                      ) : (
+                        <svg className="w-3 h-3 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      )}
+                    </button>
                   </div>
                   <div className="text-sm text-gray-600 mt-2">
                     {currentPair.letter1Example.translation}
@@ -167,8 +280,35 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
               onClick={() => handleSelectLetter(currentPair.letter2)}
             >
               <div className="text-center mb-4">
-                <div className="text-6xl font-serif text-primary-900 mb-2">
-                  {currentPair.letter2}
+                <div className="flex items-center justify-center gap-3 mb-2">
+                  <div className="text-6xl font-serif text-primary-900">
+                    {currentPair.letter2}
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      letter2Audio.play()
+                    }}
+                    disabled={letter2Audio.isLoading || letter2Audio.isPlaying}
+                    className="p-2 bg-accent/10 hover:bg-accent/20 rounded-full transition-colors disabled:opacity-50"
+                    aria-label={`Play ${currentPair.letter2}`}
+                    title={`Play ${currentPair.letter2}`}
+                  >
+                    {letter2Audio.isLoading ? (
+                      <svg className="w-4 h-4 animate-spin text-accent" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                      </svg>
+                    ) : letter2Audio.isPlaying ? (
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                      </svg>
+                    ) : (
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    )}
+                  </button>
                 </div>
                 <div className="text-2xl text-gray-600 font-mono">
                   /{currentPair.letter2Ipa}/
@@ -176,8 +316,35 @@ export default function MinimalPairPractice({ pairs, onComplete }: MinimalPairPr
               </div>
               {currentPair.letter2Example && (
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-xl font-serif text-primary-900">
-                    {currentPair.letter2Example.word}
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <div className="text-xl font-serif text-primary-900">
+                      {currentPair.letter2Example.word}
+                    </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        letter2ExampleAudio.play()
+                      }}
+                      disabled={letter2ExampleAudio.isLoading || letter2ExampleAudio.isPlaying}
+                      className="p-1.5 bg-accent/10 hover:bg-accent/20 rounded-full transition-colors disabled:opacity-50"
+                      aria-label={`Play ${currentPair.letter2Example.word}`}
+                      title={`Play ${currentPair.letter2Example.word}`}
+                    >
+                      {letter2ExampleAudio.isLoading ? (
+                        <svg className="w-3 h-3 animate-spin text-accent" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                        </svg>
+                      ) : letter2ExampleAudio.isPlaying ? (
+                        <svg className="w-3 h-3 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                        </svg>
+                      ) : (
+                        <svg className="w-3 h-3 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      )}
+                    </button>
                   </div>
                   <div className="text-sm text-gray-600 mt-2">
                     {currentPair.letter2Example.translation}

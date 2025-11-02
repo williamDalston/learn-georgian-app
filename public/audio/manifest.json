@@ -1,70 +1,74 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-01-01",
+  "lastUpdated": "2025-11-02",
   "description": "Audio manifest for Georgian learning app. This file tracks available audio assets.",
   "letters": {
     "description": "Individual Georgian letter pronunciations",
-    "files": [
-      "/audio/letters/ა.mp3",
-      "/audio/letters/ბ.mp3",
-      "/audio/letters/გ.mp3",
-      "/audio/letters/დ.mp3",
-      "/audio/letters/ე.mp3",
-      "/audio/letters/ვ.mp3",
-      "/audio/letters/ზ.mp3",
-      "/audio/letters/თ.mp3",
-      "/audio/letters/ი.mp3",
-      "/audio/letters/კ.mp3",
-      "/audio/letters/ლ.mp3",
-      "/audio/letters/მ.mp3",
-      "/audio/letters/ნ.mp3",
-      "/audio/letters/ო.mp3",
-      "/audio/letters/პ.mp3",
-      "/audio/letters/ჟ.mp3",
-      "/audio/letters/რ.mp3",
-      "/audio/letters/ს.mp3",
-      "/audio/letters/ტ.mp3",
-      "/audio/letters/უ.mp3",
-      "/audio/letters/ფ.mp3",
-      "/audio/letters/ქ.mp3",
-      "/audio/letters/ღ.mp3",
-      "/audio/letters/ყ.mp3",
-      "/audio/letters/შ.mp3",
-      "/audio/letters/ჩ.mp3",
-      "/audio/letters/ც.mp3",
-      "/audio/letters/ძ.mp3",
-      "/audio/letters/წ.mp3",
-      "/audio/letters/ჭ.mp3",
-      "/audio/letters/ხ.mp3",
-      "/audio/letters/ჯ.mp3",
-      "/audio/letters/ჰ.mp3"
+    "files": [],
+    "count": 0,
+    "total": 33,
+    "missing": [
+      "ა",
+      "ბ",
+      "გ",
+      "დ",
+      "ე",
+      "ვ",
+      "ზ",
+      "თ",
+      "ი",
+      "კ",
+      "ლ",
+      "მ",
+      "ნ",
+      "ო",
+      "პ",
+      "ჟ",
+      "რ",
+      "ს",
+      "ტ",
+      "უ",
+      "ფ",
+      "ქ",
+      "ღ",
+      "ყ",
+      "შ",
+      "ჩ",
+      "ც",
+      "ძ",
+      "წ",
+      "ჭ",
+      "ხ",
+      "ჯ",
+      "ჰ"
     ],
     "note": "Add audio files to public/audio/letters/ directory. File naming: [letter].mp3"
   },
   "words": {
     "description": "Vocabulary word pronunciations organized by lesson",
     "structure": "/audio/words/[lessonId]/[word].mp3",
+    "lessons": {},
+    "totalFiles": 0,
     "note": "Add audio files to public/audio/words/[lessonId]/ directory. File naming: [normalized-word].mp3"
   },
   "phrases": {
     "description": "Example sentence pronunciations organized by lesson",
     "structure": "/audio/phrases/[lessonId]/[phrase].mp3",
+    "lessons": {},
+    "totalFiles": 0,
     "note": "Add audio files to public/audio/phrases/[lessonId]/ directory. File naming: [normalized-phrase].mp3"
   },
   "minPairs": {
     "description": "Minimal pair audio for sound discrimination practice",
-    "files": [
-      "/audio/min-pairs/b-p-p.mp3",
-      "/audio/min-pairs/t-t-t.mp3",
-      "/audio/min-pairs/k-k-k.mp3",
-      "/audio/min-pairs/p-p-p.mp3",
-      "/audio/min-pairs/g-k-k.mp3"
-    ],
+    "files": [],
+    "count": 0,
     "note": "Add audio files to public/audio/min-pairs/ directory"
   },
   "ejectivePractice": {
     "description": "Ejective consonant practice audio",
     "structure": "/audio/ejective-practice/[exerciseId].mp3",
+    "files": [],
+    "count": 0,
     "note": "Add audio files to public/audio/ejective-practice/ directory"
   },
   "specifications": {
@@ -80,6 +84,9 @@
     "naming": "3. Use exact naming convention: [identifier].mp3",
     "validation": "4. Audio files will automatically be detected and used when present",
     "fallback": "5. If audio file is missing, app will fallback to text-to-speech"
+  },
+  "stats": {
+    "totalFiles": 0,
+    "lettersComplete": false
   }
 }
-
