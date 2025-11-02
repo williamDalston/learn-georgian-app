@@ -16,7 +16,7 @@ By the end of this lesson, students will be able to:
 - Plural formation with -eb suffix
 - Case suffixes with plural nouns
 - Root + -eb + case suffix pattern
-- Plural declension across cases
+- How plurals change with different cases
 
 ---
 
@@ -158,7 +158,7 @@ The pattern: Root + -eb + -ის (Genitive ending)
 4. **Plural Genitive:** Root + -eb + -ის (-ebis)
    - Example: კატების (kat'ebis) - of the cats / cats'
 
-Remember: The -eb- marker always comes between the root and the case ending. This is the key to mastering Georgian plural declension!
+Remember: The -eb- marker always comes between the root and the case ending. This is the key to mastering how Georgian plurals work with cases!
 
 In the next lesson, we'll learn about postpositions and how they require specific cases."
 
@@ -167,7 +167,7 @@ In the next lesson, we'll learn about postpositions and how they require specifi
 ### Assignment (45:00)
 "Before next lesson:
 1. Practice forming plurals: Write 10 nouns in singular, then form their plurals
-2. Practice plural declension: Transform nouns from singular to plural in all three cases (Nominative, Dative, Genitive)
+2. Practice plurals with cases: Transform nouns from singular to plural in all three cases (Nominative, Dative, Genitive)
 3. Write 5 sentences using plural nouns with correct case endings
 4. Review the -eb suffix pattern: Root + -eb + Case Ending
 
