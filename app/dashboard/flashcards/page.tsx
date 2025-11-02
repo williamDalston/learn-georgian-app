@@ -1,13 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import VocabularyFlashcards from '@/components/learning/VocabularyFlashcards'
 import GlassCard from '@/components/shared/GlassCard'
 import { useFlashcards } from '@/lib/hooks/useFlashcards'
 import { courseStructure } from '@/lib/data/courseStructure'
 
-export default function FlashcardsPage() {
+function FlashcardsContent() {
   const searchParams = useSearchParams()
   const lessonId = searchParams.get('lesson') || undefined
   const levelParam = searchParams.get('level') as
@@ -138,4 +138,22 @@ export default function FlashcardsPage() {
   )
 }
 
+export default function FlashcardsPage() {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-8 max-w-6xl">
+        <div className="mb-8">
+          <h1 className="text-3xl sm:text-4xl font-serif text-primary-900 mb-2">
+            Vocabulary Flashcards
+          </h1>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    }>
+      <FlashcardsContent />
+    </Suspense>
+  )
+}
 
+// Mark page as dynamic to avoid static generation
+export const dynamic = 'force-dynamic'
