@@ -84,7 +84,10 @@ export function useGet<T = unknown>(endpoint: string) {
  * Hook for making POST requests
  */
 export function usePost<T = unknown, D = unknown>(endpoint: string) {
-  return useApi<T>((data: D) => apiClient.post<T>(endpoint, data))
+  return useApi<T>((...args: unknown[]) => {
+    const data = args[0] as D
+    return apiClient.post<T>(endpoint, data)
+  })
 }
 
 /**
