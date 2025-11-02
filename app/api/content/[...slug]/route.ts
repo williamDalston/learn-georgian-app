@@ -1,15 +1,23 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 
+export const runtime = 'nodejs' // We need fs
+export const dynamic = 'force-dynamic' // No caching while authoring
+
+// Next.js 16: context.params is a Promise
 export async function GET(
-  _req: Request,
+  _req: NextRequest,
   context: { params: Promise<{ slug: string[] }> }
 ) {
-  // In Next.js 15+, params is a Promise - await it
-  const params = await context.params
-  // slug looks like: ["a1", "a1-1", "video-script.md"] or ["a1", "a1-1", "worksheet.md"]
-  const rel = params.slug.join('/')
+  const { slug } = await context.params
+
+  if (!Array.isArray(slug) || slug.length === 0) {
+    return NextResponse.json({ error: 'Bad request' }, { status: 400 })
+  }
+
+  // Example: /api/content/a1/a1-1/video-script.md
+  const rel = slug.join('/')
   const full = path.join(process.cwd(), 'content', 'lessons', rel)
 
   try {
@@ -25,11 +33,9 @@ export async function GET(
     return new NextResponse(text, {
       headers: { 
         'content-type': contentType,
-        'cache-control': 'public, max-age=3600', // Cache for 1 hour
       },
     })
-  } catch (error) {
-    // File not found - return 404
+  } catch {
     return new NextResponse('Not found', { status: 404 })
   }
 }
