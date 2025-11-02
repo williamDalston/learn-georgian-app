@@ -14,9 +14,9 @@ Write the IPA symbol and Georgian letter for each ejective:
 | Velar | __________ | [ ] | Ejective k |
 | Bilabial | __________ | [ ] | Ejective p |
 | Alveolar | __________ | [ ] | Ejective t |
-| Alveolar Affricate | __________ | [ ] | Ejective ts |
-| Postalveolar Affricate | __________ | [ ] | Ejective ch |
-| Back Velar | __________ | [ ] | Back velar ejective |
+| Combination sound (ts) | __________ | [ ] | Ejective ts |
+| Combination sound (ch) | __________ | [ ] | Ejective ch |
+| Back of throat | __________ | [ ] | Ejective made far back in throat |
 
 ---
 
@@ -125,7 +125,7 @@ Record yourself saying these words with ejectives. Listen back - can you hear th
 4. პაპა [pʼapʼa] - grandfather
 5. ყვავილი [qʼvavili] - flower
 
-Self-assessment: Can you hear the glottal pop in each? Circle: Yes / Needs Practice
+Self-assessment: Can you hear the throat pop in each? Circle: Yes / Needs Practice
 
 ---
 
@@ -140,7 +140,7 @@ Self-assessment: Can you hear the glottal pop in each? Circle: Yes / Needs Pract
 ყ / [qʼ] / Back velar ejective
 
 **Part 2:**
-1. Close the glottis (vocal cords)
+1. Close your throat (vocal cords)
 2. Build pressure in the mouth cavity
 3. Release the closure with a pop
 
@@ -161,7 +161,7 @@ Self-assessment: Can you hear the glottal pop in each? Circle: Yes / Needs Pract
 
 **Part 7:**
 1. ყ [qʼ] because it's made way back in the throat, almost at the uvula
-2. Aspirated has air puff, ejective has glottal pop
+2. Aspirated has air puff, ejective has throat pop
 3. Pronunciation habits fossilize - hard to change later
 
 **Part 8:**
@@ -171,6 +171,6 @@ Self-assessment: Can you hear the glottal pop in each? Circle: Yes / Needs Pract
 
 ---
 
-**Remember:** Practice these ejectives daily! The glottal pop should be distinct. Use the recording practice to check yourself.
+**Remember:** Practice these ejectives daily! The throat pop should be clear. Use the recording practice to check yourself.
 
 

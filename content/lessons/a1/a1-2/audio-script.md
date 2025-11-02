@@ -6,13 +6,13 @@
 
 ## Introduction (0:00 - 0:30)
 
-"Welcome to the audio pronunciation guide for Lesson A1-2: Stop Consonants. This guide will help you practice the tripartite distinction between voiced, aspirated, and ejective consonants. Listen carefully and repeat after me."
+"Welcome to the audio pronunciation guide for Lesson A1-2: Stop Consonants. This guide will help you practice the three different ways to make consonant sounds: voiced, aspirated, and ejective. Listen carefully and repeat after me."
 
 ---
 
-## Section 1: Voiced Stops (0:30 - 2:00)
+## Section 1: Voiced Sounds (0:30 - 2:00)
 
-**ბ [b] - Voiced B**
+**ბ [b] - Voiced B Sound**
 
 "ბ - ბ - ბ
 ბაგა - bag-a - bag
@@ -23,7 +23,7 @@
 ბ - ბ - ბ
 ბაგა - ბარათი - ბავშვი"
 
-**გ [g] - Voiced G**
+**გ [g] - Voiced G Sound**
 
 "გ - გ - გ
 გარე - gare - outside
@@ -34,7 +34,7 @@
 გ - გ - გ
 გარე - გაზი - გოგო"
 
-**დ [d] - Voiced D**
+**დ [d] - Voiced D Sound**
 
 "დ - დ - დ
 დიდი - didi - big
@@ -47,9 +47,9 @@
 
 ---
 
-## Section 2: Aspirated Stops (2:00 - 4:30)
+## Section 2: Aspirated Sounds (2:00 - 4:30)
 
-**თ [tʰ] - Aspirated T**
+**თ [tʰ] - T Sound with Air**
 
 "თ - თ - თ (with air puff)
 თხა - t'xa - goat
@@ -63,7 +63,7 @@
 **[Demonstration]**
 Hold a piece of paper in front of your mouth. When you say თ, the paper should move. Try it now: თ - თ - თ"
 
-**ფ [pʰ] - Aspirated P**
+**ფ [pʰ] - P Sound with Air**
 
 "ფ - ფ - ფ (with air puff)
 ფული - puli - money
@@ -74,7 +74,7 @@ Hold a piece of paper in front of your mouth. When you say თ, the paper should
 ფ - ფ - ფ
 ფული - ფანჯარა - ფერი"
 
-**ქ [kʰ] - Aspirated K**
+**ქ [kʰ] - K Sound with Air**
 
 "ქ - ქ - ქ (with air puff)
 ქალაქი - kalaki - city
@@ -87,11 +87,11 @@ Hold a piece of paper in front of your mouth. When you say თ, the paper should
 
 ---
 
-## Section 3: Ejective Stops (4:30 - 8:00)
+## Section 3: Ejective Sounds (4:30 - 8:00)
 
 **კ [kʼ] - Ejective K**
 
-"კ - კ - კ (with glottal pop)
+"კ - კ - კ (with throat pop)
 კაცი - k'atsi - man
 კაბა - k'aba - dress
 კარგი - k'argi - good
@@ -109,7 +109,7 @@ Say them back-to-back: ქალაქი - კაცი"
 
 **პ [pʼ] - Ejective P**
 
-"პ - პ - პ (with glottal pop)
+"პ - პ - პ (with throat pop)
 პაპა - p'ap'a - grandfather
 პატარა - p'at'ara - small
 პასუხი - p'asukhi - answer
@@ -127,7 +127,7 @@ Say them back-to-back: ფული - პაპა"
 
 **ტ [tʼ] - Ejective T**
 
-"ტ - ტ - ტ (with glottal pop)
+"ტ - ტ - ტ (with throat pop)
 ტბა - t'ba - lake
 ტყე - t'q'e - forest
 ტექსტი - t'eksti - text
@@ -210,9 +210,9 @@ Now say them in pairs, noticing the difference:
 ## Closing (11:30 - 12:00)
 
 "Great practice! Remember:
-- Voiced stops: feel vibration in your throat
-- Aspirated stops: feel air puff (paper moves)
-- Ejective stops: feel glottal pop (sharp release)
+- Voiced sounds: feel vibration in your throat
+- Aspirated sounds: feel air puff (paper moves)
+- Ejective sounds: feel throat pop (sharp release)
 
 Keep practicing these distinctions daily. They're crucial for proper Georgian pronunciation. See you in the next lesson!"
 

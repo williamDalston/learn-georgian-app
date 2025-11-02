@@ -1,21 +1,21 @@
 # Audio Pronunciation Guide: A1-4 Additional Difficult Sounds
 
-**Purpose:** Pronunciation practice for trilled R, guttural fricatives, and consonant clusters
+**Purpose:** Pronunciation practice for rolled R, throat sounds, and consonant clusters
 
 ---
 
 ## Introduction (0:00 - 0:30)
 
-"Welcome to the audio pronunciation guide for Lesson A1-4: Additional Difficult Sounds. Today we'll master the trilled რ, the guttural sounds ღ and ხ, and practice complex consonant clusters. Let's begin!"
+"Welcome to the audio pronunciation guide for Lesson A1-4: Additional Difficult Sounds. Today we'll master the rolled რ, the throat sounds ღ and ხ, and practice complex consonant clusters. Let's begin!"
 
 ---
 
-## Section 1: Trilled R - რ [r] (0:30 - 4:00)
+## Section 1: Rolled R - რ [r] (0:30 - 4:00)
 
 **Isolated practice:**
 
-"რ - რ - რ (trilled r sound)
-The tongue tip vibrates against the alveolar ridge.
+"რ - რ - რ (rolled r sound)
+Your tongue tip vibrates against the roof of your mouth behind your teeth.
 
 **[Try this first]**
 Say 'butter' in English quickly - feel that quick tap? Now try to extend it: rrrrrrr
@@ -58,9 +58,9 @@ Now isolate the 'rrrrr' sound."
 
 ---
 
-## Section 2: Voiced Guttural - ღ [ɣ] (4:00 - 6:00)
+## Section 2: Voiced Throat Sound - ღ [ɣ] (4:00 - 6:00)
 
-**ღ [ɣ] - Voiced guttural fricative**
+**ღ [ɣ] - Voiced Throat Sound**
 
 "This sound is made at the back of your throat WITH vibration.
 
@@ -98,9 +98,9 @@ Put your hand on your throat - you should feel vibration.
 
 ---
 
-## Section 3: Voiceless Guttural - ხ [x] (6:00 - 8:00)
+## Section 3: Voiceless Throat Sound - ხ [x] (6:00 - 8:00)
 
-**ხ [x] - Voiceless guttural fricative**
+**ხ [x] - Voiceless Throat Sound**
 
 "This sound is made at the back of your throat WITHOUT vibration.
 
@@ -145,7 +145,7 @@ Put your hand on your throat - NO vibration.
 
 ## Section 4: Contrasting ღ and ხ (8:00 - 9:30)
 
-"Let's practice contrasting voiced and voiceless gutturals:
+"Let's practice contrasting voiced and voiceless throat sounds:
 
 **ღ [ɣ] vs ხ [x]**
 
@@ -263,8 +263,8 @@ Put your hand on your throat - NO vibration.
 
 "Excellent practice! You've worked on:
 - რ [r] - Trilled r (tongue vibration)
-- ღ [ɣ] - Voiced guttural (throat sound with voice)
-- ხ [x] - Voiceless guttural (throat sound without voice)
+- ღ [ɣ] - Voiced throat sound (throat sound with voice)
+- ხ [x] - Voiceless throat sound (throat sound without voice)
 - Complex consonant clusters
 
 **Remember:**
@@ -280,7 +280,7 @@ Keep practicing! See you in the next lesson!"
 ## Practice Tips
 
 1. **Trilled r:** Practice with 'drrr' and 'prrr' to build up
-2. **Gutturals:** Hand on throat to feel voiced vs voiceless
+2. **Throat sounds:** Hand on throat to feel voiced vs voiceless
 3. **Clusters:** Always break down complex clusters first
 4. **Recording:** Record yourself and compare with native speakers
 5. **Daily practice:** 10-15 minutes per day with this audio guide

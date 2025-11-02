@@ -37,9 +37,9 @@ Practice writing and saying the trilled რ [r]:
 
 ---
 
-## Part 3: Guttural Fricatives
+## Part 3: Throat Sounds
 
-**Voiced guttural ღ [ɣ]:**
+**Voiced throat sound ღ [ɣ]:**
 - Place of articulation: __________
 - Voicing: __________
 - Feels like: __________
@@ -48,7 +48,7 @@ Practice writing and saying the trilled რ [r]:
 1. __________ [ɣame] - 'night'
 2. __________ [ɣaribi] - 'poor'
 
-**Voiceless guttural ხ [x]:**
+**Voiceless throat sound ხ [x]:**
 - Place of articulation: __________
 - Voicing: __________
 - Feels like: __________
@@ -113,8 +113,8 @@ Record yourself saying these words. Check if you can:
 
 Self-assessment: Circle what you need more practice on
 - Trilled r: Good / Needs Practice
-- Voiced guttural: Good / Needs Practice
-- Voiceless guttural: Good / Needs Practice
+- Voiced throat sound: Good / Needs Practice
+- Voiceless throat sound: Good / Needs Practice
 - Consonant clusters: Good / Needs Practice
 
 ---
@@ -138,9 +138,9 @@ Translate to English:
 ## Answer Key
 
 **Part 1:**
-რ / [r] / Alveolar trill / Tongue vibrates
-ღ / [ɣ] / Voiced guttural fricative / Throat sound with vibration
-ხ / [x] / Voiceless guttural fricative / Throat sound without vibration
+რ / [r] / Rolled r / Tongue vibrates
+ღ / [ɣ] / Voiced throat sound / Throat sound with vibration
+ხ / [x] / Voiceless throat sound / Throat sound without vibration
 
 **Part 2:**
 1. რა 2. როგორ 3. სახლი
@@ -171,6 +171,6 @@ Translate to English:
 
 ---
 
-**Remember:** These sounds take practice! Don't give up on the trilled r - even native speakers had to learn it. Keep practicing the gutturals and consonant clusters daily!
+**Remember:** These sounds take practice! Don't give up on the rolled r - even native speakers had to learn it. Keep practicing the throat sounds and consonant clusters daily!
 
 

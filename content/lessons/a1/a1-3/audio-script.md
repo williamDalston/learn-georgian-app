@@ -6,7 +6,7 @@
 
 ## Introduction (0:00 - 0:30)
 
-"Welcome to the audio pronunciation guide for Lesson A1-3: Ejective Consonants Deep Dive. Today we'll practice all six ejective consonants until you can produce them confidently. Focus on that glottal closure and 'pop' sound!"
+"Welcome to the audio pronunciation guide for Lesson A1-3: Ejective Consonants Deep Dive. Today we'll practice all six ejective consonants until you can make them confidently. Focus on closing your throat and making that 'pop' sound!"
 
 ---
 
@@ -205,7 +205,7 @@ Make the sound way back in your throat. Feel the strong pop!"
 თხა - ტბა
 
 **[Key distinction]**
-Remember: Aspirated = air puff, Ejective = glottal pop"
+Remember: Aspirated = air puff, Ejective = throat pop"
 
 ---
 
@@ -261,7 +261,7 @@ Fast: კაცი-პაპა-ტბა-წყალი-ყვავილი
 - ყ [qʼ] - back velar ejective
 
 **Remember:**
-- Focus on the glottal closure and pop
+- Focus on closing your throat and making the pop
 - Practice daily - muscle memory takes time
 - Record yourself and listen back
 - Compare with native speakers
@@ -273,7 +273,7 @@ Keep practicing! See you in the next lesson!"
 ## Practice Tips
 
 1. **Daily repetition:** 10-15 minutes per day with this audio guide
-2. **Glottal closure:** Practice coughing gently to feel the glottis
+2. **Closing your throat:** Practice coughing gently to feel your throat close
 3. **Minimal pairs:** Always practice ejectives alongside aspirated counterparts
 4. **Words with multiple ejectives:** Start slow, build speed gradually
 5. **Recording:** Record yourself saying the words and compare pronunciation

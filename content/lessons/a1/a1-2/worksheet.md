@@ -119,7 +119,7 @@ Write the letter in the blank:
 1. A (aspirated) 2. E (ejective) 3. E (ejective) 4. A (aspirated)
 
 **Part 5:**
-1. Ejective uses glottal closure (pop), aspirated uses air puff
+1. Ejective uses throat closure (pop), aspirated uses air puff
 2. Put hand on throat - voiced vibrates, voiceless doesn't
 3. They can change word meanings (minimal pairs)
 
