@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 interface ContainerProps {
   children: ReactNode
   className?: string
-  maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '4xl' | '7xl'
+  maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '4xl' | '5xl' | '6xl' | '7xl'
 }
 
 export default function Container({ 
@@ -18,6 +18,8 @@ export default function Container({
     xl: 'max-w-xl',
     '2xl': 'max-w-2xl',
     '4xl': 'max-w-4xl',
+    '5xl': 'max-w-5xl',
+    '6xl': 'max-w-6xl',
     '7xl': 'max-w-7xl',
   }
 
