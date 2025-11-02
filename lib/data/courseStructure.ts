@@ -65,6 +65,33 @@ export const courseStructure: Level[] = [
     keyChallenge: 'Pronunciation fossilization',
     lessons: [
       {
+        id: 'a1-pronunciation-bootcamp',
+        title: 'Pronunciation Bootcamp',
+        description: 'Complete the intensive pronunciation bootcamp to master Georgian sounds before learning vocabulary. Sound-first approach prevents fossilization.',
+        detailedDescription: 'Before diving into lessons, master Georgian pronunciation through our comprehensive bootcamp. This 6-stage intensive program covers vowels, familiar consonants, aspirated sounds, ejectives, and special sounds. Learn proper mouth positioning and articulation through interactive tools, minimal pair exercises, and guided practice. Completing this bootcamp first ensures you develop correct pronunciation habits that won\'t need to be "unlearned" later.',
+        level: 'A1',
+        moduleNumber: 1,
+        lessonNumber: 0,
+        duration: 150,
+        estimatedHours: 2.5,
+        keyConcepts: ['Vowel mastery', 'Aspirated consonants', 'Ejective consonants', 'Trilled R', 'Guttural sounds', 'Mouth positioning', 'Articulatory guidance'],
+        learningObjectives: [
+          'Produce all 5 Georgian vowels correctly',
+          'Distinguish between voiced, aspirated, and ejective consonants',
+          'Master the trilled R [r]',
+          'Understand articulatory placement for all sounds',
+          'Complete minimal pair discrimination exercises',
+          'Self-assess pronunciation accuracy'
+        ],
+        exerciseMaterials: [
+          {
+            name: 'Pronunciation Bootcamp Interactive',
+            url: '/dashboard/bootcamp',
+            type: 'interactive'
+          }
+        ]
+      },
+      {
         id: 'a1-1',
         title: 'Introduction: The Georgian Alphabet (Mkhedruli)',
         description: 'Learn the 33 letters of the Mkhedruli script. Master the basic letter forms and understand that Georgian has no uppercase/lowercase distinction.',
@@ -81,6 +108,7 @@ export const courseStructure: Level[] = [
           'Identify basic letter forms and their shapes',
           'Begin writing simple letter combinations'
         ],
+        prerequisites: ['Pronunciation Bootcamp recommended'],
         vocabulary: [
           {
             georgian: 'ასო',

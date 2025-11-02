@@ -13,6 +13,9 @@ import { PointsManager } from '@/lib/gamification/points'
 import { StreakManager } from '@/lib/gamification/streaks'
 import { loadLessonContent } from '@/lib/content/loader'
 import { speakGeorgian, isSpeaking, stopSpeaking, isSpeechSupported } from '@/lib/utils/text-to-speech'
+import NativeAudioPlayer from '@/components/learning/NativeAudioPlayer'
+import { ExercisePlayer } from '@/components/exercises'
+import { saveExerciseResult } from '@/lib/utils/exerciseScoring'
 
 interface Lesson {
   id: string
@@ -82,8 +85,9 @@ export default function LessonPlayer({
   const [quality, setQuality] = useState('auto')
   const [newAchievement, setNewAchievement] = useState<Achievement | null>(null)
   const [showAchievementModal, setShowAchievementModal] = useState(false)
-  const [activeTab, setActiveTab] = useState<'overview' | 'vocabulary' | 'materials'>('overview')
+  const [activeTab, setActiveTab] = useState<'overview' | 'vocabulary' | 'materials' | 'exercises'>('overview')
   const [loadedVocabulary, setLoadedVocabulary] = useState(lesson.vocabulary || [])
+  const [loadedExercises, setLoadedExercises] = useState<any>(null)
   const [speakingWordIndex, setSpeakingWordIndex] = useState<number | null>(null)
   const [speechSupported, setSpeechSupported] = useState(false)
 
@@ -92,22 +96,25 @@ export default function LessonPlayer({
     setSpeechSupported(isSpeechSupported())
   }, [])
 
-  // Load vocabulary from JSON files if available
+  // Load vocabulary and exercises from JSON files if available
   useEffect(() => {
-    async function loadVocabulary() {
+    async function loadContent() {
       try {
         const content = await loadLessonContent(lesson.id)
         if (content?.vocabulary) {
           setLoadedVocabulary(content.vocabulary)
         }
+        if (content?.exercises) {
+          setLoadedExercises(content.exercises)
+        }
       } catch (err) {
-        logger.debug(`Vocabulary not loaded for ${lesson.id}`, {
+        logger.debug(`Content not loaded for ${lesson.id}`, {
           context: 'LessonPlayer',
           error: err instanceof Error ? err : new Error(String(err)),
         })
       }
     }
-    loadVocabulary()
+    loadContent()
   }, [lesson.id])
 
   // Handle audio playback for vocabulary words
@@ -443,10 +450,11 @@ export default function LessonPlayer({
 
       {/* Tabs for Additional Content */}
       {(loadedVocabulary && loadedVocabulary.length > 0) || 
+       (loadedExercises && loadedExercises.exercises && loadedExercises.exercises.length > 0) ||
        (lesson.exerciseMaterials && lesson.exerciseMaterials.length > 0) ? (
         <GlassCard className="p-6">
           <div className="border-b border-gray-200 mb-6">
-            <nav className="flex gap-4">
+            <nav className="flex gap-4 flex-wrap">
               <button
                 onClick={() => setActiveTab('overview')}
                 className={`px-4 py-2 font-sans text-sm font-medium border-b-2 transition-colors ${
@@ -467,6 +475,18 @@ export default function LessonPlayer({
                   }`}
                 >
                   Vocabulary
+                </button>
+              )}
+              {loadedExercises && loadedExercises.exercises && loadedExercises.exercises.length > 0 && (
+                <button
+                  onClick={() => setActiveTab('exercises')}
+                  className={`px-4 py-2 font-sans text-sm font-medium border-b-2 transition-colors ${
+                    activeTab === 'exercises'
+                      ? 'border-accent text-accent'
+                      : 'border-transparent text-gray-500 hover:text-gray-700'
+                  }`}
+                >
+                  Exercises ({loadedExercises.exercises.length})
                 </button>
               )}
               {lesson.exerciseMaterials && lesson.exerciseMaterials.length > 0 && (
@@ -512,24 +532,13 @@ export default function LessonPlayer({
                         <div className="space-y-1">
                           <p className="text-base text-gray-700 dark:text-gray-300 font-medium flex items-center gap-2">
                             <span className="text-accent-600 dark:text-accent-400">{word.transliteration}</span>
-                            {speechSupported && (
-                              <button
-                                onClick={() => handlePlayAudio(word, index)}
-                                className="p-1.5 rounded-lg bg-accent/10 hover:bg-accent/20 text-accent hover:text-accent-dark transition-colors focus:outline-none focus:ring-2 focus:ring-accent/50"
-                                aria-label="Play pronunciation"
-                                title="Listen to pronunciation"
-                              >
-                                {speakingWordIndex === index && isSpeaking() ? (
-                                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z" />
-                                  </svg>
-                                ) : (
-                                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.617.793L4.769 13H3a1 1 0 01-1-1V8a1 1 0 011-1h1.769l3.614-2.793a1 1 0 011.617.793zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clipRule="evenodd" />
-                                  </svg>
-                                )}
-                              </button>
-                            )}
+                            <NativeAudioPlayer
+                              text={word.georgian}
+                              type="word"
+                              lessonId={lesson.id}
+                              fallbackToTTS={true}
+                              size="sm"
+                            />
                           </p>
                           <p className="text-base text-primary-900 dark:text-primary-100 font-semibold">
                             {word.translation}
@@ -561,9 +570,18 @@ export default function LessonPlayer({
                         </p>
                         {word.exampleSentence ? (
                           <div className="space-y-2">
-                            <p className="text-base font-serif text-primary-900 dark:text-primary-100 font-medium leading-relaxed">
-                              {word.exampleSentence.georgian}
-                            </p>
+                            <div className="flex items-start gap-2">
+                              <p className="text-base font-serif text-primary-900 dark:text-primary-100 font-medium leading-relaxed flex-1">
+                                {word.exampleSentence.georgian}
+                              </p>
+                              <NativeAudioPlayer
+                                text={word.exampleSentence.georgian}
+                                type="phrase"
+                                lessonId={lesson.id}
+                                fallbackToTTS={true}
+                                size="sm"
+                              />
+                            </div>
                             <p className="text-sm text-accent-700 dark:text-accent-400 font-medium">
                               {word.exampleSentence.transliteration}
                             </p>
@@ -635,6 +653,48 @@ export default function LessonPlayer({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </motion.a>
+              ))}
+            </div>
+          )}
+
+          {/* Exercises Tab */}
+          {activeTab === 'exercises' && loadedExercises && loadedExercises.exercises && (
+            <div className="space-y-6">
+              <div className="mb-4">
+                <h3 className="font-serif text-xl text-primary-900 mb-2">
+                  Practice Exercises
+                </h3>
+                <p className="font-sans text-sm text-gray-600">
+                  Complete these exercises to reinforce what you've learned in this lesson.
+                </p>
+              </div>
+              {loadedExercises.exercises.map((exercise: any, index: number) => (
+                <ExercisePlayer
+                  key={exercise.id || index}
+                  exercise={exercise}
+                  onQuestionComplete={(questionId: string, isCorrect: boolean) => {
+                    // Track individual question completion
+                    logger.debug(`Question ${questionId} completed: ${isCorrect}`, {
+                      context: 'LessonPlayer',
+                    })
+                  }}
+                  onExerciseComplete={(exerciseId: string, earnedPoints: number, totalPoints: number) => {
+                    // Save exercise result
+                    const result = {
+                      exerciseId: `${lesson.id}_${exerciseId}`,
+                      questionResults: [] as any[],
+                      totalPoints,
+                      earnedPoints,
+                      percentage: totalPoints > 0 ? Math.round((earnedPoints / totalPoints) * 100) : 0,
+                      completedAt: new Date(),
+                    }
+                    saveExerciseResult(result)
+                    
+                    // Award points for completing exercises
+                    PointsManager.addPoints('exercise_completed', `Completed exercise: ${exercise.title}`)
+                  }}
+                  showResults={false}
+                />
               ))}
             </div>
           )}

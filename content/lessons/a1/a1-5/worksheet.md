@@ -176,3 +176,4 @@ Dialogue 2: ნახვამდის / ნახვამდის / არ�
 **Remember:** These phrases are essential for daily interactions in Georgia. Practice them regularly and pay attention to when formal address is appropriate!
 
 
+

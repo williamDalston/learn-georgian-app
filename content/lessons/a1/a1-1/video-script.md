@@ -159,6 +159,152 @@ See you in the next lesson! Nakhvamdis!"
 
 ---
 
+## Common Mistakes & How to Avoid Them
+
+### Mistake 1: Confusing Similar-Looking Letters
+
+**Problem:** Students often mix up letters that look similar:
+- კ (kʼ) vs ქ (k) vs ყ (qʼ)
+- პ (pʼ) vs ფ (p)
+- ტ (tʼ) vs თ (tʰ)
+
+**Solution:**
+- **Pay attention to the small differences** - take time to notice letter shapes
+- **Practice distinguishing** ejective vs aspirated vs voiced sounds
+- **Use mnemonics** - "კ looks like a K with a loop" vs "ქ is simpler"
+
+### Mistake 2: Not Hearing the Difference Between Ejectives and Regular Consonants
+
+**Problem:** English speakers struggle to hear the difference between:
+- ქალაქი (kalaki - city, with aspirated ქ) vs კაცი (k'atsi - man, with ejective კ)
+- ფული (puli - money, with aspirated ფ) vs პაპა (p'ap'a - grandfather, with ejective პ)
+
+**Solution:**
+- **Listen carefully to native audio** - the difference is subtle but important
+- **Practice minimal pairs** - say contrasting words back-to-back
+- **Feel the difference physically** - ejectives have a throat "pop"
+- **Use the paper test** - hold paper in front of mouth to feel aspiration
+
+### Mistake 3: Trying to Memorize All 33 Letters at Once
+
+**Problem:** Students try to memorize everything in one session and get overwhelmed
+
+**Solution:**
+- **Learn in groups** - vowels first, then familiar consonants, then unique sounds
+- **Practice daily** - 10-15 minutes daily is better than one long session
+- **Use spaced repetition** - review letters from previous sessions
+- **Focus on recognition first** - don't worry about writing perfectly yet
+
+### Mistake 4: Ignoring Pronunciation Practice
+
+**Problem:** Students focus only on recognizing letters, not producing sounds correctly
+
+**Solution:**
+- **Practice pronunciation daily** - listen and repeat after native audio
+- **Record yourself** - compare your pronunciation to native speakers
+- **Focus on difficult sounds** - give extra time to ejectives and gutturals
+- **Use the audio scripts** - follow pronunciation guides step-by-step
+
+### Mistake 5: Writing Letters Incorrectly (Stroke Order)
+
+**Problem:** Students develop bad handwriting habits early
+
+**Solution:**
+- **Follow stroke order** - learn the correct way to write each letter
+- **Practice slowly** - accuracy is more important than speed
+- **Use handwriting worksheets** - follow provided templates
+- **Start with large strokes** - gradually make them smaller
+
+### Mistake 6: Not Understanding the Three Consonant Series
+
+**Problem:** Students don't understand voiced vs aspirated vs ejective distinction
+
+**Solution:**
+- **Learn the three-way distinction** - this is fundamental to Georgian
+- **Practice each series separately** - master one before moving to next
+- **Use minimal pair practice** - compare voiced/aspirated/ejective triplets
+- **Feel the physical difference** - voice vibration, air puff, throat pop
+
+---
+
+## Pronunciation Emphasis Notes
+
+### Key Pronunciation Points
+
+1. **Ejective Consonants (კ, პ, ტ, წ, ჭ, ყ)**
+   - **Emphasize:** These are NOT the same as English k, p, t, ch, ts, q
+   - **Demonstration:** Show throat closure and "pop" release
+   - **Practice:** Compare ejective vs aspirated vs voiced triplets
+   - **Common error:** Replacing ejectives with regular consonants
+
+2. **Aspirated Consonants (თ, ჩ, ფ, ქ, ხ, ჩ)**
+   - **Emphasize:** Release with a clear puff of air
+   - **Demonstration:** Use paper test - paper should move
+   - **Practice:** Exaggerate aspiration at first, then naturalize
+   - **Common error:** Not aspirating enough (sounds like voiced)
+
+3. **Guttural Sounds (ხ, ღ, ყ)**
+   - **Emphasize:** Made in the back of the throat
+   - **Demonstration:** Show tongue position and throat tension
+   - **Practice:** Start with easier gutturals, progress to harder ones
+   - **Common error:** Using English "h" or "g" instead
+
+4. **Vowel Sounds (ა, ე, ი, ო, უ)**
+   - **Emphasize:** Pure vowel sounds, no diphthongs
+   - **Demonstration:** Show mouth position for each
+   - **Practice:** Hold each vowel sound steady
+   - **Common error:** Adding English diphthongs (ay, ey, etc.)
+
+### Pronunciation Practice Sequence
+
+**Recommended order:**
+1. **Vowels** (5 letters) - easiest to master
+2. **Familiar consonants** (ბ, გ, დ, ვ, ზ, ლ, მ, ნ, რ, ს, ფ, ქ, ჰ) - similar to English
+3. **Other unique sounds** (ჟ, შ, ჩ, ც, ძ, წ, ჭ, ჯ) - distinct but not too difficult
+4. **Aspirated consonants** (თ, ჩ, ფ, ქ) - requires air control
+5. **Gutturals** (ხ, ღ) - throat position
+6. **Ejectives** (კ, პ, ტ, წ, ჭ, ყ) - most challenging
+
+---
+
+## Cultural Context
+
+### Georgian Writing in Daily Life
+
+**Formal vs Informal:**
+- In formal writing (business, education), Standard Georgian is used
+- In informal writing (texts, social media), some abbreviations may appear
+- Handwriting varies by person - focus on print forms for now
+
+**Regional Variations:**
+- While pronunciation may vary regionally, **writing is standardized**
+- All regions use the same Mkhedruli alphabet
+- Focus on Standard Georgian pronunciation for learning
+
+**Historical Significance:**
+- Georgian alphabet has been used for over 1000 years
+- Considered one of the world's most beautiful scripts
+- Strong cultural pride in the unique alphabet
+
+### Pronunciation in Social Context
+
+**Formal situations:**
+- Use clear, deliberate pronunciation
+- Pronounce all letters fully
+- Slightly slower pace is acceptable
+
+**Informal situations:**
+- More relaxed pronunciation
+- Some consonant clusters may be simplified
+- Natural pace
+
+**For beginners:**
+- Start with formal, clear pronunciation
+- It's always better to pronounce clearly than unclearly
+- Native speakers appreciate effort to pronounce correctly
+
+---
+
 ## Visual Elements Needed
 - [ ] Complete alphabet chart (large, clear letters)
 - [ ] Mouth position diagrams for vowels
@@ -174,5 +320,6 @@ See you in the next lesson! Nakhvamdis!"
 - [ ] Flashcard templates
 - [ ] Letter recognition quiz
 - [ ] Printable alphabet reference chart
+
 
 

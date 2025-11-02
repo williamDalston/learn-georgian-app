@@ -3,3 +3,18 @@ export { default as VocabularyFlashcards } from './VocabularyFlashcards'
 export { default as VocabularySearch } from './VocabularySearch'
 export { default as PomodoroTimer } from './PomodoroTimer'
 
+// Agent 15: Mobile Pronunciation Experience
+export { default as MobileAudioPlayer } from './MobileAudioPlayer'
+export { default as MobileAudioComparison } from './MobileAudioComparison'
+export { default as NativeAudioPlayer } from './NativeAudioPlayer'
+export { default as LetterAudioPlayer } from './LetterAudioPlayer'
+export { default as MinimalPairPlayer } from './MinimalPairPlayer'
+export { default as SoundPlayground } from './SoundPlayground'
+export { default as PhonologyAwareness } from './PhonologyAwareness'
+export { default as MouthPositionGuide } from './MouthPositionGuide'
+export { default as PronunciationBootcamp } from './PronunciationBootcamp'
+export { default as AudioRecorder } from './AudioRecorder'
+export { default as AudioComparison } from './AudioComparison'
+export { default as LetterDrill } from './LetterDrill'
+export { default as MinimalPairPractice } from './MinimalPairPractice'
+
