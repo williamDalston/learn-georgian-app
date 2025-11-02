@@ -8,7 +8,12 @@ import logger from '@/lib/utils/logger'
 // Helper to fetch markdown files via API route (works with Turbopack)
 async function fetchMarkdownContent(path: string): Promise<string | undefined> {
   try {
-    const response = await fetch(`/api/content/${path}`)
+    // Use absolute URL for server-side, relative for client-side
+    const baseUrl = typeof window !== 'undefined' 
+      ? '' // Client-side: use relative URL
+      : process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000' // Server-side: use absolute URL
+    
+    const response = await fetch(`${baseUrl}/api/content/${path}`)
     if (response.ok) {
       return await response.text()
     }
