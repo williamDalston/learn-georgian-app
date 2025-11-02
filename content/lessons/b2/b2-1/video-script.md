@@ -9,7 +9,7 @@
 By the end of this lesson, students will be able to:
 - Understand the concept of split-ergativity in Georgian
 - Recognize when Georgian uses Nominative-Accusative vs Ergative-Absolutive alignment
-- Identify the role of Tense-Aspect-Mood (TAM) features in case marking
+- Understand how tense and aspect affect case marking
 - Apply case shift rules in practice sentences
 - Distinguish between different alignment patterns based on verb series
 
@@ -18,7 +18,7 @@ By the end of this lesson, students will be able to:
 - Nominative-Accusative alignment
 - Ergative-Absolutive alignment
 - Case shift paradigm
-- TAM (Tense-Aspect-Mood) features
+- How tense and aspect affect cases
 - Verb series (Series I, II, III)
 
 ---
@@ -30,7 +30,7 @@ By the end of this lesson, students will be able to:
 
 "Gamarjoba! Welcome to B2 level - this is where Georgian grammar becomes truly fascinating and where you'll master one of the language's most distinctive features: split-ergativity. 
 
-Today, we're going to explore something that makes Georgian unique among European languages - the fact that Georgian actually changes its entire grammatical alignment system depending on tense and aspect. This is called 'split-ergativity,' and it's one of the most challenging but rewarding aspects of Georgian grammar.
+Today, we're going to explore something that makes Georgian unique among European languages - the fact that Georgian actually changes how it marks subjects and objects depending on tense and aspect. This is called 'split-ergativity,' and it's one of the most challenging but rewarding aspects of Georgian grammar.
 
 By the end of this lesson, you'll understand why the same sentence can have completely different case markings depending on whether it's in the present or past tense. This knowledge will transform how you understand and use Georgian. Let's begin!"
 
@@ -39,10 +39,10 @@ By the end of this lesson, you'll understand why the same sentence can have comp
 ### Introduction: What is Split-Ergativity? (0:45 - 8:00)
 **[Show comparison slides: English vs Georgian alignment]**
 
-"Before we dive into Georgian, let's understand what 'alignment' means in linguistics. In any language, we need to mark the relationships between words in a sentence - who does what to whom.
+"Before we dive into Georgian, let's understand what 'alignment' means. In any language, we need to mark the relationships between words in a sentence - who does what to whom. Alignment just means how we mark these relationships.
 
 **Nominative-Accusative Alignment (Like English):**
-Most languages you know use what's called 'Nominative-Accusative' alignment:
+Most languages you know use this system:
 - The subject (doer) is always marked the same way, whether the verb is transitive (has an object) or intransitive (no object)
 - The object is marked differently
 
@@ -54,7 +54,7 @@ English:
 In both cases, 'I' is the subject and looks the same.
 
 **Ergative-Absolutive Alignment:**
-Some languages use 'Ergative-Absolutive' alignment:
+Some languages use a different system:
 - The subject of an intransitive verb and the object of a transitive verb are marked the same way (called 'Absolutive')
 - The subject of a transitive verb is marked differently (called 'Ergative')
 
@@ -65,8 +65,8 @@ Georgian in the PAST:
 
 Notice how 'I' (the subject) in the first sentence and 'cat' (the object) in the second are marked the same way - that's Ergative-Absolutive alignment!
 
-**Georgian's Split:**
-Here's what makes Georgian special: it uses BOTH systems!
+**Georgian's Special Feature:**
+Here's what makes Georgian special: it uses BOTH systems depending on the tense!
 - **Series I (Present/Future):** Uses Nominative-Accusative alignment
 - **Series II (Aorist/Past):** Uses Ergative-Absolutive alignment for transitive verbs
 - **Series III (Perfect):** Uses Ergative-Absolutive alignment

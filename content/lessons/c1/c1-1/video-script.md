@@ -15,10 +15,10 @@ By the end of this lesson, students will be able to:
 
 ## Key Concepts
 - Relative clauses
-- Wh-phrases with -c enclitic
-- Complementizer rom
+- Question words with -c ending (wh-phrases)
+- The word rom (meaning 'that')
 - Participles
-- Complex syntax
+- Complex sentence structure
 - Restrictive vs non-restrictive
 
 ---
@@ -47,11 +47,11 @@ We can combine them using a relative clause:
 - 'I met the woman WHO speaks Georgian.'
 
 In English, we use relative pronouns like 'who,' 'which,' 'that,' and 'whose.' Georgian has multiple ways to form relative clauses, and today we'll explore three powerful patterns:
-1. Wh-phrases with the -c enclitic
-2. The complementizer rom
-3. Non-finite participles
+1. Question words with the -c ending (wh-phrases)
+2. The word rom (which means 'that')
+3. Verb forms called participles
 
-Each has its own nuances and appropriate contexts. Let's begin with the most common pattern."
+Each has its own uses. Let's begin with the most common pattern."
 
 ---
 

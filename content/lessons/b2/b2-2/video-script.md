@@ -44,7 +44,7 @@ Mastering Aorist formation is crucial because this is where the case shift happe
 - It's a **perfective past tense** - the action is completed
 - It belongs to **Series II** - triggers Ergative-Absolutive alignment
 - It requires **perfective stems** - usually formed with preverbs
-- It has its own **polypersonal agreement markers** - tracking both Ergative subject and Nominative object
+- It has its own **verb markers** - showing both the Ergative subject and Nominative object
 
 **Comparison:**
 Let's see the difference between present (Series I) and Aorist (Series II):
