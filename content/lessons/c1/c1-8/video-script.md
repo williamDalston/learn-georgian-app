@@ -398,3 +398,4 @@ Nakhvamdis, and see you in the advanced immersion content!"
 - Encourage patience and cultural humility
 - Provide encouragement: catching subtext is advanced even for native speakers at times
 
+

@@ -350,3 +350,4 @@ In the next lesson, we'll put it all together - navigating the complete Verb Cla
 - [ ] Verb class reference chart
 - [ ] Series comparison reference card
 
+

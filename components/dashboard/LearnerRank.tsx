@@ -122,3 +122,4 @@ export default function LearnerRank({ completedLessons }: LearnerRankProps) {
   )
 }
 
+

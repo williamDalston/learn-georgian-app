@@ -173,3 +173,4 @@ Self-assessment: Can you hear the glottal pop in each? Circle: Yes / Needs Pract
 
 **Remember:** Practice these ejectives daily! The glottal pop should be distinct. Use the recording practice to check yourself.
 
+

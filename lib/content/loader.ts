@@ -5,47 +5,68 @@ import { courseStructure, type Lesson, type Level } from '@/lib/data/courseStruc
 import type { LessonContent } from './types'
 import logger from '@/lib/utils/logger'
 
+// Helper to fetch markdown files via API route (works with Turbopack)
+async function fetchMarkdownContent(path: string): Promise<string | undefined> {
+  try {
+    const response = await fetch(`/api/content/${path}`)
+    if (response.ok) {
+      return await response.text()
+    }
+    return undefined
+  } catch (e) {
+    return undefined
+  }
+}
+
 // Load content for a specific lesson
 export async function loadLessonContent(lessonId: string): Promise<LessonContent | null> {
   try {
     const content: LessonContent = {}
+    const lessonPath = getLessonPath(lessonId)
 
-    // Load video script
+    // Load video script (markdown - use API route)
     try {
-      const scriptModule = await import(`@/content/lessons/${getLessonPath(lessonId)}/video-script.md?raw`)
-      content.videoScript = scriptModule.default
+      const videoScript = await fetchMarkdownContent(`${lessonPath}/video-script.md`)
+      if (videoScript) {
+        content.videoScript = videoScript
+      } else {
+        logger.debug(`Video script not found for ${lessonId}`, { context: 'ContentLoader' })
+      }
     } catch (e) {
-      // Content not found yet - that's okay, agents will create it
       logger.debug(`Video script not found for ${lessonId}`, { context: 'ContentLoader' })
     }
 
-    // Load exercises
+    // Load exercises (JSON - dynamic import works fine)
     try {
-      const exercisesModule = await import(`@/content/lessons/${getLessonPath(lessonId)}/exercises.json`)
+      const exercisesModule = await import(`@/content/lessons/${lessonPath}/exercises.json`)
       content.exercises = exercisesModule.default
     } catch (e) {
       logger.debug(`Exercises not found for ${lessonId}`, { context: 'ContentLoader' })
     }
 
-    // Load vocabulary
+    // Load vocabulary (JSON - dynamic import works fine)
     try {
-      const vocabModule = await import(`@/content/lessons/${getLessonPath(lessonId)}/vocabulary.json`)
+      const vocabModule = await import(`@/content/lessons/${lessonPath}/vocabulary.json`)
       content.vocabulary = vocabModule.default
     } catch (e) {
       logger.debug(`Vocabulary not found for ${lessonId}`, { context: 'ContentLoader' })
     }
 
-    // Load worksheet
+    // Load worksheet (markdown - use API route)
     try {
-      const worksheetModule = await import(`@/content/lessons/${getLessonPath(lessonId)}/worksheet.md?raw`)
-      content.worksheet = worksheetModule.default
+      const worksheet = await fetchMarkdownContent(`${lessonPath}/worksheet.md`)
+      if (worksheet) {
+        content.worksheet = worksheet
+      } else {
+        logger.debug(`Worksheet not found for ${lessonId}`, { context: 'ContentLoader' })
+      }
     } catch (e) {
       logger.debug(`Worksheet not found for ${lessonId}`, { context: 'ContentLoader' })
     }
 
-    // Load quiz
+    // Load quiz (JSON - dynamic import works fine)
     try {
-      const quizModule = await import(`@/content/lessons/${getLessonPath(lessonId)}/quiz.json`)
+      const quizModule = await import(`@/content/lessons/${lessonPath}/quiz.json`)
       content.quiz = quizModule.default
     } catch (e) {
       logger.debug(`Quiz not found for ${lessonId}`, { context: 'ContentLoader' })

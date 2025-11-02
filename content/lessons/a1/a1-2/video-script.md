@@ -260,3 +260,4 @@ Nakhvamdis! See you in the next lesson!"
 - This three-way distinction is crucial for word meaning
 - Example: კაცი [kʼatsi] (man) vs ქალი [kʰali] (woman) - the different 'k' sounds matter!
 
+

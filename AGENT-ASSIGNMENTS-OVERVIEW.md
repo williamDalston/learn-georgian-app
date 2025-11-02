@@ -258,3 +258,4 @@ For detailed task lists, see individual agent assignment files:
 - `AGENT-G-ACCESSIBILITY-PERFORMANCE.md`
 - `AGENT-H-HOMEPAGE-CONVERSION.md`
 
+

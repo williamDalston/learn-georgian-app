@@ -114,3 +114,4 @@ _______________________________________________
 2. Humorous yet vivid imagery - Georgians appreciate wit and visual humor.
 3. Poetic traditions, stargazing, and appreciation for beautiful language.
 
+

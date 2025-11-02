@@ -226,3 +226,4 @@ Keep practicing these distinctions daily. They're crucial for proper Georgian pr
 4. **Minimal pairs:** Practice contrasting words side-by-side
 5. **Recording:** Record yourself and compare to native pronunciation
 
+

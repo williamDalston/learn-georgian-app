@@ -300,3 +300,4 @@ See you in the next lesson! We'll explore even more complex sentence embedding. 
 - [ ] Exercises from Georgian newspapers
 - [ ] Literary examples from Georgian authors
 
+

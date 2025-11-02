@@ -259,3 +259,4 @@ mkdir -p content/lessons/[level]/[lesson-id]
 
 **Start with video scripts (highest priority), then exercises and vocabulary!**
 
+

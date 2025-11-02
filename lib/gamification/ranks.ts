@@ -95,3 +95,4 @@ export function getRankProgress(completedLessons: number, currentRank: Rank): {
   }
 }
 
+

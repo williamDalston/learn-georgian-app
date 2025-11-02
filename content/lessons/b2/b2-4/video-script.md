@@ -278,3 +278,4 @@ See you in the next lesson where we'll explore Series III (Perfect and Pluperfec
 - [ ] Reference chart: Verb classes and alignment patterns
 - [ ] Example sentences showing each class in different series
 
+

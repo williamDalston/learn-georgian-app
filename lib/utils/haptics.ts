@@ -98,3 +98,4 @@ export const triggerHaptic = (type: HapticType = 'medium') => haptics.trigger(ty
 export const setHapticEnabled = (enabled: boolean) => haptics.setEnabled(enabled)
 export const isHapticEnabled = () => haptics.isEnabled()
 
+
