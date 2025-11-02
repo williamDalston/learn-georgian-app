@@ -120,34 +120,41 @@ export function usePomodoro() {
   const playSound = useCallback(() => {
     if (settings.soundEnabled && typeof window !== 'undefined') {
       // Create a simple notification sound
-      const audio = new Audio('/audio/notification.mp3').catch(() => {
-        // Fallback: use Web Audio API to generate a beep
-        try {
-          const audioContext = new (window.AudioContext ||
-            (window as any).webkitAudioContext)()
-          const oscillator = audioContext.createOscillator()
-          const gainNode = audioContext.createGain()
+      try {
+        const audio = new Audio('/audio/notification.mp3')
+        audio.play().catch(() => {
+          // Fallback: use Web Audio API to generate a beep
+          try {
+            const audioContext = new (window.AudioContext ||
+              (window as any).webkitAudioContext)()
+            const oscillator = audioContext.createOscillator()
+            const gainNode = audioContext.createGain()
 
-          oscillator.connect(gainNode)
-          gainNode.connect(audioContext.destination)
+            oscillator.connect(gainNode)
+            gainNode.connect(audioContext.destination)
 
-          oscillator.frequency.value = 800
-          oscillator.type = 'sine'
+            oscillator.frequency.value = 800
+            oscillator.type = 'sine'
 
-          gainNode.gain.setValueAtTime(0.3, audioContext.currentTime)
-          gainNode.gain.exponentialRampToValueAtTime(
-            0.01,
-            audioContext.currentTime + 0.5
-          )
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime)
+            gainNode.gain.exponentialRampToValueAtTime(
+              0.01,
+              audioContext.currentTime + 0.5
+            )
 
-          oscillator.start(audioContext.currentTime)
-          oscillator.stop(audioContext.currentTime + 0.5)
-        } catch (err) {
-          logger.debug('Could not play sound', {
-            context: 'usePomodoro',
-          })
-        }
-      })
+            oscillator.start(audioContext.currentTime)
+            oscillator.stop(audioContext.currentTime + 0.5)
+          } catch (err) {
+            logger.debug('Could not play sound', {
+              context: 'usePomodoro',
+            })
+          }
+        })
+      } catch (err) {
+        logger.debug('Could not create audio', {
+          context: 'usePomodoro',
+        })
+      }
     }
   }, [settings.soundEnabled])
 

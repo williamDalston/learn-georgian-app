@@ -77,7 +77,20 @@ export function useApi<T = unknown>(
  * Hook for making GET requests
  */
 export function useGet<T = unknown>(endpoint: string) {
-  return useApi<T>(() => apiClient.get(endpoint))
+  return useApi<T>(() => {
+    return apiClient
+      .get<T>(endpoint)
+      .then((res: any) => {
+        // Works whether apiClient returns T or AxiosResponse<T>
+        const data = (res && typeof res === 'object' && 'data' in res) ? (res.data as T) : (res as T)
+        const status = (res && typeof res === 'object' && 'status' in res) ? (res.status as number) : undefined
+        return { 
+          success: true, 
+          data,
+          ...(status !== undefined && { status })
+        } as ApiResponse<T>
+      })
+  })
 }
 
 /**

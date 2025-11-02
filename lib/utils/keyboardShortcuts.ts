@@ -81,7 +81,7 @@ export function shouldAllowShortcut(target: HTMLElement): boolean {
     target.isContentEditable
   ) {
     // Allow '/' to focus search even when typing
-    return target.tagName === 'INPUT' && target.type === 'search'
+    return target.tagName === 'INPUT' && (target as HTMLInputElement).type === 'search'
   }
   return true
 }

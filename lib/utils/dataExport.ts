@@ -57,7 +57,7 @@ export function exportUserData(): UserData | null {
         }
       }
       
-      if (completedLessons) {
+      if (completedLessons && data.progress) {
         try {
           data.progress.completedLessons = JSON.parse(completedLessons)
         } catch {
