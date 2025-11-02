@@ -126,10 +126,10 @@ export default function LetterDrill({ letters, onComplete, showProgress = true }
             )}
 
             {/* Audio Comparison */}
-            {currentLetter.audioUrl && (
+            {currentLetter.exampleSentence?.audioUrl && (
               <AudioComparison
                 userAudio={userRecording}
-                nativeAudioUrl={currentLetter.audioUrl}
+                nativeAudioUrl={currentLetter.exampleSentence.audioUrl}
                 text={currentLetter.georgian}
                 transliteration={currentLetter.transliteration}
                 onNewRecording={handleStartRecording}
@@ -153,7 +153,7 @@ export default function LetterDrill({ letters, onComplete, showProgress = true }
 
             {/* Actions */}
             <div className="flex gap-4 justify-center mt-8">
-              {!userRecording && !currentLetter.audioUrl && (
+              {!userRecording && !currentLetter.exampleSentence?.audioUrl && (
                 <button
                   onClick={handleStartRecording}
                   className="px-8 py-4 bg-accent text-white rounded-lg hover:bg-accent-dark font-medium transition-colors shadow-lg flex items-center gap-3"

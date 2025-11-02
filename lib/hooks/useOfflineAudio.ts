@@ -58,7 +58,7 @@ export function useOfflineAudio(
           } catch (error) {
             logger.debug(`Failed to preload audio: ${url}`, {
               context: 'useOfflineAudio',
-              error,
+              error: error as Error,
             })
           }
         }
@@ -84,7 +84,7 @@ export function useOfflineAudio(
       } catch (error) {
         logger.debug(`Failed to get cached audio: ${url}`, {
           context: 'useOfflineAudio',
-          error,
+          error: error as Error,
         })
         return null
       }

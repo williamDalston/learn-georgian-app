@@ -56,9 +56,10 @@ export class AudioRecorder {
   static isSupported(): boolean {
     if (typeof window === 'undefined') return false
     return !!(
-      navigator.mediaDevices?.getUserMedia &&
-      (window.AudioContext || (window as any).webkitAudioContext) &&
-      MediaRecorder.isTypeSupported
+      typeof navigator !== 'undefined' &&
+      'mediaDevices' in navigator &&
+      'getUserMedia' in (navigator.mediaDevices || {}) &&
+      (window.AudioContext || (window as any).webkitAudioContext)
     )
   }
 

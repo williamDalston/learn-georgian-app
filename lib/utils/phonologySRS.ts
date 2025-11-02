@@ -195,14 +195,14 @@ export function calculateMasteryStats(cards: PhonologyCard[]): {
 } {
   const mastered = cards.filter((card) => card.repetitions >= 5 && card.easeFactor >= 2.0)
   const learning = cards.filter((card) => card.repetitions > 0 && card.repetitions < 5)
-  const new = cards.filter((card) => card.repetitions === 0)
+  const newCards = cards.filter((card) => card.repetitions === 0)
   const averageEaseFactor = cards.reduce((sum, card) => sum + card.easeFactor, 0) / cards.length
 
   return {
     total: cards.length,
     mastered: mastered.length,
     learning: learning.length,
-    new: new.length,
+    new: newCards.length,
     averageEaseFactor,
   }
 }

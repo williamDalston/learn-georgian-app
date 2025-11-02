@@ -153,7 +153,7 @@ export async function preloadAudioForOffline(
         } catch (error) {
           logger.debug(`Failed to cache audio: ${url}`, {
             context: 'mobileAudio',
-            error,
+            error: error as Error,
           })
         }
       })
@@ -162,7 +162,7 @@ export async function preloadAudioForOffline(
     } catch (error) {
       logger.debug('Failed to open audio cache', {
         context: 'mobileAudio',
-        error,
+        error: error as Error,
       })
     }
   }
@@ -178,7 +178,7 @@ export async function getCachedAudio(url: string): Promise<Response | null> {
   
   try {
     const cache = await caches.open('audio-cache-v1')
-    return await cache.match(url)
+    return await cache.match(url) || null
   } catch {
     return null
   }
@@ -208,13 +208,13 @@ export async function clearAudioCacheIfNeeded(
       
       logger.debug('Cleared audio cache', {
         context: 'mobileAudio',
-        deleted: keysToDelete.length,
+        data: { deleted: keysToDelete.length },
       })
     }
   } catch (error) {
     logger.debug('Failed to clear audio cache', {
       context: 'mobileAudio',
-      error,
+      error: error as Error,
     })
   }
 }

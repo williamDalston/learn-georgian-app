@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { playfairDisplay, inter } from '@/lib/fonts'
 import './globals.css'
+import ServiceWorkerRegistration from '@/components/shared/ServiceWorkerRegistration'
 
 export const metadata: Metadata = {
   title: 'Learn Georgian | From Beginner to Conversational',
@@ -83,6 +84,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${playfairDisplay.variable} ${inter.variable} pb-20 lg:pb-0 overscroll-y-none`}>
+        <ServiceWorkerRegistration />
         {children}
       </body>
     </html>

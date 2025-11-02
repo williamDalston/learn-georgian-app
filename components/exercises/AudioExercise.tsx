@@ -40,10 +40,11 @@ export default function AudioExercise({
       stopSpeaking()
       setAudioPlaying(false)
     } else {
-      if (question.question) {
-        speakGeorgian(question.question, {
+      const textToSpeak = question.text || question.question
+      if (textToSpeak) {
+        setAudioPlaying(true)
+        speakGeorgian(textToSpeak, {
           rate: 0.75,
-          onStart: () => setAudioPlaying(true),
           onEnd: () => setAudioPlaying(false),
           onError: () => setAudioPlaying(false),
         })
@@ -123,10 +124,10 @@ export default function AudioExercise({
       <div className="bg-gradient-to-br from-accent-50 to-accent-100/50 border-2 border-accent-200 rounded-xl p-6">
         <div className="space-y-4">
           {/* Word/Text to Practice */}
-          {question.text && (
+          {(question.text || question.question) && (
             <div className="text-center">
               <p className="font-serif text-3xl text-primary-900 mb-2">
-                {question.text}
+                {question.text || question.question}
               </p>
               {question.transliteration && (
                 <p className="font-sans text-lg text-accent-700 font-medium">

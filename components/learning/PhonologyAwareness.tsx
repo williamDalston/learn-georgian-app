@@ -7,9 +7,9 @@ import CTAButton from '@/components/shared/CTAButton'
 
 interface MinimalPair {
   pair: [string, string]
-  letters: [string, string]
-  ipa: [string, string]
-  type: 'voiced-vs-aspirated' | 'voiced-vs-ejective' | 'aspirated-vs-ejective' | 'throat-sounds'
+  letters: string[]
+  ipa: string[]
+  type: 'voiced-vs-aspirated' | 'voiced-vs-ejective' | 'aspirated-vs-ejective' | 'throat-sounds' | 'tripartite'
   description: string
   examples?: {
     georgian: string
@@ -49,7 +49,7 @@ const minimalPairs: MinimalPair[] = [
     pair: ['დ /d/ vs თ /tʰ/ vs ტ /tʼ/', 'დ /d/ vs თ /tʰ/ vs ტ /tʼ/'],
     letters: ['დ', 'თ', 'ტ'],
     ipa: ['/d/', '/tʰ/', '/tʼ/'],
-    type: 'voiced-vs-aspirated',
+    type: 'tripartite',
     description: 'Master the three-way distinction: voiced /d/, aspirated /tʰ/, and ejective /tʼ/. This is a key challenge in Georgian!',
     examples: [
       { georgian: 'დედა', transliteration: 'deda', translation: 'mother' },

@@ -65,7 +65,7 @@ export default function AudioRecorder({
     } catch (err) {
       logger.error('Failed to start recording', {
         context: 'AudioRecorder',
-        error: err,
+        error: err as Error,
       })
     }
   }
@@ -80,7 +80,7 @@ export default function AudioRecorder({
     } catch (err) {
       logger.error('Failed to stop recording', {
         context: 'AudioRecorder',
-        error: err,
+        error: err instanceof Error ? err : new Error(String(err)),
       })
     }
   }

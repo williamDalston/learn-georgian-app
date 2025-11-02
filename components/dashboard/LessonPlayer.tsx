@@ -16,6 +16,7 @@ import { speakGeorgian, isSpeaking, stopSpeaking, isSpeechSupported } from '@/li
 import NativeAudioPlayer from '@/components/learning/NativeAudioPlayer'
 import { ExercisePlayer } from '@/components/exercises'
 import { saveExerciseResult } from '@/lib/utils/exerciseScoring'
+import ExerciseAnalytics from '@/components/learning/ExerciseAnalytics'
 
 interface Lesson {
   id: string
@@ -691,7 +692,7 @@ export default function LessonPlayer({
                     saveExerciseResult(result)
                     
                     // Award points for completing exercises
-                    PointsManager.addPoints('exercise_completed', `Completed exercise: ${exercise.title}`)
+                    PointsManager.addPoints('practice_session', `Completed exercise: ${exercise.title}`)
                   }}
                   showResults={false}
                 />
@@ -863,6 +864,13 @@ export default function LessonPlayer({
           </motion.div>
         )}
       </GlassCard>
+
+      {/* Exercise Analytics */}
+      {loadedExercises && loadedExercises.exercises && loadedExercises.exercises.length > 0 && (
+        <div className="mt-6">
+          <ExerciseAnalytics lessonId={lesson.id} />
+        </div>
+      )}
 
       {/* Lesson Notes */}
       <div className="mt-6">

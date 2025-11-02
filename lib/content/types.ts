@@ -40,6 +40,10 @@ export interface Question {
   explanationGeorgian?: string
   audioUrl?: string
   responseType?: 'recording' | 'text'
+  // Audio exercise specific fields
+  text?: string
+  transliteration?: string
+  translation?: string
 }
 
 export interface Option {

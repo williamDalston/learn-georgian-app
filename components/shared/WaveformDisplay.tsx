@@ -17,6 +17,10 @@ interface WaveformDisplayProps {
   color?: string
   className?: string
   showLabels?: boolean
+  waveformData?: number[]
+  audioLevel?: number
+  isRecording?: boolean
+  showLevel?: boolean
 }
 
 export default function WaveformDisplay({
@@ -26,10 +30,17 @@ export default function WaveformDisplay({
   color = '#082434',
   className = '',
   showLabels = false,
+  waveformData: externalWaveformData,
+  audioLevel,
+  isRecording,
+  showLevel,
 }: WaveformDisplayProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const [waveformData, setWaveformData] = useState<number[]>([])
+  const [internalWaveformData, setInternalWaveformData] = useState<number[]>([])
   const [isLoading, setIsLoading] = useState(true)
+  
+  // Use external waveform data if provided, otherwise use internal
+  const waveformData = externalWaveformData || internalWaveformData
 
   useEffect(() => {
     async function generateWaveform() {
@@ -88,19 +99,23 @@ export default function WaveformDisplay({
           currentTime += duration / 50
         }
 
-        setWaveformData(samples)
+        setInternalWaveformData(samples)
         setIsLoading(false)
       } catch (error) {
         console.error('Failed to generate waveform:', error)
         // Fallback: generate random waveform for visualization
         const fallbackData = Array.from({ length: 50 }, () => Math.random())
-        setWaveformData(fallbackData)
+        setInternalWaveformData(fallbackData)
         setIsLoading(false)
       }
     }
 
-    generateWaveform()
-  }, [audioUrl, audioElement])
+    if (!externalWaveformData) {
+      generateWaveform()
+    } else {
+      setIsLoading(false)
+    }
+  }, [audioUrl, audioElement, externalWaveformData])
 
   useEffect(() => {
     if (!canvasRef.current || waveformData.length === 0) return

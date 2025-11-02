@@ -35,7 +35,7 @@ export function validateAnswer(
   if (!answer && answer !== '') return false
 
   // Handle matching exercises
-  if (Array.isArray(answer) && answer.length > 0 && 'left' in answer[0]) {
+  if (Array.isArray(answer) && answer.length > 0 && typeof answer[0] === 'object' && answer[0] !== null && 'left' in answer[0]) {
     const matches = answer as Array<{ left: string; right: string }>
     const correctMatches = question.correctMatches || []
     
@@ -74,7 +74,7 @@ export function validateAnswer(
   }
 
   if (Array.isArray(normalizedAnswer)) {
-    return normalizedAnswer.every(ans =>
+    return normalizedAnswer.every((ans: string) =>
       allCorrect.some(correct =>
         ans === correct || ans.includes(correct) || correct.includes(ans)
       )

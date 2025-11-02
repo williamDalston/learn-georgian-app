@@ -14,7 +14,7 @@
         "transliteration": "gamarjoba, rogor khart?",
         "translation": "Hello, how are you?"
       },
-      "notes": "Can be used any time of day, in both formal and informal situations. Also used when answering the phone."
+      "notes": "Can be used any time of day, in both formal and informal situations. Also used when answering the phone. Pronunciation: stress on second syllable (ga-MAR-jo-ba). Notice the guttural ღ [ɣ] sound in -gamo-, which is unique to Georgian."
     },
     {
       "id": "voc2",
@@ -28,7 +28,7 @@
         "transliteration": "nakhvamdis, gmadlobt!",
         "translation": "Goodbye, thank you!"
       },
-      "notes": "Literally means 'until we see (each other)'. Polite and works in all situations."
+      "notes": "Literally means 'until we see (each other)'. Polite and works in all situations. Pronunciation: nakh-VAM-dis. The guttural ხ [x] sound is important here - made in the back of the throat, like German 'ch' in 'Bach'."
     },
     {
       "id": "voc3",
@@ -42,7 +42,7 @@
         "transliteration": "dila mshvidobisa, batono!",
         "translation": "Good morning, sir!"
       },
-      "notes": "Used specifically in the morning. მშვიდობისა means 'of peace'."
+      "notes": "Used specifically in the morning. მშვიდობისა means 'of peace'. Pronunciation: DI-la msh-vi-DO-bi-sa. Notice the შ [ʃ] (sh) sound - like 'sh' in 'shoe'. More formal than გამარჯობა in morning contexts."
     },
     {
       "id": "voc4",
@@ -56,7 +56,7 @@
         "transliteration": "saghamo mshvidobisa, kalbatono!",
         "translation": "Good evening, madam!"
       },
-      "notes": "Used in the evening. More formal than გამარჯობა in evening contexts."
+      "notes": "Used in the evening. More formal than გამარჯობა in evening contexts. Pronunciation: sa-GHA-mo msh-vi-DO-bi-sa. Notice the guttural ღ [ɣ] sound in saghamo - made in the back of the throat. This greeting shows cultural respect for Georgian traditions."
     },
     {
       "id": "voc5",
@@ -140,7 +140,7 @@
         "transliteration": "gamarjoba, batono",
         "translation": "Hello, sir"
       },
-      "notes": "Formal address for a man. Used to show respect. Essential for proper Georgian etiquette. Often used with surname: ბატონო სმითი (Mr. Smith)."
+      "notes": "Formal address for a man. Used to show respect. Essential for proper Georgian etiquette. Often used with surname: ბატონო სმითი (Mr. Smith). Pronunciation: ba-TO-no. Notice the ejective ტ [tʼ] sound - made with a throat pop, not just a regular 't'. This formal address is mandatory when speaking to elders or in professional settings."
     },
     {
       "id": "voc11",
@@ -154,7 +154,7 @@
         "transliteration": "gamarjoba, kalbatono",
         "translation": "Hello, madam"
       },
-      "notes": "Formal address for a woman. Used to show respect. Can be used with surname: ქალბატონო ივანოვა (Mrs./Ms. Ivanova)."
+      "notes": "Formal address for a woman. Used to show respect. Can be used with surname: ქალბატონო ივანოვა (Mrs./Ms. Ivanova). Pronunciation: kal-ba-TO-no. Contains the ejective ტ [tʼ] sound. Essential for showing respect to women in formal contexts. Georgian culture highly values respect for elders - always use formal address unless you're close friends or family."
     },
     {
       "id": "voc12",

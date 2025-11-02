@@ -57,7 +57,7 @@ export function useAudioRecording(options: RecordingOptions = {}): UseAudioRecor
         setError(err.message)
         logger.error('Audio recording error', {
           context: 'useAudioRecording',
-          error: err,
+          error: err as Error,
         })
         options.onError?.(err)
       },
@@ -107,7 +107,7 @@ export function useAudioRecording(options: RecordingOptions = {}): UseAudioRecor
       setIsRecording(false)
       logger.error('Failed to start recording', {
         context: 'useAudioRecording',
-        error: err,
+        error: err as Error,
       })
     }
   }, [])
@@ -150,7 +150,7 @@ export function useAudioRecording(options: RecordingOptions = {}): UseAudioRecor
       setError(errorMessage)
       logger.error('Failed to request microphone permission', {
         context: 'useAudioRecording',
-        error: err,
+        error: err as Error,
       })
     }
   }, [])
