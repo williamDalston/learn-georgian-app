@@ -12,7 +12,7 @@
       "questions": [
         {
           "id": "q1",
-          "question": "Which sound is produced by vibrating the tongue against the alveolar ridge?",
+          "question": "Which sound is made by vibrating your tongue against the roof of your mouth behind your teeth?",
           "type": "multiple-choice",
           "options": [
             { "id": "a", "text": "რ [r] - trilled r" },
@@ -21,7 +21,7 @@
             { "id": "d", "text": "ყ [qʼ] - ejective" }
           ],
           "correctAnswer": "a",
-          "explanation": "რ [r] is the alveolar trill, produced by vibrating the tongue tip against the alveolar ridge. This is the 'rolled r' sound."
+          "explanation": "რ [r] is the rolled 'r', made by vibrating your tongue tip against the roof of your mouth behind your teeth. This is the 'rolled r' sound."
         },
         {
           "id": "q2",
@@ -34,7 +34,7 @@
             { "id": "d", "text": "One is ejective, one is not" }
           ],
           "correctAnswer": "a",
-          "explanation": "ღ [ɣ] is voiced (vocal cords vibrate), ხ [x] is voiceless (no vibration). Both are guttural fricatives made at the back of the throat."
+          "explanation": "ღ [ɣ] is voiced (throat vibrates), ხ [x] is voiceless (no vibration). Both are throat sounds made at the back of your throat."
         }
       ]
     },
@@ -53,9 +53,9 @@
             { "id": "l3", "text": "ხ [x]" }
           ],
           "rightItems": [
-            { "id": "r1", "text": "Alveolar trill - tongue vibrates" },
-            { "id": "r2", "text": "Voiced guttural fricative - throat sound with vibration" },
-            { "id": "r3", "text": "Voiceless guttural fricative - throat sound without vibration" }
+            { "id": "r1", "text": "Rolled r - tongue vibrates" },
+            { "id": "r2", "text": "Throat sound with vibration (voiced)" },
+            { "id": "r3", "text": "Throat sound without vibration (voiceless)" }
           ],
           "correctMatches": [
             { "left": "l1", "right": "r1" },
@@ -80,7 +80,7 @@
           "transliteration": "r",
           "translation": "letter r (trilled)",
           "responseType": "recording",
-          "explanation": "Practice vibrating your tongue tip against the alveolar ridge. Start with 'drrr' or 'prrr' if helpful, then isolate the trill."
+          "explanation": "Practice vibrating your tongue tip against the roof of your mouth. Start with 'drrr' or 'prrr' if helpful, then make the rolled r sound."
         },
         {
           "id": "q5",
@@ -105,7 +105,7 @@
     {
       "id": "ex4",
       "type": "audio",
-      "title": "Pronunciation Practice: Guttural Fricatives",
+      "title": "Pronunciation Practice: Throat Sounds",
       "instructions": "Listen and repeat ღ [ɣ] and ხ [x]. Notice the difference between voiced and voiceless.",
       "points": 2,
       "questions": [

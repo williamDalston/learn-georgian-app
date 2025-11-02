@@ -14,7 +14,7 @@
         "transliteration": "r - ra",
         "translation": "r - what"
       },
-      "notes": "Alveolar trill - the tongue vibrates against the alveolar ridge. Practice with 'drrr' or 'prrr' if helpful. Very common in Georgian!"
+      "notes": "Rolled 'r' - your tongue vibrates against the roof of your mouth behind your teeth. Practice with 'drrr' or 'prrr' if helpful. Very common in Georgian!"
     },
     {
       "id": "voc2",
@@ -76,7 +76,7 @@
       "id": "voc6",
       "georgian": "ღ",
       "transliteration": "gh",
-      "translation": "letter (voiced guttural)",
+      "translation": "letter (throat sound with vibration)",
       "ipa": "/ɣ/",
       "partOfSpeech": "consonant",
       "exampleSentence": {
@@ -84,7 +84,7 @@
         "transliteration": "gh - ghame",
         "translation": "gh - night"
       },
-      "notes": "Voiced guttural fricative - made at the back of the throat with vocal cord vibration. Similar to German 'g' in 'sagen' or like clearing your throat with voice."
+      "notes": "Voiced throat sound - made at the back of your throat with vibration. Similar to German 'g' in 'sagen' or like clearing your throat with your voice."
     },
     {
       "id": "voc7",
@@ -98,7 +98,7 @@
         "transliteration": "ghame mshvidobisa",
         "translation": "good night"
       },
-      "notes": "Word-initial voiced guttural ღ [ɣ]. Feel the vibration in your throat when pronouncing this."
+      "notes": "Throat sound ღ [ɣ] at the beginning. Feel the vibration in your throat when pronouncing this."
     },
     {
       "id": "voc8",
@@ -112,7 +112,7 @@
         "transliteration": "gharibi adamiani",
         "translation": "poor person"
       },
-      "notes": "Word-initial voiced guttural ღ [ɣ]. Practice the voiced throat sound."
+      "notes": "Throat sound ღ [ɣ] at the beginning. Practice the voiced throat sound with vibration."
     },
     {
       "id": "voc9",
@@ -126,13 +126,13 @@
         "transliteration": "ghvtis sitqva",
         "translation": "God's word"
       },
-      "notes": "Contains voiced guttural ღ [ɣ] and complex cluster 'ghvt'. Excellent practice for consonant clusters!"
+      "notes": "Contains voiced throat sound ღ [ɣ] and complex consonant cluster 'ghvt'. Excellent practice for consonant clusters!"
     },
     {
       "id": "voc10",
       "georgian": "ხ",
       "transliteration": "kh",
-      "translation": "letter (voiceless guttural)",
+      "translation": "letter (throat sound without vibration)",
       "ipa": "/x/",
       "partOfSpeech": "consonant",
       "exampleSentence": {
@@ -140,7 +140,7 @@
         "transliteration": "kh - khari",
         "translation": "kh - bull"
       },
-      "notes": "Voiceless guttural fricative - made at the back of the throat WITHOUT vocal cord vibration. Similar to German 'ch' in 'Bach', Spanish 'j' in 'Jose', or like clearing your throat without voice."
+      "notes": "Voiceless throat sound - made at the back of your throat WITHOUT vibration. Similar to German 'ch' in 'Bach', Spanish 'j' in 'Jose', or like clearing your throat without your voice."
     },
     {
       "id": "voc11",
@@ -154,7 +154,7 @@
         "transliteration": "didi khari",
         "translation": "big bull"
       },
-      "notes": "Word-initial voiceless guttural ხ [x]. No vibration - just throat friction. Compare with ღ [ɣ] which is voiced."
+      "notes": "Throat sound ხ [x] at the beginning. No vibration - just throat friction. Compare with ღ [ɣ] which is voiced (has vibration)."
     },
     {
       "id": "voc12",
@@ -168,7 +168,7 @@
         "transliteration": "marjvena kheli",
         "translation": "right hand"
       },
-      "notes": "Word-initial voiceless guttural ხ [x]. Very common word. Practice the voiceless throat sound."
+      "notes": "Throat sound ხ [x] at the beginning. Very common word. Practice the voiceless throat sound without vibration."
     },
     {
       "id": "voc13",
@@ -182,7 +182,7 @@
         "transliteration": "ra aris tkveni sakheli?",
         "translation": "What is your name?"
       },
-      "notes": "Contains voiceless guttural ხ [x]. Essential vocabulary - you'll use this when introducing yourself!"
+      "notes": "Contains voiceless throat sound ხ [x]. Essential vocabulary - you'll use this when introducing yourself!"
     },
     {
       "id": "voc14",
@@ -196,7 +196,7 @@
         "transliteration": "me vsts'avlob kartuls",
         "translation": "I study Georgian"
       },
-      "notes": "Contains trilled რ [r] and voiceless guttural ხ [x] (in transliteration 'kh'). Essential word for talking about the Georgian language!"
+      "notes": "Contains rolled რ [r] and voiceless throat sound ხ [x] (in transliteration 'kh'). Essential word for talking about the Georgian language!"
     },
     {
       "id": "voc15",
@@ -210,7 +210,7 @@
         "transliteration": "khval viknebi",
         "translation": "I will be there tomorrow"
       },
-      "notes": "Word-initial voiceless guttural ხ [x]. Also contains the cluster 'xv'. Practice both sounds!"
+      "notes": "Throat sound ხ [x] at the beginning. Also contains the consonant cluster 'xv'. Practice both sounds!"
     },
     {
       "id": "voc16",

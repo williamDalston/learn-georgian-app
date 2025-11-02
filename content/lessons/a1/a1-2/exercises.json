@@ -44,7 +44,7 @@
             { "id": "c", "text": "Ejective" }
           ],
           "correctAnswer": "c",
-          "explanation": "კ [kʼ] is an ejective stop consonant. The [ʼ] symbol indicates glottal closure creating a 'pop' sound."
+          "explanation": "კ [kʼ] is an ejective consonant. The [ʼ] symbol shows it's made by closing your throat and creating a 'pop' sound."
         },
         {
           "id": "q4",
@@ -56,7 +56,7 @@
             { "id": "c", "text": "With vibrating vocal cords" }
           ],
           "correctAnswer": "b",
-          "explanation": "Ejective consonants are produced by closing the glottis (vocal cords), building pressure, and releasing with a sharp 'pop' sound."
+          "explanation": "Ejective consonants are made by closing your throat (vocal cords), building pressure, and releasing with a sharp 'pop' sound."
         }
       ]
     },
@@ -98,7 +98,7 @@
       "id": "ex3",
       "type": "audio",
       "title": "Pronunciation Practice: Ejective Consonants",
-      "instructions": "Listen to each ejective consonant and repeat. Focus on producing the glottal closure and 'pop' sound.",
+          "instructions": "Listen to each ejective consonant and repeat. Focus on closing your throat and making the 'pop' sound.",
       "points": 2,
       "questions": [
         {
@@ -108,7 +108,7 @@
           "transliteration": "k'",
           "translation": "letter k (ejective)",
           "responseType": "recording",
-          "explanation": "Practice the glottal closure - feel your throat close, then release with a pop."
+          "explanation": "Practice closing your throat - feel your throat close, then release with a pop."
         },
         {
           "id": "q7",
@@ -149,14 +149,14 @@
           "question": "Complete the word meaning 'lake' (ejective 't' with pop): __ბა",
           "correctAnswer": "ტ",
           "alternatives": ["თ", "ტ", "დ"],
-          "explanation": "ტბა [tʼba] uses ejective ტ [tʼ] - produced with glottal closure and pop."
+          "explanation": "ტბა [tʼba] uses ejective ტ [tʼ] - made by closing your throat and popping."
         },
         {
           "id": "q11",
           "question": "Complete the word meaning 'man' (ejective 'k' with pop): __აცი",
           "correctAnswer": "კ",
           "alternatives": ["კ", "ქ", "გ"],
-          "explanation": "კაცი [kʼatsi] uses ejective კ [kʼ] - the glottal pop distinguishes it from aspirated ქ [kʰ]."
+          "explanation": "კაცი [kʼatsi] uses ejective კ [kʼ] - the throat pop makes it different from aspirated ქ [kʰ]."
         }
       ]
     },
@@ -164,7 +164,7 @@
       "id": "ex5",
       "type": "multiple-choice",
       "title": "Understanding the Distinction",
-      "instructions": "Answer questions about why the tripartite distinction matters.",
+      "instructions": "Answer questions about why the three-way difference matters.",
       "points": 2,
       "questions": [
         {

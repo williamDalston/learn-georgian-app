@@ -14,7 +14,7 @@
         "transliteration": "b - baga",
         "translation": "b - bag"
       },
-      "notes": "Voiced stop consonant - vocal cords vibrate when producing this sound"
+      "notes": "Voiced consonant - your throat vibrates when you make this sound"
     },
     {
       "id": "voc2",
@@ -28,7 +28,7 @@
         "transliteration": "t - t'xa",
         "translation": "t - goat"
       },
-      "notes": "Aspirated stop consonant - released with a puff of air. The [ʰ] symbol indicates aspiration."
+      "notes": "Aspirated consonant - made with a puff of air. The [ʰ] symbol shows there's air."
     },
     {
       "id": "voc3",
@@ -42,7 +42,7 @@
         "transliteration": "t' - t'ba",
         "translation": "t' - lake"
       },
-      "notes": "Ejective stop consonant - produced with glottal closure creating a 'pop' sound. Different from თ [tʰ]."
+      "notes": "Ejective consonant - made by closing your throat and creating a 'pop' sound. Different from თ [tʰ] which has air."
     },
     {
       "id": "voc4",
@@ -70,7 +70,7 @@
         "transliteration": "p' - p'ap'a",
         "translation": "p' - grandfather"
       },
-      "notes": "Ejective stop consonant. Produced with glottal closure. Different from ფ [pʰ] (aspirated)."
+      "notes": "Ejective consonant. Made by closing your throat. Different from ფ [pʰ] (aspirated with air)."
     },
     {
       "id": "voc6",
@@ -126,7 +126,7 @@
         "transliteration": "ts' - ts'q'ali",
         "translation": "ts' - water"
       },
-      "notes": "Ejective affricate - like 'ts' in 'cats' but with glottal closure creating a pop"
+      "notes": "Ejective consonant - like 'ts' in 'cats' but made by closing your throat and popping"
     },
     {
       "id": "voc10",
@@ -140,7 +140,7 @@
         "transliteration": "ch' - ch'a",
         "translation": "ch' - well"
       },
-      "notes": "Ejective affricate - like 'ch' in 'chair' but with glottal closure"
+      "notes": "Ejective consonant - like 'ch' in 'chair' but made by closing your throat and popping"
     },
     {
       "id": "voc11",
@@ -154,7 +154,7 @@
         "transliteration": "q' - q'vavili",
         "translation": "q' - flower"
       },
-      "notes": "Back velar ejective - made in the very back of the throat with a strong pop"
+      "notes": "Ejective made far back in the throat - the hardest one! Made with a strong pop sound"
     },
     {
       "id": "voc12",

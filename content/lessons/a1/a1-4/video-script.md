@@ -38,11 +38,11 @@ These sounds might feel strange at first, but with practice, they'll become natu
 
 "Georgian has sounds that are completely absent from English. Today we'll learn:
 
-1. **რ [r]** - The alveolar trill (rolled 'r')
-2. **ღ [ɣ]** - Voiced guttural fricative
-3. **ხ [x]** - Voiceless guttural fricative
+1. **რ [r]** - The rolled 'r' (tongue vibrates)
+2. **ღ [ɣ]** - Throat sound with vibration (voiced)
+3. **ხ [x]** - Throat sound without vibration (voiceless)
 
-These sounds appear frequently in Georgian, and mastering them is crucial for proper pronunciation. Plus, we'll practice complex consonant clusters - Georgian is famous for having words with multiple consonants in a row!
+These sounds appear often in Georgian, and learning them is important for good pronunciation. Plus, we'll practice words with many consonants together - Georgian is famous for having words with multiple consonants in a row!
 
 **[Show example: მწვრთნელი [mtsʼvrtneli] - 'coach']**
 
@@ -55,10 +55,10 @@ Yes, that's 6 consonants in a row! But don't worry - we'll build up to that grad
 
 "The trilled 'r' is one of those sounds that some learners find challenging, but it's very common in Georgian. Let's break it down:
 
-**How to produce it:**
-1. Place the tip of your tongue against your alveolar ridge (that bumpy part just behind your upper teeth)
+**How to make it:**
+1. Place the tip of your tongue against the bumpy part just behind your upper teeth
 2. Let air flow over your tongue
-3. The tongue should vibrate rapidly, creating a 'rolling' or 'trilling' sound
+3. Your tongue should vibrate quickly, creating a 'rolling' or 'trilling' sound
 
 **[Slow demonstration]**
 
@@ -88,19 +88,19 @@ Remember: It takes time! Even native speakers had to learn this as children."
 
 ---
 
-### Section 2: Guttural Fricatives - ღ [ɣ] and ხ [x] (18:00 - 35:00)
-**[Demonstrate guttural sounds]**
+### Section 2: Throat Sounds - ღ [ɣ] and ხ [x] (18:00 - 35:00)
+**[Demonstrate throat sounds]**
 
-"These two sounds are made in the back of your throat - they're called 'gutturals' or 'velar fricatives'. English doesn't have these, so they might feel completely new.
+"These two sounds are made in the back of your throat. English doesn't have these exact sounds, so they might feel completely new.
 
-**ღ [ɣ] - Voiced Guttural Fricative**
+**ღ [ɣ] - Throat Sound with Vibration**
 
 **[Demonstrate]**
 
-This sound is like a voiced version of clearing your throat. Here's how:
-1. Position your tongue at the back of your throat (velar position)
+This sound is like clearing your throat but with your voice. Here's how:
+1. Position your tongue at the back of your throat
 2. Your vocal cords vibrate (it's voiced!)
-3. Air flows through, creating friction
+3. Air flows through, making a friction sound
 
 **[Comparison]**
 - Try saying 'go' but hold the 'g' position longer - not quite, but close!
@@ -111,12 +111,12 @@ This sound is like a voiced version of clearing your throat. Here's how:
 - ღარიბი [ɣaribi] - 'poor'
 - სიგანე [sigan-e] - 'width'
 
-**ხ [x] - Voiceless Guttural Fricative**
+**ხ [x] - Throat Sound without Vibration**
 
 **[Demonstrate]**
 
-This is the voiceless version - like clearing your throat but voiceless:
-1. Same position as ღ but no vocal cord vibration
+This is the voiceless version - like clearing your throat but without your voice:
+1. Same position as ღ but no vibration
 2. Air friction at the back of your throat
 3. Similar to the 'ch' in German 'Bach' or Spanish 'j' in 'Jose'
 
@@ -189,9 +189,9 @@ This is the voiceless version - like clearing your throat but voiceless:
 
 "Let's review what we learned:
 
-1. **რ [r]** - Trilled 'r', practice with tongue vibration
-2. **ღ [ɣ]** - Voiced guttural fricative (throat sound, voiced)
-3. **ხ [x]** - Voiceless guttural fricative (throat sound, voiceless)
+1. **რ [r]** - Rolled 'r', practice with tongue vibration
+2. **ღ [ɣ]** - Throat sound with vibration (voiced)
+3. **ხ [x]** - Throat sound without vibration (voiceless)
 4. **Consonant clusters** - Practice slowly, then speed up
 
 Keep practicing! These sounds take time to master, but you're building the foundation for excellent Georgian pronunciation!"

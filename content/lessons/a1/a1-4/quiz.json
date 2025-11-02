@@ -9,13 +9,13 @@
       "question": "How is the trilled რ [r] produced?",
       "type": "multiple-choice",
       "options": [
-        { "id": "a", "text": "By vibrating the tongue tip against the alveolar ridge" },
+        { "id": "a", "text": "By vibrating your tongue tip against the roof of your mouth behind your teeth" },
         { "id": "b", "text": "By making a sound at the back of the throat" },
         { "id": "c", "text": "By closing the glottis and releasing" },
         { "id": "d", "text": "By whispering" }
       ],
       "correctAnswer": "a",
-      "explanation": "The trilled რ [r] is produced by vibrating the tongue tip against the alveolar ridge (that bumpy part just behind your upper teeth). The tongue should vibrate rapidly, creating a 'rolling' or 'trilling' sound.",
+      "explanation": "The rolled რ [r] is made by vibrating your tongue tip against the roof of your mouth behind your teeth. Your tongue should vibrate quickly, creating a 'rolling' or 'trilling' sound.",
       "points": 15
     },
     {
@@ -29,7 +29,7 @@
         { "id": "d", "text": "One is ejective, one is not" }
       ],
       "correctAnswer": "a",
-      "explanation": "ღ [ɣ] is a voiced guttural fricative - you feel vibration in your throat. ხ [x] is a voiceless guttural fricative - no vibration, just throat friction. Both are made at the back of the throat.",
+      "explanation": "ღ [ɣ] is a voiced throat sound - you feel vibration in your throat. ხ [x] is a voiceless throat sound - no vibration, just throat friction. Both are made at the back of your throat.",
       "points": 15
     },
     {
@@ -42,16 +42,16 @@
         { "id": "l3", "text": "ხ [x]" }
       ],
       "rightItems": [
-        { "id": "r1", "text": "Alveolar trill - tongue vibrates" },
-        { "id": "r2", "text": "Voiced guttural fricative - throat sound with vibration" },
-        { "id": "r3", "text": "Voiceless guttural fricative - throat sound without vibration" }
+        { "id": "r1", "text": "Rolled r - tongue vibrates" },
+        { "id": "r2", "text": "Throat sound with vibration (voiced)" },
+        { "id": "r3", "text": "Throat sound without vibration (voiceless)" }
       ],
       "correctMatches": [
         { "left": "l1", "right": "r1" },
         { "left": "l2", "right": "r2" },
         { "left": "l3", "right": "r3" }
       ],
-      "explanation": "რ [r] is the trilled r (tongue vibration), ღ [ɣ] is voiced guttural (throat with voice), ხ [x] is voiceless guttural (throat without voice).",
+      "explanation": "რ [r] is the rolled r (tongue vibration), ღ [ɣ] is voiced throat sound (throat with voice), ხ [x] is voiceless throat sound (throat without voice).",
       "points": 20
     },
     {

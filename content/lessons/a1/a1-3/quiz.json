@@ -24,12 +24,12 @@
       "type": "multiple-choice",
       "options": [
         { "id": "a", "text": "Releasing air with force" },
-        { "id": "b", "text": "Closing the glottis, building pressure, then releasing with a pop" },
+        { "id": "b", "text": "Closing your throat, building pressure, then releasing with a pop" },
         { "id": "c", "text": "Vibrating the vocal cords" },
         { "id": "d", "text": "Whispering the sound" }
       ],
       "correctAnswer": "b",
-      "explanation": "Ejective consonants require closing the glottis (vocal cords), building pressure in the mouth cavity, and then releasing with a distinctive 'pop' sound. This is completely different from aspirated (air) or voiced (vibration) consonants.",
+      "explanation": "Ejective consonants require closing your throat (vocal cords), building pressure in your mouth, and then releasing with a distinctive 'pop' sound. This is completely different from aspirated (air) or voiced (vibration) consonants.",
       "points": 15
     },
     {
@@ -74,7 +74,7 @@
         { "left": "l5", "right": "r5" },
         { "left": "l6", "right": "r6" }
       ],
-      "explanation": "All six ejectives with their IPA symbols: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], ყ [qʼ]. Notice all have the [ʼ] symbol indicating glottal closure.",
+      "explanation": "All six ejectives with their IPA symbols: კ [kʼ], პ [pʼ], ტ [tʼ], წ [tsʼ], ჭ [tʃʼ], ყ [qʼ]. Notice all have the [ʼ] symbol indicating they're made by closing your throat.",
       "points": 20
     },
     {
@@ -102,7 +102,7 @@
         { "id": "d", "text": "თ is voiced, ტ is voiceless" }
       ],
       "correctAnswer": "a",
-      "explanation": "თ [tʰ] is aspirated - released with a puff of air. ტ [tʼ] is ejective - produced with glottal closure and a pop. These are completely different sounds in Georgian. Example minimal pair: თხა [tʰxa] (goat) vs ტბა [tʼba] (lake).",
+      "explanation": "თ [tʰ] is aspirated - released with a puff of air. ტ [tʼ] is ejective - made by closing your throat and popping. These are completely different sounds in Georgian. Example pair: თხა [tʰxa] (goat) vs ტბა [tʼba] (lake).",
       "points": 15
     },
     {

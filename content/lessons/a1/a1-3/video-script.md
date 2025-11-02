@@ -27,29 +27,29 @@ By the end of this lesson, students will be able to:
 ### Opening (0:00 - 1:00)
 **[Instructor greeting with focus on pronunciation]**
 
-"Gamarjoba! Welcome back! In lesson A1-2, we learned about the tripartite distinction between voiced, aspirated, and ejective consonants. Today, we're going to do a deep dive into ejective consonants - one of the most challenging but most distinctive features of Georgian.
+"Gamarjoba! Welcome back! In lesson A1-2, we learned about the three different ways to make consonant sounds: voiced, aspirated, and ejective. Today, we're going to practice ejective consonants a lot - they're challenging but very important for Georgian.
 
-This lesson is intensive practice. We're going to work on producing each of the six ejective consonants until they feel natural. Remember: if you don't master these now, pronunciation habits will fossilize, and it will be much harder to correct later. So let's dedicate this full hour to perfecting these sounds!"
+This lesson is all about practice. We're going to work on making each of the six ejective consonants until they feel natural. Remember: if you don't master these now, it will be harder to fix later. So let's use this full hour to practice these sounds!"
 
 ---
 
 ### Introduction: Why This Matters (1:00 - 5:00)
-**[Show diagram of ejective mechanism]**
+**[Show diagram of how ejectives work]**
 
-"Ejective consonants are produced by closing the glottis - that's your vocal cords - and then using your mouth to build up pressure. When you release the closure, you get that distinctive 'pop' sound.
+"Ejective consonants are made by closing your throat - that's where your vocal cords are - and then using your mouth to build up pressure. When you release, you get that special 'pop' sound.
 
-**[Point to diagram showing glottis closure]**
+**[Point to diagram showing throat closure]**
 
 Here's what happens:
-1. Close your glottis (your vocal cords)
-2. Build pressure in your mouth cavity
-3. Release the closure - POP!
+1. Close your throat (your vocal cords)
+2. Build pressure in your mouth
+3. Release - POP!
 
 This creates a sound that's completely different from aspirated consonants (which have air) or voiced consonants (which vibrate). 
 
 **[Show comparison chart]**
 - თ [tʰ] - Aspirated: air puff
-- ტ [tʼ] - Ejective: glottal pop
+- ტ [tʼ] - Ejective: throat pop
 - დ [d] - Voiced: vibration
 
 These are THREE completely different sounds to Georgian speakers. If you use the wrong one, it can change the meaning of words. Let's master them!"
@@ -95,9 +95,9 @@ Made with your lips. Practice:
 
 **[Demonstrate]**
 
-Made with your tongue against your alveolar ridge (roof of mouth). Practice:
-- Close glottis
-- Tongue tip to alveolar ridge
+Made with your tongue against the roof of your mouth (behind your teeth). Practice:
+- Close your throat
+- Touch tongue to roof of mouth
 - Build pressure
 - POP!
 
@@ -110,8 +110,8 @@ Made with your tongue against your alveolar ridge (roof of mouth). Practice:
 
 **[Demonstrate]**
 
-This is an affricate - a combination of 't' and 's' with ejective quality. Practice:
-- Close glottis
+This is a combination of 't' and 's' together, made with a pop. Practice:
+- Close your throat
 - Position for 'ts' sound
 - Build pressure
 - POP!
@@ -125,8 +125,8 @@ This is an affricate - a combination of 't' and 's' with ejective quality. Pract
 
 **[Demonstrate]**
 
-Another affricate - 'ch' sound with ejective quality. Practice:
-- Close glottis
+Another combination - 'ch' sound with a pop. Practice:
+- Close your throat
 - Position for 'ch' sound
 - Build pressure
 - POP!
@@ -233,11 +233,11 @@ This is the clearest distinction!"
 
 "Common mistakes and how to fix them:
 
-**Problem 1: Can't feel the glottal closure**
-**Solution:** Try coughing gently - that's your glottis closing! Now try to control it more gently for ejectives.
+**Problem 1: Can't feel your throat closing**
+**Solution:** Try coughing gently - that's your throat closing! Now try to control it more gently for ejectives.
 
 **Problem 2: Ejectives sound like aspirated**
-**Solution:** Focus on CLOSING the glottis, not releasing air. The pop should feel sharp, not airy.
+**Solution:** Focus on CLOSING your throat, not releasing air. The pop should feel sharp, not airy.
 
 **Problem 3: Can't produce ყ [qʼ]**
 **Solution:** This is the hardest! Practice with your tongue far back. Imagine saying 'k' but from the very back of your throat.
@@ -253,10 +253,10 @@ This is the clearest distinction!"
 "Let's review what we learned today:
 
 1. **All six ejectives:** კ, პ, ტ, წ, ჭ, ყ
-2. **Mechanism:** Glottal closure → build pressure → POP
-3. **Key distinction:** Ejectives have POP, aspirated have AIR
-4. **Practice positions:** Initial, medial, final
-5. **Muscle memory:** Keep practicing until it feels natural!
+2. **How to make them:** Close throat → build pressure → POP
+3. **Key difference:** Ejectives have POP, aspirated have AIR
+4. **Practice positions:** Beginning, middle, end of words
+5. **Keep practicing:** Keep practicing until it feels natural!
 
 Remember: Master these now, or they'll fossilize incorrectly later!"
 

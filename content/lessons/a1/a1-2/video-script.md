@@ -26,9 +26,9 @@ By the end of this lesson, students will be able to:
 ### Opening (0:00 - 0:45)
 **[Instructor greeting with focus on pronunciation]**
 
-"Gamarjoba! Welcome back! In our last lesson, we learned all 33 letters of the Mkhedruli alphabet. Today, we're going to dive deep into one of the most challenging - but most important - aspects of Georgian pronunciation: the tripartite system of stop consonants.
+"Gamarjoba! Welcome back! In our last lesson, we learned all 33 letters of the Mkhedruli alphabet. Today, we're going to learn one of the most important - but also challenging - parts of Georgian pronunciation: the three different ways to make consonant sounds.
 
-This system is crucial because Georgian distinguishes between three types of stops: voiced, aspirated, and ejective. If you don't master this distinction early, you'll struggle throughout your entire Georgian learning journey. But don't worry - by the end of this lesson, you'll understand exactly how to produce each type correctly.
+Georgian has three types of consonant sounds: voiced, aspirated, and ejective. Learning these differences now is important for your pronunciation. But don't worry - by the end of this lesson, you'll understand exactly how to make each type correctly.
 
 Let's begin!"
 
@@ -37,36 +37,36 @@ Let's begin!"
 ### Introduction: The Three-Way Distinction (0:45 - 5:00)
 **[Visual diagram showing three types of stops]**
 
-"You might think that 'b' and 'p' are just different letters, right? In Georgian, it's more complex. We have three categories of stop consonants:
+"You might think that 'b' and 'p' are just different letters, right? In Georgian, it's more interesting. We have three ways to make consonant sounds:
 
-**1. Voiced Stops:** Made with your vocal cords vibrating. Examples: ბ [b], გ [g], დ [d]
-**2. Aspirated Stops:** Made with a puff of air. Examples: თ [tʰ], ფ [pʰ], ქ [kʰ]
-**3. Ejective Stops:** Made with a glottal closure creating a 'pop'. Examples: კ [kʼ], პ [pʼ], ტ [tʼ]
+**1. Voiced Sounds:** Made with your throat vibrating. Examples: ბ [b], გ [g], დ [d]
+**2. Aspirated Sounds:** Made with a puff of air. Examples: თ [tʰ], ფ [pʰ], ქ [kʰ]
+**3. Ejective Sounds:** Made by closing your throat and making a 'pop' sound. Examples: კ [kʼ], პ [pʼ], ტ [tʼ]
 
 **[Show diagram with mouth positions and airflow]**
 
-The key is that Georgian uses ALL THREE of these for similar sounds. For example, we have:
-- ქ [kʰ] - aspirated k
-- კ [kʼ] - ejective k  
-- გ [g] - voiced g
+The important thing is that Georgian uses ALL THREE of these for similar sounds. For example, we have:
+- ქ [kʰ] - 'k' with air
+- კ [kʼ] - 'k' with a pop
+- გ [g] - 'g' with vibration
 
-These are THREE DIFFERENT SOUNDS to Georgian speakers, even though they might sound similar to English speakers at first."
+These are THREE DIFFERENT SOUNDS to Georgian speakers. Even though they might sound similar to English speakers at first, you need to learn to hear and make the difference."
 
 ---
 
-### Section 1: Voiced Stops (5:00 - 15:00)
+### Section 1: Voiced Sounds (5:00 - 15:00)
 **[Focus on voiced consonants]**
 
-"Let's start with voiced stops, which are probably the easiest for English speakers since English also has voiced consonants.
+"Let's start with voiced sounds. These are probably the easiest for English speakers because English also has voiced consonants.
 
-**Voiced Stop Consonants:**
+**Voiced Consonants:**
 - ბ [b] - like English 'b' in 'bat'
 - გ [g] - like English 'g' in 'go'
 - დ [d] - like English 'd' in 'dog'
 
 **[Demonstrate each with hand on throat to show vibration]**
 
-Try this: put your hand on your throat and say 'ბ' [b]. Feel that vibration? That's your vocal cords working. This is a voiced sound.
+Try this: put your hand on your throat and say 'ბ' [b]. Feel that vibration? That's your throat vibrating. This is a voiced sound.
 
 **[Practice words with voiced stops]**
 - ბაგა (bag-a) - 'bag'
@@ -77,15 +77,15 @@ Practice saying these words and feel the vibration in your throat."
 
 ---
 
-### Section 2: Aspirated Stops (15:00 - 30:00)
+### Section 2: Aspirated Sounds (15:00 - 30:00)
 **[Focus on aspirated consonants]**
 
-"Now for aspirated stops. These are released with a strong puff of air. In English, we do have some aspiration, but Georgian makes it more distinct.
+"Now for aspirated sounds. These are made with a strong puff of air. In English, we sometimes have this, but Georgian makes it stronger and clearer.
 
-**Aspirated Stop Consonants:**
-- თ [tʰ] - aspirated 't', like 't' in 'top' but with more air
-- ფ [pʰ] - aspirated 'p', like 'p' in 'pin' but with more air
-- ქ [kʰ] - aspirated 'k', like 'k' in 'kite' but with more air
+**Aspirated Consonants:**
+- თ [tʰ] - 't' with air, like 't' in 'top' but with more air
+- ფ [pʰ] - 'p' with air, like 'p' in 'pin' but with more air
+- ქ [kʰ] - 'k' with air, like 'k' in 'kite' but with more air
 
 **[Demonstrate with paper in front of mouth - paper should move]**
 
@@ -100,12 +100,12 @@ The little 'h' in [tʰ] represents the aspiration - the puff of air. This is wha
 
 ---
 
-### Section 3: Ejective Stops - The Challenge (30:00 - 50:00)
+### Section 3: Ejective Sounds - The Challenge (30:00 - 50:00)
 **[Deep dive into ejective consonants]**
 
-"Now for the challenging part: ejective consonants. These don't exist in English, so they'll feel completely new.
+"Now for the challenging part: ejective sounds. These don't exist in English, so they'll feel completely new.
 
-**Ejective Stop Consonants:**
+**Ejective Consonants:**
 - კ [kʼ] - ejective 'k'
 - პ [pʼ] - ejective 'p'
 - ტ [tʼ] - ejective 't'
@@ -117,15 +117,15 @@ The little 'h' in [tʰ] represents the aspiration - the puff of air. This is wha
 
 Here's how to make an ejective:
 
-1. **Close your glottis** (the space between your vocal cords) - like you're holding your breath
-2. **Build up pressure** behind the closure in your mouth
+1. **Close your throat** (the space between your vocal cords) - like you're holding your breath
+2. **Build up pressure** in your mouth
 3. **Release with a 'pop'** sound
 
-**[Visual: Slow-motion animation of glottal closure]**
+**[Visual: Slow-motion animation of throat closure]**
 
 Try this step by step:
-- Close your throat (glottal closure) - you should feel pressure
-- Now say 'k' BUT keep your throat closed
+- Close your throat - you should feel pressure
+- Now try to say 'k' BUT keep your throat closed
 - Release with a pop: კ [kʼ]
 
 **[Practice words with ejectives]**
@@ -151,8 +151,8 @@ If you're struggling:
 
 **The 'T' Trio:**
 - თ [tʰ] - Aspirated: breathy, with air puff
-- ტ [tʼ] - Ejective: sharp, with glottal pop
-- დ [d] - Voiced: vibrating vocal cords
+- ტ [tʼ] - Ejective: sharp, with throat pop
+- დ [d] - Voiced: vibrating throat
 
 **[Audio comparison - play each sound three times]**
 
@@ -201,11 +201,11 @@ Keep practicing - this takes time!"
 
 "Let's review what we learned today:
 
-1. **Voiced stops** [b, g, d]: Vocal cords vibrate
-2. **Aspirated stops** [tʰ, pʰ, kʰ]: Released with puff of air
-3. **Ejective stops** [kʼ, pʼ, tʼ]: Made with glottal closure and pop
+1. **Voiced sounds** [b, g, d]: Throat vibrates
+2. **Aspirated sounds** [tʰ, pʰ, kʰ]: Made with puff of air
+3. **Ejective sounds** [kʼ, pʼ, tʼ]: Made by closing throat and popping
 
-The tripartite distinction is one of Georgian's unique features. Master this, and you're well on your way to good pronunciation!
+This three-way difference is one of Georgian's unique features. Master this, and you're well on your way to good pronunciation!
 
 **Key practice tip:** Spend at least 15 minutes daily practicing ejective consonants. Use the audio files I've provided and record yourself to compare."
 

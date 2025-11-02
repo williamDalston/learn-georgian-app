@@ -52,12 +52,12 @@
       "type": "multiple-choice",
       "options": [
         { "id": "a", "text": "A consonant made with extra air" },
-        { "id": "b", "text": "A consonant made with glottal closure (a 'pop' sound)" },
+        { "id": "b", "text": "A consonant made by closing your throat and making a 'pop' sound" },
         { "id": "c", "text": "A silent consonant" },
         { "id": "d", "text": "A consonant only used in formal speech" }
       ],
       "correctAnswer": "b",
-      "explanation": "Ejective consonants are produced with a glottal closure, creating a distinctive 'pop' sound. Georgian has 6 ejective consonants: კ, პ, ტ, წ, ჭ, and ყ.",
+      "explanation": "Ejective consonants are made by closing your throat and creating a distinctive 'pop' sound. Georgian has 6 ejective consonants: კ, პ, ტ, წ, ჭ, and ყ.",
       "points": 15
     },
     {
@@ -110,7 +110,7 @@
         { "id": "d", "text": "They are only used in formal speech" }
       ],
       "correctAnswer": "b",
-      "explanation": "Ejective consonants are produced by closing the glottis (vocal cords) and then releasing, creating a distinctive 'pop' sound. This is a unique feature of Georgian phonology.",
+      "explanation": "Ejective consonants are made by closing your throat (vocal cords) and then releasing, creating a distinctive 'pop' sound. This is a unique feature of Georgian pronunciation.",
       "points": 20
     }
   ]
