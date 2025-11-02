@@ -9,7 +9,7 @@
 By the end of this lesson, students will be able to:
 - Form plural nouns using the -eb suffix
 - Apply case endings to plural nouns correctly
-- Understand how plural formation interacts with case marking
+- Understand how plurals work with case endings
 - Use plural nouns in sentences with proper case agreement
 
 ## Key Concepts

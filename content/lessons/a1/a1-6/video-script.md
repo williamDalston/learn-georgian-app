@@ -211,7 +211,7 @@ You can customize card templates in Anki - I'll provide a template in the resour
 **Evening (5-10 minutes):**
 - Quick review of difficult cards
 - Add any new words from the day's lesson
-- Practice phonetic drills (ejectives, trilled r, etc.)
+- Practice pronunciation drills (ejectives, rolled r, etc.)
 
 **Weekly (30 minutes):**
 - Review all words from the week

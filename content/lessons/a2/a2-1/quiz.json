@@ -76,7 +76,7 @@
     },
     {
       "id": "quiz-q6",
-      "question": "Does Georgian have grammatical gender (like masculine/feminine)?",
+      "question": "Does Georgian have grammatical gender (like Spanish has el/la or French has le/la)?",
       "type": "multiple-choice",
       "options": [
         { "id": "a", "text": "Yes, just like Spanish or French" },

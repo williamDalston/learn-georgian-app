@@ -31,7 +31,7 @@ By the end of this lesson, students will be able to:
 ### Introduction (0:30 - 3:00)
 **[Show comparison: English vs Georgian sentence structure]**
 
-"In English, word order tells us who does what: 'The cat sees the dog.' But in Georgian, we change the endings of nouns to show their role in the sentence. This is called 'case marking.'
+"In English, word order tells us who does what: 'The cat sees the dog.' But in Georgian, we change the endings of nouns to show their role in the sentence. We call this 'changing the case' or 'using cases.'
 
 Georgian has 7 cases total, but today we'll master the 3 most fundamental ones:
 1. Nominative - the subject (who does the action)
@@ -59,7 +59,7 @@ Here, კატა [kat'a] (cat) is in Nominative case - it's the subject doing 
 
 In all these examples, the first word (subject) is in Nominative case.
 
-**Key Point:** Nominative is the base form - no special ending needed!"
+**Key Point:** Nominative is the basic form - the word as you find it in the dictionary. No special ending needed!"
 
 ---
 
